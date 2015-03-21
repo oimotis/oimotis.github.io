@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[MWeb]]></title>
+  <link href="http://www.mweb.im/atom.xml" rel="self"/>
+  <link href="http://www.mweb.im/"/>
+  <updated>2015-03-21T14:06:48+08:00</updated>
+  <id>http://www.mweb.im/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.coderforart.com/">CoderForArt</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Add comment and share to MWeb's Static Blog]]></title>
+    <link href="http://www.mweb.im/mweb-comment-and-share-help.html"/>
+    <updated>2015-03-21T13:53:09+08:00</updated>
+    <id>http://www.mweb.im/mweb-comment-and-share-help.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>介绍增加 addthis、jiathis 等分享</li>
+<li>介绍增加disqus、多说等评论</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction MWeb Static Blog Generator]]></title>
+    <link href="http://www.mweb.im/mweb-static-blog-generator.html"/>
+    <updated>2015-03-21T13:49:28+08:00</updated>
+    <id>http://www.mweb.im/mweb-static-blog-generator.html</id>
+    <content type="html"><![CDATA[
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction MWeb Document Library]]></title>
+    <link href="http://www.mweb.im/mweb-document-library.html"/>
+    <updated>2015-03-21T13:46:56+08:00</updated>
+    <id>http://www.mweb.im/mweb-document-library.html</id>
+    <content type="html"><![CDATA[
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Use GoodSync synchronize MWeb's static websites to FTP,SFTP,WebDAV,Amazon S3 automatically]]></title>
+    <link href="http://www.mweb.im/use-goodsync-sync-mweb-static-websites.html"/>
+    <updated>2015-02-27T12:01:25+08:00</updated>
+    <id>http://www.mweb.im/use-goodsync-sync-mweb-static-websites.html</id>
+    <content type="html"><![CDATA[
+<p>GoodSync syncs files between your computer, mobile devices, FTP, SFTP, Amazon S3, Google Drive, SkyDrive, WebDAV, Azure.</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">Download and install GoodSync</h2>
+
+<p>Go to <a href="http://www.goodsync.com/">http://www.goodsync.com/</a> download GoodSync and install. I checked <q>Do not setup GoodSync Connect</q> and finish install.</p>
+
+<p>Click <q>Create a New Job</q> button to create a new synchronize job. </p>
+
+<h2 id="toc_1">Select sync path</h2>
+
+<p>Select MWeb build site path for the left panel.<br>
+If you didn&#39;t change MWeb build site path,the default path is:</p>
+
+<pre><code>file:///Users/You Account/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb/LocalData/Site
+</code></pre>
+
+<p>To find this path, you must checked <code>Show hidden Files/Floders</code>.</p>
+
+<h2 id="toc_2">Select sync to path</h2>
+
+<p>Select sync to path for the right panel.I choose sync to FTP.<br>
+<img src="media/14250096857643/14250109782773.jpg" alt="">￼￼￼￼</p>
+
+<h2 id="toc_3">Enable automatically synchronize</h2>
+
+<p>Click <q>auto</q> button,enable On File Change: Analyze,Sync. Click <q>OK</q>.<br>
+<img src="media/14250096857643/14250112704266.jpg" alt="">￼￼￼￼</p>
+
+<p>All is OK!! <br>
+When you click <q>Build site</q> button in MWeb, GoodSync will automatically synchronize your static website to FTP.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.2 release]]></title>
+    <link href="http://www.mweb.im/mweb-v1.2-release.html"/>
+    <updated>2015-02-08T23:50:28+08:00</updated>
+    <id>http://www.mweb.im/mweb-v1.2-release.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">New feature</h2>
+
+<ul>
+<li>Add auto insert list and blockquote prefix: Preferences --&gt; General --&gt; Auto insert list and blockquote prefix</li>
+<li>In Editor share: Copy as image,Save as image,Save as PDF etc... now change to HTML style.</li>
+<li>Add HTML or PDF export suport for documents. You can selected documents --&gt; Right Mouse Button Click(RMB) --&gt; Export as HTML or PDF.</li>
+<li>Add HTML or PDF export suport for category. You can selected category --&gt; RMB --&gt; Export as HTML or PDF.</li>
+<li>Add new preview css: octopress,greyshade.</li>
+<li>Add drag &amp; drop to sort documents. RMB parent category --&gt; Edit --&gt; set Order by to Custom --&gt; you can drag &amp; drop to sort</li>
+<li>Add drag &amp; drop to sort categories.</li>
+</ul>
+
+<h2 id="toc_1">Fixed</h2>
+
+<ul>
+<li>Build site crash some time</li>
+<li>Preview site not work some time</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb Q & A]]></title>
+    <link href="http://www.mweb.im/mweb-qa.html"/>
+    <updated>2015-01-20T10:04:01+08:00</updated>
+    <id>http://www.mweb.im/mweb-qa.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">How to export HTML style PDF？</h2>
+
+<p><code>CMD+R</code> open <q>Live Preview</q>,click share button,select <code>Save as PDF</code>.</p>
+
+<h2 id="toc_1">How to enable MathJax preview support? How to enable website MathJax support?</h2>
+
+<p><code>CMD+,</code> open Preferences，Themes --&gt; Enable Math.<br>
+For enable website MathJax support,the simple way is copy below code to <code>Site category</code> --&gt; <code>Site other:</code> text box. </p>
+
+<pre><code class="language-js">&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+  MathJax.Hub.Config({tex2jax: {inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]]}});
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;
+  src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>If you website is https,please replace <code>http://cdn.mathjax.org...</code> to <code>https://cdn.mathjax.org...</code>.</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_2">How to backup MWeb&#39;s documents library to Dropbox？</h2>
+
+<p>Please open Terminal ( Spotlight--&gt;enter <code>terminal</code> ) and enter the following command. </p>
+
+<pre><code>ln -s ~/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb ~/Dropbox/MWebBackup
+</code></pre>
+
+<h2 id="toc_3">How to add Disqus support?</h2>
+
+<p>go to <a href="https://disqus.com/">https://disqus.com/</a>,click <code>Add Disqus to Your Site</code>.... At last you will get code like below:</p>
+
+<pre><code class="language-js">&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+   var disqus_shortname = &#39;your_shortname&#39;; 
+
+   (function() {
+       var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+       dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+       (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+   })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre>
+
+<p>Add the code to the themes template file: <code>post.html</code>, like this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/post.html</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.1 release]]></title>
+    <link href="http://www.mweb.im/mweb-v1.1-release.html"/>
+    <updated>2015-01-19T15:02:30+08:00</updated>
+    <id>http://www.mweb.im/mweb-v1.1-release.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">New feature</h2>
+
+<ul>
+<li>Add import files (.txt and .md) featrue：File --&gt; Import Files To Library...</li>
+<li>Add TOC（Table of Content）featrue: Preferences --&gt; Themes --&gt; Enable TOC (Table of Content)</li>
+<li>Add MWeb Lite</li>
+<li>Add sitemap suport.</li>
+<li>Add right click for category edit.</li>
+<li>Add syntax highlighting in fenced code blocks feature,for version 1.0 user, please go to <a href="https://github.com/oulvhai/MWeb-Themes/">https://github.com/oulvhai/MWeb-Themes/</a> download new themes. Language name detail:<a href="http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html">http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html</a></li>
+</ul>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">Fixed</h2>
+
+<ul>
+<li>Live preview improved</li>
+<li>Outline improved</li>
+<li>case sensitive system can&#39;t open MWeb&#39;s document.</li>
+</ul>
+
+<h2 id="toc_2">Syntax highlighting in fenced code blocks screenshot</h2>
+
+<p><img src="media/14216489427773/Snip20150119_6.png" alt="">￼￼￼￼￼￼￼</p>
+
+<p><img src="media/14216489427773/Snip20150119_5.png" alt="">￼￼￼￼￼</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Custom site theme or design you owner theme]]></title>
+    <link href="http://www.mweb.im/custom-site-theme-detail.html"/>
+    <updated>2015-01-07T14:52:03+08:00</updated>
+    <id>http://www.mweb.im/custom-site-theme-detail.html</id>
+    <content type="html"><![CDATA[
+<p>MWeb themes now add to github: <a href="https://github.com/oulvhai/MWeb-Themes">https://github.com/oulvhai/MWeb-Themes</a>.</p>
+
+<h2 id="toc_0">MWeb theme structure</h2>
+
+<p>Click <img src="media/14206135238767/14227577752365.jpg" alt="">￼, you will found a floder name is SiteThemes. MWeb all themes in this flodler,and a floder is a theme,it contains some documents and floders.</p>
+
+<ul>
+<li>asset -- floder, contains all theme&#39;s picture,CSS,JS etc..</li>
+<li>archives.html -- archives.html page template</li>
+<li>atom.xml -- RSS page template</li>
+<li>category.html -- all categiries pages template</li>
+<li>footer.html -- bottom of each page</li>
+<li>header.html -- top of each page</li>
+<li>page-index.html -- custom home page template</li>
+<li>page.html -- document when enable <code>Is page</code> use this template</li>
+<li>post.html -- document when disable <code>Is page</code> use this template</li>
+<li>sidebar.html -- sidebar template</li>
+<li>sitemap.xml -- google sitemap template</li>
+</ul>
+
+<h2 id="toc_1">Custom home page</h2>
+
+<p>Set a document&#39;s HTML file name value: <code>index</code> and enable <code>Is page</code>.<br>
+<img src="media/14189904700669/14210659918568.jpg" alt="">￼￼￼￼￼￼￼￼￼</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_2">Custom <code>Is page</code> enable document&#39;s template</h2>
+
+<p>Use <q>header.html+post.html+sidebar.html+footer.html</q> templates when the document <code>Is page</code> is disable; use <q>header.html+page.html+footer.html</q> templates when the document <code>Is page</code> is enable. You can add a page-{HTML file name}.html template for custom <code>Is page</code> enable document&#39;s template. MWeb will use <q>header.html+page-{HTML file name}.html+footer.html</q> when you add page-{HTML file name}.html template. For example:  <a href="http://coderforart.com">http://coderforart.com</a>&#39;s theme have page-index.html template for home page <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html">https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html</a> . </p>
+
+<h2 id="toc_3">Custom category page template</h2>
+
+<p>Use <q>header.html+category.html+sidebar.html+footer.html</q> by default. Use <q>header.html+category-{HTML file name}.html+sidebar.html+footer.html</q> when you add category-{HTML file name}.html template. For example: a category&#39;s HTML file name is <code>Cocoa</code> and the theme have category-Cocoa.html template, MWeb will use <q>header.html+category-Cocoa.html+sidebar.html</q>.</p>
+
+<h2 id="toc_4">Common variables define</h2>
+
+<h3 id="toc_5">the category object</h3>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>name</td>
+<td>category&#39;s name</td>
+</tr>
+<tr>
+<td>url</td>
+<td>category&#39;s url</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_6">the document object</h3>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>title</td>
+<td>document&#39;s title</td>
+</tr>
+<tr>
+<td>desContent</td>
+<td>document&#39;s description for HTML format. Same with <code>content</code> when the document do not add <code>&lt;!-- more --&gt;</code>.</td>
+</tr>
+<tr>
+<td>desContentTextOnly</td>
+<td>document&#39;s description without HTML</td>
+</tr>
+<tr>
+<td>content</td>
+<td>document content</td>
+</tr>
+<tr>
+<td>date</td>
+<td>document&#39;s date,defalut format is:2014/10/24</td>
+</tr>
+<tr>
+<td>dateGTM</td>
+<td>document&#39;s date,format is: 2014-10-24T13:54:03GMT+08:00</td>
+</tr>
+<tr>
+<td>artDate</td>
+<td>document&#39;s create date,default format is: 2014/10/24</td>
+</tr>
+<tr>
+<td>cats</td>
+<td>document&#39;s categories,array --&gt; <code>the category object</code></td>
+</tr>
+<tr>
+<td>readMore</td>
+<td>document have <code>&lt;!-- more --&gt;</code> or not</td>
+</tr>
+<tr>
+<td>url</td>
+<td>document&#39;s url</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_7">recent document object</h3>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>title</td>
+<td>document&#39;s title</td>
+</tr>
+<tr>
+<td>url</td>
+<td>document&#39;s url</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_8">top category object</h3>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>name</td>
+<td>category&#39;s name</td>
+</tr>
+<tr>
+<td>url</td>
+<td>category&#39;s url</td>
+</tr>
+<tr>
+<td>count</td>
+<td>category documents count</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_9">Build site</h2>
+
+<h3 id="toc_10">All HTML page variables</h3>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>siteURL</td>
+<td>site URL</td>
+</tr>
+<tr>
+<td>siteDomain</td>
+<td>site domain</td>
+</tr>
+<tr>
+<td>siteName</td>
+<td>site name</td>
+</tr>
+<tr>
+<td>pageTitle</td>
+<td>site title</td>
+</tr>
+<tr>
+<td>siteDes</td>
+<td>site description</td>
+</tr>
+<tr>
+<td>lastBuildDate</td>
+<td>site last build date</td>
+</tr>
+<tr>
+<td>siteOther</td>
+<td>site other</td>
+</tr>
+<tr>
+<td>recentPosts</td>
+<td>array,the item is <code>recent document object</code></td>
+</tr>
+<tr>
+<td>allCategories</td>
+<td>array,the item is <code>top category object</code></td>
+</tr>
+<tr>
+<td>categoriesTree</td>
+<td>categories tree,array,the item is <code>top category object</code>, and children. reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sidebar.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sidebar.html</a></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_11">build RSS: atom.xml</h3>
+
+<p>template: atom.xml<br>
+addition variables:</p>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>posts</td>
+<td>array,the item is <code>the document object</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/atom.xml">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/atom.xml</a></p>
+
+<h3 id="toc_12">build all posts template</h3>
+
+<p>template: header.html + post.html + sidebar.html + footer.html<br>
+addition variables:</p>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>post</td>
+<td><code>the document object</code></td>
+</tr>
+<tr>
+<td>postNav</td>
+<td>dictionary，has <code>next</code>,<code>prev</code> to item,item is  <code>recent document object</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/post.html</a></p>
+
+<h3 id="toc_13">build all cateogries template</h3>
+
+<p>template:header.html + category.html + sidebar.html + footer.html<br>
+addition variables:</p>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>posts</td>
+<td>array,the item is <code>the document object</code></td>
+</tr>
+<tr>
+<td>prevPageUrl</td>
+<td>prev page Url</td>
+</tr>
+<tr>
+<td>nextPageUrl</td>
+<td>next page Url</td>
+</tr>
+</tbody>
+</table>
+
+<p>Reference:<a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/category.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/category.html</a></p>
+
+<h3 id="toc_14">build all pages template (<code>Is page</code> enable)</h3>
+
+<p>template: header.html + page.html +  footer.html<br>
+addition variables:</p>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>posts</td>
+<td>recent documents, array,the item is <code>the document object</code></td>
+</tr>
+<tr>
+<td>post</td>
+<td><code>the document object</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html">https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html</a></p>
+
+<h3 id="toc_15">build archives.html</h3>
+
+<p>template: header.html + archives.html + footer.html<br>
+addition variables:</p>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>posts</td>
+<td>array, please reference below table for item detail</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>year</td>
+<td>document&#39;s year</td>
+</tr>
+<tr>
+<td>title</td>
+<td>document&#39;s title</td>
+</tr>
+<tr>
+<td>url</td>
+<td>document&#39;s url</td>
+</tr>
+<tr>
+<td>cats</td>
+<td>document&#39;s categries, array, the item is <code>the category object</code></td>
+</tr>
+<tr>
+<td>date</td>
+<td>document&#39;s date,defalut format is:2014/10/24</td>
+</tr>
+<tr>
+<td>dateMonth</td>
+<td>document&#39;s month</td>
+</tr>
+<tr>
+<td>dateDay</td>
+<td>document&#39;s day</td>
+</tr>
+<tr>
+<td>dateYear</td>
+<td>document&#39;s year</td>
+</tr>
+<tr>
+<td>dateGTM</td>
+<td>document&#39;s date,format is:  2014-10-24T13:54:03GMT+08:00</td>
+</tr>
+<tr>
+<td>artDate</td>
+<td>document&#39;s create date,default format is:2014/10/24</td>
+</tr>
+</tbody>
+</table>
+
+<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/archives.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/archives.html</a></p>
+
+<h3 id="toc_16">build sitemap.xml</h3>
+
+<p>template: sitemap.xml<br>
+addition variables:</p>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>archives</td>
+<td>array, please reference below table for item detail</td>
+</tr>
+<tr>
+<td>pages</td>
+<td>array, please reference below table for item detail</td>
+</tr>
+<tr>
+<td>nowDateGTM</td>
+<td>current date, format is:  2014-10-24T13:54:03GMT+08:00</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>variable name</th>
+<th>description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>title</td>
+<td>document&#39;s title</td>
+</tr>
+<tr>
+<td>url</td>
+<td>document&#39;s url</td>
+</tr>
+<tr>
+<td>date</td>
+<td>document&#39;s date,defalut format is:2014/10/24</td>
+</tr>
+<tr>
+<td>dateGTM</td>
+<td>document&#39;s date,format is:2014-10-24T13:54:03GMT+08:00</td>
+</tr>
+<tr>
+<td>artDate</td>
+<td>document&#39;s create date,default format is:2014/10/24</td>
+</tr>
+</tbody>
+</table>
+
+<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sitemap.xml">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sitemap.xml</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown syntax guide suggest version]]></title>
+    <link href="http://www.mweb.im/markdown-syntax-guide-suggest-version.html"/>
+    <updated>2014-12-16T19:08:31+08:00</updated>
+    <id>http://www.mweb.im/markdown-syntax-guide-suggest-version.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">Headers</h2>
+
+<pre><code># This is an `&lt;h1&gt;` tag
+## This is an `&lt;h2&gt;` tag
+###### This is an `&lt;h6&gt;` tag
+</code></pre>
+
+<span id="more"></span><!-- more -->
+
+<h1 id="toc_1">This is an <code>&lt;h1&gt;</code> tag</h1>
+
+<h2 id="toc_2">This is an <code>&lt;h2&gt;</code> tag</h2>
+
+<h6 id="toc_3">This is an <code>&lt;h6&gt;</code> tag</h6>
+
+<h2 id="toc_4">Emphasis</h2>
+
+<pre><code>*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+</code></pre>
+
+<p><em>This text will be italic</em><br>
+<u>This will also be italic</u></p>
+
+<p><strong>This text will be bold</strong><br>
+<strong>This will also be bold</strong></p>
+
+<p>*You <strong>can</strong> combine them*</p>
+
+<h2 id="toc_5">Newlines</h2>
+
+<p>End a line with two or more spaces + enter.<br>
+Just typing enter to newline,please set：MWeb --&gt; Preferences --&gt; Themes --&gt; Translate newlines to <code>&lt;br&gt;</code> tags is On(default is On)</p>
+
+<h2 id="toc_6">Lists</h2>
+
+<h3 id="toc_7">Unordered</h3>
+
+<pre><code>* Item 1 unordered list `* + SPACE`
+* Item 2
+    * Item 2a unordered list `* + TAB + SPACE`
+    * Item 2b
+</code></pre>
+
+<ul>
+<li>Item 1 unordered list <code>* + SPACE</code></li>
+<li>Item 2
+
+<ul>
+<li>Item 2a unordered list <code>* + TAB + SPACE</code></li>
+<li>Item 2b</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_8">Ordered</h3>
+
+<pre><code>1. Item 1 ordered list `Number + . + SPACE`
+2. Item 2 
+3. Item 3
+    1. Item 3a ordered list `Number + . + TAB + SPACE`
+    2. Item 3b
+</code></pre>
+
+<ol>
+<li>Item 1 ordered list <code>Number + . + SPACE</code></li>
+<li>Item 2 </li>
+<li>Item 3
+
+<ol>
+<li>Item 3a ordered list <code>Number + . + TAB + SPACE</code></li>
+<li>Item 3b</li>
+</ol></li>
+</ol>
+
+<h2 id="toc_9">Images</h2>
+
+<pre><code>![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
+Format: ![Alt Text](url)
+</code></pre>
+
+<p><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up"><br>
+Format: <img src="url" alt="Alt Text"></p>
+
+<h2 id="toc_10">Links</h2>
+
+<pre><code>email &lt;example@example.com&gt;
+[GitHub](http://github.com)
+autolink  &lt;http://www.github.com/&gt;
+</code></pre>
+
+<p>An email <a href="mailto:example@example.com">example@example.com</a> link.<br>
+<a href="http://github.com">GitHub</a><br>
+Automatic linking for URLs<br>
+Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will be automatically converted into a clickable link.</p>
+
+<h2 id="toc_11">Blockquotes</h2>
+
+<pre><code>As Kanye West said:
+&gt; We&#39;re living the future so
+&gt; the present is our past.
+</code></pre>
+
+<p>As Kanye West said:</p>
+
+<blockquote>
+<p>We&#39;re living the future so<br>
+the present is our past.</p>
+</blockquote>
+
+<h2 id="toc_12">Inline code</h2>
+
+<pre><code>I think you should use an
+`&lt;addr&gt;` `code` element here instead.
+</code></pre>
+
+<p>I think you should use an<br>
+<code>&lt;addr&gt;</code> <code>code</code> element here instead.</p>
+
+<h2 id="toc_13">Multi-line code</h2>
+
+<pre><code>```js
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:&#39;#foo&#39;})
+  }
+
+}
+```
+</code></pre>
+
+<pre><code class="language-js">function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:&#39;#foo&#39;})
+  }
+
+}
+</code></pre>
+
+<h2 id="toc_14">Tables</h2>
+
+<pre><code>First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+</code></pre>
+
+<p>You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:</p>
+
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Content from cell 1</td>
+<td>Content from cell 2</td>
+</tr>
+<tr>
+<td>Content in the first column</td>
+<td>Content in the second column</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_15">Strikethrough</h2>
+
+<pre><code> (like ~~this~~)
+</code></pre>
+
+<p>Any word wrapped with two tildes (like <del>this</del>) will appear crossed out.</p>
+
+<h2 id="toc_16">Horizontal Rules</h2>
+
+<p>Following lines will produce a horizontal rule:</p>
+
+<pre><code>***
+
+*****
+
+- - -
+</code></pre>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h2 id="toc_17">Comment And Read More..</h2>
+
+<!-- comment -->
+
+<!-- more -->
+
+<p>Actions-&gt;Insert Read More Comment <em>OR</em> <code>CMD + .</code></p>
+
+<h2 id="toc_18">Reference:</h2>
+
+<p><a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown syntax guide full version]]></title>
+    <link href="http://www.mweb.im/markdown-syntax-guide-full-version.html"/>
+    <updated>2014-12-16T20:10:44+08:00</updated>
+    <id>http://www.mweb.im/markdown-syntax-guide-full-version.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li><a href="#overview">Overview</a>
+
+<ul>
+<li><a href="#philosophy">Philosophy</a></li>
+<li><a href="#html">Inline HTML</a></li>
+<li><a href="#autoescape">Automatic Escaping for Special Characters</a></li>
+</ul></li>
+<li><a href="#block">Block Elements</a>
+
+<ul>
+<li><a href="#p">Paragraphs and Line Breaks</a></li>
+<li><a href="#header">Headers</a></li>
+<li><a href="#blockquote">Blockquotes</a></li>
+<li><a href="#list">Lists</a></li>
+<li><a href="#precode">Code Blocks</a></li>
+<li><a href="#hr">Horizontal Rules</a></li>
+</ul></li>
+<li><a href="#span">Span Elements</a>
+
+<ul>
+<li><a href="#link">Links</a></li>
+<li><a href="#em">Emphasis</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#img">Images</a></li>
+</ul></li>
+<li><a href="#misc">Miscellaneous</a>
+
+<ul>
+<li><a href="#backslash">Backslash Escapes</a></li>
+<li><a href="#autolink">Automatic Links</a></li>
+</ul></li>
+</ul>
+
+<ul>
+<li>
+<a href="#toc_0">Overview</a>
+<ul>
+<li>
+<a href="#toc_1">Philosophy</a>
+</li>
+<li>
+<a href="#toc_2">Inline HTML</a>
+</li>
+<li>
+<a href="#toc_3">Automatic Escaping for Special Characters</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_4">Block Elements</a>
+<ul>
+<li>
+<a href="#toc_5">Paragraphs and Line Breaks</a>
+</li>
+<li>
+<a href="#toc_6">Headers</a>
+</li>
+<li>
+<a href="#toc_7">Blockquotes</a>
+</li>
+<li>
+<a href="#toc_8">Lists</a>
+</li>
+<li>
+<a href="#toc_9">Code Blocks</a>
+</li>
+<li>
+<a href="#toc_10">Horizontal Rules</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_11">Span Elements</a>
+<ul>
+<li>
+<a href="#toc_12">Links</a>
+</li>
+<li>
+<a href="#toc_13">Emphasis</a>
+</li>
+<li>
+<a href="#toc_14">Code</a>
+</li>
+<li>
+<a href="#toc_15">Images</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_16">Miscellaneous</a>
+<ul>
+<li>
+<a href="#toc_17">Automatic Links</a>
+</li>
+<li>
+<a href="#toc_18">Backslash Escapes</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<span id="more"></span><!-- more -->
+
+<p><strong>Note:</strong> This document is itself written using Markdown; you<br>
+can <a href="/projects/markdown/syntax.text">see the source for it by adding &#39;.text&#39; to the URL</a>.</p>
+
+<hr>
+
+<h2 id="toc_0">Overview</h2>
+
+<p><a id="overview"></a></p>
+
+<h3 id="toc_1">Philosophy</h3>
+
+<p><a id="philosophy"></a></p>
+
+<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
+
+<p>Readability, however, is emphasized above all else. A Markdown-formatted<br>
+document should be publishable as-is, as plain text, without looking<br>
+like it&#39;s been marked up with tags or formatting instructions. While<br>
+Markdown&#39;s syntax has been influenced by several existing text-to-HTML<br>
+filters -- including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,<br>
+<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> -- the single biggest source of<br>
+inspiration for Markdown&#39;s syntax is the format of plain text email.</p>
+
+<p>To this end, Markdown&#39;s syntax is comprised entirely of punctuation<br>
+characters, which punctuation characters have been carefully chosen so<br>
+as to look like what they mean. E.g., asterisks around a word actually<br>
+look like *emphasis*. Markdown lists look like, well, lists. Even<br>
+blockquotes look like quoted passages of text, assuming you&#39;ve ever<br>
+used email.</p>
+
+<h3 id="toc_2">Inline HTML</h3>
+
+<p><a id="html"></a></p>
+
+<p>Markdown&#39;s syntax is intended for one purpose: to be used as a<br>
+format for <em>writing</em> for the web.</p>
+
+<p>Markdown is not a replacement for HTML, or even close to it. Its<br>
+syntax is very small, corresponding only to a very small subset of<br>
+HTML tags. The idea is <em>not</em> to create a syntax that makes it easier<br>
+to insert HTML tags. In my opinion, HTML tags are already easy to<br>
+insert. The idea for Markdown is to make it easy to read, write, and<br>
+edit prose. HTML is a <em>publishing</em> format; Markdown is a <em>writing</em><br>
+format. Thus, Markdown&#39;s formatting syntax only addresses issues that<br>
+can be conveyed in plain text.</p>
+
+<p>For any markup that is not covered by Markdown&#39;s syntax, you simply<br>
+use HTML itself. There&#39;s no need to preface it or delimit it to<br>
+indicate that you&#39;re switching from Markdown to HTML; you just use<br>
+the tags.</p>
+
+<p>The only restrictions are that block-level HTML elements -- e.g. <code>&lt;div&gt;</code>,<br>
+<code>&lt;table&gt;</code>, <code>&lt;pre&gt;</code>, <code>&lt;p&gt;</code>, etc. -- must be separated from surrounding<br>
+content by blank lines, and the start and end tags of the block should<br>
+not be indented with tabs or spaces. Markdown is smart enough not<br>
+to add extra (unwanted) <code>&lt;p&gt;</code> tags around HTML block-level tags.</p>
+
+<p>For example, to add an HTML table to a Markdown article:</p>
+
+<pre><code>This is a regular paragraph.
+
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Foo&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+This is another regular paragraph.
+</code></pre>
+
+<p>Note that Markdown formatting syntax is not processed within block-level<br>
+HTML tags. E.g., you can&#39;t use Markdown-style <code>*emphasis*</code> inside an<br>
+HTML block.</p>
+
+<p>Span-level HTML tags -- e.g. <code>&lt;span&gt;</code>, <code>&lt;cite&gt;</code>, or <code>&lt;del&gt;</code> -- can be<br>
+used anywhere in a Markdown paragraph, list item, or header. If you<br>
+want, you can even use HTML tags instead of Markdown formatting; e.g. if<br>
+you&#39;d prefer to use HTML <code>&lt;a&gt;</code> or <code>&lt;img&gt;</code> tags instead of Markdown&#39;s<br>
+link or image syntax, go right ahead.</p>
+
+<p>Unlike block-level HTML tags, Markdown syntax <em>is</em> processed within<br>
+span-level tags.</p>
+
+<h3 id="toc_3">Automatic Escaping for Special Characters</h3>
+
+<p><a id="autoescape"></a></p>
+
+<p>In HTML, there are two characters that demand special treatment: <code>&lt;</code><br>
+and <code>&amp;</code>. Left angle brackets are used to start tags; ampersands are<br>
+used to denote HTML entities. If you want to use them as literal<br>
+characters, you must escape them as entities, e.g. <code>&amp;lt;</code>, and<br>
+<code>&amp;amp;</code>.</p>
+
+<p>Ampersands in particular are bedeviling for web writers. If you want to<br>
+write about &#39;AT&amp;T&#39;, you need to write &#39;<code>AT&amp;amp;T</code>&#39;. You even need to<br>
+escape ampersands within URLs. Thus, if you want to link to:</p>
+
+<pre><code>http://images.google.com/images?num=30&amp;q=larry+bird
+</code></pre>
+
+<p>you need to encode the URL as:</p>
+
+<pre><code>http://images.google.com/images?num=30&amp;amp;q=larry+bird
+</code></pre>
+
+<p>in your anchor tag <code>href</code> attribute. Needless to say, this is easy to<br>
+forget, and is probably the single most common source of HTML validation<br>
+errors in otherwise well-marked-up web sites.</p>
+
+<p>Markdown allows you to use these characters naturally, taking care of<br>
+all the necessary escaping for you. If you use an ampersand as part of<br>
+an HTML entity, it remains unchanged; otherwise it will be translated<br>
+into <code>&amp;amp;</code>.</p>
+
+<p>So, if you want to include a copyright symbol in your article, you can write:</p>
+
+<pre><code>&amp;copy;
+</code></pre>
+
+<p>and Markdown will leave it alone. But if you write:</p>
+
+<pre><code>AT&amp;T
+</code></pre>
+
+<p>Markdown will translate it to:</p>
+
+<pre><code>AT&amp;amp;T
+</code></pre>
+
+<p>Similarly, because Markdown supports <a href="#html">inline HTML</a>, if you use<br>
+angle brackets as delimiters for HTML tags, Markdown will treat them as<br>
+such. But if you write:</p>
+
+<pre><code>4 &lt; 5
+</code></pre>
+
+<p>Markdown will translate it to:</p>
+
+<pre><code>4 &amp;lt; 5
+</code></pre>
+
+<p>However, inside Markdown code spans and blocks, angle brackets and<br>
+ampersands are <em>always</em> encoded automatically. This makes it easy to use<br>
+Markdown to write about HTML code. (As opposed to raw HTML, which is a<br>
+terrible format for writing about HTML syntax, because every single <code>&lt;</code><br>
+and <code>&amp;</code> in your example code needs to be escaped.)</p>
+
+<hr>
+
+<h2 id="toc_4">Block Elements</h2>
+
+<p><a id="block"></a></p>
+
+<h3 id="toc_5">Paragraphs and Line Breaks</h3>
+
+<p><a id="p"></a></p>
+
+<p>A paragraph is simply one or more consecutive lines of text, separated<br>
+by one or more blank lines. (A blank line is any line that looks like a<br>
+blank line -- a line containing nothing but spaces or tabs is considered<br>
+blank.) Normal paragraphs should not be indented with spaces or tabs.</p>
+
+<p>The implication of the <q>one or more consecutive lines of text</q> rule is<br>
+that Markdown supports <q>hard-wrapped</q> text paragraphs. This differs<br>
+significantly from most other text-to-HTML formatters (including Movable<br>
+Type&#39;s <q>Convert Line Breaks</q> option) which translate every line break<br>
+character in a paragraph into a <code>&lt;br /&gt;</code> tag.</p>
+
+<p>When you <em>do</em> want to insert a <code>&lt;br /&gt;</code> break tag using Markdown, you<br>
+end a line with two or more spaces, then type return.</p>
+
+<p>Yes, this takes a tad more effort to create a <code>&lt;br /&gt;</code>, but a simplistic<br>
+<q>every line break is a <code>&lt;br /&gt;</code></q> rule wouldn&#39;t work for Markdown.<br>
+Markdown&#39;s email-style <a href="#blockquote">blockquoting</a> and multi-paragraph <a href="#list">list items</a><br>
+work best -- and look better -- when you format them with hard breaks.</p>
+
+<h3 id="toc_6">Headers</h3>
+
+<p><a id="header"></a></p>
+
+<p>Markdown supports two styles of headers, <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> and <a href="http://www.aaronsw.com/2002/atx/">atx</a>.</p>
+
+<p>Setext-style headers are <q>underlined</q> using equal signs (for first-level<br>
+headers) and dashes (for second-level headers). For example:</p>
+
+<pre><code>This is an H1
+=============
+
+This is an H2
+-------------
+</code></pre>
+
+<p>Any number of underlining <code>=</code>&#39;s or <code>-</code>&#39;s will work.</p>
+
+<p>Atx-style headers use 1-6 hash characters at the start of the line,<br>
+corresponding to header levels 1-6. For example:</p>
+
+<pre><code># This is an H1
+
+## This is an H2
+
+###### This is an H6
+</code></pre>
+
+<p>Optionally, you may <q>close</q> atx-style headers. This is purely<br>
+cosmetic -- you can use this if you think it looks better. The<br>
+closing hashes don&#39;t even need to match the number of hashes<br>
+used to open the header. (The number of opening hashes<br>
+determines the header level.) :</p>
+
+<pre><code># This is an H1 #
+
+## This is an H2 ##
+
+### This is an H3 ######
+</code></pre>
+
+<h3 id="toc_7">Blockquotes</h3>
+
+<p><a id="blockquote"></a></p>
+
+<p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you&#39;re<br>
+familiar with quoting passages of text in an email message, then you<br>
+know how to create a blockquote in Markdown. It looks best if you hard<br>
+wrap the text and put a <code>&gt;</code> before every line:</p>
+
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt; 
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&gt; id sem consectetuer libero luctus adipiscing.
+</code></pre>
+
+<p>Markdown allows you to be lazy and only put the <code>&gt;</code> before the first<br>
+line of a hard-wrapped paragraph:</p>
+
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+</code></pre>
+
+<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by<br>
+adding additional levels of <code>&gt;</code>:</p>
+
+<pre><code>&gt; This is the first level of quoting.
+&gt;
+&gt; &gt; This is nested blockquote.
+&gt;
+&gt; Back to the first level.
+</code></pre>
+
+<p>Blockquotes can contain other Markdown elements, including headers, lists,<br>
+and code blocks:</p>
+
+<pre><code>&gt; ## This is a header.
+&gt; 
+&gt; 1.   This is the first list item.
+&gt; 2.   This is the second list item.
+&gt; 
+&gt; Here&#39;s some example code:
+&gt; 
+&gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre>
+
+<p>Any decent text editor should make email-style quoting easy. For<br>
+example, with BBEdit, you can make a selection and choose Increase<br>
+Quote Level from the Text menu.</p>
+
+<h3 id="toc_8">Lists</h3>
+
+<p><a id="list"></a></p>
+
+<p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
+
+<p>Unordered lists use asterisks, pluses, and hyphens -- interchangably<br>
+-- as list markers:</p>
+
+<pre><code>*   Red
+*   Green
+*   Blue
+</code></pre>
+
+<p>is equivalent to:</p>
+
+<pre><code>+   Red
++   Green
++   Blue
+</code></pre>
+
+<p>and:</p>
+
+<pre><code>-   Red
+-   Green
+-   Blue
+</code></pre>
+
+<p>Ordered lists use numbers followed by periods:</p>
+
+<pre><code>1.  Bird
+2.  McHale
+3.  Parish
+</code></pre>
+
+<p>It&#39;s important to note that the actual numbers you use to mark the<br>
+list have no effect on the HTML output Markdown produces. The HTML<br>
+Markdown produces from the above list is:</p>
+
+<pre><code>&lt;ol&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<p>If you instead wrote the list in Markdown like this:</p>
+
+<pre><code>1.  Bird
+1.  McHale
+1.  Parish
+</code></pre>
+
+<p>or even:</p>
+
+<pre><code>3. Bird
+1. McHale
+8. Parish
+</code></pre>
+
+<p>you&#39;d get the exact same HTML output. The point is, if you want to,<br>
+you can use ordinal numbers in your ordered Markdown lists, so that<br>
+the numbers in your source match the numbers in your published HTML.<br>
+But if you want to be lazy, you don&#39;t have to.</p>
+
+<p>If you do use lazy list numbering, however, you should still start the<br>
+list with the number 1. At some point in the future, Markdown may support<br>
+starting ordered lists at an arbitrary number.</p>
+
+<p>List markers typically start at the left margin, but may be indented by<br>
+up to three spaces. List markers must be followed by one or more spaces<br>
+or a tab.</p>
+
+<p>To make lists look nice, you can wrap items with hanging indents:</p>
+
+<pre><code>*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre>
+
+<p>But if you want to be lazy, you don&#39;t have to:</p>
+
+<pre><code>*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre>
+
+<p>If list items are separated by blank lines, Markdown will wrap the<br>
+items in <code>&lt;p&gt;</code> tags in the HTML output. For example, this input:</p>
+
+<pre><code>*   Bird
+*   Magic
+</code></pre>
+
+<p>will turn into:</p>
+
+<pre><code>&lt;ul&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;Magic&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<p>But this:</p>
+
+<pre><code>*   Bird
+
+*   Magic
+</code></pre>
+
+<p>will turn into:</p>
+
+<pre><code>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bird&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Magic&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<p>List items may consist of multiple paragraphs. Each subsequent<br>
+paragraph in a list item must be indented by either 4 spaces<br>
+or one tab:</p>
+
+<pre><code>1.  This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus.
+
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit.
+
+2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre>
+
+<p>It looks nice if you indent every line of the subsequent<br>
+paragraphs, but here again, Markdown will allow you to be<br>
+lazy:</p>
+
+<pre><code>*   This is a list item with two paragraphs.
+
+    This is the second paragraph in the list item. You&#39;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.
+
+*   Another item in the same list.
+</code></pre>
+
+<p>To put a blockquote within a list item, the blockquote&#39;s <code>&gt;</code><br>
+delimiters need to be indented:</p>
+
+<pre><code>*   A list item with a blockquote:
+
+    &gt; This is a blockquote
+    &gt; inside a list item.
+</code></pre>
+
+<p>To put a code block within a list item, the code block needs<br>
+to be indented <em>twice</em> -- 8 spaces or two tabs:</p>
+
+<pre><code>*   A list item with a code block:
+
+        &lt;code goes here&gt;
+</code></pre>
+
+<p>It&#39;s worth noting that it&#39;s possible to trigger an ordered list by<br>
+accident, by writing something like this:</p>
+
+<pre><code>1986. What a great season.
+</code></pre>
+
+<p>In other words, a <em>number-period-space</em> sequence at the beginning of a<br>
+line. To avoid this, you can backslash-escape the period:</p>
+
+<pre><code>1986\. What a great season.
+</code></pre>
+
+<h3 id="toc_9">Code Blocks</h3>
+
+<p><a id="precode"></a></p>
+
+<p>Pre-formatted code blocks are used for writing about programming or<br>
+markup source code. Rather than forming normal paragraphs, the lines<br>
+of a code block are interpreted literally. Markdown wraps a code block<br>
+in both <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags.</p>
+
+<p>To produce a code block in Markdown, simply indent every line of the<br>
+block by at least 4 spaces or 1 tab. For example, given this input:</p>
+
+<pre><code>This is a normal paragraph:
+
+    This is a code block.
+</code></pre>
+
+<p>Markdown will generate:</p>
+
+<pre><code>&lt;p&gt;This is a normal paragraph:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;This is a code block.
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<p>One level of indentation -- 4 spaces or 1 tab -- is removed from each<br>
+line of the code block. For example, this:</p>
+
+<pre><code>Here is an example of AppleScript:
+
+    tell application &quot;Foo&quot;
+        beep
+    end tell
+</code></pre>
+
+<p>will turn into:</p>
+
+<pre><code>&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<p>A code block continues until it reaches a line that is not indented<br>
+(or the end of the article).</p>
+
+<p>Within a code block, ampersands (<code>&amp;</code>) and angle brackets (<code>&lt;</code> and <code>&gt;</code>)<br>
+are automatically converted into HTML entities. This makes it very<br>
+easy to include example HTML source code using Markdown -- just paste<br>
+it and indent it, and Markdown will handle the hassle of encoding the<br>
+ampersands and angle brackets. For example, this:</p>
+
+<pre><code>    &lt;div class=&quot;footer&quot;&gt;
+        &amp;copy; 2004 Foo Corporation
+    &lt;/div&gt;
+</code></pre>
+
+<p>will turn into:</p>
+
+<pre><code>&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
+    &amp;amp;copy; 2004 Foo Corporation
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<p>Regular Markdown syntax is not processed within code blocks. E.g.,<br>
+asterisks are just literal asterisks within a code block. This means<br>
+it&#39;s also easy to use Markdown to write about Markdown&#39;s own syntax.</p>
+
+<h3 id="toc_10">Horizontal Rules</h3>
+
+<p><a id="hr"></a></p>
+
+<p>You can produce a horizontal rule tag (<code>&lt;hr /&gt;</code>) by placing three or<br>
+more hyphens, asterisks, or underscores on a line by themselves. If you<br>
+wish, you may use spaces between the hyphens or asterisks. Each of the<br>
+following lines will produce a horizontal rule:</p>
+
+<pre><code>* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+</code></pre>
+
+<hr>
+
+<h2 id="toc_11">Span Elements</h2>
+
+<p><a id="span"></a></p>
+
+<h3 id="toc_12">Links</h3>
+
+<p><a id="link"></a></p>
+
+<p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
+
+<p>In both styles, the link text is delimited by [square brackets].</p>
+
+<p>To create an inline link, use a set of regular parentheses immediately<br>
+after the link text&#39;s closing square bracket. Inside the parentheses,<br>
+put the URL where you want the link to point, along with an <em>optional</em><br>
+title for the link, surrounded in quotes. For example:</p>
+
+<pre><code>This is [an example](http://example.com/ &quot;Title&quot;) inline link.
+
+[This link](http://example.net/) has no title attribute.
+</code></pre>
+
+<p>Will produce:</p>
+
+<pre><code>&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt;
+an example&lt;/a&gt; inline link.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no
+title attribute.&lt;/p&gt;
+</code></pre>
+
+<p>If you&#39;re referring to a local resource on the same server, you can<br>
+use relative paths:</p>
+
+<pre><code>See my [About](/about/) page for details.   
+</code></pre>
+
+<p>Reference-style links use a second set of square brackets, inside<br>
+which you place a label of your choosing to identify the link:</p>
+
+<pre><code>This is [an example][id] reference-style link.
+</code></pre>
+
+<p>You can optionally use a space to separate the sets of brackets:</p>
+
+<pre><code>This is [an example] [id] reference-style link.
+</code></pre>
+
+<p>Then, anywhere in the document, you define your link label like this,<br>
+on a line by itself:</p>
+
+<pre><code>[id]: http://example.com/  &quot;Optional Title Here&quot;
+</code></pre>
+
+<p>That is:</p>
+
+<ul>
+<li>  Square brackets containing the link identifier (optionally
+indented from the left margin using up to three spaces);</li>
+<li>  followed by a colon;</li>
+<li>  followed by one or more spaces (or tabs);</li>
+<li>  followed by the URL for the link;</li>
+<li>  optionally followed by a title attribute for the link, enclosed
+in double or single quotes, or enclosed in parentheses.</li>
+</ul>
+
+<p>The following three link definitions are equivalent:</p>
+
+<pre><code>[foo]: http://example.com/  &quot;Optional Title Here&quot;
+[foo]: http://example.com/  &#39;Optional Title Here&#39;
+[foo]: http://example.com/  (Optional Title Here)
+</code></pre>
+
+<p><strong>Note:</strong> There is a known bug in Markdown.pl 1.0.1 which prevents<br>
+single quotes from being used to delimit link titles.</p>
+
+<p>The link URL may, optionally, be surrounded by angle brackets:</p>
+
+<pre><code>[id]: &lt;http://example.com/&gt;  &quot;Optional Title Here&quot;
+</code></pre>
+
+<p>You can put the title attribute on the next line and use extra spaces<br>
+or tabs for padding, which tends to look better with longer URLs:</p>
+
+<pre><code>[id]: http://example.com/longish/path/to/resource/here
+    &quot;Optional Title Here&quot;
+</code></pre>
+
+<p>Link definitions are only used for creating links during Markdown<br>
+processing, and are stripped from your document in the HTML output.</p>
+
+<p>Link definition names may consist of letters, numbers, spaces, and<br>
+punctuation -- but they are <em>not</em> case sensitive. E.g. these two<br>
+links:</p>
+
+<pre><code>[link text][a]
+[link text][A]
+</code></pre>
+
+<p>are equivalent.</p>
+
+<p>The <em>implicit link name</em> shortcut allows you to omit the name of the<br>
+link, in which case the link text itself is used as the name.<br>
+Just use an empty set of square brackets -- e.g., to link the word<br>
+<q>Google</q> to the google.com web site, you could simply write:</p>
+
+<pre><code>[Google][]
+</code></pre>
+
+<p>And then define the link:</p>
+
+<pre><code>[Google]: http://google.com/
+</code></pre>
+
+<p>Because link names may contain spaces, this shortcut even works for<br>
+multiple words in the link text:</p>
+
+<pre><code>Visit [Daring Fireball][] for more information.
+</code></pre>
+
+<p>And then define the link:</p>
+
+<pre><code>[Daring Fireball]: http://daringfireball.net/
+</code></pre>
+
+<p>Link definitions can be placed anywhere in your Markdown document. I<br>
+tend to put them immediately after each paragraph in which they&#39;re<br>
+used, but if you want, you can put them all at the end of your<br>
+document, sort of like footnotes.</p>
+
+<p>Here&#39;s an example of reference links in action:</p>
+
+<pre><code>I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+
+  [1]: http://google.com/        &quot;Google&quot;
+  [2]: http://search.yahoo.com/  &quot;Yahoo Search&quot;
+  [3]: http://search.msn.com/    &quot;MSN Search&quot;
+</code></pre>
+
+<p>Using the implicit link name shortcut, you could instead write:</p>
+
+<pre><code>I get 10 times more traffic from [Google][] than from
+[Yahoo][] or [MSN][].
+
+  [google]: http://google.com/        &quot;Google&quot;
+  [yahoo]:  http://search.yahoo.com/  &quot;Yahoo Search&quot;
+  [msn]:    http://search.msn.com/    &quot;MSN Search&quot;
+</code></pre>
+
+<p>Both of the above examples will produce the following HTML output:</p>
+
+<pre><code>&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot;
+title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from
+&lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt;
+or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+</code></pre>
+
+<p>For comparison, here is the same paragraph written using<br>
+Markdown&#39;s inline link style:</p>
+
+<pre><code>I get 10 times more traffic from [Google](http://google.com/ &quot;Google&quot;)
+than from [Yahoo](http://search.yahoo.com/ &quot;Yahoo Search&quot;) or
+[MSN](http://search.msn.com/ &quot;MSN Search&quot;).
+</code></pre>
+
+<p>The point of reference-style links is not that they&#39;re easier to<br>
+write. The point is that with reference-style links, your document<br>
+source is vastly more readable. Compare the above examples: using<br>
+reference-style links, the paragraph itself is only 81 characters<br>
+long; with inline-style links, it&#39;s 176 characters; and as raw HTML,<br>
+it&#39;s 234 characters. In the raw HTML, there&#39;s more markup than there<br>
+is text.</p>
+
+<p>With Markdown&#39;s reference-style links, a source document much more<br>
+closely resembles the final output, as rendered in a browser. By<br>
+allowing you to move the markup-related metadata out of the paragraph,<br>
+you can add links without interrupting the narrative flow of your<br>
+prose.</p>
+
+<h3 id="toc_13">Emphasis</h3>
+
+<p><a id="em"></a></p>
+
+<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of<br>
+emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an<br>
+HTML <code>&lt;em&gt;</code> tag; double <code>*</code>&#39;s or <code>_</code>&#39;s will be wrapped with an HTML<br>
+<code>&lt;strong&gt;</code> tag. E.g., this input:</p>
+
+<pre><code>*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+</code></pre>
+
+<p>will produce:</p>
+
+<pre><code>&lt;em&gt;single asterisks&lt;/em&gt;
+
+&lt;em&gt;single underscores&lt;/em&gt;
+
+&lt;strong&gt;double asterisks&lt;/strong&gt;
+
+&lt;strong&gt;double underscores&lt;/strong&gt;
+</code></pre>
+
+<p>You can use whichever style you prefer; the lone restriction is that<br>
+the same character must be used to open and close an emphasis span.</p>
+
+<p>Emphasis can be used in the middle of a word:</p>
+
+<pre><code>un*frigging*believable
+</code></pre>
+
+<p>But if you surround an <code>*</code> or <code>_</code> with spaces, it&#39;ll be treated as a<br>
+literal asterisk or underscore.</p>
+
+<p>To produce a literal asterisk or underscore at a position where it<br>
+would otherwise be used as an emphasis delimiter, you can backslash<br>
+escape it:</p>
+
+<pre><code>\*this text is surrounded by literal asterisks\*
+</code></pre>
+
+<h3 id="toc_14">Code</h3>
+
+<p><a id="code"></a></p>
+
+<p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).<br>
+Unlike a pre-formatted code block, a code span indicates code within a<br>
+normal paragraph. For example:</p>
+
+<pre><code>Use the `printf()` function.
+</code></pre>
+
+<p>will produce:</p>
+
+<pre><code>&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;
+</code></pre>
+
+<p>To include a literal backtick character within a code span, you can use<br>
+multiple backticks as the opening and closing delimiters:</p>
+
+<pre><code>``There is a literal backtick (`) here.``
+</code></pre>
+
+<p>which will produce this:</p>
+
+<pre><code>&lt;p&gt;&lt;code&gt;There is a literal backtick (`) here.&lt;/code&gt;&lt;/p&gt;
+</code></pre>
+
+<p>The backtick delimiters surrounding a code span may include spaces --<br>
+one after the opening, one before the closing. This allows you to place<br>
+literal backtick characters at the beginning or end of a code span:</p>
+
+<pre><code>A single backtick in a code span: `` ` ``
+
+A backtick-delimited string in a code span: `` `foo` ``
+</code></pre>
+
+<p>will produce:</p>
+
+<pre><code>&lt;p&gt;A single backtick in a code span: &lt;code&gt;`&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;A backtick-delimited string in a code span: &lt;code&gt;`foo`&lt;/code&gt;&lt;/p&gt;
+</code></pre>
+
+<p>With a code span, ampersands and angle brackets are encoded as HTML<br>
+entities automatically, which makes it easy to include example HTML<br>
+tags. Markdown will turn this:</p>
+
+<pre><code>Please don&#39;t use any `&lt;blink&gt;` tags.
+</code></pre>
+
+<p>into:</p>
+
+<pre><code>&lt;p&gt;Please don&#39;t use any &lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+</code></pre>
+
+<p>You can write this:</p>
+
+<pre><code>`&amp;#8212;` is the decimal-encoded equivalent of `&amp;mdash;`.
+</code></pre>
+
+<p>to produce:</p>
+
+<pre><code>&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded
+equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
+</code></pre>
+
+<h3 id="toc_15">Images</h3>
+
+<p><a id="img"></a></p>
+
+<p>Admittedly, it&#39;s fairly difficult to devise a <q>natural</q> syntax for<br>
+placing images into a plain text document format.</p>
+
+<p>Markdown uses an image syntax that is intended to resemble the syntax<br>
+for links, allowing for two styles: <em>inline</em> and <em>reference</em>.</p>
+
+<p>Inline image syntax looks like this:</p>
+
+<pre><code>![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
+</code></pre>
+
+<p>That is:</p>
+
+<ul>
+<li>  An exclamation mark: <code>!</code>;</li>
+<li>  followed by a set of square brackets, containing the <code>alt</code>
+attribute text for the image;</li>
+<li>  followed by a set of parentheses, containing the URL or path to
+the image, and an optional <code>title</code> attribute enclosed in double
+or single quotes.</li>
+</ul>
+
+<p>Reference-style image syntax looks like this:</p>
+
+<pre><code>![Alt text][id]
+</code></pre>
+
+<p>Where <q>id</q> is the name of a defined image reference. Image references<br>
+are defined using syntax identical to link references:</p>
+
+<pre><code>[id]: url/to/image  &quot;Optional title attribute&quot;
+</code></pre>
+
+<p>As of this writing, Markdown has no syntax for specifying the<br>
+dimensions of an image; if this is important to you, you can simply<br>
+use regular HTML <code>&lt;img&gt;</code> tags.</p>
+
+<hr>
+
+<h2 id="toc_16">Miscellaneous</h2>
+
+<p><a id="misc"></a></p>
+
+<h3 id="toc_17">Automatic Links</h3>
+
+<p><a id="autolink"></a></p>
+
+<p>Markdown supports a shortcut style for creating <q>automatic</q> links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:</p>
+
+<pre><code>&lt;http://example.com/&gt;
+</code></pre>
+
+<p>Markdown will turn this into:</p>
+
+<pre><code>&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;
+</code></pre>
+
+<p>Automatic links for email addresses work similarly, except that<br>
+Markdown will also perform a bit of randomized decimal and hex<br>
+entity-encoding to help obscure your address from address-harvesting<br>
+spambots. For example, Markdown will turn this:</p>
+
+<pre><code>&lt;address@example.com&gt;
+</code></pre>
+
+<p>into something like this:</p>
+
+<pre><code>&lt;a href=&quot;&amp;#x6D;&amp;#x61;i&amp;#x6C;&amp;#x74;&amp;#x6F;:&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;
+&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;
+&amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;
+&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;
+</code></pre>
+
+<p>which will render in a browser as a clickable link to <q><a href="mailto:address@example.com">address@example.com</a></q>.</p>
+
+<p>(This sort of entity-encoding trick will indeed fool many, if not<br>
+most, address-harvesting bots, but it definitely won&#39;t fool all of<br>
+them. It&#39;s better than nothing, but an address published in this way<br>
+will probably eventually start receiving spam.)</p>
+
+<h3 id="toc_18">Backslash Escapes</h3>
+
+<p><a id="backslash"></a></p>
+
+<p>Markdown allows you to use backslash escapes to generate literal<br>
+characters which would otherwise have special meaning in Markdown&#39;s<br>
+formatting syntax. For example, if you wanted to surround a word<br>
+with literal asterisks (instead of an HTML <code>&lt;em&gt;</code> tag), you can use<br>
+backslashes before the asterisks, like this:</p>
+
+<pre><code>\*literal asterisks\*
+</code></pre>
+
+<p>Markdown provides backslash escapes for the following characters:</p>
+
+<pre><code>\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+</code></pre>
+
+]]></content>
+  </entry>
+  
+</feed>

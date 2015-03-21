@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	MWeb Q & A - MWeb
+  	
+  	</title>
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" id="menu-index" href="index.html">Home</a>
+          <a class="blog-nav-item" id="menu-help" href="help.html">Documentation</a>
+          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
+          <a class="blog-nav-item" id="menu-about" href="about.html">About</a>
+          <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
+        </nav>
+      </div>
+    </div>    <script type="text/javascript">
+      $(function(){
+      	$('#menu-blog').addClass('active');
+      });
+      </script>
+   <div class="container" id="content-wrap">
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+			
+					<div class="blog-post">
+			            <h2 class="blog-post-title">MWeb Q & A</h2>
+			            <p class="blog-post-meta">2015/1/20 
+				            &nbsp;posted in 
+							
+							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+							 
+							 
+			            </p>
+			            <div class="content-responsive">
+			            <h2 id="toc_0">How to export HTML style PDF？</h2>
+
+<p><code>CMD+R</code> open <q>Live Preview</q>,click share button,select <code>Save as PDF</code>.</p>
+
+<h2 id="toc_1">How to enable MathJax preview support? How to enable website MathJax support?</h2>
+
+<p><code>CMD+,</code> open Preferences，Themes --&gt; Enable Math.<br>
+For enable website MathJax support,the simple way is copy below code to <code>Site category</code> --&gt; <code>Site other:</code> text box. </p>
+
+<pre><code class="language-js">&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+  MathJax.Hub.Config({tex2jax: {inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]]}});
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;
+  src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>If you website is https,please replace <code>http://cdn.mathjax.org...</code> to <code>https://cdn.mathjax.org...</code>.</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_2">How to backup MWeb&#39;s documents library to Dropbox？</h2>
+
+<p>Please open Terminal ( Spotlight--&gt;enter <code>terminal</code> ) and enter the following command. </p>
+
+<pre><code>ln -s ~/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb ~/Dropbox/MWebBackup
+</code></pre>
+
+<h2 id="toc_3">How to add Disqus support?</h2>
+
+<p>go to <a href="https://disqus.com/">https://disqus.com/</a>,click <code>Add Disqus to Your Site</code>.... At last you will get code like below:</p>
+
+<pre><code class="language-js">&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+   var disqus_shortname = &#39;your_shortname&#39;; 
+
+   (function() {
+       var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+       dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+       (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+   })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre>
+
+<p>Add the code to the themes template file: <code>post.html</code>, like this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/post.html</a></p>
+
+			            </div>
+						
+			           
+			          </div><!-- /.blog-post -->
+			<div class="share-comment">
+			
+			</div>
+
+        </div><!-- /.blog-main -->
+
+       <!-- slider start -->  		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          
+
+          <div class="sidebar-module">
+            <h4>About</h4>
+            <p><a target="_blank" href="atom.xml">RSS</a></p>
+            <p><a href="help.html">MWeb Documentation</a></p>
+            
+
+          </div>
+          <div class="sidebar-module">
+            <h4>Categories</h4>
+            
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="docs.html">Tutorials&nbsp;(5)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="tips.html">Tips & Tricks&nbsp;(2)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="markdown.html">Markdown&nbsp;(2)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="releases.html">Releases&nbsp;(2)</a>
+	        
+	        
+	        
+	      </li>
+	   
+            </ol>
+          </div>
+
+          <div class="sidebar-module">
+            <h4>Recent Posts</h4>
+            
+	  
+	      
+		      
+		        <a href="mweb-comment-and-share-help.html">Add comment and share to MWeb's Static Blog</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-static-blog-generator.html">Introduction MWeb Static Blog Generator</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-document-library.html">Introduction MWeb Document Library</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="use-goodsync-sync-mweb-static-websites.html">Use GoodSync synchronize MWeb's static websites to FTP,SFTP,WebDAV,Amazon S3 automatically</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-v1.2-release.html">MWeb 1.2 release</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-qa.html">MWeb Q & A</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-v1.1-release.html">MWeb 1.1 release</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="custom-site-theme-detail.html">Custom site theme or design you owner theme</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="markdown-syntax-guide-suggest-version.html">Markdown syntax guide suggest version</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="markdown-syntax-guide-full-version.html">Markdown syntax guide full version</a><br />
+		      
+	     
+	   
+
+          </div>
+         
+        </div><!-- /.blog-sidebar -->
+
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+  <footer class="blog-footer">
+      <p>Copyright &copy; 2015
+Powered by <a target="_blank" href="http://mweb.im">MWeb</a> &nbsp;&nbsp; 
+Theme by <a href="http://getbootstrap.com">Bootstrap</a>、<a href="https://twitter.com/mdo">@mdo</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="asset/flow-sequence-chart/raphael-min.js"></script><script src="asset/flow-sequence-chart/underscore-min.js"></script><script src="asset/flow-sequence-chart/flowchart.min.js"></script><script src="asset/flow-sequence-chart/sequence-diagram-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/x-mathjax-config">if (typeof MathJaxListener !== 'undefined') { MathJax.Hub.Register.StartupHook('End', function () { MathJaxListener.invokeCallbackForKey_('End'); }); } </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  </body>
+</html>

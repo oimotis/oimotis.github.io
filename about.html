@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	About - MWeb
+  	
+  	</title>
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" id="menu-index" href="index.html">Home</a>
+          <a class="blog-nav-item" id="menu-help" href="help.html">Documentation</a>
+          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
+          <a class="blog-nav-item" id="menu-about" href="about.html">About</a>
+          <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
+        </nav>
+      </div>
+    </div>   <div class="container" id="content-wrap">
+	<div class="page-post">
+		<h2 class="blog-post-title">About</h2>
+<hr />
+		<div class="page-content content-responsive">
+			<p>大家好，我叫 Otis，目前是独立开发者。</p>
+
+<p>目前开发有两个作品，MWeb是我的第一个作品，另一个作品为：<a href="http://coderforart.com/pinphoto.html">PinPhoto</a>。</p>
+
+<p>欢迎浏览我的博客：<a href="http://coderforart.com">http://coderforart.com</a></p>
+
+<h2 id="toc_0">联系信息</h2>
+
+<p>邮件：<a href="mailto:coderforart+233@gmail.com">coderforart+233@gmail.com</a><br>
+微博：<a href="http://weibo.com/oulvhai">@oulvhai</a><br>
+Twitter：<a href="http://twitter.com/oulvhai">@oulvhai</a></p>
+
+<script type="text/javascript">
+$(function(){$('#menu-about').addClass('active');
+</script><script type="text/javascript">
+$(function(){$('#menu-about').addClass('active')});
+</script>
+
+		</div>
+  	</div>
+ </div>
+   <footer class="blog-footer">
+      <p>Copyright &copy; 2015
+Powered by <a target="_blank" href="http://mweb.im">MWeb</a> &nbsp;&nbsp; 
+Theme by <a href="http://getbootstrap.com">Bootstrap</a>、<a href="https://twitter.com/mdo">@mdo</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="asset/flow-sequence-chart/raphael-min.js"></script><script src="asset/flow-sequence-chart/underscore-min.js"></script><script src="asset/flow-sequence-chart/flowchart.min.js"></script><script src="asset/flow-sequence-chart/sequence-diagram-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/x-mathjax-config">if (typeof MathJaxListener !== 'undefined') { MathJax.Hub.Register.StartupHook('End', function () { MathJaxListener.invokeCallbackForKey_('End'); }); } </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  </body>
+</html>
