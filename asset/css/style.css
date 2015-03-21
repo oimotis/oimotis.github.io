@@ -136,6 +136,10 @@ pre{background-color: #f8f8f8;border-radius:0px;}
   text-decoration: none;
 }
 
+@media (max-width: 486px) {
+  .blog-nav-item{ padding: 10px 4px;}
+}
+
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
   color: #fff;
