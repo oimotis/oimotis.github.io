@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-03-21T17:59:09+08:00</updated>
+  <updated>2015-03-24T23:16:53+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -1198,75 +1198,6 @@ Content in the first column | Content in the second column
 <li><a href="#autolink">Automatic Links</a></li>
 </ul></li>
 </ul>
-
-<ul>
-<li>
-<a href="#toc_0">Overview</a>
-<ul>
-<li>
-<a href="#toc_1">Philosophy</a>
-</li>
-<li>
-<a href="#toc_2">Inline HTML</a>
-</li>
-<li>
-<a href="#toc_3">Automatic Escaping for Special Characters</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_4">Block Elements</a>
-<ul>
-<li>
-<a href="#toc_5">Paragraphs and Line Breaks</a>
-</li>
-<li>
-<a href="#toc_6">Headers</a>
-</li>
-<li>
-<a href="#toc_7">Blockquotes</a>
-</li>
-<li>
-<a href="#toc_8">Lists</a>
-</li>
-<li>
-<a href="#toc_9">Code Blocks</a>
-</li>
-<li>
-<a href="#toc_10">Horizontal Rules</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_11">Span Elements</a>
-<ul>
-<li>
-<a href="#toc_12">Links</a>
-</li>
-<li>
-<a href="#toc_13">Emphasis</a>
-</li>
-<li>
-<a href="#toc_14">Code</a>
-</li>
-<li>
-<a href="#toc_15">Images</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_16">Miscellaneous</a>
-<ul>
-<li>
-<a href="#toc_17">Automatic Links</a>
-</li>
-<li>
-<a href="#toc_18">Backslash Escapes</a>
-</li>
-</ul>
-</li>
-</ul>
-
 
 <span id="more"></span><!-- more -->
 
