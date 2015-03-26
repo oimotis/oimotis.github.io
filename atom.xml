@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-03-24T23:16:53+08:00</updated>
+  <updated>2015-03-26T13:27:07+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,15 +14,80 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Add comment and share to MWeb's Static Blog]]></title>
+    <title type="html"><![CDATA[Add AddThis Share and Disqus Comment]]></title>
     <link href="http://www.mweb.im/mweb-comment-and-share-help.html"/>
     <updated>2015-03-21T13:53:09+08:00</updated>
     <id>http://www.mweb.im/mweb-comment-and-share-help.html</id>
     <content type="html"><![CDATA[
-<ul>
-<li>介绍增加 addthis、jiathis 等分享</li>
-<li>介绍增加disqus、多说等评论</li>
-</ul>
+<h2 id="toc_0">AddThis Share</h2>
+
+<p>Go to  <a href="https://www.addthis.com">https://www.addthis.com</a>  and sign in.<br/>
+Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. Go to <code>Dashboard</code> - <code>Shares</code> - <code>code on page</code> to select share style like below:<br/>
+<img src="media/14269156185154/14272098995706.jpg" alt=""/>￼￼￼</p>
+
+<span id="more"></span><!-- more -->
+
+<p>Click <code>Get Code</code>, you will got code like below:</p>
+
+<pre><code class="language-html">&lt;!-- Go to www.addthis.com/dashboard to customize your tools --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+&lt;!-- Go to www.addthis.com/dashboard to customize your tools --&gt;
+&lt;div class=&quot;addthis_native_toolbox&quot;&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Click <code>Active</code> to finish.</p>
+
+<h2 id="toc_1">Disqus Comment</h2>
+
+<p>Go to  <a href="https://disqus.com/">https://disqus.com/</a> and log in.<br/>
+Click <code>Settings</code> - <code>Add Disqus To Site</code>. </p>
+
+<p><img src="media/14269156185154/14272092541267.jpg" alt=""/>￼￼</p>
+
+<p>fill your <code>Site name</code> and <code>Unique Disqus URL</code>, click <code>Finish registration</code>. In finish page, click <code>Universal Code</code>, you will get code like below:</p>
+
+<pre><code class="language-js">&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = &#39;mweb-en&#39;;
+    
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre>
+
+<h2 id="toc_2">Add Share and Comment codes</h2>
+
+<p>Paste the Share and Comment codes to MWeb&#39;s <code>Site Settings</code> - <code>Comment &amp; Share code</code>.</p>
+
+<p><img src="media/14269156185154/14272101545814.jpg" alt=""/>￼￼</p>
+
+<p>All code will like below:</p>
+
+<pre><code>&lt;!-- Go to www.addthis.com/dashboard to customize your tools --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+&lt;!-- Go to www.addthis.com/dashboard to customize your tools --&gt;
+&lt;div class=&quot;addthis_native_toolbox&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = &#39;mweb-en&#39;;
+    
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre>
 
 ]]></content>
   </entry>
@@ -43,6 +108,44 @@
     <updated>2015-03-21T13:46:56+08:00</updated>
     <id>http://www.mweb.im/mweb-document-library.html</id>
     <content type="html"><![CDATA[
+<h2 id="toc_0">Basic usage</h2>
+
+<h3 id="toc_1">Editor and Live Preview settings</h3>
+
+<p><code>Preferences</code> - <code>Themes</code>:<br/>
+<img src="media/14269145971164/14272035596204.jpg" alt=""/>￼￼</p>
+
+<span id="more"></span><!-- more -->
+
+<h3 id="toc_2">Share button</h3>
+
+<p><img src="media/14269168165646/14273453657168.jpg" alt=""/>￼￼</p>
+
+<ul>
+<li>Live Preview: Shortcuts:<code>CMD + R</code></li>
+<li>Copy HTML: Convert selected Markdown text to HTML and copy. If no selected text, it will convert all Markdown text to HTML. Shortcuts:<code>Option + CMD + C</code></li>
+</ul>
+
+<h3 id="toc_3">Document info button</h3>
+
+<p><img src="media/14269168165646/14273458047689.jpg" alt=""/>￼￼</p>
+
+<p>Document outline for quick navigation.</p>
+
+<h3 id="toc_4">Document settings button</h3>
+
+<p><img src="media/14269168165646/14273461274175.jpg" alt=""/>￼￼</p>
+
+<p>Set the document categories, HTML file name, Date, Is page.</p>
+
+<h2 id="toc_5">Category and documents import,export,sort</h2>
+
+<p><img src="media/14269145971164/export@x2.jpg" alt=""/>￼￼</p>
+
+<p>Drag &amp; drop to sort categories.</p>
+
+<p>If you want to custom sort documents, please set <code>Order by</code> to <code>Custom</code> like below:<br/>
+<img src="media/14269145971164/14272054490080.jpg" alt=""/>￼￼</p>
 
 ]]></content>
   </entry>
