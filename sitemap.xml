@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://www.mweb.im/</loc>
-  <lastmod>2015-03-26T13:27:09+08:00</lastmod>
+  <lastmod>2015-03-26T16:01:37+08:00</lastmod>
 </url>
 
 <url>
@@ -21,6 +21,16 @@
 </url>
 
 <url>
+  <loc>http://www.mweb.im/markdown-syntax-guide-suggest-version.html</loc>
+  <lastmod>2015-03-21T09:56:31+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/qa.html</loc>
+  <lastmod>2015-03-20T10:04:01+08:00</lastmod>
+</url>
+
+<url>
   <loc>http://www.mweb.im/use-goodsync-sync-mweb-static-websites.html</loc>
   <lastmod>2015-02-27T12:01:25+08:00</lastmod>
 </url>
@@ -28,11 +38,6 @@
 <url>
   <loc>http://www.mweb.im/mweb-v1.2-release.html</loc>
   <lastmod>2015-02-08T23:50:28+08:00</lastmod>
-</url>
-
-<url>
-  <loc>http://www.mweb.im/mweb-qa.html</loc>
-  <lastmod>2015-01-20T10:04:01+08:00</lastmod>
 </url>
 
 <url>
@@ -46,11 +51,6 @@
 </url>
 
 <url>
-  <loc>http://www.mweb.im/markdown-syntax-guide-suggest-version.html</loc>
-  <lastmod>2014-12-16T21:56:31+08:00</lastmod>
-</url>
-
-<url>
   <loc>http://www.mweb.im/markdown-syntax-guide-full-version.html</loc>
   <lastmod>2014-12-16T21:40:44+08:00</lastmod>
 </url>
@@ -58,12 +58,12 @@
 
 <url>
   <loc>http://www.mweb.im/help.html</loc>
-  <lastmod>2015-03-26T13:19:26+08:00</lastmod>
+  <lastmod>2015-03-26T16:00:59+08:00</lastmod>
 </url>
 
 <url>
   <loc>http://www.mweb.im/about.html</loc>
-  <lastmod>2015-03-26T12:28:18+08:00</lastmod>
+  <lastmod>2015-03-26T16:01:29+08:00</lastmod>
 </url>
 
 
