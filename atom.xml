@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-03-26T15:58:19+08:00</updated>
+  <updated>2015-03-26T16:10:00+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -398,8 +398,7 @@ function fancyAlert(arg) {
 
 <p><strong>Example:</strong></p>
 
-<pre><code>```
-sequence
+<pre><code>```sequence
 张三-&gt;李四: 嘿，小四儿, 写博客了没?
 Note right of 李四: 李四愣了一下，说：
 李四--&gt;张三: 忙得吐血，哪有时间写。
@@ -651,65 +650,6 @@ Content in the first column | Content in the second column
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[MWeb Q & A]]></title>
-    <link href="http://www.mweb.im/qa.html"/>
-    <updated>2015-01-20T10:04:01+08:00</updated>
-    <id>http://www.mweb.im/qa.html</id>
-    <content type="html"><![CDATA[
-<p>Updated: 2015/3/25</p>
-
-<span id="more"></span><!-- more -->
-
-<p>Question list: </p>
-
-<ul>
-<li>
-<a href="#toc_0">What&#39;s difference between MWeb Lite and MWeb?</a>
-</li>
-<li>
-<a href="#toc_1">How to enable MathJax preview support?</a>
-</li>
-<li>
-<a href="#toc_2">How to enable blog MathJax support?</a>
-</li>
-<li>
-<a href="#toc_3">How to backup MWeb&#39;s documents library to Dropbox？</a>
-</li>
-<li>
-<a href="#toc_4">How to add Disqus support?</a>
-</li>
-</ul>
-
-
-<h2 id="toc_0">What&#39;s difference between MWeb Lite and MWeb?</h2>
-
-<p>MWeb design with two patterns: External Document pattern and Documents Library pattern. MWeb Lite&#39;s Documents Library limit to 10 documents.</p>
-
-<h2 id="toc_1">How to enable MathJax preview support?</h2>
-
-<p><code>CMD+,</code> open Preferences，<code>Themes</code> - <code>Enable MathJax</code>.</p>
-
-<h2 id="toc_2">How to enable blog MathJax support?</h2>
-
-<p><code>Right click blog setting</code> - <code>Edit</code> - <code>Enable MathJax</code></p>
-
-<!-- more -->
-
-<h2 id="toc_3">How to backup MWeb&#39;s documents library to Dropbox？</h2>
-
-<p>Please open Terminal ( Spotlight - enter <code>terminal</code> ) and enter the following command. </p>
-
-<pre><code>ln -s ~/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb ~/Dropbox/MWebBackup
-</code></pre>
-
-<h2 id="toc_4">How to add Disqus support?</h2>
-
-<p>Please check this post: <a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Use GoodSync synchronize MWeb's static websites to FTP,SFTP,WebDAV,Amazon S3 automatically]]></title>
     <link href="http://www.mweb.im/use-goodsync-sync-mweb-static-websites.html"/>
     <updated>2015-02-27T12:01:25+08:00</updated>
@@ -775,6 +715,65 @@ When you click <q>Build site</q> button in MWeb, GoodSync will automatically syn
 <li>Build site crash some time</li>
 <li>Preview site not work some time</li>
 </ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb Q & A]]></title>
+    <link href="http://www.mweb.im/qa.html"/>
+    <updated>2015-01-20T10:04:01+08:00</updated>
+    <id>http://www.mweb.im/qa.html</id>
+    <content type="html"><![CDATA[
+<p>Updated: 2015/3/25</p>
+
+<span id="more"></span><!-- more -->
+
+<p>Question list: </p>
+
+<ul>
+<li>
+<a href="#toc_0">What&#39;s difference between MWeb Lite and MWeb?</a>
+</li>
+<li>
+<a href="#toc_1">How to enable MathJax preview support?</a>
+</li>
+<li>
+<a href="#toc_2">How to enable blog MathJax support?</a>
+</li>
+<li>
+<a href="#toc_3">How to backup MWeb&#39;s documents library to Dropbox？</a>
+</li>
+<li>
+<a href="#toc_4">How to add Disqus support?</a>
+</li>
+</ul>
+
+
+<h2 id="toc_0">What&#39;s difference between MWeb Lite and MWeb?</h2>
+
+<p>MWeb design with two patterns: External Document pattern and Documents Library pattern. MWeb Lite&#39;s Documents Library limit to 10 documents.</p>
+
+<h2 id="toc_1">How to enable MathJax preview support?</h2>
+
+<p><code>CMD+,</code> open Preferences，<code>Themes</code> - <code>Enable MathJax</code>.</p>
+
+<h2 id="toc_2">How to enable blog MathJax support?</h2>
+
+<p><code>Right click blog setting</code> - <code>Edit</code> - <code>Enable MathJax</code></p>
+
+<!-- more -->
+
+<h2 id="toc_3">How to backup MWeb&#39;s documents library to Dropbox？</h2>
+
+<p>Please open Terminal ( Spotlight - enter <code>terminal</code> ) and enter the following command. </p>
+
+<pre><code>ln -s ~/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb ~/Dropbox/MWebBackup
+</code></pre>
+
+<h2 id="toc_4">How to add Disqus support?</h2>
+
+<p>Please check this post: <a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></p>
 
 ]]></content>
   </entry>
