@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-03-27T15:07:33+08:00</updated>
+  <updated>2015-03-27T17:38:55+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb Screenshots in Yosemite]]></title>
+    <link href="http://www.mweb.im/mweb-in-yosemite.html"/>
+    <updated>2015-03-27T17:32:06+08:00</updated>
+    <id>http://www.mweb.im/mweb-in-yosemite.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/14274487266487/en1.jpg" alt="en1"/>￼￼</p>
+
+<span id="more"></span><!-- more -->
+
+<p><img src="media/14274487266487/en2.jpg" alt="en2"/>￼￼</p>
+
+<p><img src="media/14274487266487/1.jpg" alt=""/>￼￼</p>
+
+<p><img src="media/14274487266487/2.jpg" alt=""/>￼￼</p>
+
+<p><img src="media/14274487266487/3.jpg" alt=""/>￼￼</p>
+
+<p><img src="media/14274487266487/4.jpg" alt=""/>￼￼</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Add AddThis Share and Disqus Comment]]></title>
