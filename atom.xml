@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-03-27T17:38:55+08:00</updated>
+  <updated>2015-03-28T11:42:06+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -37,6 +37,50 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[MWeb 1.3 release! 50% OFF, official site, new icon, task list support, optimized MathJax support etc...]]></title>
+    <link href="http://www.mweb.im/mweb1.3-release.html"/>
+    <updated>2015-03-28T11:13:42+08:00</updated>
+    <id>http://www.mweb.im/mweb1.3-release.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">Official Site</h2>
+
+<p>Chinese: <a href="http://zh.mweb.im">http://zh.mweb.im</a><br/>
+English: <a href="http://www.mweb.im">http://www.mweb.im</a></p>
+
+<h2 id="toc_1">Featrue</h2>
+
+<ul>
+<li>Add <code>CMD+Shift+V</code> paste PNG pictrue.</li>
+<li>Add sequence and flow chart support</li>
+<li>Add task lists support. <code>- + space + [ ]</code>or <code>- + space + [x]</code></li>
+<li>Add Markdown export.</li>
+<li>Add setting Disqus Comment code support, more info: <a href="http://www.mweb.im/mweb-comment-and-share-help.html">http://www.mweb.im/mweb-comment-and-share-help.html</a></li>
+<li>Optimized MathJax support and add MathJax library to local.</li>
+<li>Optimized PDF export.</li>
+</ul>
+
+<p>Fixed some crash.</p>
+
+<h2 id="toc_2">For MWeb 1.2 users</h2>
+
+<p>Site themes updated: greyshade, octopress themes updated for support setting Comment and Share code,MathJax ,sequence and flow chart. Three variables added like below:</p>
+
+<pre><code>{{ commentAndShareCode }}
+{{ seqAndFlowChartSupport }}
+{{ mathJaxSupport }}
+</code></pre>
+
+<p>Updated template pages:</p>
+
+<ol>
+<li>footer.html add <code>{{ seqAndFlowChartSupport }}</code>, <code>{{ mathJaxSupport }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html</a></li>
+<li>post.html add <code>{{ commentAndShareCode }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Add AddThis Share and Disqus Comment]]></title>
     <link href="http://www.mweb.im/mweb-comment-and-share-help.html"/>
     <updated>2015-03-21T13:53:09+08:00</updated>
@@ -44,9 +88,11 @@
     <content type="html"><![CDATA[
 <h2 id="toc_0">AddThis Share</h2>
 
+<p>中文请看这个网址：<a href="http://zh.mweb.im/mweb-comment-and-share-help.html">http://zh.mweb.im/mweb-comment-and-share-help.html</a></p>
+
 <p>Go to  <a href="https://www.addthis.com">https://www.addthis.com</a>  and sign in.<br/>
 Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. Go to <code>Dashboard</code> - <code>Shares</code> - <code>code on page</code> to select share style like below:<br/>
-<img src="media/14269156185154/14272098995706.jpg" alt=""/>￼￼￼</p>
+<img src="media/14269156185154/14272098995706.jpg" alt=""/>￼￼￼￼</p>
 
 <span id="more"></span><!-- more -->
 
@@ -65,7 +111,7 @@ Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. 
 <p>Go to  <a href="https://disqus.com/">https://disqus.com/</a> and log in.<br/>
 Click <code>Settings</code> - <code>Add Disqus To Site</code>. </p>
 
-<p><img src="media/14269156185154/14272092541267.jpg" alt=""/>￼￼</p>
+<p><img src="media/14269156185154/14272092541267.jpg" alt=""/>￼￼￼</p>
 
 <p>fill your <code>Site name</code> and <code>Unique Disqus URL</code>, click <code>Finish registration</code>. In finish page, click <code>Universal Code</code>, you will get code like below:</p>
 
@@ -88,7 +134,7 @@ Click <code>Settings</code> - <code>Add Disqus To Site</code>. </p>
 
 <p>Paste the Share and Comment codes to MWeb&#39;s <code>Site Settings</code> - <code>Comment &amp; Share code</code>.</p>
 
-<p><img src="media/14269156185154/14272101545814.jpg" alt=""/>￼￼</p>
+<p><img src="media/14269156185154/14272101545814.jpg" alt=""/>￼￼￼</p>
 
 <p>All code will like below:</p>
 
@@ -153,6 +199,8 @@ Click <code>Settings</code> - <code>Add Disqus To Site</code>. </p>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Basic usage</h2>
 
+<p><code>CMD + L</code> to open the documents library.</p>
+
 <h3 id="toc_1">Three view pattern</h3>
 
 <p>Editor Only:<code>CMD + 1</code>, Two Panes:<code>CMD + 2</code>, Three Panes:<code>CMD + 3</code>. The editor area will not resize when the view pattern change.</p>
@@ -162,11 +210,11 @@ Click <code>Settings</code> - <code>Add Disqus To Site</code>. </p>
 <h3 id="toc_2">Editor and Live Preview settings</h3>
 
 <p><code>Preferences</code> - <code>Themes</code>:<br/>
-<img src="media/14269145971164/14272035596204.jpg" alt=""/>￼￼￼￼</p>
+<img src="media/14269145971164/14272035596204.jpg" alt=""/>￼￼￼￼￼￼</p>
 
 <h3 id="toc_3">Share button</h3>
 
-<p><img src="media/14269168165646/14273453657168.jpg" alt=""/>￼￼￼￼</p>
+<p><img src="media/14269168165646/14273453657168.jpg" alt=""/>￼￼￼￼￼￼</p>
 
 <ul>
 <li>Live Preview: Shortcuts:<code>CMD + R</code></li>
@@ -175,24 +223,24 @@ Click <code>Settings</code> - <code>Add Disqus To Site</code>. </p>
 
 <h3 id="toc_4">Document info button</h3>
 
-<p><img src="media/14269168165646/14273458047689.jpg" alt=""/>￼￼￼￼</p>
+<p><img src="media/14269168165646/14273458047689.jpg" alt=""/>￼￼￼￼￼￼</p>
 
 <p>Document outline for quick navigation.</p>
 
 <h3 id="toc_5">Document settings button</h3>
 
-<p><img src="media/14269168165646/14273461274175.jpg" alt=""/>￼￼￼￼</p>
+<p><img src="media/14269168165646/14273461274175.jpg" alt=""/>￼￼￼￼￼￼</p>
 
 <p>Set the document categories, HTML file name, Date, Is page.</p>
 
 <h2 id="toc_6">Category and documents import,export,sort</h2>
 
-<p><img src="media/14269145971164/export@x2.jpg" alt=""/>￼￼￼￼</p>
+<p><img src="media/14269145971164/export@x2.jpg" alt=""/>￼￼￼￼￼￼</p>
 
 <p>Drag &amp; drop to sort categories.</p>
 
 <p>If you want to custom sort documents, please set <code>Order by</code> to <code>Custom</code> like below:<br/>
-<img src="media/14269145971164/14272054490080.jpg" alt=""/>￼￼￼￼</p>
+<img src="media/14269145971164/14272054490080.jpg" alt=""/>￼￼￼￼￼￼</p>
 
 <p>Now you can drag &amp; drop to sort documents.</p>
 

@@ -8,7 +8,7 @@
     <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
     <title> 
 	  
-  	Tips & Tricks - MWeb
+  	MWeb 1.3 release! 50% OFF, official site, new icon, task list support, optimized MathJax support etc... - MWeb
   	
   	</title>
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
@@ -36,88 +36,91 @@
           <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
         </nav>
       </div>
-    </div>    <div class="container" id="content-wrap">
-
-      <script type="text/javascript">
+    </div>    <script type="text/javascript">
       $(function(){
       	$('#menu-blog').addClass('active');
       });
       </script>
+   <div class="container" id="content-wrap">
+
       <div class="row">
 
         <div class="col-sm-8 blog-main">
 			
 					<div class="blog-post">
-			            <h2 class="blog-post-title">Add AddThis Share and Disqus Comment</h2>
-			            <p class="blog-post-meta">2015/3/21 
+			            <h2 class="blog-post-title">MWeb 1.3 release! 50% OFF, official site, new icon, task list support, optimized MathJax support etc...</h2>
+			            <p class="blog-post-meta">2015/3/28 
 				            &nbsp;posted in 
 							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+							    <a class='category' href='releases.html'>Releases</a>&nbsp;
 							 
 							 
 			            </p>
 			            <div class="content-responsive">
-			            <h2 id="toc_0">AddThis Share</h2>
+			            <h2 id="toc_0">Official Site</h2>
 
-<p>中文请看这个网址：<a href="http://zh.mweb.im/mweb-comment-and-share-help.html">http://zh.mweb.im/mweb-comment-and-share-help.html</a></p>
+<p>Chinese: <a href="http://zh.mweb.im">http://zh.mweb.im</a><br/>
+English: <a href="http://www.mweb.im">http://www.mweb.im</a></p>
 
-<p>Go to  <a href="https://www.addthis.com">https://www.addthis.com</a>  and sign in.<br/>
-Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. Go to <code>Dashboard</code> - <code>Shares</code> - <code>code on page</code> to select share style like below:<br/>
-<img src="media/14269156185154/14272098995706.jpg" alt=""/>￼￼￼￼</p>
+<h2 id="toc_1">Featrue</h2>
 
+<ul>
+<li>Add <code>CMD+Shift+V</code> paste PNG pictrue.</li>
+<li>Add sequence and flow chart support</li>
+<li>Add task lists support. <code>- + space + [ ]</code>or <code>- + space + [x]</code></li>
+<li>Add Markdown export.</li>
+<li>Add setting Disqus Comment code support, more info: <a href="http://www.mweb.im/mweb-comment-and-share-help.html">http://www.mweb.im/mweb-comment-and-share-help.html</a></li>
+<li>Optimized MathJax support and add MathJax library to local.</li>
+<li>Optimized PDF export.</li>
+</ul>
 
+<p>Fixed some crash.</p>
 
+<h2 id="toc_2">For MWeb 1.2 users</h2>
 
-						 
-						<a href="mweb-comment-and-share-help.html" class="more-link">Read On &rarr;</a>
-			    		
-			           </div>
+<p>Site themes updated: greyshade, octopress themes updated for support setting Comment and Share code,MathJax ,sequence and flow chart. Three variables added like below:</p>
+
+<pre><code>{{ commentAndShareCode }}
+{{ seqAndFlowChartSupport }}
+{{ mathJaxSupport }}
+</code></pre>
+
+<p>Updated template pages:</p>
+
+<ol>
+<li>footer.html add <code>{{ seqAndFlowChartSupport }}</code>, <code>{{ mathJaxSupport }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html</a></li>
+<li>post.html add <code>{{ commentAndShareCode }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html</a></li>
+</ol>
+
+			            </div>
+						
+			           
 			          </div><!-- /.blog-post -->
-			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title">MWeb Q & A</h2>
-			            <p class="blog-post-meta">2015/1/20 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			            <div class="content-responsive">
-			            <p>Updated: 2015/3/25</p>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-
-
-						 
-						<a href="qa.html" class="more-link">Read On &rarr;</a>
-			    		
-			           </div>
-			          </div><!-- /.blog-post -->
-			  
-
-
-          <nav>
-            <ul class="pager">
-            
-            	<li class="  disabled "><a href="#index"><span aria-hidden="true">&larr;</span> Newer</a></li>
-            
-
-				<li class=""><a href="archives.html">Archives</a></li>
-
-			
-            	<li class=" disabled "><a href="#index">Older <span aria-hidden="true">&rarr;</span></a></li>
-            
-            </ul>
-          </nav>
+			</div>
 
         </div><!-- /.blog-main -->
 
-       <!-- slider start -->
-
-  		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+       <!-- slider start -->  		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           
 
           <div class="sidebar-module">
