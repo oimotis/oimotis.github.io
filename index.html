@@ -162,7 +162,7 @@
      <hr />
      <div class="row">
       <div class="col-sm-6">
-
+<div id="item-001">
       <h3 id="toc_0">Pro Markdown writing</h3>
 
 <ul>
@@ -187,24 +187,8 @@
 <li>Support six live preview themes. Easy to custom preview theme. All themes can export to HTML or PDF. To open live preview window, please press <code>CMD + R</code>. </li>
 <li>Support Outline view.</li>
 </ul>
-
-
-
-      </div>
-      <div class="col-sm-6">
-<h3 id="toc_2">Documents Library pattern for note taking</h3>
-
-<p>Documents Library pattern use categories tree to organize documents, support drag &amp; drop or paste insert pictrue and display immediately. Support import external Markdown or txt document to the library, export a category or documents to HTML, PDF or Markdown.</p>
-<p><img src="asset/mweb/export@x2.jpg" class="img-responsive" /></p>
-
-
-
 </div>
-    </div>
-
-<div class="row">
-      <div class="col-sm-6">
-      <h3 id="toc_1">Design with two patterns</h3>
+<h3 id="toc_1">Design with two patterns</h3>
 
 <ul>
 <li>External Document pattern: This pattern design for create, open external Markdown document, it just like <code>TextEdit</code>.</li>
@@ -213,17 +197,27 @@
 
 <p><code>CMD + N</code> and <code>CMD + O</code> to create,open external Markdown document.<br>
 <code>CMD + Shift + N</code> to create MWeb Library document. <code>CMD + L</code> to open MWeb Documents Library.</p>
+
       </div>
       <div class="col-sm-6">
-      
+      <div id="item-003">
+<h3 id="toc_2">Documents Library pattern for note taking</h3>
+
+<p>Documents Library pattern use categories tree to organize documents, support drag &amp; drop or paste insert pictrue and display immediately. Support import external Markdown or txt document to the library, export a category or documents to HTML, PDF or Markdown.</p>
+<p><img src="asset/mweb/export@x2.jpg" class="img-responsive" /></p>
+
+    
+      </div>
+
 <h3 id="toc_3">Documents Library pattern for static blog generator</h3>
 
 <p>You can build static blog <strong>One Click</strong>! Now has two blog themes, it&#39;s easy to custom you owner blog theme. you can add <a href="http://www.addthis.com/">AddThis</a> and <a href="http://www.disqus.com">Disqus</a> code for share and comment support to you blog. You can enable MathJax and Sequence &amp; Flow chart support in category setting.</p>
 
 <p><img src="asset/mweb/buildsite@x2.jpg" class="img-responsive" /></p>
 
-      </div>
 </div>
+    </div>
+
 
 <hr />
    <div class="row">
@@ -279,7 +273,15 @@
 	 	</ul>
       </div>
     </div></div>
-  <footer class="blog-footer">
+<script type="text/javascript">
+  $(function(){
+    if($('body').width()>767){
+      $('#item-003').css( 'min-height',$('#item-001').height() );
+    }
+    
+  });
+
+</script>  <footer class="blog-footer">
       <p>Copyright &copy; 2015
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
 Theme by <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>、<a target="_blank" href="https://twitter.com/mdo">@mdo</a>
