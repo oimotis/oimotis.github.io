@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-03-29T16:55:41+08:00</updated>
+  <updated>2015-03-31T22:31:38+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.3.7 release!]]></title>
+    <link href="http://www.mweb.im/14292403142896.html"/>
+    <updated>2015-04-17T11:11:54+08:00</updated>
+    <id>http://www.mweb.im/14292403142896.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">1.3.7 new featrue:</h2>
+
+<ul>
+<li>Add publish to Wordpress and other supported MetaWeblog API blog services, like sina blog, cnblogs, oschina, csdn etc...</li>
+<li>Add publish to Tumblr, Scriptogr.am.</li>
+<li>Add outline view to Live Preview.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb Screenshots in Yosemite]]></title>
