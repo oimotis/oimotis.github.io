@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-05-15T09:06:56+08:00</updated>
+  <updated>2015-06-05T09:13:04+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.5 release! Typewriter Scrolling, Fenced code block code syntax highlight in editor, publish to Evernote, 印象笔记, Wordpress.com, Blogger]]></title>
+    <link href="http://www.mweb.im/mweb-1.5.1-release.html"/>
+    <updated>2015-06-05T08:08:14+08:00</updated>
+    <id>http://www.mweb.im/mweb-1.5.1-release.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">Typewriter Scrolling</h2>
+
+<p><strong>Shortcuts:</strong>  <code>CMD + Option + T</code> or <code>View</code> - <code>Typewriter Scrolling</code> <br/>
+<img src="media/14316499718847/mweb-typewriter-scrolling-demo.gif" alt="mweb-typewriter-scrolling-demo"/></p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">Publish to Evernote, 印象笔记, Wordpress.com, Blogger</h2>
+
+<p><img src="media/14334601963783/publish-evernote-ect.jpg" alt="publish-evernote-ect"/></p>
+
+<h2 id="toc_2">Fenced code block code syntax highlight in editor</h2>
+
+<p><img src="media/14334601963783/MWeb-Editor-highlight-6-5-2.gif" alt="MWeb-Editor-highlight-6-5"/></p>
+
+<h2 id="toc_3">Other</h2>
+
+<ul>
+<li>add <code>View</code> - <code>Change Current Line Background Color</code>.</li>
+<li>External pattern add Expand All and Collapse All to right click.</li>
+<li>fix some bugs.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 1.4.1 发布！增加引入文件夹到 MWeb 中管理，支持拖拽插入图片和实时预览，静态博客功能增强]]></title>
