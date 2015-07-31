@@ -6,7 +6,7 @@
 body {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif,Georgia, "Times New Roman", Times, serif;
   color: #555;
-  font-size: 1.5em; 
+  font-size: 1.5em;  line-height: 1.6em;
 }
 
 
@@ -36,14 +36,29 @@ h3, .h3,h4, .h4{padding-top: 0.8em; }
 pre{background-color: #f8f8f8;border-radius:0px;}   
 #content-wrap{ padding-top:2.5em; padding-bottom: 2.5em;}
 
-.product-name{  }
+.product-name{  background: url(../img/bg-header.jpg) no-repeat center top;
+  background-size: cover;
+  height: 228px;
+}
 .banner-head {
         width: 100%;text-align: center;
-        font-family: Chalkboard,Helvetica, Arial, sans-serif;
-        padding-top: 1.4em;
-        font-size: 1.9em;
-        color: #111;
+        font-family: Chalkboard,Helvetica, Arial, sans-serif; 
+        padding-top: 1.2em;
+        font-size: 2.5em;
+        color: #fff;
+        margin-bottom: 0; padding-bottom: 0;
     }
+.product-name h3{ margin: 0; padding: 0.5em; color: #fff; width: 100%; text-align: center; font-size: 1em;}
+.product-name p{ padding-top: 1.4em; text-align: center;}
+.product-name p a{ margin: 0 8px;}
+.images-list,.images-list li{ list-style: none; margin: 0 !important; padding: 0 ;}
+.images-list li{ width: 145px; display: block; float: left; padding-right: 4px; padding-top: 4px;}
+@media (min-width: 768px) and (max-width: 991px) {
+.images-list li{ width: 110px;}
+}
+#index-container{ padding-top: 2.5em;}
+#index-container hr { margin-top: 2.0em; margin-bottom: 2.0em;}
+#index-container h3,#index-container h4 { padding-top: 0;}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -136,27 +151,11 @@ pre{background-color: #f8f8f8;border-radius:0px;}
   text-decoration: none;
 }
 
-@media (max-width: 486px) {
-  .blog-nav-item{ padding: 10px 4px;}
-}
-
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
   color: #fff;
 }
-.blog-nav .active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid;
-  border-left: 5px solid transparent;
-}
+
 
 
 /*

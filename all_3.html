@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	MWeb
+  	
+  	</title>
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" id="menu-index" href="index.html">Home</a>
+          <a class="blog-nav-item" id="menu-help" href="help.html">Documentation</a>
+          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
+          <a class="blog-nav-item" id="menu-about" href="about.html">About</a>
+          <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
+        </nav>
+      </div>
+    </div>
+
+      
+      <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
+        MWeb 1.6 release! 50% off for a limited time! <del>$9.9</del> to $4.9!  &nbsp;&nbsp;<a style="color:#23527c;"  onclick="ga('send','event','global_notice_click');"  href="https://itunes.apple.com/us/app/mweb-pro-markdown-writing/id954188948?ls=1&mt=12" target="_blank">Buy from the Mac App Store! </a>
+      </div>
+        <div class="container" id="content-wrap">
+
+      <script type="text/javascript">
+      $(function(){
+      	$('#menu-blog').addClass('active');
+      });
+      </script>
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+			
+					<div class="blog-post">
+			            <h2 class="blog-post-title">Markdown syntax guide full version</h2>
+			            <p class="blog-post-meta">2014/12/16 
+				            &nbsp;posted in 
+							
+							    <a class='category' href='markdown.html'>Markdown</a>&nbsp;
+							 
+							 
+			            </p>
+			            <div class="content-responsive">
+			            <ul>
+<li><a href="#overview">Overview</a>
+
+<ul>
+<li><a href="#philosophy">Philosophy</a></li>
+<li><a href="#html">Inline HTML</a></li>
+<li><a href="#autoescape">Automatic Escaping for Special Characters</a></li>
+</ul></li>
+<li><a href="#block">Block Elements</a>
+
+<ul>
+<li><a href="#p">Paragraphs and Line Breaks</a></li>
+<li><a href="#header">Headers</a></li>
+<li><a href="#blockquote">Blockquotes</a></li>
+<li><a href="#list">Lists</a></li>
+<li><a href="#precode">Code Blocks</a></li>
+<li><a href="#hr">Horizontal Rules</a></li>
+</ul></li>
+<li><a href="#span">Span Elements</a>
+
+<ul>
+<li><a href="#link">Links</a></li>
+<li><a href="#em">Emphasis</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#img">Images</a></li>
+</ul></li>
+<li><a href="#misc">Miscellaneous</a>
+
+<ul>
+<li><a href="#backslash">Backslash Escapes</a></li>
+<li><a href="#autolink">Automatic Links</a></li>
+</ul></li>
+</ul>
+
+
+
+
+						 
+						<a href="markdown-syntax-guide-full-version.html" class="more-link">Read On &rarr;</a>
+			    		
+			           </div>
+			          </div><!-- /.blog-post -->
+			  
+
+
+          <nav>
+            <ul class="pager">
+            
+            	<li class=""><a href="all_2.html"><span aria-hidden="true">&larr;</span> Newer</a></li>
+            
+
+				<li class=""><a href="archives.html">Archives</a></li>
+
+			
+            	<li class=" disabled "><a href="#index">Older <span aria-hidden="true">&rarr;</span></a></li>
+            
+            </ul>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+       <!-- slider start -->
+
+  		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          
+
+          <div class="sidebar-module">
+            <h4>About</h4>
+            <p><a target="_blank" href="atom.xml">RSS</a></p>
+            <p><a href="help.html">MWeb Documentation</a></p>
+            
+
+          </div>
+          <div class="sidebar-module">
+            <h4>Categories</h4>
+            
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="docs.html">Tutorials&nbsp;(7)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="tips.html">Tips & Tricks&nbsp;(2)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="markdown.html">Markdown&nbsp;(2)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="releases.html">Releases&nbsp;(7)</a>
+	        
+	        
+	        
+	      </li>
+	  
+            <ol class="list-unstyled">
+	      <li class="post">
+	        <a href="other.html">Other&nbsp;(1)</a>
+	        
+	        
+	        
+	      </li>
+	   
+            </ol>
+          </div>
+
+          <div class="sidebar-module">
+            <h4>Recent Posts</h4>
+            
+	  
+	      
+		      
+		        <a href="mweb-1.6.1-release-en.html">MWeb 1.6 release! Dark Mode,Full Text Search,Editor/Preview View Mode, Update to Wordpress, Evernote etc..</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-1.5.1-release.html">MWeb 1.5 release! Typewriter Scrolling, Fenced code block code syntax highlight in editor, publish to Evernote, 印象笔记, Wordpress.com, Blogger</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-1.4.1-releases.html">MWeb 1.4.1 发布！增加引入文件夹到 MWeb 中管理，支持拖拽插入图片和实时预览，静态博客功能增强</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-1.3.7-release.html">MWeb 1.3.7 release!</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-in-yosemite.html">MWeb Screenshots in Yosemite</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb1.3-release.html">MWeb 1.3 release! 50% OFF, official site, new icon, task list support, optimized MathJax support etc...</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-static-blog-generator.html">Introducing static blog generator</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="mweb-document-library.html">Introducing documents library</a><br />
+		      
+	     
+	  
+	      
+		      
+		        <a href="markdown-syntax-guide-suggest-version.html">Markdown syntax guide and writing on MWeb</a><br />
+		      
+	     
+	  
+	      
+	  
+	      
+	  
+	      
+	  
+	      
+	  
+	      
+	  
+	      
+	   
+
+          </div>
+         
+        </div><!-- /.blog-sidebar -->
+
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+  <footer class="blog-footer">
+      <p>Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
+Theme by <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>、<a target="_blank" href="https://twitter.com/mdo">@mdo</a>
+&nbsp;&nbsp; host on <a target="_blank" href="https://pages.github.com/">Github Pages</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58735702-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

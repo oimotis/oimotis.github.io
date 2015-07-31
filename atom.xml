@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-06-05T10:11:04+08:00</updated>
+  <updated>2015-07-24T10:41:45+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.6 release! Dark Mode,Full Text Search,Editor/Preview View Mode, Update to Wordpress, Evernote etc..]]></title>
+    <link href="http://www.mweb.im/mweb-1.6.1-release-en.html"/>
+    <updated>2015-07-23T10:14:38+08:00</updated>
+    <id>http://www.mweb.im/mweb-1.6.1-release-en.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">Dark Mode</h2>
+
+<p><img src="media/14376176787451/14376220459810.jpg" alt=""/><br/>
+Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option + L</code> toggle Dark Mode. You can custom Light/Dark Mode Editor Themes in <code>Preferences</code> - <code>Themes</code>.<br/>
+<img src="media/14376160492620/14376165481845.jpg" alt=""/></p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">Full Text Search</h2>
+
+<p>Library Mode will search all Library documents, External Mode just search current selected folder documents. Shootcuts: <code>CMD + Shift + F</code> - Focus Search Field, <code>CMD + Shift + E</code> - Focus Editor.</p>
+
+<h2 id="toc_2">Publishing</h2>
+
+<p>Update to Wordpress, Metaweblog API, Evernote, 印象笔记, Wordpress.com, Blogger are supported!<br/>
+<img src="media/14376160492620/14376173522487.jpg" alt=""/></p>
+
+<h2 id="toc_3">Others</h2>
+
+<ul>
+<li>add Editor &amp; Preview Panes <code>CMD + 4</code>.</li>
+<li>add Drag &amp; Drop to sort publish services.</li>
+<li>add double click to open document in new window.</li>
+<li>add Typewriter Scrolling Activate setting.</li>
+<li>add click Dock to show Dcoument Window.</li>
+<li>improve undo and redo.</li>
+<li>fix PDF Export margin.</li>
+<li>fix some bugs.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 1.5 release! Typewriter Scrolling, Fenced code block code syntax highlight in editor, publish to Evernote, 印象笔记, Wordpress.com, Blogger]]></title>
