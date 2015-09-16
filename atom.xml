@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-09-14T11:07:19+08:00</updated>
+  <updated>2015-09-16T08:08:53+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[MWeb 1.7.1 release! Export to RTF and Docx, publish to evernote with style, Library backup and new site themes...]]></title>
-    <link href="http://www.mweb.im/14421993943180.html"/>
+    <link href="http://www.mweb.im/mweb-1.7.1-release-en.html"/>
     <updated>2015-09-14T10:56:34+08:00</updated>
-    <id>http://www.mweb.im/14421993943180.html</id>
+    <id>http://www.mweb.im/mweb-1.7.1-release-en.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Editor and publish services</h2>
 
