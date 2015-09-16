@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-09-16T08:08:53+08:00</updated>
+  <updated>2015-09-16T12:42:45+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[MWeb 1.7.1 release! Export to RTF and Docx, publish to evernote with style, Library backup and new site themes...]]></title>
-    <link href="http://www.mweb.im/mweb-1.7.1-release-en.html"/>
+    <link href="http://www.mweb.im/14421993943180.html"/>
     <updated>2015-09-14T10:56:34+08:00</updated>
-    <id>http://www.mweb.im/mweb-1.7.1-release-en.html</id>
+    <id>http://www.mweb.im/14421993943180.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Editor and publish services</h2>
 
@@ -1074,10 +1074,7 @@ When you click <q>Build site</q> button in MWeb, GoodSync will automatically syn
 <a href="#toc_2">How to enable blog MathJax support?</a>
 </li>
 <li>
-<a href="#toc_3">How to backup MWeb&#39;s documents library to Dropbox？</a>
-</li>
-<li>
-<a href="#toc_4">How to add Disqus support?</a>
+<a href="#toc_3">How to add Disqus support?</a>
 </li>
 </ul>
 
@@ -1096,14 +1093,7 @@ When you click <q>Build site</q> button in MWeb, GoodSync will automatically syn
 
 <!-- more -->
 
-<h2 id="toc_3">How to backup MWeb&#39;s documents library to Dropbox？</h2>
-
-<p>Please open Terminal ( Spotlight - enter <code>terminal</code> ) and enter the following command. </p>
-
-<pre><code>ln -s ~/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb ~/Dropbox/MWebBackup
-</code></pre>
-
-<h2 id="toc_4">How to add Disqus support?</h2>
+<h2 id="toc_3">How to add Disqus support?</h2>
 
 <p>Please check this post: <a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></p>
 
