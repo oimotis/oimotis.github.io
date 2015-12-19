@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://www.mweb.im/</loc>
-  <lastmod>2015-11-05T10:50:21+08:00</lastmod>
+  <lastmod>2015-12-19T10:16:55+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/mweb-1.9.1-release-en.html</loc>
+  <lastmod>2015-12-18T12:44:51+08:00</lastmod>
 </url>
 
 <url>
@@ -113,7 +118,7 @@
 
 <url>
   <loc>http://www.mweb.im/help.html</loc>
-  <lastmod>2015-09-16T12:42:42+08:00</lastmod>
+  <lastmod>2015-12-18T10:18:46+08:00</lastmod>
 </url>
 
 <url>
@@ -123,15 +128,7 @@
 
 
 <url>
-  <loc>http://www.mweb.im/releases.html</loc>
-</url>
-
-<url>
   <loc>http://www.mweb.im/other.html</loc>
-</url>
-
-<url>
-  <loc>http://www.mweb.im/markdown.html</loc>
 </url>
 
 <url>
@@ -140,6 +137,14 @@
 
 <url>
   <loc>http://www.mweb.im/tips.html</loc>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/markdown.html</loc>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/releases.html</loc>
 </url>
 
 

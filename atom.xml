@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2015-10-31T11:57:44+08:00</updated>
+  <updated>2015-12-18T13:41:49+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.9.1 release! New icon, Editor & Export to PDF improved, Add Local Images Upload Services.]]></title>
+    <link href="http://www.mweb.im/mweb-1.9.1-release-en.html"/>
+    <updated>2015-12-18T12:44:51+08:00</updated>
+    <id>http://www.mweb.im/mweb-1.9.1-release-en.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">New icon</h2>
+
+<p><img src="media/14504051456811/1024.png" alt="" style="width:256px;"/><br/>
+Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5642390620</a>, thanks Producter!</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">Editor &amp; Export to PDF improved</h2>
+
+<ul>
+<li>Editor improved</li>
+<li>Export to PDF fix TOC and footnote link, now you can click TOC and footnote in PDF, it will works fine!</li>
+<li>Export to PDF add <code>create a Table of Contents for PDF</code> option.</li>
+</ul>
+
+<h2 id="toc_2">Local Images Upload Services</h2>
+
+<p>Now you can upload local images to Google Photos, imgur, Custom API. </p>
+
+<p>Just go to <code>Perferences</code> - <code>Publishing</code> to add Local Images Upload Services like below. <br/>
+<img src="media/14504138918794/14504145696259.jpg" alt="" style="width:600px;"/></p>
+
+<p>Click right-top corner <code>share button</code> - <code>Upload Local Images to..</code>:<br/>
+<img src="media/14504138918794/14504146872935.jpg" alt="" style="width:380px;"/></p>
+
+<p>Choose a image upload service and click <code>Upload Images</code> button, the local images will upload automatically!<br/>
+<img src="media/14504138918794/14504149566195.jpg" alt="" style="width:777px;"/></p>
+
+<h2 id="toc_3">Others</h2>
+
+<ul>
+<li>Add Simplified Chinese, Traditional Chinese languages.</li>
+<li>fix some bugs.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 1.8.3 release! Publish to Medium, fix LaTex preview bug, Editor improved]]></title>
@@ -630,7 +674,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <pre><code>* Item 1 unordered list `* + SPACE`
 * Item 2
-    * Item 2a unordered list `* + TAB + SPACE`
+    * Item 2a unordered list `TAB + * + SPACE`
     * Item 2b
 </code></pre>
 
@@ -642,7 +686,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 <li>Item 2
 
 <ul>
-<li>Item 2a unordered list <code>* + TAB + SPACE</code></li>
+<li>Item 2a unordered list <code>TAB + * + SPACE</code></li>
 <li>Item 2b</li>
 </ul></li>
 </ul>
@@ -654,7 +698,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 <pre><code>1. Item 1 ordered list `Number + . + SPACE`
 2. Item 2 
 3. Item 3
-    1. Item 3a ordered list `Number + . + TAB + SPACE`
+    1. Item 3a ordered list `TAB + Number + . + SPACE`
     2. Item 3b
 </code></pre>
 
@@ -666,7 +710,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 <li>Item 3
 
 <ol>
-<li>Item 3a ordered list <code>Number + . + TAB + SPACE</code></li>
+<li>Item 3a ordered list <code>TAB + Number + . + SPACE</code></li>
 <li>Item 3b</li>
 </ol></li>
 </ol>
@@ -729,7 +773,7 @@ Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will 
 &gt; the present is our past.
 </code></pre>
 
-<p><strong>Shortcuts:</strong>  <code>Control + B</code><br/>
+<p><strong>Shortcuts:</strong>  <code>CMD + Shift + B</code><br/>
 <strong>Result:</strong></p>
 
 <p>As Kanye West said:</p>
@@ -1196,490 +1240,6 @@ When you click <q>Build site</q> button in MWeb, GoodSync will automatically syn
 <p><img src="media/14216489427773/Snip20150119_6.png" alt=""/>￼￼￼￼￼￼￼</p>
 
 <p><img src="media/14216489427773/Snip20150119_5.png" alt=""/>￼￼￼￼￼</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Custom site theme or design you owner theme]]></title>
-    <link href="http://www.mweb.im/custom-site-theme-detail.html"/>
-    <updated>2015-01-07T14:52:03+08:00</updated>
-    <id>http://www.mweb.im/custom-site-theme-detail.html</id>
-    <content type="html"><![CDATA[
-<p>MWeb themes now add to github: <a href="https://github.com/oulvhai/MWeb-Themes">https://github.com/oulvhai/MWeb-Themes</a>.</p>
-
-<h2 id="toc_0">MWeb theme structure</h2>
-
-<p>Click <img src="media/14206135238767/14227577752365.jpg" alt=""/>￼￼, you will found a floder name is SiteThemes. MWeb all themes in this flodler,and a floder is a theme,it contains some documents and floders.</p>
-
-<ul>
-<li>asset -- floder, contains all theme&#39;s picture,CSS,JS etc..</li>
-<li>archives.html -- archives.html page template</li>
-<li>atom.xml -- RSS page template</li>
-<li>category.html -- all categiries pages template</li>
-<li>footer.html -- bottom of each page</li>
-<li>header.html -- top of each page</li>
-<li>page-index.html -- custom home page template</li>
-<li>page.html -- document when enable <code>Is page</code> use this template</li>
-<li>post.html -- document when disable <code>Is page</code> use this template</li>
-<li>sidebar.html -- sidebar template</li>
-<li>sitemap.xml -- google sitemap template</li>
-</ul>
-
-<h2 id="toc_1">Custom home page</h2>
-
-<p>Set a document&#39;s HTML file name value: <code>index</code> and enable <code>Is page</code>.<br/>
-<img src="media/14189904700669/14210659918568.jpg" alt=""/>￼￼￼￼￼￼￼￼￼￼</p>
-
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_2">Custom <code>Is page</code> enable document&#39;s template</h2>
-
-<p>Use <q>header.html+post.html+sidebar.html+footer.html</q> templates when the document <code>Is page</code> is disable; use <q>header.html+page.html+footer.html</q> templates when the document <code>Is page</code> is enable. You can add a page-{HTML file name}.html template for custom <code>Is page</code> enable document&#39;s template. MWeb will use <q>header.html+page-{HTML file name}.html+footer.html</q> when you add page-{HTML file name}.html template. For example:  <a href="http://coderforart.com">http://coderforart.com</a>&#39;s theme have page-index.html template for home page <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html">https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html</a> . </p>
-
-<h2 id="toc_3">Custom category page template</h2>
-
-<p>Use <q>header.html+category.html+sidebar.html+footer.html</q> by default. Use <q>header.html+category-{HTML file name}.html+sidebar.html+footer.html</q> when you add category-{HTML file name}.html template. For example: a category&#39;s HTML file name is <code>Cocoa</code> and the theme have category-Cocoa.html template, MWeb will use <q>header.html+category-Cocoa.html+sidebar.html</q>.</p>
-
-<h2 id="toc_4">Common variables define</h2>
-
-<h3 id="toc_5">the category object</h3>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>name</td>
-<td>category&#39;s name</td>
-</tr>
-<tr>
-<td>url</td>
-<td>category&#39;s url</td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="toc_6">the document object</h3>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>title</td>
-<td>document&#39;s title</td>
-</tr>
-<tr>
-<td>desContent</td>
-<td>document&#39;s description for HTML format. Same with <code>content</code> when the document do not add <code>&lt;!-- more --&gt;</code>.</td>
-</tr>
-<tr>
-<td>desContentTextOnly</td>
-<td>document&#39;s description without HTML</td>
-</tr>
-<tr>
-<td>content</td>
-<td>document content</td>
-</tr>
-<tr>
-<td>date</td>
-<td>document&#39;s date,defalut format is:2014/10/24</td>
-</tr>
-<tr>
-<td>dateGTM</td>
-<td>document&#39;s date,format is: 2014-10-24T13:54:03GMT+08:00</td>
-</tr>
-<tr>
-<td>artDate</td>
-<td>document&#39;s create date,default format is: 2014/10/24</td>
-</tr>
-<tr>
-<td>cats</td>
-<td>document&#39;s categories,array --&gt; <code>the category object</code></td>
-</tr>
-<tr>
-<td>readMore</td>
-<td>document have <code>&lt;!-- more --&gt;</code> or not</td>
-</tr>
-<tr>
-<td>url</td>
-<td>document&#39;s url</td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="toc_7">recent document object</h3>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>title</td>
-<td>document&#39;s title</td>
-</tr>
-<tr>
-<td>url</td>
-<td>document&#39;s url</td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="toc_8">top category object</h3>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>name</td>
-<td>category&#39;s name</td>
-</tr>
-<tr>
-<td>url</td>
-<td>category&#39;s url</td>
-</tr>
-<tr>
-<td>count</td>
-<td>category documents count</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="toc_9">Build site</h2>
-
-<h3 id="toc_10">All HTML page variables</h3>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>siteURL</td>
-<td>site URL</td>
-</tr>
-<tr>
-<td>siteDomain</td>
-<td>site domain</td>
-</tr>
-<tr>
-<td>siteName</td>
-<td>site name</td>
-</tr>
-<tr>
-<td>pageTitle</td>
-<td>site title</td>
-</tr>
-<tr>
-<td>siteDes</td>
-<td>site description</td>
-</tr>
-<tr>
-<td>lastBuildDate</td>
-<td>site last build date</td>
-</tr>
-<tr>
-<td>siteOther</td>
-<td>site other</td>
-</tr>
-<tr>
-<td>mathJaxSupport</td>
-<td>MathJax support code. Available in MWeb 1.3 and later</td>
-</tr>
-<tr>
-<td>seqAndFlowChartSupport</td>
-<td>Sequence &amp; flow chart support code. Available in MWeb 1.3 and later</td>
-</tr>
-<tr>
-<td>commentAndShareCode</td>
-<td>Comment and share  support code. Available in MWeb 1.3 and later</td>
-</tr>
-<tr>
-<td>recentPosts</td>
-<td>array,the item is <code>recent document object</code></td>
-</tr>
-<tr>
-<td>allCategories</td>
-<td>array,the item is <code>top category object</code></td>
-</tr>
-<tr>
-<td>categoriesTree</td>
-<td>categories tree,array,the item is <code>top category object</code>, and children. reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sidebar.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sidebar.html</a></td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="toc_11">build RSS: atom.xml</h3>
-
-<p>template: atom.xml<br/>
-addition variables:</p>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>posts</td>
-<td>array,the item is <code>the document object</code></td>
-</tr>
-</tbody>
-</table>
-
-<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/atom.xml">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/atom.xml</a></p>
-
-<h3 id="toc_12">build all posts template</h3>
-
-<p>template: header.html + post.html + sidebar.html + footer.html<br/>
-addition variables:</p>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>post</td>
-<td><code>the document object</code></td>
-</tr>
-<tr>
-<td>postNav</td>
-<td>dictionary，has <code>next</code>,<code>prev</code> to item,item is  <code>recent document object</code></td>
-</tr>
-</tbody>
-</table>
-
-<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/post.html</a></p>
-
-<h3 id="toc_13">build all cateogries template</h3>
-
-<p>template:header.html + category.html + sidebar.html + footer.html<br/>
-addition variables:</p>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>posts</td>
-<td>array,the item is <code>the document object</code></td>
-</tr>
-<tr>
-<td>prevPageUrl</td>
-<td>prev page Url</td>
-</tr>
-<tr>
-<td>nextPageUrl</td>
-<td>next page Url</td>
-</tr>
-</tbody>
-</table>
-
-<p>Reference:<a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/category.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/category.html</a></p>
-
-<h3 id="toc_14">build all pages template (<code>Is page</code> enable)</h3>
-
-<p>template: header.html + page.html +  footer.html<br/>
-addition variables:</p>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>posts</td>
-<td>recent documents, array,the item is <code>the document object</code></td>
-</tr>
-<tr>
-<td>post</td>
-<td><code>the document object</code></td>
-</tr>
-</tbody>
-</table>
-
-<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html">https://github.com/oulvhai/MWeb-Themes/blob/master/mweb-greyshade/page-index.html</a></p>
-
-<h3 id="toc_15">build archives.html</h3>
-
-<p>template: header.html + archives.html + footer.html<br/>
-addition variables:</p>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>posts</td>
-<td>array, please reference below table for item detail</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>year</td>
-<td>document&#39;s year</td>
-</tr>
-<tr>
-<td>title</td>
-<td>document&#39;s title</td>
-</tr>
-<tr>
-<td>url</td>
-<td>document&#39;s url</td>
-</tr>
-<tr>
-<td>cats</td>
-<td>document&#39;s categries, array, the item is <code>the category object</code></td>
-</tr>
-<tr>
-<td>date</td>
-<td>document&#39;s date,defalut format is:2014/10/24</td>
-</tr>
-<tr>
-<td>dateMonth</td>
-<td>document&#39;s month</td>
-</tr>
-<tr>
-<td>dateDay</td>
-<td>document&#39;s day</td>
-</tr>
-<tr>
-<td>dateYear</td>
-<td>document&#39;s year</td>
-</tr>
-<tr>
-<td>dateGTM</td>
-<td>document&#39;s date,format is:  2014-10-24T13:54:03GMT+08:00</td>
-</tr>
-<tr>
-<td>artDate</td>
-<td>document&#39;s create date,default format is:2014/10/24</td>
-</tr>
-</tbody>
-</table>
-
-<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/archives.html">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/archives.html</a></p>
-
-<h3 id="toc_16">build sitemap.xml</h3>
-
-<p>template: sitemap.xml<br/>
-addition variables:</p>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>archives</td>
-<td>array, please reference below table for item detail</td>
-</tr>
-<tr>
-<td>pages</td>
-<td>array, please reference below table for item detail</td>
-</tr>
-<tr>
-<td>nowDateGTM</td>
-<td>current date, format is:  2014-10-24T13:54:03GMT+08:00</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th>variable name</th>
-<th>description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>title</td>
-<td>document&#39;s title</td>
-</tr>
-<tr>
-<td>url</td>
-<td>document&#39;s url</td>
-</tr>
-<tr>
-<td>date</td>
-<td>document&#39;s date,defalut format is:2014/10/24</td>
-</tr>
-<tr>
-<td>dateGTM</td>
-<td>document&#39;s date,format is:2014-10-24T13:54:03GMT+08:00</td>
-</tr>
-<tr>
-<td>artDate</td>
-<td>document&#39;s create date,default format is:2014/10/24</td>
-</tr>
-</tbody>
-</table>
-
-<p>Reference: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sitemap.xml">https://github.com/oulvhai/MWeb-Themes/blob/master/octopress/sitemap.xml</a></p>
 
 ]]></content>
   </entry>
