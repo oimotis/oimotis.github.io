@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2016-01-19T10:39:01+08:00</updated>
+  <updated>2016-02-26T12:07:33+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 1.9.7 release! CMD + 4 and Live Preview improved, Publish to wordpress.com support latex.]]></title>
+    <link href="http://www.mweb.im/mweb-1.9.7-release-en.html"/>
+    <updated>2016-02-26T11:54:45+08:00</updated>
+    <id>http://www.mweb.im/mweb-1.9.7-release-en.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">CMD + 4 and Live Preview improved</h2>
+
+<p><img src="media/14564575040860/14564576891742.jpg" alt="" style="width:491px;"/></p>
+
+<p>When the <code>Resize window when hide pane</code> is <strong>disable</strong>, <code>CMD + 4</code> will like below:</p>
+
+<span id="more"></span><!-- more -->
+
+<p><img src="media/14564575040860/14564581431585.jpg" alt="" style="width:1066px;"/></p>
+
+<p>When  the <code>Live Preview (CMD + R) open new window</code> is <strong>disable</strong>, <code>CMD + R</code> will like below:</p>
+
+<p><img src="media/14564575040860/14564584705796.jpg" alt="" style="width:1037px;"/></p>
+
+<p>Press <code>CMD + R</code> again will back to Editor.</p>
+
+<h2 id="toc_1">Others:</h2>
+
+<ul>
+<li>CMD + 3 to toggle <code>Three Panes</code> and <code>Editor Only</code>, CMD + 4 to toggle <code>Editor &amp; Preview Panes</code> and <code>Three Panes</code>. </li>
+<li>Publish to Wordpress.com now supported Latex.</li>
+<li>Library Mode add Uncategorized documents.</li>
+<li>fix some bugs.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 1.9.1 release! New icon, Editor & Export to PDF improved, Add Local Images Upload Services.]]></title>
@@ -1204,42 +1238,6 @@ When you click <q>Build site</q> button in MWeb, GoodSync will automatically syn
 <h2 id="toc_3">How to add Disqus support?</h2>
 
 <p>Please check this post: <a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb 1.1 release]]></title>
-    <link href="http://www.mweb.im/mweb-v1.1-release.html"/>
-    <updated>2015-01-19T15:02:30+08:00</updated>
-    <id>http://www.mweb.im/mweb-v1.1-release.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">New feature</h2>
-
-<ul>
-<li>Add import files (.txt and .md) featrue：File --&gt; Import Files To Library...</li>
-<li>Add TOC（Table of Content）featrue: Preferences --&gt; Themes --&gt; Enable TOC (Table of Content)</li>
-<li>Add MWeb Lite</li>
-<li>Add sitemap suport.</li>
-<li>Add right click for category edit.</li>
-<li>Add syntax highlighting in fenced code blocks feature,for version 1.0 user, please go to <a href="https://github.com/oulvhai/MWeb-Themes/">https://github.com/oulvhai/MWeb-Themes/</a> download new themes. Language name detail:<a href="http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html">http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html</a></li>
-</ul>
-
-<span id="more"></span><!-- more -->
-
-<h2 id="toc_1">Fixed</h2>
-
-<ul>
-<li>Live preview improved</li>
-<li>Outline improved</li>
-<li>case sensitive system can&#39;t open MWeb&#39;s document.</li>
-</ul>
-
-<h2 id="toc_2">Syntax highlighting in fenced code blocks screenshot</h2>
-
-<p><img src="media/14216489427773/Snip20150119_6.png" alt=""/>￼￼￼￼￼￼￼</p>
-
-<p><img src="media/14216489427773/Snip20150119_5.png" alt=""/>￼￼￼￼￼</p>
 
 ]]></content>
   </entry>
