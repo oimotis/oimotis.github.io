@@ -111,7 +111,7 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
   .app_download>div{padding-left: 0;}
 
   a.btn-download{ display: inline-block; }
-  a.btn-buy-mas{ display: inline-block; padding-right: 20px; }
+  a.btn-buy-mas{ display: inline-block; padding-right: 4px; }
   a.btn-download img{ width: 108px; }
   a.btn-buy-mas img{ width: 168px; }
 }
