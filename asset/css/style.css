@@ -63,9 +63,10 @@ padding-top: 8px; font-size: 15px; font-weight: normal;}
 .app_download .download-mweb-store a em{ font-size: 13px;}
 
 a.btn-download{ display: inline-block; }
-a.btn-buy-mas{ display: inline-block; padding-right: 20px; }
+a.btn-buy-mas,a.btn-video{ display: inline-block; padding-right: 20px; }
 a.btn-download img{ width: 144px; }
 a.btn-buy-mas img{ width: 224px; }
+a.btn-video img{ width: 224px; }
 
 .images-list,.images-list li{ list-style: none; margin: 0 !important; padding: 0 ;}
 .images-list li{ width: 145px; display: block; float: left; padding-right: 4px; padding-top: 4px;}
@@ -96,6 +97,10 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
  * Override Bootstrap's default container.
  */
 
+.product-info{ width: 768px; margin: 0 auto; }
+#logo-container{ text-align: right; }
+
+
 @media (min-width: 1200px) {
   .container {
     width: 970px; 
@@ -103,17 +108,23 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
 }
 
 @media (max-width: 767px) {
-  .banner-head{ font-size: 2.1em; }
+  .banner-head{ font-size: 1.7em; }
   .product-name h3{font-size: 1.0em;}
-  .mweb-logo{  }
+  .mweb-logo{ width: 90px;  }
+  .product-info{ width: auto !important; margin: 0 auto; }
+#logo-container{ text-align: left; }
+
   #app_info{ padding-top: 1.5em; }
   .app_download{ padding-top: 1.5em; }
   .app_download>div{padding-left: 0;}
+
+  a.btn-video{display: block; padding-bottom: 4px;}
 
   a.btn-download{ display: inline-block; }
   a.btn-buy-mas{ display: inline-block; padding-right: 4px; }
   a.btn-download img{ width: 108px; }
   a.btn-buy-mas img{ width: 168px; }
+  a.btn-video img{ width: 168px; }
 }
 /*
  * Masthead for nav
