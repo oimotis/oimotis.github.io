@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2016-07-18T23:07:04+08:00</updated>
+  <updated>2016-07-27T18:19:08+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 2.0.7 submited!]]></title>
+    <link href="http://www.mweb.im/mweb-2.0.7-release.html"/>
+    <updated>2016-07-27T18:13:15+08:00</updated>
+    <id>http://www.mweb.im/mweb-2.0.7-release.html</id>
+    <content type="html"><![CDATA[
+<p><strong>MWeb 2.0.7 Update:</strong></p>
+
+<ul>
+<li>Add Paste Markdown from HTML, Menu: Edit - Paste Markdown from HTML. </li>
+<li>Add CMD + O support open all text document, not only .md file.</li>
+<li>Add reload the Library, Menu: File - Reload the Library.</li>
+<li>When in Preview only Mode, CMD + P will print the preview result.</li>
+<li>Fix CMD + Shift + S duplicate document bug.</li>
+<li>Fix LaTeX bug in Table Edit/Insert.</li>
+<li>Other bug fixes and performance improvements</li>
+</ul>
+
+<h2 id="toc_0">Paste Markdown from HTML demo:</h2>
+
+<p><img src="media/14696141258529/demoHtmlToMarkdown.gif" alt=""/></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 2.0 release! 50% OFF, only $7.99!]]></title>
@@ -1220,34 +1245,6 @@ If you didn&#39;t change MWeb build site path,the default path is:</p>
 
 <p>All is OK!! <br/>
 When you click &quot;Build site&quot; button in MWeb, GoodSync will automatically synchronize your static website to FTP.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb 1.2 release]]></title>
-    <link href="http://www.mweb.im/mweb-v1.2-release.html"/>
-    <updated>2015-02-08T23:50:28+08:00</updated>
-    <id>http://www.mweb.im/mweb-v1.2-release.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">New feature</h2>
-
-<ul>
-<li>Add auto insert list and blockquote prefix: Preferences --&gt; General --&gt; Auto insert list and blockquote prefix</li>
-<li>In Editor share: Copy as image,Save as image,Save as PDF etc... now change to HTML style.</li>
-<li>Add HTML or PDF export suport for documents. You can selected documents --&gt; Right Mouse Button Click(RMB) --&gt; Export as HTML or PDF.</li>
-<li>Add HTML or PDF export suport for category. You can selected category --&gt; RMB --&gt; Export as HTML or PDF.</li>
-<li>Add new preview css: octopress,greyshade.</li>
-<li>Add drag &amp; drop to sort documents. RMB parent category --&gt; Edit --&gt; set Order by to Custom --&gt; you can drag &amp; drop to sort</li>
-<li>Add drag &amp; drop to sort categories.</li>
-</ul>
-
-<h2 id="toc_1">Fixed</h2>
-
-<ul>
-<li>Build site crash some time</li>
-<li>Preview site not work some time</li>
-</ul>
 
 ]]></content>
   </entry>
