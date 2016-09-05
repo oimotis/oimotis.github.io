@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2016-09-05T08:56:46+08:00</updated>
+  <updated>2016-09-05T08:59:26+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,11 +14,21 @@
 
   
   <entry>
-    <title type="html"><![CDATA[MWeb 2.0.9 submited!]]></title>
+    <title type="html"><![CDATA[MWeb 2.0.9 release!]]></title>
     <link href="http://www.mweb.im/14721061867662.html"/>
     <updated>2016-08-25T14:23:06+08:00</updated>
     <id>http://www.mweb.im/14721061867662.html</id>
     <content type="html"><![CDATA[
+<p><strong>MWeb 2.0.9 Update:</strong></p>
+
+<ul>
+<li>Fix Editor blank bug in macOS beta.</li>
+<li>Fix Paste Markdown from HTML code block bug. </li>
+<li>Publish to evernote support code highlight, TOC, LaTeX and custom style. Thanks: <a href="http://weibo.com/u/1587579460">cyhhao</a>  <a href="https://github.com/cyhhao/html2enml">https://github.com/cyhhao/html2enml</a></li>
+<li>Add hold the CMD key and click the link in Editor will not open the link. </li>
+<li>Publish to Medium support local images .</li>
+<li>Other bug fixes and performance improvements</li>
+</ul>
 
 ]]></content>
   </entry>
