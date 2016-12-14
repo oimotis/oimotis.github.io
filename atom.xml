@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2016-09-11T23:44:10+08:00</updated>
+  <updated>2016-09-11T23:45:54+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -737,7 +737,7 @@ please check this post: <a href="http://www.mweb.im/mweb1.3-release.html">http:/
 <blockquote>
 <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.<br/>
 Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&#39;s been marked up with tags or formatting instructions.<br/>
-Markdown&#39;s syntax is intended for one purpose: to be used as a format for <em>writing</em> for the web.</p>
+Markdown&#39;s syntax is intended for one purpose: to be used as a format for <em>writing</em> for the web. </p>
 </blockquote>
 
 <span id="more"></span><!-- more -->
