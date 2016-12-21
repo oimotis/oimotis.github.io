@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://www.mweb.im/</loc>
-  <lastmod>2016-12-14T19:01:52+08:00</lastmod>
+  <lastmod>2016-12-21T13:50:12+08:00</lastmod>
 </url>
 
 <url>
@@ -144,6 +144,26 @@
 <url>
   <loc>http://www.mweb.im/help.html</loc>
   <lastmod>2015-12-19T10:24:08+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/how_to_use_wordpress_url.html</loc>
+  <lastmod>2016-12-21T13:49:17+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/how_to_use_qiniu_url.html</loc>
+  <lastmod>2016-12-21T13:49:10+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/how_to_use_custom_image_upload_url.html</loc>
+  <lastmod>2016-12-21T13:49:08+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/how_to_use_home.html</loc>
+  <lastmod>2016-12-21T13:49:02+08:00</lastmod>
 </url>
 
 
