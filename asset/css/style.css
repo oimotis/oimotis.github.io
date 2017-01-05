@@ -47,7 +47,7 @@ pre{background-color: #f8f8f8;border-radius:0px;}
         padding:0.5em;
         padding-left: 0;
         padding-top: 15px;
-        font-size: 2.8em;
+        font-size: 2.4em;
         color: #fff;
         margin-bottom: 0; padding-bottom: 0;
     }
@@ -63,10 +63,10 @@ padding-top: 8px; font-size: 15px; font-weight: normal;}
 .app_download .download-mweb-store a em{ font-size: 13px;}
 
 a.btn-download{ display: inline-block; }
-a.btn-buy-mas,a.btn-video{ display: inline-block; padding-right: 20px; }
-a.btn-download img{ width: 144px; }
-a.btn-buy-mas img{ width: 224px; }
-a.btn-video img{ width: 224px; }
+a.btn-buy-mas,a.btn-buy-ios,a.btn-video{ display: inline-block; padding-right: 20px; }
+a.btn-download img{ width: 115px; }
+a.btn-buy-mas img,a.btn-buy-ios img{ width: 179px; }
+a.btn-video img{ width: 179px; }
 
 .images-list,.images-list li{ list-style: none; margin: 0 !important; padding: 0 ;}
 .images-list li{ width: 145px; display: block; float: left; padding-right: 4px; padding-top: 4px;}
@@ -118,12 +118,13 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
   .app_download{ padding-top: 1.5em; }
   .app_download>div{padding-left: 0;}
 
-  a.btn-video{display: block; padding-bottom: 4px;}
+  a.btn-video{display: inline-block;padding-right: 4px; padding-bottom: 4px; }
 
-  a.btn-download{ display: inline-block; }
-  a.btn-buy-mas{ display: inline-block; padding-right: 4px; }
+  a.btn-download{ display: inline-block; padding-bottom: 4px;padding-right: 4px;}
+  a.btn-buy-mas{ display: inline-block; padding-bottom: 4px; padding-right: 4px;}
+   a.btn-buy-ios{ display: inline-block; padding-right: 4px; }
   a.btn-download img{ width: 108px; }
-  a.btn-buy-mas img{ width: 168px; }
+  a.btn-buy-mas img,a.btn-buy-ios img{ width: 168px; }
   a.btn-video img{ width: 168px; }
 }
 /*
