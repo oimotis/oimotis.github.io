@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2017-01-05T10:17:11+08:00</updated>
+  <updated>2017-01-05T10:17:14+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -75,7 +75,11 @@
 <p>Please check iCloud Drive MWeb&#39;s documents folder on your Mac. When you found a folder name is &quot;mweb_documents_library&quot;, please open MWeb for Mac, go to the Preferences - General - Library Location section, click &quot;Save As&quot; button and choose the &quot;mweb_documents_library&quot; folder for your Library Location. That is OK! Now you can back to MWeb for iOS and wait for iCloud sync the Library.</p>
 </blockquote>
 
-<p><strong>Notice:</strong> for iCloud Drive on Mac, some users will sync to Mac quickly, some will sync one or two days, but some never sync! You can try to go to iOS system settings - iCloud - iCloud Drive - disable MWeb to use iCloud Drive, and enable again. It may work for some users. If it&#39;s still not work, please click the &quot;Feedback&quot; button at the bottom of the Settings page.</p>
+<p><strong>Notice:</strong> for iCloud Drive on Mac, some users will sync to Mac quickly, some will sync one or two days, but some never sync! </p>
+
+<p>You can try to go to iOS system settings - iCloud, close iCloud Drive and open again.<br/>
+If still not work, try to reopen iCloud Drive on Mac.<br/>
+If still not work, please wait for Dropbox and WebDAV support in version 2.3.x</p>
 
 <h2 id="toc_8">GFM syntax guide</h2>
 
