@@ -107,8 +107,9 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
   }
 }
 
+
 @media (max-width: 767px) {
-  .banner-head{ font-size: 1.7em; }
+  .banner-head{ font-size: 1.4em; }
   .product-name h3{font-size: 1.0em;}
   .mweb-logo{ width: 90px;  }
   .product-info{ width: auto !important; margin: 0 auto; }
@@ -118,14 +119,15 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
   .app_download{ padding-top: 1.5em; }
   .app_download>div{padding-left: 0;}
 
+ 
   a.btn-video{display: inline-block;padding-right: 4px; padding-bottom: 4px; }
 
   a.btn-download{ display: inline-block; padding-bottom: 4px;padding-right: 4px;}
   a.btn-buy-mas{ display: inline-block; padding-bottom: 4px; padding-right: 4px;}
    a.btn-buy-ios{ display: inline-block; padding-right: 4px; }
-  a.btn-download img{ width: 108px; }
-  a.btn-buy-mas img,a.btn-buy-ios img{ width: 168px; }
-  a.btn-video img{ width: 168px; }
+  a.btn-download img{ width: 85px; }
+  a.btn-buy-mas img,a.btn-buy-ios img{ width: 131px; }
+  a.btn-video img{ width: 131px; }
 }
 /*
  * Masthead for nav
