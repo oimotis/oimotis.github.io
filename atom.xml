@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2017-06-21T15:01:38+08:00</updated>
+  <updated>2017-07-02T08:17:09+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb for Mac 2.2.1 release!]]></title>
+    <link href="http://www.mweb.im/mweb-for-mac-221-release.html"/>
+    <updated>2017-07-02T08:15:22+08:00</updated>
+    <id>http://www.mweb.im/mweb-for-mac-221-release.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">2.2.1 release note:</h2>
+
+<ol>
+<li>Library documents list add &quot;Group by Categories&quot;. Right click - Group by Categories.</li>
+<li>External mode add show  .Rmd, .mkdn, .mdwn, .mdtxt, .mdtext and .taskpaper files.</li>
+<li>Now you can change the LaTeX (Mathjax) Preview font. Please open Preferences - Themes to change. you can choose TeX, STIX-Web, Asana-Math, Neo-Euler, Gyre-Pagella, Gyre-Termes and Latin-Modern</li>
+<li>Add publish to Tumblr.</li>
+<li>Add Preview style: mweb-solarized-dark, mweb-solarized-light, mweb-Tomorrow Blue, mweb-Tomorrow.</li>
+<li>Add disable left right swipe gesture (Preferences - General).</li>
+<li>When you disable &quot;Make links clickable in Editor view&quot;, you can hold the Command key to click the link in Editor.</li>
+<li>Other bug fixes and performance improvements.</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 2.3.2 release!]]></title>
@@ -220,7 +242,7 @@
 
 <h3 id="toc_4">Newlines</h3>
 
-<p>End a line with two or more spaces + enter.<br/>
+<p>End a line with two or more spaces + enter.
 Just typing enter to newline,please go to Settings and enable &quot;Translate newlines to <code>&lt;br&gt;</code> tags&quot; ( default is enable ).</p>
 
 <h3 id="toc_5">Task lists</h3>
@@ -329,8 +351,8 @@ Content in the first column | Content in the second column
 
 <p>For example this is a Block level \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\] formula, and this is an inline Level \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\) formula.</p>
 
-<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br/>
-1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br/>
+<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
 
 <h3 id="toc_11">Footnote</h3>
@@ -503,13 +525,13 @@ Content in the first column | Content in the second column
 
 <h2 id="toc_1">MWeb 2.0 Screenshots</h2>
 
-<p>External Mode, Tabs.<br/>
+<p>External Mode, Tabs.
 <img src="media/14687708418893/1-1.jpg" alt="1-1"/></p>
 
-<p>LaTex Live Preview, UI for Table Edit/Insert.<br/>
+<p>LaTex Live Preview, UI for Table Edit/Insert.
 <img src="media/14687708418893/1-3.jpg" alt="1-3"/></p>
 
-<p>Library Mode.<br/>
+<p>Library Mode.
 <img src="media/14687708418893/4-1.jpg" alt="4-1"/></p>
 
 ]]></content>
@@ -557,7 +579,7 @@ Content in the first column | Content in the second column
     <content type="html"><![CDATA[
 <h2 id="toc_0">New icon</h2>
 
-<p><img src="media/14504051456811/1024.png" alt="" style="width:256px;"/><br/>
+<p><img src="media/14504051456811/1024.png" alt="" style="width:256px;"/>
 Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5642390620</a>, thanks Producter!</p>
 
 <span id="more"></span><!-- more -->
@@ -574,13 +596,13 @@ Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5
 
 <p>Now you can upload local images to Google Photos, imgur, Custom API. </p>
 
-<p>Just go to <code>Perferences</code> - <code>Publishing</code> to add Local Images Upload Services like below. <br/>
+<p>Just go to <code>Perferences</code> - <code>Publishing</code> to add Local Images Upload Services like below. 
 <img src="media/14504138918794/14504145696259.jpg" alt="" style="width:600px;"/></p>
 
-<p>Click right-top corner <code>share button</code> - <code>Upload Local Images to..</code>:<br/>
+<p>Click right-top corner <code>share button</code> - <code>Upload Local Images to..</code>:
 <img src="media/14504138918794/14504146872935.jpg" alt="" style="width:380px;"/></p>
 
-<p>Choose a image upload service and click <code>Upload Images</code> button, the local images will upload automatically!<br/>
+<p>Choose a image upload service and click <code>Upload Images</code> button, the local images will upload automatically!
 <img src="media/14504138918794/14504149566195.jpg" alt="" style="width:777px;"/></p>
 
 <h2 id="toc_3">Others</h2>
@@ -687,16 +709,16 @@ Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5
     <content type="html"><![CDATA[
 <h2 id="toc_0">Editor and publish services</h2>
 
-<p>Add setting image width, align left, align right, align center syntax. e.g. <code>![image description-w450](pic.jpg)</code>, <code>-w450</code> mean set the image width: 450. <code>![l500](pic.jpg)</code> --&gt; align left, width:500. <code>![r500](pic.jpg)</code> --&gt; align right, width:500. <code>![c500](pic.jpg)</code> --&gt; align center, width:500. <br/>
-Add context menu to the Editor displayed image.<br/>
+<p>Add setting image width, align left, align right, align center syntax. e.g. <code>![image description-w450](pic.jpg)</code>, <code>-w450</code> mean set the image width: 450. <code>![l500](pic.jpg)</code> --&gt; align left, width:500. <code>![r500](pic.jpg)</code> --&gt; align right, width:500. <code>![c500](pic.jpg)</code> --&gt; align center, width:500. 
+Add context menu to the Editor displayed image.
 <img src="media/14421938311781/mweb-img-size.jpg" alt="mweb-img-size"/></p>
 
 <span id="more"></span><!-- more -->
 
-<p>Add Copy as Rich Text (your can paste to mail app or pages app), Export as RTF, Export as Docx.<br/>
+<p>Add Copy as Rich Text (your can paste to mail app or pages app), Export as RTF, Export as Docx.
 <img src="media/14421938311781/mweb-docx-rtf.jpg" alt="mweb-docx-rtf"/></p>
 
-<p>Publish to Evernote, 印象笔记 now has beautiful style.<br/>
+<p>Publish to Evernote, 印象笔记 now has beautiful style.
 <img src="media/14421938311781/mweb-evernote-format.jpg" alt="mweb-evernote-format"/></p>
 
 <ul>
@@ -710,7 +732,7 @@ Add context menu to the Editor displayed image.<br/>
 
 <p>Add two static website/blog themes: mweb-medium-like and mweb-foundation-book. mweb-medium-like Demo: <a href="http://coderforart.com/">http://coderforart.com/</a>, mweb-foundation-book Demo: <a href="http://coderforart.com/objccndemo/">http://coderforart.com/objccndemo/</a></p>
 
-<p>Library Mode now add backup supported! You can backup your Library to three locations. <code>Preferences</code> - <code>Backup</code><br/>
+<p>Library Mode now add backup supported! You can backup your Library to three locations. <code>Preferences</code> - <code>Backup</code>
 <img src="media/14421938311781/mweb-backup.jpg" alt="mweb-backup"/></p>
 
 <p>Library Mode now supported Drag &amp; Drop documents list document to the category for setting document&#39;s categories.</p>
@@ -742,7 +764,7 @@ Add context menu to the Editor displayed image.<br/>
 
 <p>Right click the MWeb Lite&#39;s Titlebar, selected <code>MWeb</code> and click, will open Finder like below:</p>
 
-<p><img src="media/14383276824570/14383286526093.jpg" alt=""/><br/>
+<p><img src="media/14383276824570/14383286526093.jpg" alt=""/>
 Please notice the <code>LocalData</code> folder.</p>
 
 <h2 id="toc_1">2. Open MWeb Document Library Folder</h2>
@@ -751,7 +773,7 @@ Please notice the <code>LocalData</code> folder.</p>
 
 <p>Right click the MWeb&#39;s Titlebar, selected <code>MWeb</code> and click, will open Finder like below:</p>
 
-<p><img src="media/14383276824570/14383287121781.jpg" alt=""/><br/>
+<p><img src="media/14383276824570/14383287121781.jpg" alt=""/>
 Please notice the <code>LocalData</code> folder.</p>
 
 <h2 id="toc_2">3. Move the MWeb Lite&#39;s Data to MWeb</h2>
@@ -776,8 +798,8 @@ Please notice the <code>LocalData</code> folder.</p>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Dark Mode</h2>
 
-<p><img src="media/14376176787451/14376220459810.jpg" alt=""/><br/>
-Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option + L</code> toggle Dark Mode. You can custom Light/Dark Mode Editor Themes in <code>Preferences</code> - <code>Themes</code>.<br/>
+<p><img src="media/14376176787451/14376220459810.jpg" alt=""/>
+Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option + L</code> toggle Dark Mode. You can custom Light/Dark Mode Editor Themes in <code>Preferences</code> - <code>Themes</code>.
 <img src="media/14376160492620/14376165481845.jpg" alt=""/></p>
 
 <span id="more"></span><!-- more -->
@@ -788,7 +810,7 @@ Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option 
 
 <h2 id="toc_2">Publishing</h2>
 
-<p>Update to Wordpress, Metaweblog API, Evernote, 印象笔记, Wordpress.com, Blogger are supported!<br/>
+<p>Update to Wordpress, Metaweblog API, Evernote, 印象笔记, Wordpress.com, Blogger are supported!
 <img src="media/14376160492620/14376173522487.jpg" alt=""/></p>
 
 <h2 id="toc_3">Others</h2>
@@ -815,7 +837,7 @@ Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option 
     <content type="html"><![CDATA[
 <h2 id="toc_0">Typewriter Scrolling</h2>
 
-<p><strong>Shortcuts:</strong>  <code>CMD + Option + T</code> or <code>View</code> - <code>Typewriter Scrolling</code> <br/>
+<p><strong>Shortcuts:</strong>  <code>CMD + Option + T</code> or <code>View</code> - <code>Typewriter Scrolling</code> 
 <img src="media/14316499718847/mweb-typewriter-scrolling-demo.gif" alt="mweb-typewriter-scrolling-demo"/></p>
 
 <span id="more"></span><!-- more -->
@@ -916,50 +938,6 @@ Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option 
 <p><img src="media/14274487266487/3.jpg" alt=""/>￼￼</p>
 
 <p><img src="media/14274487266487/4.jpg" alt=""/>￼￼</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb 1.3 release! 50% OFF, official site, new icon, task list support, optimized MathJax support etc...]]></title>
-    <link href="http://www.mweb.im/mweb1.3-release.html"/>
-    <updated>2015-03-28T11:13:42+08:00</updated>
-    <id>http://www.mweb.im/mweb1.3-release.html</id>
-    <content type="html"><![CDATA[
-<h2 id="toc_0">Official Site</h2>
-
-<p>Chinese: <a href="http://zh.mweb.im">http://zh.mweb.im</a><br/>
-English: <a href="http://www.mweb.im">http://www.mweb.im</a></p>
-
-<h2 id="toc_1">Featrue</h2>
-
-<ul>
-<li>Add <code>CMD+Shift+V</code> paste PNG pictrue.</li>
-<li>Add sequence and flow chart support</li>
-<li>Add task lists support. <code>- + space + [ ]</code>or <code>- + space + [x]</code></li>
-<li>Add Markdown export.</li>
-<li>Add setting Disqus Comment code support, more info: <a href="http://www.mweb.im/mweb-comment-and-share-help.html">http://www.mweb.im/mweb-comment-and-share-help.html</a></li>
-<li>Optimized MathJax support and add MathJax library to local.</li>
-<li>Optimized PDF export.</li>
-</ul>
-
-<p>Fixed some crash.</p>
-
-<h2 id="toc_2">For MWeb 1.2 users</h2>
-
-<p>Site themes updated: greyshade, octopress themes updated for support setting Comment and Share code,MathJax ,sequence and flow chart. Three variables added like below:</p>
-
-<pre><code>{{ commentAndShareCode }}
-{{ seqAndFlowChartSupport }}
-{{ mathJaxSupport }}
-</code></pre>
-
-<p>Updated template pages:</p>
-
-<ol>
-<li>footer.html add <code>{{ seqAndFlowChartSupport }}</code>, <code>{{ mathJaxSupport }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html</a></li>
-<li>post.html add <code>{{ commentAndShareCode }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html</a></li>
-</ol>
 
 ]]></content>
   </entry>

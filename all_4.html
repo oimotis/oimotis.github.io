@@ -54,6 +54,57 @@
         <div class="col-sm-8 blog-main">
 			
 					<div class="blog-post">
+			            <h2 class="blog-post-title">MWeb 1.3 release! 50% OFF, official site, new icon, task list support, optimized MathJax support etc...</h2>
+			            <p class="blog-post-meta">2015/3/28 
+				            &nbsp;posted in 
+							
+							    <a class='category' href='releases.html'>Releases</a>&nbsp;
+							 
+							 
+			            </p>
+			            <div class="content-responsive">
+			            <h2 id="toc_0">Official Site</h2>
+
+<p>Chinese: <a href="http://zh.mweb.im">http://zh.mweb.im</a>
+English: <a href="http://www.mweb.im">http://www.mweb.im</a></p>
+
+<h2 id="toc_1">Featrue</h2>
+
+<ul>
+<li>Add <code>CMD+Shift+V</code> paste PNG pictrue.</li>
+<li>Add sequence and flow chart support</li>
+<li>Add task lists support. <code>- + space + [ ]</code>or <code>- + space + [x]</code></li>
+<li>Add Markdown export.</li>
+<li>Add setting Disqus Comment code support, more info: <a href="http://www.mweb.im/mweb-comment-and-share-help.html">http://www.mweb.im/mweb-comment-and-share-help.html</a></li>
+<li>Optimized MathJax support and add MathJax library to local.</li>
+<li>Optimized PDF export.</li>
+</ul>
+
+<p>Fixed some crash.</p>
+
+<h2 id="toc_2">For MWeb 1.2 users</h2>
+
+<p>Site themes updated: greyshade, octopress themes updated for support setting Comment and Share code,MathJax ,sequence and flow chart. Three variables added like below:</p>
+
+<pre><code>{{ commentAndShareCode }}
+{{ seqAndFlowChartSupport }}
+{{ mathJaxSupport }}
+</code></pre>
+
+<p>Updated template pages:</p>
+
+<ol>
+<li>footer.html add <code>{{ seqAndFlowChartSupport }}</code>, <code>{{ mathJaxSupport }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/footer.html</a></li>
+<li>post.html add <code>{{ commentAndShareCode }}</code> code, please check this link: <a href="https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html">https://github.com/oulvhai/MWeb-Themes/blob/master/greyshade/post.html</a></li>
+</ol>
+
+
+
+						
+			           </div>
+			          </div><!-- /.blog-post -->
+			 
+					<div class="blog-post">
 			            <h2 class="blog-post-title">Add AddThis Share and Disqus Comment</h2>
 			            <p class="blog-post-meta">2015/3/21 
 				            &nbsp;posted in 
@@ -69,8 +120,8 @@
 
 <p>中文请看这个网址：<a href="http://zh.mweb.im/mweb-comment-and-share-help.html">http://zh.mweb.im/mweb-comment-and-share-help.html</a></p>
 
-<p>Go to  <a href="https://www.addthis.com">https://www.addthis.com</a>  and sign in.<br/>
-Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. Go to <code>Dashboard</code> - <code>Shares</code> - <code>code on page</code> to select share style like below:<br/>
+<p>Go to  <a href="https://www.addthis.com">https://www.addthis.com</a>  and sign in.
+Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. Go to <code>Dashboard</code> - <code>Shares</code> - <code>code on page</code> to select share style like below:
 <img src="media/14269156185154/14272098995706.jpg" alt=""/>￼￼￼￼￼</p>
 
 
@@ -94,7 +145,7 @@ Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. 
 			            <div class="content-responsive">
 			            <h2 id="toc_0">About Page and Post</h2>
 
-<p>As Wordpress and other blogging platforms, MWeb also has <code>Page</code> and <code>Post</code>. <code>Page</code> can use for <code>About Us</code>, <code>Contact</code> ect... If you want to set a document to <code>Page</code>, just click <code>Setting button</code> and enable <code>Is page</code>, like below:<br/>
+<p>As Wordpress and other blogging platforms, MWeb also has <code>Page</code> and <code>Post</code>. <code>Page</code> can use for <code>About Us</code>, <code>Contact</code> ect... If you want to set a document to <code>Page</code>, just click <code>Setting button</code> and enable <code>Is page</code>, like below:
 <img src="media/14269169685779/14273494279323.jpg" alt=""/>￼￼￼￼￼￼￼￼</p>
 
 
@@ -146,8 +197,8 @@ Click <code>Account Settings</code> - <code>Profiles</code> to add new Profile. 
 			            <h2 id="toc_0">Philosophy</h2>
 
 <blockquote>
-<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.<br/>
-Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&#39;s been marked up with tags or formatting instructions.<br/>
+<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&#39;s been marked up with tags or formatting instructions.
 Markdown&#39;s syntax is intended for one purpose: to be used as a format for <em>writing</em> for the web. </p>
 </blockquote>
 
@@ -156,27 +207,6 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 
 						 
 						<a href="markdown-syntax-guide-suggest-version.html" class="more-link">Read On &rarr;</a>
-			    		
-			           </div>
-			          </div><!-- /.blog-post -->
-			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title">Use GoodSync synchronize MWeb's static websites to FTP,SFTP,WebDAV,Amazon S3 automatically</h2>
-			            <p class="blog-post-meta">2015/2/27 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							 
-							 
-			            </p>
-			            <div class="content-responsive">
-			            <p>GoodSync syncs files between your computer, mobile devices, FTP, SFTP, Amazon S3, Google Drive, SkyDrive, WebDAV, Azure.</p>
-
-
-
-
-						 
-						<a href="use-goodsync-sync-mweb-static-websites.html" class="more-link">Read On &rarr;</a>
 			    		
 			           </div>
 			          </div><!-- /.blog-post -->
@@ -240,7 +270,7 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 	  
             <ol class="list-unstyled">
 	      <li class="post">
-	        <a href="releases.html">Releases&nbsp;(16)</a>
+	        <a href="releases.html">Releases&nbsp;(17)</a>
 	        
 	        
 	        
@@ -260,6 +290,12 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
           <div class="sidebar-module">
             <h4>Recent Posts</h4>
             
+	  
+	      
+		      
+		        <a href="mweb-for-mac-221-release.html">MWeb for Mac 2.2.1 release!</a><br />
+		      
+	     
 	  
 	      
 		      
@@ -312,12 +348,6 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 	      
 		      
 		        <a href="mweb-1.9.1-release-en.html">MWeb 1.9.1 release! New icon, Editor & Export to PDF improved, Add Local Images Upload Services.</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="mweb-1.8.3-release-en.html">MWeb 1.8.3 release! Publish to Medium, fix LaTex preview bug, Editor improved</a><br />
 		      
 	     
 	  
