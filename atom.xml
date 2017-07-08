@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2017-07-02T08:17:09+08:00</updated>
+  <updated>2017-07-03T10:05:54+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,12 +14,12 @@
 
   
   <entry>
-    <title type="html"><![CDATA[MWeb for Mac 2.2.1 release!]]></title>
+    <title type="html"><![CDATA[MWeb for Mac 2.2.1 and 2.2.2 release!]]></title>
     <link href="http://www.mweb.im/mweb-for-mac-221-release.html"/>
     <updated>2017-07-02T08:15:22+08:00</updated>
     <id>http://www.mweb.im/mweb-for-mac-221-release.html</id>
     <content type="html"><![CDATA[
-<h2 id="toc_0">2.2.1 release note:</h2>
+<h2 id="toc_0">2.2.1 release note (7/2):</h2>
 
 <ol>
 <li>Library documents list add &quot;Group by Categories&quot;. Right click - Group by Categories.</li>
@@ -29,6 +29,15 @@
 <li>Add Preview style: mweb-solarized-dark, mweb-solarized-light, mweb-Tomorrow Blue, mweb-Tomorrow.</li>
 <li>Add disable left right swipe gesture (Preferences - General).</li>
 <li>When you disable &quot;Make links clickable in Editor view&quot;, you can hold the Command key to click the link in Editor.</li>
+<li>Other bug fixes and performance improvements.</li>
+</ol>
+
+<h2 id="toc_1">2.2.2 release note (7/8):</h2>
+
+<ol>
+<li>Library: New way to set/edit the document categories and tags. Just click the top of Editor &quot;categories and tags&quot; bar, or use shortcuts: CMD + 8.</li>
+<li>Library: Document Outline, Media &amp; Attachment, Website Extension in one panel now. Just click &quot;Document Outline&quot; button or shortcuts: CMD + 7.</li>
+<li>Add overlay option in &quot;Document Outline&quot;.</li>
 <li>Other bug fixes and performance improvements.</li>
 </ol>
 
@@ -242,7 +251,7 @@
 
 <h3 id="toc_4">Newlines</h3>
 
-<p>End a line with two or more spaces + enter.
+<p>End a line with two or more spaces + enter.<br/>
 Just typing enter to newline,please go to Settings and enable &quot;Translate newlines to <code>&lt;br&gt;</code> tags&quot; ( default is enable ).</p>
 
 <h3 id="toc_5">Task lists</h3>
@@ -351,8 +360,8 @@ Content in the first column | Content in the second column
 
 <p>For example this is a Block level \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\] formula, and this is an inline Level \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\) formula.</p>
 
-<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
-1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br/>
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br/>
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
 
 <h3 id="toc_11">Footnote</h3>
@@ -525,13 +534,13 @@ Content in the first column | Content in the second column
 
 <h2 id="toc_1">MWeb 2.0 Screenshots</h2>
 
-<p>External Mode, Tabs.
+<p>External Mode, Tabs.<br/>
 <img src="media/14687708418893/1-1.jpg" alt="1-1"/></p>
 
-<p>LaTex Live Preview, UI for Table Edit/Insert.
+<p>LaTex Live Preview, UI for Table Edit/Insert.<br/>
 <img src="media/14687708418893/1-3.jpg" alt="1-3"/></p>
 
-<p>Library Mode.
+<p>Library Mode.<br/>
 <img src="media/14687708418893/4-1.jpg" alt="4-1"/></p>
 
 ]]></content>
@@ -579,7 +588,7 @@ Content in the first column | Content in the second column
     <content type="html"><![CDATA[
 <h2 id="toc_0">New icon</h2>
 
-<p><img src="media/14504051456811/1024.png" alt="" style="width:256px;"/>
+<p><img src="media/14504051456811/1024.png" alt="" style="width:256px;"/><br/>
 Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5642390620</a>, thanks Producter!</p>
 
 <span id="more"></span><!-- more -->
@@ -596,13 +605,13 @@ Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5
 
 <p>Now you can upload local images to Google Photos, imgur, Custom API. </p>
 
-<p>Just go to <code>Perferences</code> - <code>Publishing</code> to add Local Images Upload Services like below. 
+<p>Just go to <code>Perferences</code> - <code>Publishing</code> to add Local Images Upload Services like below. <br/>
 <img src="media/14504138918794/14504145696259.jpg" alt="" style="width:600px;"/></p>
 
-<p>Click right-top corner <code>share button</code> - <code>Upload Local Images to..</code>:
+<p>Click right-top corner <code>share button</code> - <code>Upload Local Images to..</code>:<br/>
 <img src="media/14504138918794/14504146872935.jpg" alt="" style="width:380px;"/></p>
 
-<p>Choose a image upload service and click <code>Upload Images</code> button, the local images will upload automatically!
+<p>Choose a image upload service and click <code>Upload Images</code> button, the local images will upload automatically!<br/>
 <img src="media/14504138918794/14504149566195.jpg" alt="" style="width:777px;"/></p>
 
 <h2 id="toc_3">Others</h2>
@@ -709,16 +718,16 @@ Design by Producter <a href="http://weibo.com/u/5642390620">http://weibo.com/u/5
     <content type="html"><![CDATA[
 <h2 id="toc_0">Editor and publish services</h2>
 
-<p>Add setting image width, align left, align right, align center syntax. e.g. <code>![image description-w450](pic.jpg)</code>, <code>-w450</code> mean set the image width: 450. <code>![l500](pic.jpg)</code> --&gt; align left, width:500. <code>![r500](pic.jpg)</code> --&gt; align right, width:500. <code>![c500](pic.jpg)</code> --&gt; align center, width:500. 
-Add context menu to the Editor displayed image.
+<p>Add setting image width, align left, align right, align center syntax. e.g. <code>![image description-w450](pic.jpg)</code>, <code>-w450</code> mean set the image width: 450. <code>![l500](pic.jpg)</code> --&gt; align left, width:500. <code>![r500](pic.jpg)</code> --&gt; align right, width:500. <code>![c500](pic.jpg)</code> --&gt; align center, width:500. <br/>
+Add context menu to the Editor displayed image.<br/>
 <img src="media/14421938311781/mweb-img-size.jpg" alt="mweb-img-size"/></p>
 
 <span id="more"></span><!-- more -->
 
-<p>Add Copy as Rich Text (your can paste to mail app or pages app), Export as RTF, Export as Docx.
+<p>Add Copy as Rich Text (your can paste to mail app or pages app), Export as RTF, Export as Docx.<br/>
 <img src="media/14421938311781/mweb-docx-rtf.jpg" alt="mweb-docx-rtf"/></p>
 
-<p>Publish to Evernote, 印象笔记 now has beautiful style.
+<p>Publish to Evernote, 印象笔记 now has beautiful style.<br/>
 <img src="media/14421938311781/mweb-evernote-format.jpg" alt="mweb-evernote-format"/></p>
 
 <ul>
@@ -732,7 +741,7 @@ Add context menu to the Editor displayed image.
 
 <p>Add two static website/blog themes: mweb-medium-like and mweb-foundation-book. mweb-medium-like Demo: <a href="http://coderforart.com/">http://coderforart.com/</a>, mweb-foundation-book Demo: <a href="http://coderforart.com/objccndemo/">http://coderforart.com/objccndemo/</a></p>
 
-<p>Library Mode now add backup supported! You can backup your Library to three locations. <code>Preferences</code> - <code>Backup</code>
+<p>Library Mode now add backup supported! You can backup your Library to three locations. <code>Preferences</code> - <code>Backup</code><br/>
 <img src="media/14421938311781/mweb-backup.jpg" alt="mweb-backup"/></p>
 
 <p>Library Mode now supported Drag &amp; Drop documents list document to the category for setting document&#39;s categories.</p>
@@ -764,7 +773,7 @@ Add context menu to the Editor displayed image.
 
 <p>Right click the MWeb Lite&#39;s Titlebar, selected <code>MWeb</code> and click, will open Finder like below:</p>
 
-<p><img src="media/14383276824570/14383286526093.jpg" alt=""/>
+<p><img src="media/14383276824570/14383286526093.jpg" alt=""/><br/>
 Please notice the <code>LocalData</code> folder.</p>
 
 <h2 id="toc_1">2. Open MWeb Document Library Folder</h2>
@@ -773,7 +782,7 @@ Please notice the <code>LocalData</code> folder.</p>
 
 <p>Right click the MWeb&#39;s Titlebar, selected <code>MWeb</code> and click, will open Finder like below:</p>
 
-<p><img src="media/14383276824570/14383287121781.jpg" alt=""/>
+<p><img src="media/14383276824570/14383287121781.jpg" alt=""/><br/>
 Please notice the <code>LocalData</code> folder.</p>
 
 <h2 id="toc_2">3. Move the MWeb Lite&#39;s Data to MWeb</h2>
@@ -798,8 +807,8 @@ Please notice the <code>LocalData</code> folder.</p>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Dark Mode</h2>
 
-<p><img src="media/14376176787451/14376220459810.jpg" alt=""/>
-Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option + L</code> toggle Dark Mode. You can custom Light/Dark Mode Editor Themes in <code>Preferences</code> - <code>Themes</code>.
+<p><img src="media/14376176787451/14376220459810.jpg" alt=""/><br/>
+Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option + L</code> toggle Dark Mode. You can custom Light/Dark Mode Editor Themes in <code>Preferences</code> - <code>Themes</code>.<br/>
 <img src="media/14376160492620/14376165481845.jpg" alt=""/></p>
 
 <span id="more"></span><!-- more -->
@@ -810,7 +819,7 @@ Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option 
 
 <h2 id="toc_2">Publishing</h2>
 
-<p>Update to Wordpress, Metaweblog API, Evernote, 印象笔记, Wordpress.com, Blogger are supported!
+<p>Update to Wordpress, Metaweblog API, Evernote, 印象笔记, Wordpress.com, Blogger are supported!<br/>
 <img src="media/14376160492620/14376173522487.jpg" alt=""/></p>
 
 <h2 id="toc_3">Others</h2>
@@ -837,7 +846,7 @@ Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option 
     <content type="html"><![CDATA[
 <h2 id="toc_0">Typewriter Scrolling</h2>
 
-<p><strong>Shortcuts:</strong>  <code>CMD + Option + T</code> or <code>View</code> - <code>Typewriter Scrolling</code> 
+<p><strong>Shortcuts:</strong>  <code>CMD + Option + T</code> or <code>View</code> - <code>Typewriter Scrolling</code> <br/>
 <img src="media/14316499718847/mweb-typewriter-scrolling-demo.gif" alt="mweb-typewriter-scrolling-demo"/></p>
 
 <span id="more"></span><!-- more -->
