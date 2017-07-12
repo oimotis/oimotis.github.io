@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://www.mweb.im/</loc>
-  <lastmod>2017-07-11T20:19:14+08:00</lastmod>
+  <lastmod>2017-07-12T20:05:53+08:00</lastmod>
 </url>
 
 <url>
@@ -194,6 +194,11 @@
 <url>
   <loc>http://www.mweb.im/how_to_use_shell_script.html</loc>
   <lastmod>2017-07-11T17:37:15+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/themes.html</loc>
+  <lastmod>2017-07-12T20:04:42+08:00</lastmod>
 </url>
 
 
