@@ -8,7 +8,7 @@
     <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
     <title> 
 	  
-  	How to use Shell Script to Publish website. - MWeb
+  	How to use Publish Script to Publish website. - MWeb
   	
   	</title>
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
@@ -31,8 +31,8 @@
         <nav class="blog-nav">
           <a class="blog-nav-item" id="menu-index" href="index.html">Home</a>
           <a class="blog-nav-item" id="menu-help" href="help.html">Documentation</a>
-          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
           <a class="blog-nav-item" id="menu-themes" href="themes.html">Themes</a>
+          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
           <a class="blog-nav-item" id="menu-about" href="about.html">About</a>
           <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
         </nav>
@@ -45,10 +45,60 @@
       </div>
        <div class="container" id="content-wrap">
 	<div class="page-post">
-		<h2 class="blog-post-title">How to use Shell Script to Publish website.</h2>
+		<h2 class="blog-post-title">How to use Publish Script to Publish website.</h2>
 <hr />
 		<div class="page-content content-responsive">
-			<p>for test. clear and rebuild. add logs. info message..</p>
+			<p>Publish Script is a new feature in MWeb for Mac 2.2.3. It&#39;s taken a new experience for Edit/Publish in MWeb. When you finish edit, just right click the site category and choose &quot;Execute the Publish Script...&quot;, then all is OK. No need to key the publish command in terminal app.</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">1. Start</h2>
+
+<p>The publish script only test for git, you can use it publish to github pages. If you didn&#39;t has github pages, please check: <a href="https://pages.github.com/">https://pages.github.com/</a>.</p>
+
+<h2 id="toc_1">2. Clone your github pages to the MWeb static website output folder.</h2>
+
+<p><strong>Notices:</strong>If you already use github to publish the static website, please skip this step. If you didn&#39;t, please check the bellow steps:</p>
+
+<ol>
+<li>Use MWeb build the Site.</li>
+<li>Go to MWeb &quot;Preferences&quot; - &quot;General&quot; - &quot;Build Sites Save Location&quot;, click &quot;Show in Finder&quot;. Now you in the &quot;MWeb static website output location&quot; in Finder. The website I build is &quot;MWeb Official Site&quot;, so there is a &quot;MWeb Official Site&quot; folder in that. I will use &quot;MWeb Official Site&quot; for the example.</li>
+<li>Open terminal, set the current folder is &quot;MWeb static website output location&quot;.<br />You can choose &quot;MWeb Official Site&quot; parent&#39;s folder and press <code>CMD + C</code>, switch to terminal, key <code>cd</code> and space, then press <code>CMD + V</code> and press <code>Enter</code> key.</li>
+<li>Delete the &quot;MWeb Official Site&quot; folder. Execute the command: <code>git clone &#39;your github pages repo&#39; &#39;MWeb Official Site&#39;</code> in terminal. Please use your github pages repo and folder name.</li>
+<li>Use &quot;Clear and Rebuild Site&quot; menu in MWeb.</li>
+</ol>
+
+<h2 id="toc_2">3. Config Publish Script</h2>
+
+<p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the bellow:</p>
+
+<p><img src="media/14997440565965/14998704375618.jpg" alt="" style="width:634px;"/></p>
+
+<p>If you click &quot;Load Sample&quot; button, you will sea the sample like bellow, you can edit it for your own.</p>
+
+<pre><code>#!/bin/sh
+# Please set the name and email. 
+# Because MWeb can&#39;t get your github global setting.
+
+git config user.name &quot;Your github name&quot;
+git config user.email &quot;Your github email&quot;
+
+git add --ignore-removal .
+git commit -m &quot;{{year}}-{{month}}-{{day}} {{time}}&quot;
+git push -u origin master
+</code></pre>
+
+<p>And please config you github name and email.</p>
+
+<pre><code>git config user.name &quot;Your github name&quot;
+git config user.email &quot;Your github email&quot;
+</code></pre>
+
+<h2 id="toc_3">4. Execute the Publish Script</h2>
+
+<p>Right click the site category and choose &quot;Execute the Publish Script...&quot;, like bellow:</p>
+
+<p><img src="media/14997440565965/14998706907644.jpg" alt="" style="width:431px;"/></p>
 
 		</div>
   	</div>
