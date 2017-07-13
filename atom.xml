@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2017-07-12T20:12:48+08:00</updated>
+  <updated>2017-07-12T22:56:14+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb for Mac 2.2.3 release!]]></title>
+    <link href="http://www.mweb.im/mweb-for-mac-223-release.html"/>
+    <updated>2017-07-13T09:51:53+08:00</updated>
+    <id>http://www.mweb.im/mweb-for-mac-223-release.html</id>
+    <content type="html"><![CDATA[
+<p>Release note:</p>
+
+<ul>
+<li>Library static blog/website add Publish Script. Now you can go to the &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot; to setting the Publish Script and &quot;right click the site category&quot; - choose &quot;Execute the Publish Script...&quot; to publish the blog/website. More info: <a href="how_to_use_shell_script.html">How to use Publish Script to Publish website.</a>.</li>
+<li>Static blog/website template add include syntax: <code>&lt;!-- include(file.html) --&gt;</code> </li>
+<li>External Mode add right click to setting the sort.</li>
+<li>Add choose exist tags when setting the tag.</li>
+<li>Other Bug fixes and performance improvements.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb for Mac 2.2.1 and 2.2.2 release!]]></title>
@@ -924,29 +943,6 @@ Use <code>View</code> - <code>Dark Mode</code> or Shortcuts: <code>CMD + Option 
 <li>Add publish to Tumblr, Scriptogr.am.</li>
 <li>Add outline view to Live Preview.</li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb Screenshots in Yosemite]]></title>
-    <link href="http://www.mweb.im/mweb-in-yosemite.html"/>
-    <updated>2015-03-27T17:32:06+08:00</updated>
-    <id>http://www.mweb.im/mweb-in-yosemite.html</id>
-    <content type="html"><![CDATA[
-<p><img src="media/14274487266487/en1.jpg" alt="en1"/>￼￼</p>
-
-<span id="more"></span><!-- more -->
-
-<p><img src="media/14274487266487/en2.jpg" alt="en2"/>￼￼</p>
-
-<p><img src="media/14274487266487/1.jpg" alt=""/>￼￼</p>
-
-<p><img src="media/14274487266487/2.jpg" alt=""/>￼￼</p>
-
-<p><img src="media/14274487266487/3.jpg" alt=""/>￼￼</p>
-
-<p><img src="media/14274487266487/4.jpg" alt=""/>￼￼</p>
 
 ]]></content>
   </entry>
