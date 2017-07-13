@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://www.mweb.im/</loc>
-  <lastmod>2017-07-13T09:54:35+08:00</lastmod>
+  <lastmod>2017-07-13T09:57:29+08:00</lastmod>
 </url>
 
 <url>
   <loc>http://www.mweb.im/mweb-for-mac-223-release.html</loc>
   <lastmod>2017-07-13T09:51:53+08:00</lastmod>
+</url>
+
+<url>
+  <loc>http://www.mweb.im/how_to_use_shell_script.html</loc>
+  <lastmod>2017-07-11T11:34:16+08:00</lastmod>
 </url>
 
 <url>
@@ -194,11 +199,6 @@
 <url>
   <loc>http://www.mweb.im/how_to_use_home.html</loc>
   <lastmod>2017-07-10T22:59:22+08:00</lastmod>
-</url>
-
-<url>
-  <loc>http://www.mweb.im/how_to_use_shell_script.html</loc>
-  <lastmod>2017-07-12T22:54:04+08:00</lastmod>
 </url>
 
 <url>
