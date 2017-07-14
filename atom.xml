@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2017-07-13T09:57:14+08:00</updated>
+  <updated>2017-07-13T09:57:29+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -38,6 +38,8 @@
     <updated>2017-07-11T11:34:16+08:00</updated>
     <id>http://www.mweb.im/how_to_use_shell_script.html</id>
     <content type="html"><![CDATA[
+<p><strong>Notices: This featrue has some bug in Mac App Store version of MWeb, we will fix it in this release! Thanks.</strong></p>
+
 <p>Publish Script is a new feature in MWeb for Mac 2.2.3. It&#39;s taken a new experience for Edit/Publish in MWeb. When you finish edit, just right click the site category and choose &quot;Execute the Publish Script...&quot;, then all is OK. No need to key the publish command in terminal app.</p>
 
 <span id="more"></span><!-- more -->
