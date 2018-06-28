@@ -43,8 +43,8 @@
 
       
       <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
-        
-<a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="http://www.mweb.im/introducing-mweb-for-ios.html" target="_blank" >Introducing MWeb for iOS</a>
+        <span style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');">MWeb 3.0 is a paid upgrade, will release next week for 50% OFF. Now you can try beta: </span><a  href="https://dl.devmate.com/com.coderforart.MWeb3/MWeb3-ProMarkdownwriting,notetakingandstaticbloggeneratorApp.dmg">Download Beta</a>
+
       </div>
         <script type="text/javascript">
       $(function(){
@@ -59,7 +59,7 @@
 			
 					<div class="blog-post">
 			            <h2 class="blog-post-title">Markdown syntax guide and writing on MWeb</h2>
-			            <p class="blog-post-meta">2015/3/21 
+			            <p class="blog-post-meta">2015/3/21 9:56 上午 
 				            &nbsp;posted in 
 							
 							    <a class='category' href='markdown.html'>Markdown</a>&nbsp;
@@ -85,7 +85,7 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 
 <p><strong>Example:</strong></p>
 
-<pre><code># This is an `&lt;h1&gt;` tag
+<pre><code class="language-text"># This is an `&lt;h1&gt;` tag
 ## This is an `&lt;h2&gt;` tag
 ###### This is an `&lt;h6&gt;` tag
 </code></pre>
@@ -102,7 +102,7 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 
 <p><strong>Example:</strong></p>
 
-<pre><code>*This text will be italic*
+<pre><code class="language-text">*This text will be italic*
 _This will also be italic_
 
 **This text will be bold**
@@ -129,7 +129,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code>* Item 1 unordered list `* + SPACE`
+<pre><code class="language-text">* Item 1 unordered list `* + SPACE`
 * Item 2
     * Item 2a unordered list `TAB + * + SPACE`
     * Item 2b
@@ -141,7 +141,6 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 <ul>
 <li>Item 1 unordered list <code>* + SPACE</code></li>
 <li>Item 2
-
 <ul>
 <li>Item 2a unordered list <code>TAB + * + SPACE</code></li>
 <li>Item 2b</li>
@@ -152,7 +151,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code>1. Item 1 ordered list `Number + . + SPACE`
+<pre><code class="language-text">1. Item 1 ordered list `Number + . + SPACE`
 2. Item 2 
 3. Item 3
     1. Item 3a ordered list `TAB + Number + . + SPACE`
@@ -165,7 +164,6 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 <li>Item 1 ordered list <code>Number + . + SPACE</code></li>
 <li>Item 2 </li>
 <li>Item 3
-
 <ol>
 <li>Item 3a ordered list <code>TAB + Number + . + SPACE</code></li>
 <li>Item 3b</li>
@@ -176,24 +174,22 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code>- [ ] task one not finish `- + SPACE + [ ]`
+<pre><code class="language-text">- [ ] task one not finish `- + SPACE + [ ]`
 - [x] task two finished `- + SPACE + [x]`
 </code></pre>
 
 <p><strong>Result:</strong></p>
 
 <ul>
-<li class="task-list-item"><input disabled="disabled" type="checkbox" /> task one not finish <code>- + SPACE + [ ]</code>
-</li>
-<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> task two finished <code>- + SPACE + [x]</code>
-</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" /> task one not finish <code>- + SPACE + [ ]</code></li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> task two finished <code>- + SPACE + [x]</code></li>
 </ul>
 
 <h2 id="toc_12">Images</h2>
 
 <p><strong>Example:</strong></p>
 
-<pre><code>![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
+<pre><code class="language-text">![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
 Format: ![Alt Text](url)
 </code></pre>
 
@@ -211,7 +207,7 @@ The Library&#39;s document support drag &amp; drop or <code>CMD + V</code> paste
 
 <p><strong>Example:</strong></p>
 
-<pre><code>email &lt;example@example.com&gt;
+<pre><code class="language-text">email &lt;example@example.com&gt;
 [GitHub](http://github.com)
 autolink  &lt;http://www.github.com/&gt;
 </code></pre>
@@ -229,7 +225,7 @@ Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will 
 
 <p><strong>Example:</strong></p>
 
-<pre><code>As Kanye West said:
+<pre><code class="language-text">As Kanye West said:
 &gt; We&#39;re living the future so
 &gt; the present is our past.
 </code></pre>
@@ -248,7 +244,7 @@ the present is our past.</p>
 
 <p><strong>Example:</strong></p>
 
-<pre><code>I think you should use an
+<pre><code class="language-text">I think you should use an
 `&lt;addr&gt;` `code` element here instead.
 </code></pre>
 
@@ -262,7 +258,7 @@ the present is our past.</p>
 
 <p><strong>Example:</strong></p>
 
-<pre><code>```js
+<pre><code class="language-text">```js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:&#39;#foo&#39;})
@@ -275,7 +271,7 @@ function fancyAlert(arg) {
 <p><strong>Shortcuts:</strong>  <code>CMD + Shift + K</code><br/>
 <strong>Result:</strong></p>
 
-<pre><code class="language-js">function fancyAlert(arg) {
+<pre><code class="language-javascript">function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:&#39;#foo&#39;})
   }
@@ -287,7 +283,7 @@ function fancyAlert(arg) {
 
 <p><strong>Example:</strong></p>
 
-<pre><code>```sequence
+<pre><code class="language-text">```sequence
 Andrew-&gt;China: Says Hello
 Note right of China: China thinks about it
 China--&gt;Andrew: How are you?
@@ -336,7 +332,7 @@ cond(no)-&gt;sub1(right)-&gt;op1
 
 <p><strong>Example:</strong></p>
 
-<pre><code>First Header | Second Header
+<pre><code class="language-text">First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
@@ -370,7 +366,7 @@ Content in the first column | Content in the second column
 
 <p><strong>Example:</strong></p>
 
-<pre><code> (like ~~this~~)
+<pre><code class="language-text"> (like ~~this~~)
 </code></pre>
 
 <p><strong>Result:</strong></p>
@@ -381,7 +377,7 @@ Content in the first column | Content in the second column
 
 <p>Following lines will produce a horizontal rule:</p>
 
-<pre><code>***
+<pre><code class="language-text">***
 
 *****
 
@@ -400,7 +396,7 @@ Content in the first column | Content in the second column
 
 <p>Use double US dollors sign pair for Block level Math formula, and one US dollor sign pair for Inline Level.</p>
 
-<pre><code>For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
+<pre><code class="language-text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
 
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
@@ -420,7 +416,7 @@ Content in the first column | Content in the second column
 
 <p><strong>Example:</strong></p>
 
-<pre><code>This is a footnote:[^sample_footnote]
+<pre><code class="language-text">This is a footnote:[^sample_footnote]
 </code></pre>
 
 <p><strong>Result:</strong></p>
@@ -439,7 +435,7 @@ Content in the first column | Content in the second column
 
 <p><strong>Example:</strong></p>
 
-<pre><code>[TOC]
+<pre><code class="language-text">[TOC]
 </code></pre>
 
 <p><strong>Result:</strong></p>
@@ -598,7 +594,7 @@ Content in the first column | Content in the second column
             
             <ol class="list-unstyled">
 	      <li class="post">
-	        <a href="docs.html">Tutorials&nbsp;(17)</a>
+	        <a href="docs.html">Tutorials&nbsp;(18)</a>
 	        
 	        
 	        
