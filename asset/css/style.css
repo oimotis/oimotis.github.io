@@ -38,7 +38,7 @@ pre{background-color: #f8f8f8;border-radius:0px;}
 
 .product-name{  background: url('../img/header-bg.jpg') no-repeat center top;
   background-size: cover;
-  height: 370px;
+  height: 433px;
 }
 .banner-head {
         width: 100%;text-align: left;
@@ -51,10 +51,10 @@ pre{background-color: #f8f8f8;border-radius:0px;}
         color: #fff;
         margin-bottom: 0; padding-bottom: 0;
     }
-.product-name h3{ margin: 0; padding: 0.5em; color: #fff; width: 100%; text-align: left; padding-left: 0; font-size: 1.2em;}
+.product-name h2{ margin: 0; padding: 0.5em; color: #fff; width: 100%; text-align: left; padding-left: 0; font-size: 1.2em;}
 .product-name p{ color: #fff;}
 
-#app_info{ padding-top: 3em; }
+#app_info{ padding-top: 6em; }
 .app_download{ padding-top: 3em; }
 .app_download .download-mweb-store{font-family: 'Myriad Pro','Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; 
 padding-top: 8px; font-size: 15px; font-weight: normal;}
@@ -68,6 +68,20 @@ a.btn-download img{ width: 115px; }
 a.btn-buy-mas img,a.btn-buy-ios img{ width: 179px; }
 a.btn-video img{ width: 179px; }
 
+ul.screenshots{ padding: 0; margin: 0; margin-left: 10px; list-style: none; }
+ul.screenshots li{ list-style: none; display: block; width: 178px; margin-bottom: 10px; margin-left: 10px; float: left; }
+ul.screenshots li img{ width: 178px; }
+.mwebspecial ul,.mwebspecial li{ }
+.mwebspecial div.item{display: block; float: left; width: 50%;}
+.mwebspecial ul{ }
+.mwebspecial li{ padding: 4px 0px; padding-right: 40px; }
+.mwebspecial h2{ margin-top: 1.0em; margin-bottom: 1.2em; }
+@media (max-width: 640px) {
+  .mwebspecial div.item{display: block; float: none; width: 100%;}
+
+}
+
+
 .images-list,.images-list li{ list-style: none; margin: 0 !important; padding: 0 ;}
 .images-list li{ width: 145px; display: block; float: left; padding-right: 4px; padding-top: 4px;}
 @media (min-width: 768px) and (max-width: 991px) {
@@ -75,6 +89,8 @@ a.btn-video img{ width: 179px; }
 }
 #index-container{ padding-top: 2.5em;}
 #index-container h1{font-family: 'Myriad Pro','Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 2em;}
+#index-container .bigTitle{font-family: 'Myriad Pro','Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif !important; font-weight: normal !important; font-size: 2em;}
+
 #index-container hr { margin-top: 2.0em; margin-bottom: 2.0em;}
 #index-container h3,#index-container h4 { padding-top: 0;}
 #index-container h2{ font-size: 22px; font-weight: bold; }
@@ -93,6 +109,8 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
 .mark_list_wrap2 span.mark_number{ margin-left: 0; }
 .help-content h3{ font-size: 20px; font-weight: bold; }
 .help-content{ font-size: 13px; }
+
+
 /*
  * Override Bootstrap's default container.
  */
@@ -107,7 +125,6 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
   }
 }
 
-
 @media (max-width: 767px) {
   .banner-head{ font-size: 1.4em; }
   .product-name h3{font-size: 1.0em;}
@@ -115,7 +132,7 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
   .product-info{ width: auto !important; margin: 0 auto; }
 #logo-container{ text-align: left; }
 
-  #app_info{ padding-top: 1.5em; }
+  #app_info{ padding-top: 4em; }
   .app_download{ padding-top: 1.5em; }
   .app_download>div{padding-left: 0;}
 
@@ -134,7 +151,7 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
  */
 
 .blog-masthead {
-  background-color: #132f44;
+  background-color: #0F120F;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
@@ -157,8 +174,22 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
 .blog-nav .active {
   color: #fff;
 }
+a.menu-lang{ float: right; }
 
 
+/* help */
+.help-item{ margin: 20px 10px; width: 215px; height: 348px; overflow: hidden; float: left; display: block;}
+.help-item .help-img{ border: solid 1px #ddd; width: 215px; height: 180px; overflow: hidden; }
+.help-item a{}
+.help-item h2{font-size: 17px; font-weight: bold; padding: 12px 0px; padding-top: 18px; margin: 0;}
+.help-item h2:hover{text-decoration: underline;}
+.help-item p{color: #444;font-size: 14px; padding: 8px 0px; padding-top: 0; margin: 0;}
+.help-item a:hover{text-decoration: none;}
+
+@media (max-width: 470px) {
+  .help-item{ display: block; margin: 0 auto; clear: both;float: none; }
+
+}
 
 /*
  * Blog name and description
@@ -185,9 +216,10 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
  */
 
 .blog-main {
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5em;
 }
+.blog-main img{ padding: 8px 0px; }
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
@@ -221,6 +253,14 @@ vertical-align: middle; line-height: 19px; font-size: 14px; font-family: 'Helvet
 /*
  * Blog posts
  */
+
+ h2.blog-post-title a{color: #222;font-size: 24px;}
+
+.blog-categories ul,.blog-categories li{ list-style: none; margin: 0; padding: 0; display: block;float: left; }
+.blog-categories li{padding: 4px 20px; font-size: 1em;}
+.blog-categories li.active{font-weight: bold;}
+.blog-categories .rss{display: block; float: right;font-size: 0.9em;padding: 4px 20px;  }
+.blog-content-wrap{ padding: 0 20px; }
 
 .blog-post {
   margin-bottom: 60px;

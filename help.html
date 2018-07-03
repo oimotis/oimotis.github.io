@@ -13,6 +13,7 @@
   	</title>
      <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
     <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
     <link href="asset/css/style.css" rel="stylesheet">
     <script src="asset/js/jquery.min.js"></script>
@@ -31,353 +32,217 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item" id="menu-index" href="index.html">Home</a>
-          <a class="blog-nav-item" id="menu-help" href="help.html">Documentation</a>
-          <a class="blog-nav-item" id="menu-themes" href="themes.html">Themes</a>
-          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
-          <a class="blog-nav-item" id="menu-about" href="about.html">About</a>
-          <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
+        
+          <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+          <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        
+          <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+          <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
+        
+          <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+          <a class="menu-lang blog-nav-item" target="_blank" href="https://zh.mweb.im/">中文</a>
+        
         </nav>
       </div>
     </div>
-
       
       <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
-        <span style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');">MWeb 3.0 is a paid upgrade, will release next week for 50% OFF. Now you can try beta: </span><a  href="https://dl.devmate.com/com.coderforart.MWeb3/MWeb3-ProMarkdownwriting,notetakingandstaticbloggeneratorApp.dmg">Download Beta</a>
-
+        <a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="mweb3x-release-note.html" >MWeb 3 release and what is difference between 3.x and 2.x. MWeb 3 50% OFF for a week!!</a>
       </div>
-     
-<script type="text/javascript">
+    
+ 
+
+   <div class="container" id="content-wrap">
+
+      <script type="text/javascript">
       $(function(){
-        $('#menu-help').addClass('active');
+      	$('a.menu-help').addClass('active');
       });
       </script>
+      <h1 style="padding-left: 10px;">Documentation</h1>
+<hr style="margin-bottom: 40px;" />
+      <div class="row">
+        <div class="col-sm-12">
+			
+					<div class="help-item">
+						<a href="15305970515404.html">
+						
+						<div class="help-img"><img width="330" src="media/15305970515404/15306275115522.jpg" /></div>
+						
+			            <h2 class="help-title">MWeb Basic use</h2>
+			            
+			            <p class="help-des">
+			            	MWeb has Library Mode and External Mode. This article briefly introduces these two modes and basic usage.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15305971422667.html">
+						
+						<div class="help-img"><img width="330" src="media/15305971422667/15306277940066.jpg" /></div>
+						
+			            <h2 class="help-title">Markdown syntax</h2>
+			            
+			            <p class="help-des">
+			            	Learn about MWeb Markdown syntax like Table, TOC, LaTeX, Fenced code block, Task lists, Footnote, etc.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15305996967958.html">
+						
+						<div class="help-img"><img width="330" src="media/15305996967958/15306202188456.jpg" /></div>
+						
+			            <h2 class="help-title">Markdown Assistant</h2>
+			            
+			            <p class="help-des">
+			            	Learn about MWeb's support for inserting images and image width syntax, and learn about MWeb's help with inserting tables and writing LaTeX.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306167569481.html">
+						
+						<div class="help-img"><img width="330" src="media/15306167569481/15306203401541.jpg" /></div>
+						
+			            <h2 class="help-title">Markdown output</h2>
+			            
+			            <p class="help-des">
+			            	Use MWeb exporting markdwon document as Image, HTML, Epub, PDF, RTF, Docx.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306170400048.html">
+						
+						<div class="help-img"><img width="330" src="media/15306170400048/15306205878243.jpg" /></div>
+						
+			            <h2 class="help-title">MWeb's Publishing Services introduction</h2>
+			            
+			            <p class="help-des">
+			            	Use MWeb publish the document to Wordrpess, Metaweblog API, Wordpress.com, Evernote, Blogger, Medium, Tumblr.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306175365886.html">
+						
+						<div class="help-img"><img width="330" src="media/15306175365886/15306180903959.jpg" /></div>
+						
+			            <h2 class="help-title">MWeb's Image Upload Service Introduction</h2>
+			            
+			            <p class="help-des">
+			            	Image upload service supports Google Photos, Imgur, qiniu, upyun and Custom API.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306209330609.html">
+						
+						<div class="help-img"><img width="330" src="media/15306209330609/15306214269910.jpg" /></div>
+						
+			            <h2 class="help-title">MWeb Document Library Details</h2>
+			            
+			            <p class="help-des">
+			            	A powerful Library Mode! There is good for note taking, personal knowledge collection, management, and output.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306224411729.html">
+						
+						<div class="help-img"><img width="330" src="media/15303794142935/15303799152167.jpg" /></div>
+						
+			            <h2 class="help-title">Quick Note</h2>
+			            
+			            <p class="help-des">
+			            	Quick Note is a new feature in 3.x. This function relies on the icons on the status bar to freely add notes and images, which is simply the function of text and images collection.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306230463555.html">
+						
+						<div class="help-img"><img width="330" src="media/15306230463555/15306233096560.jpg" /></div>
+						
+			            <h2 class="help-title">Quick Search</h2>
+			            
+			            <p class="help-des">
+			            	Quick Search is a new feature in 3.x for full-text search of External Folders and Library.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306237915264.html">
+						
+						<div class="help-img"><img width="330" src="media/15306237915264/15306257614745.jpg" /></div>
+						
+			            <h2 class="help-title">MWeb External Mode Details</h2>
+			            
+			            <p class="help-des">
+			            	This article describes the detailed use of External Modes.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			 
+					<div class="help-item">
+						<a href="15306245140490.html">
+						
+						<div class="help-img"><img width="330" src="media/15306245140490/15306246596751.jpg" /></div>
+						
+			            <h2 class="help-title">MWeb Build a static website / blog</h2>
+			            
+			            <p class="help-des">
+			            	This article describes how to use MWeb to generate static websites, references between documents, and configure website publishing scripts.
+			            </p>
+			            
+			        	</a>
+			            
+			        </div><!-- /.blog-post -->
+			  
+        </div><!-- /.blog-main -->
 
+      </div><!-- /.row -->
 
-    <div id="index-container" class="container">
+</div><!-- /.container -->
 
-<h1 style="text-align: center;">MWeb for Mac Documentation</h1>
-<hr />
- <div class="row">
- 
-    <div class="col-sm-12">
-       <div class="img_content">
-
-
-<h2>Markdown syntax guide</h2>
-
-<p>If you didn&#39;t know Markdown, please check this post: <a href="markdown-syntax-guide-full-version.html">Markdown syntax guide full version</a>. <br/>
-If you know Markdown, please check this post: <a href="markdown-syntax-guide-suggest-version.html">Markdown syntax guide and writing on MWeb</a>. You can also check MWeb's menu: Help - Markdown syntax.</p>
-
-      </div>
-    </div>
-  </div>
-<hr />
-<div class="row">
- 
-    <div class="col-sm-12">
-       <div class="img_content">
-        <h2>Introducing MWeb for Mac Video</h2>
-        
-        <ul>
-<li>Youtube <a target="_blank" href="https://www.youtube.com/watch?v=HLfj82JqvXs">https://www.youtube.com/watch?v=HLfj82JqvXs</a></li>
-</ul>
-
-
-      </div>
-    </div>
-  </div>
-<hr />
- <div class="row">
- 
-    <div class="col-sm-7">
-       <div class="img_content">
-        <h2>MWeb External Mode UI</h2>
-        <img class="img-responsive" src="asset/img/en/h-1.jpg" />
-        <p style="text-align: center;">Menu: View - Open External or <code>CMD + E</code> to Open External Mode.</p>
-       
-       </div>
-     
-     </div>
-     <div class="col-sm-5">
-     <div class="mark_list_wrap" style="padding-top: 30px;">
-     <p><span class="mark_number">1</span> File name, click to change file name, add tags.</p>
-     <p><span class="mark_number">2</span> Word counter and Outline View. Shortcuts: <code>CMD + 7</code>.</p>
-     <p><span class="mark_number">3</span> For Live Preview, Export, Publish and Local Images Upload, please use this button. Shortcuts: <code>CMD + 9</code>.</p>
-     <p><span class="mark_number">4</span> Open Local Images Upload window.</p>
-     <p><span class="mark_number">5</span> Publish to Wordpress、Evernote、Medium etc...</p>
-     <p><span class="mark_number">6</span> Add a folder to MWeb, You can also Drag the folders to the sidebar. </p>
-     <p><span class="mark_number">7</span> Search the current selected folder's documents, support <b>Full Text Search</b>. </p>
-     <p><span class="mark_number">8</span> New document in current selected folder. Shortcuts: <code>CMD + N</code>。</p>
-   
-  
-     </div>
-     
-     </div>
-     
-  </div>   
-
-  <div class="row">
- 
-    <div class="col-sm-3">
-      <div class="mark_list_wrap2">
-      <p><span class="mark_number">2</span> Word counter and Outline View</p>
-      <img class="img-responsive" width="395" src="asset/img/en/h-1-1.jpg" />
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="mark_list_wrap2">
-      <p><span class="mark_number">9</span> Right click context menu.</p>
-      <img class="img-responsive" width="384" src="asset/img/en/h-1-4.jpg" />
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="mark_list_wrap2">
-      <p><span class="mark_number">9</span> Folder setting.</p>
-      <img class="img-responsive" width="395" src="asset/img/en/h-1-3.jpg" />
-      </div>
-    </div>
-    
-    <div class="col-sm-3">
-      <div class="mark_list_wrap2">
-        <p><span class="mark_number">10</span> Right click context menu.</p>
-        <img class="img-responsive" width="395" src="asset/img/en/h-1-2.jpg" />
-      </div>
-    </div>
-  </div> 
-
-
-<hr />
-
- <div class="row">
-     <div class="col-sm-5">
-      <div class="img_content">
-        <h2>Publish and Local Images Upload </h2>
-        <img class="img-responsive" width="619" src="asset/img/en/h2-publish-preferences.jpg" />
-
-       
-       </div>
-     </div>
-     <div class="col-sm-7">
-    
-      <div class="mark_list_wrap" style="padding-top: 30px;">
-       <p><span class="mark_number">1</span> Supported services, click to add.</p>
-       <p><span class="mark_number">2</span> Installed services, Drag &amp; Drop for custom sort.</p>
-       <p><span class="mark_number">3</span> Edit or Delete publish service.</p>
-       <p><span class="mark_number">4</span> Supported services, click to add.</p>
-       <p><span class="mark_number">5</span> Installed services.</p>
-
-
-       </div>
-       
-       <div class="help-content">
-       <p><strong>Tips:</strong> Your can add <code>read more</code> for long post when publish to Wordpress, Blogger. <code>Actions</code> - <code>Insert Read More Comment</code>, like below:<br/></p>
-
-        <p><img src="asset/img/en/readmore.jpg" alt="" style="max-width:372px;"/></p>
-       
-
-
-       </div>
-
-     </div>
-
-     
-
-  </div>   
-
-  <div class="row">
-  <div class="col-sm-12">
-    <div style="padding-top: 30px;" class="help-content">
-      <h3>More info...</h3>
-
-      <ul>
-<li><a href="mweb-1.5.1-release.html">MWeb 1.5 release! publish to Evernote, 印象笔记, Wordpress.com, Blogger.</a></li>
-<li><a href="mweb-1.6.1-release-en.html">MWeb 1.6 release! Dark Mode,Full Text Search,Editor/Preview View Mode, Update to Wordpress, Evernote etc..</a></li>
-</ul>
-
-       
-
-    </div>
-  </div>
-  </div> 
-<hr />
- <div class="row">
- 
-    <div class="col-sm-7">
-       <div class="img_content">
-        <h2>Local Images Upload</h2>
-        <img class="img-responsive" src="asset/img/en/h3-1.jpg" />
-
-       
-       </div>
-     
-     </div>
-     <div class="col-sm-5">
-     <div class="mark_list_wrap" style="padding-top: 30px;">
-     <p><span class="mark_number">1</span> Installed upload services list.</p>
-     <p><span class="mark_number">2</span> Upload button, click to start upload local images to selected upload service.</p>
-     <p><span class="mark_number">3</span> Delete, Preview and Copy buttons.</p>
-     <p><span class="mark_number">4</span> Replace the local images to remate images and copy.</p>
-     <p><span class="mark_number">5</span> Replace the local images to remate images and copy to HTML。</p>
-     <p><span class="mark_number">6</span> Replace the local images to remate images and create new document. </p>
-  
-     </div>
-     
-     </div>
-     
-  </div> 
-  <div class="row">
-  <div class="col-sm-12">
-    <div class="help-content" style="padding-top: 30px;">
-      <h3>More Info...</h3>
-        <ul>
-        
-        <li><a href="how_to_use_images_in_mweb.html">Tutorial for MWeb for Mac and iOS insert images and images auto upload services</a></li>
-        <li> <a href="mweb-1.9.1-release-en.html">MWeb 1.9.1 release! New icon, Editor &amp; Export to PDF improved, Add Local Images Upload Services.</a>
-        </li>
-        </ul>
-    </div>
-  </div>
-  </div>
-  
-
-<hr />
- <div class="row">
- 
-    <div class="col-sm-7">
-       <div class="img_content">
-        <h2>MWeb Library Mode UI</h2>
-        <img class="img-responsive" src="asset/img/en/h4-1.jpg" />
-        <p style="text-align: center;">Menu: View - Open Library or <code>CMD + L</code> to open Library Mode.</p>
-       
-       </div>
-     
-     </div>
-     <div class="col-sm-5">
-     <div class="mark_list_wrap" style="padding-top: 30px;">
-     <p><span class="mark_number">1</span> Title</p>
-     <p><span class="mark_number">2</span> Document's setting. You can set the document's category, manager the images and attachments. Shortcuts: <code>CMD + 7</code>。</p>
-     <p><span class="mark_number">3</span> For create new category, sub category. </p>
-     <p><span class="mark_number">4</span> Categories list. You can Drag &amp; Drop to sort the categories.</p>
-     <p><span class="mark_number">5</span> Selected Category documents list. You can Drag &amp; Drop to sort the document when the <code>Order by:</code> set to <code>Custom</code>. Drag &amp; Drop the document to category will move to that category, Holding <code>CMD</code> key will add, <code>Option</code> key will remove. </p>
-   
-     </div>
-
-     <div class="help-content">
-       <p><strong>Notice:</strong>
-      Library Mode UI is very similar with the External Mode UI.
-       </p>
-
-      
-
-
-
-       </div>
-
-
-     
-     </div>
-     
-  </div> 
-
-  <div class="row">
- 
-    <div class="col-sm-4">
-      <div class="mark_list_wrap2">
-      <p><span class="mark_number">4</span> Right click context menu.</p>
-      <img class="img-responsive" width="267" src="asset/img/en/h5-1-1.jpg" />
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="mark_list_wrap2">
-      <p><span class="mark_number">4</span> Site Category setting.</p>
-      <img class="img-responsive" width="360" src="asset/img/en/h5-1-2.jpg" />
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="mark_list_wrap2">
-      <p><span class="mark_number">5</span> Right click context menu.</p>
-      <img class="img-responsive" width="322" src="asset/img/en/h5-1-3.jpg" />
-      </div>
-    </div>
-    
-  
-  </div> 
-
-
-<div class="row">
-  <div class="col-sm-12">
-    <div class="help-content" style="padding-top: 30px;">
-    <h3>More Info</h3>
-    <ul>
-<li><a href="how_to_use_library_in_ios.html">How to use MWeb for Mac Library in iOS</a></li>
-</ul>
-
-      <h3>More Info about Static blog/website generator.</h3>
-       
-
-<p>MWeb's static blog generator is very easy to use, if you want to more info, please check these posts:</p>
-
-<ul>
-<li><a href="mweb-static-blog-generator.html">Introducing static blog generator</a></li>
-<li><a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></li>
-<li><a href="custom-site-theme-detail.html">Custom site theme or design you owner theme</a></li>
-</ul>
-
-<p>MWeb all themes now add to github: <a href="https://github.com/oulvhai/MWeb-Themes">https://github.com/oulvhai/MWeb-Themes</a>.</p>
-
-<ul>
-<li>mweb-Bootstrap-blog: this theme used for <a href="http://zh.mweb.im/">MWeb 中文官网</a></li>
-<li>mweb-Bootstrap-blog-EN: this theme used for <a href="http://www.mweb.im/">MWeb Official Site</a></li>
-<li>New theme: mweb-medium-like, github: <a href="https://github.com/oulvhai/mweb-medium-like">https://github.com/oulvhai/mweb-medium-like</a> </li>
-<li>New theme: mweb-foundation-book, github <a href="https://github.com/oulvhai/mweb-foundation-book">https://github.com/oulvhai/mweb-foundation-book</a></li>
-</ul>
-
-<p>If you want to publish your static blog to github pages, just check this link: <a href="https://pages.github.com/">https://pages.github.com/</a>. </p>
-
-<p>If you want to publish your static blog to FTP,SFTP etc... <br/>
-Please check this post: <a href="use-goodsync-sync-mweb-static-websites.html">Use GoodSync synchronize MWeb&#39;s static websites to FTP,SFTP,WebDAV,Amazon S3 automatically</a>.</p>
-
-    </div>
-  </div>
-  </div>
-
-<hr />
-
-<div class="row">
- 
-    <div class="col-sm-12">
-       <div class="img_content">
-        <h2>MWeb View Mode and some useful tips.</h2>
-        <ul>
-        <li>If you always use External Mode, You can enable Preferences - General - Open the external source window on launch. </li>
-       
-        <li>Use menu View - Dark Mode to switch Dark Mode. </li>
-        <li>Need help or have a question?
-
-        <ol>
-<li>Use <code>Help</code> - <code>Send Feedback</code></li>
-<li>Email: <a href="mailto:coderforart+233@gmail.com">coderforart+233@gmail.com</a></li>
-<li>Sina Weibo: <a href="http://weibo.com/oulvhai">@oulvhai</a></li>
-<li>Twitter：<a href="http://twitter.com/oulvhai">@oulvhai</a></li>
-</ol>
-
-</li>
-        </ul>
-        </div>
-    </div>
-</div>
-
-
-
-
-    </div>
-
-    <footer class="blog-footer">
-      <p>Copyright &copy; 2015
+   <footer class="blog-footer">
+      <p>Copyright &copy; 2018
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
-Theme by <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>、<a target="_blank" href="https://twitter.com/mdo">@mdo</a>
-&nbsp;&nbsp; host on <a target="_blank" href="https://pages.github.com/">Github Pages</a>.</p>
+  host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
       <p>
         <a href="#">Back to top</a>
       </p>

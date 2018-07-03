@@ -13,6 +13,7 @@
   	</title>
      <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
     <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
     <link href="asset/css/style.css" rel="stylesheet">
     <script src="asset/js/jquery.min.js"></script>
@@ -31,41 +32,107 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item" id="menu-index" href="index.html">Home</a>
-          <a class="blog-nav-item" id="menu-help" href="help.html">Documentation</a>
-          <a class="blog-nav-item" id="menu-themes" href="themes.html">Themes</a>
-          <a class="blog-nav-item" id="menu-blog" href="all.html">Blog</a>
-          <a class="blog-nav-item" id="menu-about" href="about.html">About</a>
-          <a class="blog-nav-item" style="float:right;" href="http://zh.mweb.im">中文</a>
+        
+          <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+          <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        
+          <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+          <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
+        
+          <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+          <a class="menu-lang blog-nav-item" target="_blank" href="https://zh.mweb.im/">中文</a>
+        
         </nav>
       </div>
     </div>
-
       
       <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
-        <span style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');">MWeb 3.0 is a paid upgrade, will release next week for 50% OFF. Now you can try beta: </span><a  href="https://dl.devmate.com/com.coderforart.MWeb3/MWeb3-ProMarkdownwriting,notetakingandstaticbloggeneratorApp.dmg">Download Beta</a>
-
+        <a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="mweb3x-release-note.html" >MWeb 3 release and what is difference between 3.x and 2.x. MWeb 3 50% OFF for a week!!</a>
       </div>
-        <script type="text/javascript">
+    
+    <script type="text/javascript">
       $(function(){
       	$('#menu-blog').addClass('active');
       });
       </script>
    <div class="container" id="content-wrap">
 
+<div >
+   <script type="text/javascript">
+  	$(function(){
+  		var url = window.location.pathname;
+		var filename = url.substring(url.lastIndexOf('/')+1);
+		if (filename.length > 5) {
+			$('.blog-cats a').each(function(){
+				var href = $(this).attr('href');
+				if(href.length>5){
+					href = href.substring(0,href.length-5);
+					if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+				}
+			});
+		}
+  	});
+  </script>
+  <div class="row">
+      	<div class="col-sm-12">
+
+      		<div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+
+				<ul class="blog-cats">
+
+					<li><a href="blog.html">All</a></li>
+					
+				    
+				    
+				
+				    
+				        
+				        	<li  ><a href="docs.html">Tutorials</a></li>
+				        
+				        	<li  ><a href="tips.html">Tips & Tricks</a></li>
+				        
+				        	<li  ><a href="releases.html">Releases</a></li>
+				        
+				    
+				
+				
+				</ul>
+				<div class="rss"><a href="atom.xml">RSS</a></div>
+      		</div>
+     	 </div>
+     </div>
+     <hr style="margin-bottom: 60px;" />
+</div>
+
+<div  style="display: none;"  ><div class="row">
+	<div class="col-sm-10 blog-main">
+	<h1 style="padding-left: 20px;">
+								 	
+								 	<a href="releases.html">Releases</a>
+								  	
+								 - MWeb 1.8 release! LaTex syntax highlight and LaTex live preview in Editor, Bug fix...</h1>
+	</div></div>
+	<hr style="margin-bottom: 20px;" />
+</div>
       <div class="row">
 
-        <div class="col-sm-8 blog-main">
-			
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
 					<div class="blog-post">
-			            <h2 class="blog-post-title">MWeb 1.8 release! LaTex syntax highlight and LaTex live preview in Editor, Bug fix...</h2>
-			            <p class="blog-post-meta">2015/10/24 17:2 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='releases.html'>Releases</a>&nbsp;
-							 
-							 
-			            </p>
+						<div >
+				            <h2 class="blog-post-title">MWeb 1.8 release! LaTex syntax highlight and LaTex live preview in Editor, Bug fix...</h2>
+				            <p class="blog-post-meta">2015/10/24 17:2 PM 
+					            &nbsp;posted in 
+								
+								    <a class='category' href='releases.html'>Releases</a>&nbsp;
+								 
+								 
+				            </p>
+			        	</div>
+
 			            <div class="content-responsive">
 			            <p><img src="media/14456773521749/en-s-5-small.jpg" alt="" style="width:1280px;"/></p>
 
@@ -86,8 +153,8 @@
 						
 			           
 			          </div><!-- /.blog-post -->
-			<div class="share-comment">
-			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+				<div class="share-comment">
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_native_toolbox"></div>
@@ -106,165 +173,18 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
+				</div>
 			</div>
-
         </div><!-- /.blog-main -->
 
-       <!-- slider start -->  		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          
 
-          <div class="sidebar-module">
-            <h4>About</h4>
-            <p><a target="_blank" href="atom.xml">RSS</a></p>
-            <p><a href="help.html">MWeb Documentation</a></p>
-            
+  </div><!-- /.row -->
 
-          </div>
-          <div class="sidebar-module">
-            <h4>Categories</h4>
-            
-            <ol class="list-unstyled">
-	      <li class="post">
-	        <a href="docs.html">Tutorials&nbsp;(18)</a>
-	        
-	        
-	        
-	      </li>
-	  
-            <ol class="list-unstyled">
-	      <li class="post">
-	        <a href="tips.html">Tips & Tricks&nbsp;(9)</a>
-	        
-	        
-	        
-	      </li>
-	  
-            <ol class="list-unstyled">
-	      <li class="post">
-	        <a href="markdown.html">Markdown&nbsp;(2)</a>
-	        
-	        
-	        
-	      </li>
-	  
-            <ol class="list-unstyled">
-	      <li class="post">
-	        <a href="releases.html">Releases&nbsp;(19)</a>
-	        
-	        
-	        
-	      </li>
-	  
-            <ol class="list-unstyled">
-	      <li class="post">
-	        <a href="other.html">Other&nbsp;(1)</a>
-	        
-	        
-	        
-	      </li>
-	   
-            </ol>
-          </div>
-
-          <div class="sidebar-module">
-            <h4>Recent Posts</h4>
-            
-	  
-	      
-		      
-		        <a href="mweb-ios-2.3.4-release.html">MWeb for iOS 2.3.4 release!</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="mweb-for-mac-223-release.html">MWeb for Mac 2.2.3 release!</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="how_to_use_shell_script.html">How to use Publish Script to Publish website.</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="mweb-for-mac-221-release.html">MWeb for Mac 2.2.1 and 2.2.2 release!</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="14980284096598.html">MWeb for iOS 2.3.2 release!</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="how_to_use_images_in_mweb.html">Tutorial for MWeb for Mac and iOS insert images and images auto upload services</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="how_to_use_library_in_ios.html">How to use MWeb for Mac Library in iOS</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="introducing-mweb-for-ios.html">Introducing to MWeb for iOS</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="14721061867662.html">MWeb 2.0.9 release!</a><br />
-		      
-	     
-	  
-	      
-		      
-		        <a href="mweb-2.0.7-release.html">MWeb 2.0.7 submited!</a><br />
-		      
-	     
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	  
-	      
-	   
-
-          </div>
-         
-        </div><!-- /.blog-sidebar -->
-
-
-      </div><!-- /.row -->
-
-    </div><!-- /.container -->
-
-  <footer class="blog-footer">
-      <p>Copyright &copy; 2015
+</div><!-- /.container -->   <footer class="blog-footer">
+      <p>Copyright &copy; 2018
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
-Theme by <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>、<a target="_blank" href="https://twitter.com/mdo">@mdo</a>
-&nbsp;&nbsp; host on <a target="_blank" href="https://pages.github.com/">Github Pages</a>.</p>
+  host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
       <p>
         <a href="#">Back to top</a>
       </p>

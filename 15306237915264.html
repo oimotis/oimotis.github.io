@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	MWeb External Mode Details - MWeb
+  	
+  	</title>
+     <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
+    <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+        
+          <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+          <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        
+          <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+          <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
+        
+          <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+          <a class="menu-lang blog-nav-item" target="_blank" href="https://zh.mweb.im/">中文</a>
+        
+        </nav>
+      </div>
+    </div>
+      
+      <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
+        <a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="mweb3x-release-note.html" >MWeb 3 release and what is difference between 3.x and 2.x. MWeb 3 50% OFF for a week!!</a>
+      </div>
+    
+    <script type="text/javascript">
+      $(function(){
+      	$('#menu-blog').addClass('active');
+      });
+      </script>
+   <div class="container" id="content-wrap">
+
+<div  style="display: none;" >
+   <script type="text/javascript">
+  	$(function(){
+  		var url = window.location.pathname;
+		var filename = url.substring(url.lastIndexOf('/')+1);
+		if (filename.length > 5) {
+			$('.blog-cats a').each(function(){
+				var href = $(this).attr('href');
+				if(href.length>5){
+					href = href.substring(0,href.length-5);
+					if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+				}
+			});
+		}
+  	});
+  </script>
+  <div class="row">
+      	<div class="col-sm-12">
+
+      		<div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+
+				<ul class="blog-cats">
+
+					<li><a href="blog.html">All</a></li>
+					
+				    
+				    
+				
+				    
+				        
+				        	<li  ><a href="docs.html">Tutorials</a></li>
+				        
+				        	<li  ><a href="tips.html">Tips & Tricks</a></li>
+				        
+				        	<li  ><a href="releases.html">Releases</a></li>
+				        
+				    
+				
+				
+				</ul>
+				<div class="rss"><a href="atom.xml">RSS</a></div>
+      		</div>
+     	 </div>
+     </div>
+     <hr style="margin-bottom: 60px;" />
+</div>
+
+<div   style="display: block;"  ><div class="row">
+	<div class="col-sm-10 blog-main">
+	<h1 style="padding-left: 20px;">
+								 	
+								 	<a href="help.html">Documentation</a>
+								  	
+								 - MWeb External Mode Details</h1>
+	</div></div>
+	<hr style="margin-bottom: 20px;" />
+</div>
+      <div class="row">
+
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
+					<div class="blog-post">
+						<div  style="display: none;" >
+				            <h2 class="blog-post-title">MWeb External Mode Details</h2>
+				            <p class="blog-post-meta">2018/7/3 21:16 PM 
+					            &nbsp;posted in 
+								
+								    <a class='category' href='help.html'>Documentation</a>&nbsp;
+								 
+								 
+				            </p>
+			        	</div>
+
+			            <div class="content-responsive">
+			            <p>This article describes the detailed use of external mode, if you have not seen <a href="15305970515404.html">MWeb Basic use</a>, I suggest you go and see.</p>
+
+<h2 id="toc_0">Mac App Store Sandbox</h2>
+
+<p>Opening a Markdown document in a non-document library in MWeb, if there is a reference to a local image in the document, there is no way to display it and preview it in MWeb. This is because Apple&#39;s software on the Mac App Store (MAS) does not perform any operations on documents outside the software&#39;s own sandbox, and even reads it unless the user explicitly authorizes it. The way the user is authorized is to use the Open, Save dialog. For example, if you open a Markdown document with MWeb, then MWeb can get permission to read and write this document.</p>
+
+<p>If you want to use MWeb to drag and drop the function of inserting images, you need to authorize the entire folder where the document is located to MWeb. When you import the folder, MWeb will automatically get the read and write permissions of this folder.</p>
+
+<p>Of course, the introduction of folders into MWeb makes it easy to open and manage Markdown documents and view the tree structure of folders without using Finder.</p>
+
+<h2 id="toc_1">Add a folder to External Mode</h2>
+
+<p>As shown below, press <code>CMD + E</code> to open the external mode, then click the “+” button in the left bottom corner to select the folder to be imported.</p>
+
+<p><img src="media/15306237915264/15306257614745.jpg" alt="" style="width:934px;"/></p>
+
+<p>In addition, you can also drag and drop folders directly into the folder tree list on the left to import folders.<br/>
+Another way is to drag and drop the folder directly into the MWeb icon to import the folder.</p>
+
+<h2 id="toc_2">Configuring imported folders</h2>
+
+<p>After the folder is added, there is an important setting, which is to introduce the settings of the folder, you can right-click the imported folder, and then select <code>Edit</code>, it will display the following interface:</p>
+
+<p><img src="media/15306237915264/15306240869116.jpg" alt="" style="width:347px;"/></p>
+
+<p>One setting is the &quot;Display Name&quot;, which is specific to the imported folder. You will not modify the name of the folder if you modify the name. There are also several important settings that are related to inserting images. The first one is &quot;Media Folder Name:&quot;. This is followed by the &quot;Media Save Path:&quot; option is associated with this, and there are only two options for &quot;Absolute&quot; and &quot;Relative&quot;.<br/>
+For example, if the folder I imported is A, then a file is under &quot;A/folder/file.md&quot;, if I insert a picture called &quot;pic.jpg&quot; in &quot;file.md&quot; , the result of the different options is:</p>
+
+<ol>
+<li><strong>Relative:</strong> The picture will be saved in “A/folder/media/pic.jpg”, and the generated Markdown will be: <code>![](media/pic.jpg)</code>.</li>
+<li><strong>Absolute:</strong> The picture will be saved in “A/media/pic.jpg”, and the generated Markdwon is: <code>![](/media/pic.jpg</code>.</li>
+</ol>
+
+<p>Another setting: &quot;Automatically upload the inserted image to...&quot;. If this option is checked, the above settings will not work because the image you inserted will be automatically uploaded to the selected image upload service and then returned to the Markdown syntax.</p>
+
+<p>Based on this feature, MWeb can support image insertion, preview and management of static website generation tools such as Octpress, Jekyll, hexo, gitbook, VuePress and so on.</p>
+
+<h2 id="toc_3">Manage imported folders</h2>
+
+<p>After the folder is imported, you can use the right button to perform some common operations on the imported folders and files, as shown in the following figure.</p>
+
+<p><img src="media/15306237915264/15306244948016.jpg" alt="" style="width:646px;"/></p>
+
+			            </div>
+						
+			           
+			          </div><!-- /.blog-post -->
+				<div class="share-comment">
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+				</div>
+			</div>
+        </div><!-- /.blog-main -->
+
+
+  </div><!-- /.row -->
+
+</div><!-- /.container -->   <footer class="blog-footer">
+      <p>Copyright &copy; 2018
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
+  host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58735702-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
