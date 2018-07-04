@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2018-07-04T11:06:16+08:00</updated>
+  <updated>2018-07-04T14:15:42+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -561,9 +561,9 @@ Also, exporting to Docx does not currently support local images.</p>
   
   <entry>
     <title type="html"><![CDATA[Markdown syntax]]></title>
-    <link href="http://www.mweb.im/15305971422667.html"/>
+    <link href="http://www.mweb.im/markdown.html"/>
     <updated>2018-07-03T13:52:22+08:00</updated>
-    <id>http://www.mweb.im/15305971422667.html</id>
+    <id>http://www.mweb.im/markdown.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">The first thing you should know</h2>
 
