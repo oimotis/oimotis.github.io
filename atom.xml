@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2018-07-12T13:53:31+08:00</updated>
+  <updated>2018-07-12T14:12:04+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -372,7 +372,7 @@ In addition, the quick search is <code>CMD + O</code>. When there is no search b
 <h2 id="toc_9">Document Library related issues</h2>
 
 <p>The document library is generally work fine. The discussion here is if there is an unexpected solution.<br/>
-As mentioned in the document library structure above, MWeb&#39;s document library is a folder consisting of the docs folder and the mainlib.db file in the folder. The docs folder contains all the notes, one note in one document, saved as a number + .md. If there is a problem with the document library, it is usually the following:</p>
+As mentioned in the document library structure above, MWeb&#39;s document library is a folder consisting of the docs folder and the mainlib.db file in the folder. The docs folder contains all the notes, one note in one document, the file name like: <code>number + .md</code>. If there is a problem with the document library, it is usually the following:</p>
 
 <h3 id="toc_10">1. The document library location is incorrect.</h3>
 
