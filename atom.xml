@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="http://www.mweb.im/atom.xml" rel="self"/>
   <link href="http://www.mweb.im/"/>
-  <updated>2018-07-14T10:32:31+08:00</updated>
+  <updated>2018-07-14T10:32:48+08:00</updated>
   <id>http://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -378,13 +378,14 @@ As mentioned in the document library structure above, MWeb&#39;s document librar
 
 <p>In MWeb 3.1.4 and above, the document library location is incorrect, it will automatically open <code>Preferences</code> - <code>Library &amp; Backup</code> and there will be a red text prompt in <code>Library Location</code>, like below:<br/>
 <img src="media/15306209330609/WX20180712123640.png" alt=""/><br/>
-In this case, if the Library location is not you choose location, just use <code>Change the Library Location</code> - <code>Choose a Exist Library...</code> choose correct document library location. </p>
+In this case, you can use the following methods to solve this problem:</p>
 
-<p>If your document library is saved on iCloud Drive, please confirm that your current iCloud account is OK.</p>
-
-<p>If you don&#39;t know, you can search the mainlib.db file in the mac to find the location of the document library. Then use <code>Choose a Exist Library...</code> to select that location to restore.</p>
-
-<p>If you have backed up the document library to a historically recorded cloud drive in accordance with the above <strong>guaranteed document library data security</strong> section, you can restore the document library from the history and then copy it to the MWeb document library you want to set up. Then use the <code>Choose a Exist Library...</code> button to restore.</p>
+<ol>
+<li>If the Library location is not you choose location, just use <code>Change the Library Location</code> - <code>Choose a Exist Library...</code> choose correct document library location. MWeb&#39;s Library folder contain a <code>docs</code> folder and a <code>mainlib.db</code> file.</li>
+<li>If your document library is saved on iCloud Drive, please confirm that your current iCloud account is OK.</li>
+<li>If you don&#39;t know, you can search the <code>mainlib.db</code> file in the mac to find the location of the document library. Then use <code>Choose a Exist Library...</code> to select that location to restore.</li>
+<li>If you have backed up the document library to a historically recorded cloud drive in accordance with the above <strong>guaranteed document library data security</strong> section, you can restore the document library from the history and then copy it to the MWeb document library you want to set up. Then use the <code>Choose a Exist Library...</code> button to restore.</li>
+</ol>
 
 <h3 id="toc_11">2. mainlib.db has problems or is corrupted when syncing</h3>
 
