@@ -32,18 +32,19 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
         
-          <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
         
-          <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
         
-          <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
         
-          <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
         
-          <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
         
-          <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
         
         </nav>
       </div>
@@ -53,154 +54,163 @@
         <a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="mweb3x-release-note.html" >MWeb 3 release and what is difference between 3.x and 2.x. </a>
       </div>
     
-    <div class="container" id="content-wrap">
+    
+  <div class="container" id="content-wrap">
 
-      <script type="text/javascript">
+ 
+    
+     
+   <script type="text/javascript">
       $(function(){
-      	$('a.menu-blog').addClass('active');
+        $('a.menu-blog').addClass('active');
       });
       </script>
 
     
       <script type="text/javascript">
-  	$(function(){
-  		var url = window.location.pathname;
-		var filename = url.substring(url.lastIndexOf('/')+1);
-		if (filename.length > 5) {
-			$('.blog-cats a').each(function(){
-				var href = $(this).attr('href');
-				if(href.length>5){
-					href = href.substring(0,href.length-5);
-					if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
-				}
-			});
-		}
-  	});
+    $(function(){
+      var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    if (filename.length > 5) {
+      $('.blog-cats a').each(function(){
+        var href = $(this).attr('href');
+        if(href.length>5){
+          href = href.substring(0,href.length-5);
+          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+        }
+      });
+    }
+    });
   </script>
-  <div class="row">
-      	<div class="col-sm-12">
+   <div class="row">
+        <div class="col-sm-12">
 
-      		<div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
 
-				<ul class="blog-cats">
+        <ul class="blog-cats">
 
-					<li><a href="blog.html">All</a></li>
-					
-				    
-				    
-				
-				    
-				        
-				        	<li  ><a href="docs.html">Tutorials</a></li>
-				        
-				        	<li  ><a href="tips.html">Tips & Tricks</a></li>
-				        
-				        	<li  ><a href="releases.html">Releases</a></li>
-				        
-				    
-				
-				
-				</ul>
-				<div class="rss"><a href="atom.xml">RSS</a></div>
-      		</div>
-     	 </div>
+  
+    
+
+  
+      <li><a href="blog.html">All</a></li> 
+        
+              <li><a href="docs.html">Tutorials</a></li>
+        
+              <li><a href="tips.html">Tips & Tricks</a></li>
+        
+              <li><a href="releases.html">Releases</a></li>
+        
+    
+
+        </ul>
+        <div class="rss"><a href="atom.xml">RSS</a></div>
+          </div>
+       </div>
      </div>
      <hr style="margin-bottom: 60px;" />
-
       <div class="row">
 
         <div class="col-sm-10 blog-main">
+
         	<div class="blog-content-wrap">
 			
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-v1.2-release.html">MWeb 1.2 release</a></h2>
-			            <p class="blog-post-meta">2015/2/8 23:50 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='releases.html'>Releases</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="use-goodsync-sync-mweb-static-websites.html">Use GoodSync synchronize MWeb's static websites to FTP,SFTP,WebDAV,Amazon S3 automatically</a></h2>
+		            <p class="blog-post-meta">2015/2/27 12:1 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="qa.html">MWeb Q & A</a></h2>
-			            <p class="blog-post-meta">2015/1/20 10:4 上午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-v1.2-release.html">MWeb 1.2 release</a></h2>
+		            <p class="blog-post-meta">2015/2/8 23:50 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='releases.html'>Releases</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-v1.1-release.html">MWeb 1.1 release</a></h2>
-			            <p class="blog-post-meta">2015/1/19 15:2 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='releases.html'>Releases</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="qa.html">MWeb Q & A</a></h2>
+		            <p class="blog-post-meta">2015/1/20 10:4 上午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="custom-site-theme-detail.html">Custom site theme or design you owner theme</a></h2>
-			            <p class="blog-post-meta">2015/1/7 13:54 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-v1.1-release.html">MWeb 1.1 release</a></h2>
+		            <p class="blog-post-meta">2015/1/19 15:2 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='releases.html'>Releases</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="markdown-syntax-guide-full-version.html">Markdown syntax guide full version</a></h2>
-			            <p class="blog-post-meta">2014/12/16 21:40 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
-			  
-			</div>
-
-           <nav>
-            <ul class="pager">
-            
-              <li class=""><a href="all.html"><span aria-hidden="true">&larr;</span> Newer</a></li>
-            
-
-        <li class=""><a href="archives.html">Archives</a></li>
-
-      
-              <li class=" disabled "><a href="#index">Older <span aria-hidden="true">&rarr;</span></a></li>
-            
-            </ul>
-          </nav>
-
-        </div><!-- /.blog-main -->
-
-   
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="custom-site-theme-detail.html">Custom site theme or design you owner theme</a></h2>
+		            <p class="blog-post-meta">2015/1/7 13:54 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
+			 
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="markdown-syntax-guide-full-version.html">Markdown syntax guide full version</a></h2>
+		            <p class="blog-post-meta">2014/12/16 21:40 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
+			           
 
 
-      </div><!-- /.row -->
+	          <nav>
+	            <ul class="pager">
+	            
+	            	<li class=""><a href="all.html"><span aria-hidden="true">&larr;</span> Newer</a></li>
+	            
 
-</div><!-- /.container -->
+					<li class=""><a href="archives.html">Archives</a></li>
 
+				
+	            	<li class=" disabled "><a href="#index">Older <span aria-hidden="true">&rarr;</span></a></li>
+	            
+	            </ul>
+	          </nav>
+
+        	</div><!-- /.blog-main -->
+		</div>
+	</div>
+
+</div>
    <footer class="blog-footer">
-      <p>Copyright &copy; 2018
-Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
-  host on <a target="_blank" href="https://github.com/">Github Pages</a>
+      <p>Copyright &copy; 2019
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
 .</p>
       <p>
         <a href="#">Back to top</a>

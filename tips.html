@@ -32,18 +32,19 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
         
-          <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
         
-          <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
         
-          <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
         
-          <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
         
-          <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
         
-          <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
         
         </nav>
       </div>
@@ -53,236 +54,233 @@
         <a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="mweb3x-release-note.html" >MWeb 3 release and what is difference between 3.x and 2.x. </a>
       </div>
     
-    <div class="container" id="content-wrap">
+    
+  <div class="container" id="content-wrap">
 
-      <script type="text/javascript">
+ 
+    
+     
+   <script type="text/javascript">
       $(function(){
-      	$('a.menu-blog').addClass('active');
+        $('a.menu-blog').addClass('active');
       });
       </script>
 
     
       <script type="text/javascript">
-  	$(function(){
-  		var url = window.location.pathname;
-		var filename = url.substring(url.lastIndexOf('/')+1);
-		if (filename.length > 5) {
-			$('.blog-cats a').each(function(){
-				var href = $(this).attr('href');
-				if(href.length>5){
-					href = href.substring(0,href.length-5);
-					if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
-				}
-			});
-		}
-  	});
+    $(function(){
+      var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    if (filename.length > 5) {
+      $('.blog-cats a').each(function(){
+        var href = $(this).attr('href');
+        if(href.length>5){
+          href = href.substring(0,href.length-5);
+          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+        }
+      });
+    }
+    });
   </script>
-  <div class="row">
-      	<div class="col-sm-12">
+   <div class="row">
+        <div class="col-sm-12">
 
-      		<div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
 
-				<ul class="blog-cats">
+        <ul class="blog-cats">
 
-					<li><a href="blog.html">All</a></li>
-					
-				    
-				    
-				
-				    
-				        
-				        	<li  ><a href="docs.html">Tutorials</a></li>
-				        
-				        	<li  ><a href="tips.html">Tips & Tricks</a></li>
-				        
-				        	<li  ><a href="releases.html">Releases</a></li>
-				        
-				    
-				
-				
-				</ul>
-				<div class="rss"><a href="atom.xml">RSS</a></div>
-      		</div>
-     	 </div>
+  
+    
+
+  
+      <li><a href="blog.html">All</a></li> 
+        
+              <li><a href="docs.html">Tutorials</a></li>
+        
+              <li><a href="tips.html">Tips & Tricks</a></li>
+        
+              <li><a href="releases.html">Releases</a></li>
+        
+    
+
+        </ul>
+        <div class="rss"><a href="atom.xml">RSS</a></div>
+          </div>
+       </div>
      </div>
      <hr style="margin-bottom: 60px;" />
-
       <div class="row">
 
         <div class="col-sm-10 blog-main">
+
         	<div class="blog-content-wrap">
 			
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="how_to_use_shell_script.html">How to use Publish Script to Publish website.</a></h2>
-			            <p class="blog-post-meta">2017/7/11 11:34 上午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="how_to_use_shell_script.html">How to use Publish Script to Publish website.</a></h2>
+		            <p class="blog-post-meta">2017/7/11 11:34 上午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="how_to_use_images_in_mweb.html">Tutorial for MWeb for Mac and iOS insert images and images auto upload services</a></h2>
-			            <p class="blog-post-meta">2017/6/21 12:15 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="how_to_use_images_in_mweb.html">Tutorial for MWeb for Mac and iOS insert images and images auto upload services</a></h2>
+		            <p class="blog-post-meta">2017/6/21 12:15 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="how_to_use_library_in_ios.html">How to use MWeb for Mac Library in iOS</a></h2>
-			            <p class="blog-post-meta">2017/6/21 12:14 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="how_to_use_library_in_ios.html">How to use MWeb for Mac Library in iOS</a></h2>
+		            <p class="blog-post-meta">2017/6/21 12:14 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-2.0.7-release.html">MWeb 2.0.7 submited!</a></h2>
-			            <p class="blog-post-meta">2016/7/27 18:13 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							
-							    <a class='category' href='releases.html'>Releases</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-2.0.7-release.html">MWeb 2.0.7 submited!</a></h2>
+		            <p class="blog-post-meta">2016/7/27 18:13 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						
+						    <a class='category' href='releases.html'>Releases</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-1.9.7-release-en.html">MWeb 1.9.7 release! CMD + 4 and Live Preview improved, Publish to wordpress.com support latex.</a></h2>
-			            <p class="blog-post-meta">2016/2/26 11:54 上午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='releases.html'>Releases</a>&nbsp;
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-1.9.7-release-en.html">MWeb 1.9.7 release! CMD + 4 and Live Preview improved, Publish to wordpress.com support latex.</a></h2>
+		            <p class="blog-post-meta">2016/2/26 11:54 上午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='releases.html'>Releases</a>&nbsp;
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-1.7.1-release.html">MWeb 1.7.1 release! Export to RTF and Docx, publish to evernote with style, Library backup and new site themes...</a></h2>
-			            <p class="blog-post-meta">2015/9/14 10:56 上午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='releases.html'>Releases</a>&nbsp;
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-1.7.1-release.html">MWeb 1.7.1 release! Export to RTF and Docx, publish to evernote with style, Library backup and new site themes...</a></h2>
+		            <p class="blog-post-meta">2015/9/14 10:56 上午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='releases.html'>Releases</a>&nbsp;
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="move-lite-data-to-mweb-en.html">Move the MWeb Lite Library's Data to MWeb</a></h2>
-			            <p class="blog-post-meta">2015/7/31 16:5 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="move-lite-data-to-mweb-en.html">Move the MWeb Lite Library's Data to MWeb</a></h2>
+		            <p class="blog-post-meta">2015/7/31 16:5 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-in-yosemite.html">MWeb Screenshots in Yosemite</a></h2>
-			            <p class="blog-post-meta">2015/3/28 11:32 上午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-in-yosemite.html">MWeb Screenshots in Yosemite</a></h2>
+		            <p class="blog-post-meta">2015/3/28 11:32 上午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></h2>
-			            <p class="blog-post-meta">2015/3/21 13:53 下午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="mweb-comment-and-share-help.html">Add AddThis Share and Disqus Comment</a></h2>
+		            <p class="blog-post-meta">2015/3/21 13:53 下午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
 			 
-					<div class="blog-post">
-			            <h2 class="blog-post-title"><a href="qa.html">MWeb Q & A</a></h2>
-			            <p class="blog-post-meta">2015/1/20 10:4 上午 
-				            &nbsp;posted in 
-							
-							    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-							 
-							 
-			            </p>
-			      
-			          </div><!-- /.blog-post -->
-			  
-			</div>
-
-           <nav>
-            <ul class="pager">
-            
-              <li class="  disabled "><a href="#index"><span aria-hidden="true">&larr;</span> Newer</a></li>
-            
-
-        <li class=""><a href="archives.html">Archives</a></li>
-
-      
-              <li class=" disabled "><a href="#index">Older <span aria-hidden="true">&rarr;</span></a></li>
-            
-            </ul>
-          </nav>
-
-        </div><!-- /.blog-main -->
-
-   
+				<div class="blog-post">
+		            <h2 class="blog-post-title"><a href="qa.html">MWeb Q & A</a></h2>
+		            <p class="blog-post-meta">2015/1/20 10:4 上午 
+						&nbsp;posted in 
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						 
+						 
+					 
+		            </p>
+		          </div><!-- /.blog-post -->
+			           
 
 
-      </div><!-- /.row -->
+	          <nav>
+	            <ul class="pager">
+	            
+	            	<li class="  disabled "><a href="#index"><span aria-hidden="true">&larr;</span> Newer</a></li>
+	            
 
-</div><!-- /.container -->
+					<li class=""><a href="archives.html">Archives</a></li>
 
+				
+	            	<li class=" disabled "><a href="#index">Older <span aria-hidden="true">&rarr;</span></a></li>
+	            
+	            </ul>
+	          </nav>
+
+        	</div><!-- /.blog-main -->
+		</div>
+	</div>
+
+</div>
    <footer class="blog-footer">
-      <p>Copyright &copy; 2018
-Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
-  host on <a target="_blank" href="https://github.com/">Github Pages</a>
+      <p>Copyright &copy; 2019
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
 .</p>
       <p>
         <a href="#">Back to top</a>

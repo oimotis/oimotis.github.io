@@ -32,18 +32,19 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
         
-          <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
         
-          <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
         
-          <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
         
-          <a class="menu-blog blog-nav-item" target="_self" href="blog.html">Blog</a>
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
         
-          <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
         
-          <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
         
         </nav>
       </div>
@@ -53,88 +54,26 @@
         <a style="color:#ff0000;"  onclick="ga('send','event','global_notice_click');" href="mweb3x-release-note.html" >MWeb 3 release and what is difference between 3.x and 2.x. </a>
       </div>
     
-    <script type="text/javascript">
-      $(function(){
-      	$('#menu-blog').addClass('active');
-      });
-      </script>
-   <div class="container" id="content-wrap">
+    
+ <div class="container" id="content-wrap">
+ 
 
-<div  style="display: none;" >
-   <script type="text/javascript">
-  	$(function(){
-  		var url = window.location.pathname;
-		var filename = url.substring(url.lastIndexOf('/')+1);
-		if (filename.length > 5) {
-			$('.blog-cats a').each(function(){
-				var href = $(this).attr('href');
-				if(href.length>5){
-					href = href.substring(0,href.length-5);
-					if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
-				}
-			});
-		}
-  	});
-  </script>
-  <div class="row">
-      	<div class="col-sm-12">
-
-      		<div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
-
-				<ul class="blog-cats">
-
-					<li><a href="blog.html">All</a></li>
-					
-				    
-				    
-				
-				    
-				        
-				        	<li  ><a href="docs.html">Tutorials</a></li>
-				        
-				        	<li  ><a href="tips.html">Tips & Tricks</a></li>
-				        
-				        	<li  ><a href="releases.html">Releases</a></li>
-				        
-				    
-				
-				
-				</ul>
-				<div class="rss"><a href="atom.xml">RSS</a></div>
-      		</div>
-     	 </div>
-     </div>
-     <hr style="margin-bottom: 60px;" />
-</div>
-
-<div   style="display: block;"  ><div class="row">
-	<div class="col-sm-10 blog-main">
-	<h1 style="padding-left: 20px;">
-								 	
-								 	<a href="help.html">Documentation</a>
-								  	
-								 - Markdown output</h1>
-	</div></div>
+	<div class="row">
+		<div class="col-sm-10 blog-main">
+			<h1 style="padding-left: 20px;">
+				<a href="help.html">Documentation</a> - Markdown output</h1>
+		</div>
+	</div>
 	<hr style="margin-bottom: 20px;" />
-</div>
+
+
       <div class="row">
 
         <div class="col-sm-10 blog-main">
 			<div class="blog-content-wrap">
-					<div class="blog-post">
-						<div  style="display: none;" >
-				            <h2 class="blog-post-title">Markdown output</h2>
-				            <p class="blog-post-meta">2018/7/3 19:19 下午 
-					            &nbsp;posted in 
-								
-								    <a class='category' href='help.html'>Documentation</a>&nbsp;
-								 
-								 
-				            </p>
-			        	</div>
-
-			            <div class="content-responsive">
-			            <p>Use MWeb to export Markdown documents as images, HTML, Epub, PDF, RTF, and Docx.</p>
+				<div class="blog-post">
+		            <div class="content-responsive">
+		            <p>Use MWeb to export Markdown documents as images, HTML, Epub, PDF, RTF, and Docx.</p>
 
 <p>MWeb uses the <code>Publish</code> menu or the <code>Share button</code> on the toolbar to export the current Markdown document, like below:<br/>
 <img src="media/15306167569481/15306203401541.jpg" alt="" style="width:304px;"/></p>
@@ -172,12 +111,11 @@
 <p>Exporting to HTML using MWeb will export a single HTML, and if there is a local image, the local image will be Base64 encoded into the HTML.<br/>
 Also, exporting to Docx does not currently support local images.</p>
 
-			            </div>
-						
-			           
-			          </div><!-- /.blog-post -->
-				<div class="share-comment">
-				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		            </div>
+				</div><!-- /.blog-post -->
+			</div>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_native_toolbox"></div>
@@ -196,17 +134,13 @@ Also, exporting to Docx does not currently support local images.</p>
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-				</div>
 			</div>
+
         </div><!-- /.blog-main -->
-
-
-  </div><!-- /.row -->
-
-</div><!-- /.container -->   <footer class="blog-footer">
-      <p>Copyright &copy; 2018
-Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
-  host on <a target="_blank" href="https://github.com/">Github Pages</a>
+	</div>
+</div>   <footer class="blog-footer">
+      <p>Copyright &copy; 2019
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
 .</p>
       <p>
         <a href="#">Back to top</a>
