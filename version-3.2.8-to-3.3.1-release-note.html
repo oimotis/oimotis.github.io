@@ -8,7 +8,7 @@
     <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
     <title> 
 	  
-  	MWeb External Mode Details - MWeb
+  	MWeb version 3.2.8 and bellow update to version 3.3.1 notice - MWeb
   	
   	</title>
      <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
@@ -57,64 +57,89 @@
     
  <div class="container" id="content-wrap">
  
+ 
+    
+     
+   <script type="text/javascript">
+      $(function(){
+        $('a.menu-blog').addClass('active');
+      });
+      </script>
 
-	<div class="row">
-		<div class="col-sm-10 blog-main">
-			<h1 style="padding-left: 20px;">
-				<a href="help.html">Documentation</a> - MWeb External Mode Details</h1>
-		</div>
-	</div>
-	<hr style="margin-bottom: 20px;" />
+    
+      <script type="text/javascript">
+    $(function(){
+      var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    if (filename.length > 5) {
+      $('.blog-cats a').each(function(){
+        var href = $(this).attr('href');
+        if(href.length>5){
+          href = href.substring(0,href.length-5);
+          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+        }
+      });
+    }
+    });
+  </script>
+   <div class="row">
+        <div class="col-sm-12">
 
+          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+
+        <ul class="blog-cats">
+
+  
+    
+
+  
+      <li><a href="blog.html">All</a></li> 
+        
+              <li><a href="docs.html">Tutorials</a></li>
+        
+              <li><a href="tips.html">Tips & Tricks</a></li>
+        
+              <li><a href="releases.html">Releases</a></li>
+        
+    
+
+        </ul>
+        <div class="rss"><a href="atom.xml">RSS</a></div>
+          </div>
+       </div>
+     </div>
+     <hr style="margin-bottom: 60px;" />
 
       <div class="row">
 
         <div class="col-sm-10 blog-main">
 			<div class="blog-content-wrap">
 				<div class="blog-post">
+		            <h2 class="blog-post-title">MWeb version 3.2.8 and bellow update to version 3.3.1 notice</h2>
+		            <p class="blog-post-meta">2019/09/21 
+			            &nbsp;posted in 
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						
+						    <a class='category' href='releases.html'>Releases</a>&nbsp;
+						 
+						 
+		            </p>
 		            <div class="content-responsive">
-		            <p>This article describes the detailed use of external mode, if you have not seen <a href="15305970515404.html">MWeb Basic use</a>, I suggest you go and see.</p>
+		            <p>Before you update veriosn <span style='color:red;font-weight:bold;'>3.2.8</span> and bellow to version <span style='color:red;font-weight:bold;'>3.3.1</span> and above,  please make sure your version is <span style='color:red;font-weight:bold;'>3.2.8</span>, then use menu: <strong>MWeb - Export Preferences Data...</strong> to export the preferences. When you updated to version <span style='color:red;font-weight:bold;'>3.3.1</span>, please use menu: <strong>MWeb - Import Preferences Data...</strong> to import the preferences.</p>
 
-<h2 id="toc_0">Mac App Store Sandbox</h2>
+<p><strong>Tip :</strong> If you already updated to 3.3.1 and forgot to export the preferences data. You can re-download the 3.2.8 version, export it, and then import it in version 3.3.1.</p>
 
-<p>Opening a Markdown document in a non-document library in MWeb, if there is a reference to a local image in the document, there is no way to display it and preview it in MWeb. This is because Apple&#39;s software on the Mac App Store (MAS) does not perform any operations on documents outside the software&#39;s own sandbox, and even reads it unless the user explicitly authorizes it. The way the user is authorized is to use the Open, Save dialog. For example, if you open a Markdown document with MWeb, then MWeb can get permission to read and write this document.</p>
+<p><a href="https://dl.devmate.com/com.coderforart.MWeb3/3.2.8/1568938643/MWeb3-ProMarkdownwriting%2CnotetakingandstaticbloggeneratorApp-3.2.8.dmg">MWeb 3.2.8 download</a></p>
 
-<p>If you want to use MWeb to drag and drop the function of inserting images, you need to authorize the entire folder where the document is located to MWeb. When you import the folder, MWeb will automatically get the read and write permissions of this folder.</p>
+<h2 id="toc_0">Version 3.3.1 update:</h2>
 
-<p>Of course, the introduction of folders into MWeb makes it easy to open and manage Markdown documents and view the tree structure of folders without using Finder.</p>
-
-<h2 id="toc_1">Add a folder to External Mode</h2>
-
-<p>As shown below, press <code>CMD + E</code> to open the external mode, then click the “+” button in the left bottom corner to select the folder to be imported.</p>
-
-<p><img src="media/15306237915264/15306257614745.jpg" alt="" style="width:934px;"/></p>
-
-<p>In addition, you can also drag and drop folders directly into the folder tree list on the left to import folders.<br/>
-Another way is to drag and drop the folder directly into the MWeb icon to import the folder.</p>
-
-<h2 id="toc_2">Configuring imported folders</h2>
-
-<p>After the folder is added, there is an important setting, which is to introduce the settings of the folder, you can right-click the imported folder, and then select <code>Edit</code>, it will display the following interface:</p>
-
-<p><img src="media/15306237915264/15306240869116.jpg" alt="" style="width:347px;"/></p>
-
-<p>One setting is the &quot;Display Name&quot;, which is specific to the imported folder. You will not modify the name of the folder if you modify the name. There are also several important settings that are related to inserting images. The first one is &quot;Media Folder Name:&quot;. This is followed by the &quot;Media Save Path:&quot; option is associated with this, and there are only two options for &quot;Absolute&quot; and &quot;Relative&quot;.<br/>
-For example, if the folder I imported is A, then a file is under &quot;A/folder/file.md&quot;, if I insert a picture called &quot;pic.jpg&quot; in &quot;file.md&quot; , the result of the different options is:</p>
-
-<ol>
-<li><strong>Relative:</strong> The picture will be saved in “A/folder/media/pic.jpg”, and the generated Markdown will be: <code>![](media/pic.jpg)</code>.</li>
-<li><strong>Absolute:</strong> The picture will be saved in “A/media/pic.jpg”, and the generated Markdwon is: <code>![](/media/pic.jpg</code>.</li>
-</ol>
-
-<p>Another setting: &quot;Automatically upload the inserted image to...&quot;. If this option is checked, the above settings will not work because the image you inserted will be automatically uploaded to the selected image upload service and then returned to the Markdown syntax.</p>
-
-<p>Based on this feature, MWeb can support image insertion, preview and management of static website generation tools such as Octpress, Jekyll, hexo, gitbook, VuePress and so on.</p>
-
-<h2 id="toc_3">Manage imported folders</h2>
-
-<p>After the folder is imported, you can use the right button to perform some common operations on the imported folders and files, as shown in the following figure.</p>
-
-<p><img src="media/15306237915264/15306244948016.jpg" alt="" style="width:646px;"/></p>
+<ul>
+<li>Compatible with macOS Catalina.</li>
+<li>Support iCloud.</li>
+<li>Add is use WKWebView to Preferences - General.</li>
+<li>Other bug fixes and stability improvements.</li>
+</ul>
 
 		            </div>
 				</div><!-- /.blog-post -->

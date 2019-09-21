@@ -49,6 +49,10 @@
         </nav>
       </div>
     </div>
+      
+      <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
+        <a style="color:#ff0000;" href="version-3.2.8-to-3.3.1-release-note.html">MWeb version 3.2.8 and bellow update to version 3.3.1 notice</a>
+      </div>
     
     
  <div class="container" id="content-wrap">
@@ -112,7 +116,7 @@
 			<div class="blog-content-wrap">
 				<div class="blog-post">
 		            <h2 class="blog-post-title">Markdown syntax guide and writing on MWeb</h2>
-		            <p class="blog-post-meta">2015/3/21 9:56 上午 
+		            <p class="blog-post-meta">2015/03/21 
 			            &nbsp;posted in 
 						
 						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
@@ -138,7 +142,7 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text"># This is an `&lt;h1&gt;` tag
+<pre class="line-numbers"><code class="language-text"># This is an `&lt;h1&gt;` tag
 ## This is an `&lt;h2&gt;` tag
 ###### This is an `&lt;h6&gt;` tag
 </code></pre>
@@ -155,7 +159,7 @@ Markdown&#39;s syntax is intended for one purpose: to be used as a format for <e
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">*This text will be italic*
+<pre class="line-numbers"><code class="language-text">*This text will be italic*
 _This will also be italic_
 
 **This text will be bold**
@@ -182,7 +186,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">* Item 1 unordered list `* + SPACE`
+<pre class="line-numbers"><code class="language-text">* Item 1 unordered list `* + SPACE`
 * Item 2
     * Item 2a unordered list `TAB + * + SPACE`
     * Item 2b
@@ -204,7 +208,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">1. Item 1 ordered list `Number + . + SPACE`
+<pre class="line-numbers"><code class="language-text">1. Item 1 ordered list `Number + . + SPACE`
 2. Item 2 
 3. Item 3
     1. Item 3a ordered list `TAB + Number + . + SPACE`
@@ -227,7 +231,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">- [ ] task one not finish `- + SPACE + [ ]`
+<pre class="line-numbers"><code class="language-text">- [ ] task one not finish `- + SPACE + [ ]`
 - [x] task two finished `- + SPACE + [x]`
 </code></pre>
 
@@ -242,7 +246,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
+<pre class="line-numbers"><code class="language-text">![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
 Format: ![Alt Text](url)
 </code></pre>
 
@@ -260,7 +264,7 @@ The Library&#39;s document support drag &amp; drop or <code>CMD + V</code> paste
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">email &lt;example@example.com&gt;
+<pre class="line-numbers"><code class="language-text">email &lt;example@example.com&gt;
 [GitHub](http://github.com)
 autolink  &lt;http://www.github.com/&gt;
 </code></pre>
@@ -278,7 +282,7 @@ Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will 
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">As Kanye West said:
+<pre class="line-numbers"><code class="language-text">As Kanye West said:
 &gt; We&#39;re living the future so
 &gt; the present is our past.
 </code></pre>
@@ -297,7 +301,7 @@ the present is our past.</p>
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">I think you should use an
+<pre class="line-numbers"><code class="language-text">I think you should use an
 `&lt;addr&gt;` `code` element here instead.
 </code></pre>
 
@@ -311,7 +315,7 @@ the present is our past.</p>
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">```js
+<pre class="line-numbers"><code class="language-text">```js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:&#39;#foo&#39;})
@@ -324,7 +328,7 @@ function fancyAlert(arg) {
 <p><strong>Shortcuts:</strong>  <code>CMD + Shift + K</code><br/>
 <strong>Result:</strong></p>
 
-<pre><code class="language-javascript">function fancyAlert(arg) {
+<pre class="line-numbers"><code class="language-javascript">function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:&#39;#foo&#39;})
   }
@@ -336,7 +340,7 @@ function fancyAlert(arg) {
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">```sequence
+<pre class="line-numbers"><code class="language-text">```sequence
 Andrew-&gt;China: Says Hello
 Note right of China: China thinks about it
 China--&gt;Andrew: How are you?
@@ -360,13 +364,13 @@ cond(no)-&gt;sub1(right)-&gt;op1
 
 <p><strong>Result:</strong> ( Please enable  <code>Preferences</code> - <code>Themes</code> - <code>Enable sequence &amp; flow chart</code>, default is enable. )</p>
 
-<pre><code class="language-sequence">Andrew-&gt;China: Says Hello
+<pre class="line-numbers"><code class="language-sequence">Andrew-&gt;China: Says Hello
 Note right of China: China thinks about it
 China--&gt;Andrew: How are you?
 Andrew-&gt;&gt;China: I am good thanks!
 </code></pre>
 
-<pre><code class="language-flow">st=&gt;start: Start:&gt;http://www.google.com[blank]
+<pre class="line-numbers"><code class="language-flow">st=&gt;start: Start:&gt;http://www.google.com[blank]
 e=&gt;end:&gt;http://www.google.com
 op1=&gt;operation: My Operation
 sub1=&gt;subroutine: My Subroutine
@@ -385,7 +389,7 @@ cond(no)-&gt;sub1(right)-&gt;op1
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">First Header | Second Header
+<pre class="line-numbers"><code class="language-text">First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
@@ -419,7 +423,7 @@ Content in the first column | Content in the second column
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text"> (like ~~this~~)
+<pre class="line-numbers"><code class="language-text"> (like ~~this~~)
 </code></pre>
 
 <p><strong>Result:</strong></p>
@@ -430,7 +434,7 @@ Content in the first column | Content in the second column
 
 <p>Following lines will produce a horizontal rule:</p>
 
-<pre><code class="language-text">***
+<pre class="line-numbers"><code class="language-text">***
 
 *****
 
@@ -449,7 +453,7 @@ Content in the first column | Content in the second column
 
 <p>Use double US dollors sign pair for Block level Math formula, and one US dollor sign pair for Inline Level.</p>
 
-<pre><code class="language-text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
+<pre class="line-numbers"><code class="language-text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
 
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
@@ -469,7 +473,7 @@ Content in the first column | Content in the second column
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">This is a footnote:[^sample_footnote]
+<pre class="line-numbers"><code class="language-text">This is a footnote:[^sample_footnote]
 </code></pre>
 
 <p><strong>Result:</strong></p>
@@ -488,7 +492,7 @@ Content in the first column | Content in the second column
 
 <p><strong>Example:</strong></p>
 
-<pre><code class="language-text">[TOC]
+<pre class="line-numbers"><code class="language-text">[TOC]
 </code></pre>
 
 <p><strong>Result:</strong></p>
