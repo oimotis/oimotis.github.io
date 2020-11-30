@@ -130,11 +130,11 @@
 
 <span id="more"></span><!-- more -->
 
-<h2>1. Start</h2>
+<h2 id="toc_0">1. Start</h2>
 
 <p>The publish script only test for git, you can use it publish to github pages. If you didn&#39;t has github pages, please check: <a href="https://pages.github.com/">https://pages.github.com/</a>.</p>
 
-<h2>2. Clone your github pages to the MWeb static website output folder.</h2>
+<h2 id="toc_1">2. Clone your github pages to the MWeb static website output folder.</h2>
 
 <p><strong>Notices:</strong>If you already use github to publish the static website, please skip this step. If you didn&#39;t, please check the bellow steps:</p>
 
@@ -146,15 +146,15 @@
 <li>Use &quot;Clear and Rebuild Site&quot; menu in MWeb.</li>
 </ol>
 
-<h2>3. Config Publish Script</h2>
+<h2 id="toc_2">3. Config Publish Script</h2>
 
 <p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the bellow:</p>
 
-<p><figure><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;"/></figure></p>
+<p><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;"/></p>
 
 <p>If you click &quot;Load Sample&quot; button, you will sea the sample like bellow, you can edit it for your own.</p>
 
-<pre class="line-numbers"><code class="language-text">#!/bin/sh
+<pre><code class="language-text">#!/bin/sh
 # Please set the name and email. 
 # Because MWeb can&#39;t get your github global setting.
 
@@ -166,11 +166,11 @@ git commit -m &quot;{{year}}-{{month}}-{{day}} {{time}}&quot;
 git push -u origin master
 </code></pre>
 
-<h2>4. Execute the Publish Script</h2>
+<h2 id="toc_3">4. Execute the Publish Script</h2>
 
 <p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like bellow:</p>
 
-<p><figure><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;"/></figure></p>
+<p><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;"/></p>
 
 		            </div>
 				</div><!-- /.blog-post -->
