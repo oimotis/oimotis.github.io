@@ -8,7 +8,7 @@
     <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
     <title> 
 	  
-  	onemarkdown-help - MWeb
+  	One Markdown Instructions - MWeb
   	
   	</title>
      <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
@@ -57,10 +57,96 @@
     
    <div class="container" id="content-wrap">
 	<div class="page-post">
-		<h2 class="blog-post-title">onemarkdown-help</h2>
+		<h2 class="blog-post-title">One Markdown Instructions</h2>
 <hr />
 		<div class="page-content content-responsive">
-			
+			<h2 id="toc_0">Introduction</h2>
+
+<p>One Markdown is a fast and simple, lightweight editor that supports plain text, Markdown and Textbundle. It was born out of MWeb&#39;s editor improvement project a year ago and has the following features: </p>
+
+<ol>
+<li>Fully supports CommonMark standard and GitHub Flavored Markdown (GFM). The current editor of MWeb is a bit different from these two standards. Now One Markdown conforms to these two standards.</li>
+<li>The same basic library is used for syntax highlighting and parsing into HTML, and there will be nice with editing and previewing. After testing, the performance has also been greatly improved, and editing documents with millions of characters is ok.</li>
+<li>In the editing and preview mode, the edited content and the previewed content can now be accurately aligned, and the performance is greatly improved due to the use of WKWebView.</li>
+<li>Supports the display of images in the Editor. The MWeb Editor only display local images. Now One Markdown not only supports local images, but also supports the display of network images, and also supports svg, webP, HEIC and other formats.</li>
+<li>Supports the creation and editing of Textbundle documents.</li>
+<li>Support mathematical formulas, Echarts, mermaid.</li>
+</ol>
+
+<h3 id="toc_1">Fee model</h3>
+
+<p>One Markdown is a free app with in-app purchase, its editor is ready to be integrated into MWeb, so it will not lock any features before integrating into MWeb, so that MWeb users can try and use it. Its fee model is a one-time payment, perpetual use buyout system, and the macOS platform and iOS platform are sold separately. Currently, the macOS version is priced at half price (USD:3.99), and after it is integrated into MWeb, some features will be locked and the original price will be restored (USD:$7.99), and the same for iOS.</p>
+
+<p>I will improve this editor and integrate it into MWeb as soon as possible, so that the lightweight option is One Markdown, and the full-featured and powerful option is MWeb.</p>
+
+<h3 id="toc_2">Some timeline</h3>
+
+<ul>
+<li>One Markdown for iOS release: about 2 weeks.</li>
+<li>One Markdown&#39;s editor complete: a month and a half later.</li>
+<li>Integration into MWeb: 3 months later, mainly because MWeb itself needs some upgrades, interface, synchronization, etc. This upgrade is free.</li>
+</ul>
+
+<h2 id="toc_3">Detailed instructions for use</h2>
+
+<h3 id="toc_4">About new documents and unsaved documents</h3>
+
+<p>In One Markdown, new documents and unsaved documents with text only can be saved as plain text, Markdown or Textbundle, but unsaved documents with images inserted will automatically become Textbundle documents and cannot be saved as plain text or Markdown document. So if you want to create a new plain text or Markdown document, it is better to save it after creating a new document, and then edit it.</p>
+
+<h3 id="toc_5">About displaying images in the editor</h3>
+
+<p>In One Markdown, there are four options for displaying images in the editor: Show Image in Editor, Show Thumbnail in Editor, Show Image Overlay in Editor, and Hide all Image in Editor, which can be set by clicking the Preview button (eye icon) on the toolbar or in Preferences. If you choose to Show Image Overlay in Editor, the image will be displayed in the floating window when the cursor moves to the picture syntax, and the effect is shown in the figure below. Note that in <strong>Preview while editing</strong> mode, this floating box will <strong>not</strong> be displayed.<br/>
+<img src="media/16100251436637/16101750368019.jpg" alt="" style="width:731px;"/></p>
+
+<h3 id="toc_6">Better support for code blocks in lists and HTML</h3>
+
+<p>Thanks to the CommonMark standard and GFM, One Markdown has better support for writing blocks in lists, and better support for HTML itself, as shown below, something that MWeb&#39;s current editor can&#39;t do.<br/>
+<img src="media/16100247265644/16101956663023.jpg" alt="" style="width:1039px;"/></p>
+
+<h3 id="toc_7">Table insertion and editing support</h3>
+
+<p>When you tap the &quot;Insert Table&quot; button on the toolbar, the Insert Table helper will be displayed, and if the cursor moves to the table syntax, the Insert Table button will become the &quot;Edit Table&quot; button, as shown below.<br/>
+<img src="media/16100247265644/16101955058626.jpg" alt="" style="width:887px;"/></p>
+
+<p>If the &quot;Format Output&quot; checkbox is checked, it will generate a neat Markdown table text, but this function does not work well in the Chinese environment because the English characters and Chinese characters are of different widths and cannot be aligned well.</p>
+
+<h3 id="toc_8">Changes to the mathematical formulas section</h3>
+
+<p>MWeb currently uses the <code>$ and $$</code> symbols for mathematical formulas, this method is no longer supported in One Markdown, and is supported by CommonMark&#39;s code block syntax. One Markdown adopts ``inline math `` as the in-line syntax for math formulas and ```math block math ``` as the block syntax for math formulas. Then `code` remains the syntax for in-line code, and ``inline math`` is also in-line code in CommonMark, but is rendered as a math formula in One Markdown. The advantage of this is that when the original markdown document is published to an environment that does not support math formulas, it will be displayed as code, so that the original formula text will be displayed and will not be too distracting to read.</p>
+
+<p>Similarly, One Markdown displays a floating window to aid in the input of mathematical formulas, as shown in the following image.<br/>
+<img src="media/16100251436637/16101752494411.jpg" alt="" style="width:731px;"/></p>
+
+<h3 id="toc_9">ECharts and mermaid drawing support</h3>
+
+<p>MWeb originally supported ECharts, mermaid, Graphviz, plantuml, etc., but One Markdown currently only supports ECharts and mermaid. The main reason is that Graphviz JS version is no longer maintained, plantuml needs to connect to its online service, and mermaid supports more drawing types, which can meet many needs, so don&#39;t worry about the original MWeb, the new editor will continue to support MWeb&#39;s original drawing library after it is integrated into MWeb.<br/>
+One Markdown will also display a floating window for auxiliary input, as follows.<br/>
+<img src="media/16100251436637/16101768998409.jpg" alt="" style="width:798px;"/></p>
+
+<h3 id="toc_10">Show local images within Markdown documents</h3>
+
+<p>If a plain text or Markdown document opened with One Markdown has references to local images, it will open with the following prompt window.<br/>
+<img src="media/16100247265644/16101953273262.jpg" alt="" style="width:752px;"/></p>
+
+<p>As the window prompts, by default, One Markdown is unable to read files outside of the document you have open, and you need to authorize One Markdown to read and display these referenced images. Note that currently, only images under the current document are supported, so if the document refers to images in other locations, they will not be displayed.</p>
+
+<p>If you don&#39;t want to click Authorize every time, you can go to Preferences and add frequently used folders, so that when you open Markdown documents in those folders, this prompt will no longer be displayed.</p>
+
+<h3 id="toc_11">Combining multiple images into one</h3>
+
+<p>One Markdown also supports this feature, which is already available in MWeb and can be very handy in some cases. To use this feature, click the Insert Image button on the toolbar and select &quot;Mutil Images to One Image...&quot; and you are done, as shown in the following image.<br/>
+<img src="media/16100247265644/16101954551982.jpg" alt="" style="width:885px;"/></p>
+
+<h3 id="toc_12">Generate a TOC in Github format</h3>
+
+<p>This function can be used by clicking the menu: &quot;Syntax - Generate Github Style TOC&quot;, after which a TOC in Github format will be inserted at the cursor position. standard. When integrating into MWeb, an option may be added to disguise support for [TOC] syntax (actually calling this function).</p>
+
+<h3 id="toc_13">Other features and feedback</h3>
+
+<p>The other features are not very important, so I won&#39;t explain them all for now, they are all on the menu and toolbar, so try them out if you are interested.</p>
+
+<p>If you have any questions, feel free to contact me using the One Markdown software menu: Help - Send a Feedback...</p>
+
 		</div>
   	</div>
  </div>
