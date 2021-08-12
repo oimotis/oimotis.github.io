@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	MWeb 4 Q & A - MWeb
+  	
+  	</title>
+     <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
+    <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+        <a class="menu-help blog-nav-item" target="_self" href="help.html">Documentation</a>
+        
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+        <a class="menu-blog blog-nav-item" target="_self" href="download.html">Download</a>
+        
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
+        
+        
+        </nav>
+      </div>
+    </div>
+      
+      <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
+        <a style="color:#ff0000;" href="download.html">MWeb 4.0 macOS/iOS has been released.</a>
+      </div>
+    
+    
+ <div class="container" id="content-wrap">
+ 
+ 
+    
+     
+   <script type="text/javascript">
+      $(function(){
+        $('a.menu-blog').addClass('active');
+      });
+      </script>
+
+    
+      <script type="text/javascript">
+    $(function(){
+      var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    if (filename.length > 5) {
+      $('.blog-cats a').each(function(){
+        var href = $(this).attr('href');
+        if(href.length>5){
+          href = href.substring(0,href.length-5);
+          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+        }
+      });
+    }
+    });
+  </script>
+   <div class="row">
+        <div class="col-sm-12">
+
+          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+
+        <ul class="blog-cats">
+
+  
+    
+
+  
+      <li><a href="blog.html">All</a></li> 
+        
+              <li><a href="docs.html">Tutorials</a></li>
+        
+              <li><a href="tips.html">Tips & Tricks</a></li>
+        
+              <li><a href="releases.html">Releases</a></li>
+        
+    
+
+        </ul>
+        <div class="rss"><a href="atom.xml">RSS</a></div>
+          </div>
+       </div>
+     </div>
+     <hr style="margin-bottom: 60px;" />
+
+      <div class="row">
+
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
+				<div class="blog-post">
+		            <h2 class="blog-post-title">MWeb 4 Q & A</h2>
+		            <p class="blog-post-meta">2021/08/12 
+			            &nbsp;posted in 
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						 
+						 
+		            </p>
+		            <div class="content-responsive">
+		            <p>中文版：<a href="https://zh.mweb.im/mweb4qa.html">MWeb 4 相关问题及回答</a></p>
+<h2><a id="mweb-4-library-mode-icloud-synchronization-question" class="anchor" aria-hidden="true" href="#mweb-4-library-mode-icloud-synchronization-question"><span class="octicon octicon-link"></span></a>MWeb 4 Library Mode iCloud synchronization question.</h2>
+<p><strong>What is the difference between MWeb 3's iCloud synchronization and MWeb 4's?</strong></p>
+<p>The synchronization of MWeb 3 is to save the folder of the Library in iCloud Drive, and the system will synchronize the files. The synchronization of MWeb 4 uses a technology called CloudKit for synchronization, which is controlled by MWeb and is no longer stored in iCloud Drive. If you want to use MWeb 4's iCloud synchronization, you need to click the &quot;Store in iCloud&quot; button in the settings.</p>
+<p><strong>How ​​to synchronize the Library of MWeb 3 to iCloud?</strong></p>
+<p>If it is the macOS version of MWeb, please confirm whether it is stored in the folder of iCloud Drive or related cloud drive. If it is, you need to ensure that the folder the Library is completely synchronized to the local.<br />
+Then, in the <code>Preferences - Library</code>, click the <code>Store in iCloud</code> button, and then in the pop-up prompt whether to merge the Library, choose <strong>Merge</strong>.<br />
+This prompt will only be displayed once. If it is too late to choose before, you can switch back to the local document library first, then exit MWeb, and run it on the command line:</p>
+<pre class="line-numbers"><code>defaults write com.coderforart.MWeb3 ckIsChooseMergeLocalToCloudKit -boolean false
+</code></pre>
+<p>Then start MWeb and re-select <code>Store in iCloud</code>, and it will prompt again whether to merge.</p>
+<p>If it is the iOS version of MWeb, because the original iOS version of the document library is read-only, you need to use the macOS version of MWeb first, and synchronize the document library to iCloud according to the above method. Then set the document library to <code>store in iCloud</code> on the iOS version.</p>
+<p><strong>Can I manually git back up the Library?</strong></p>
+<p>Yes, in MWeb 4, Apple’s CloudKit technology is used for synchronization, which will completely synchronize all documents to a private folder in the local MWeb, the location is: <code>~/Library/Containers/com.coderforart .MWeb3/Data/Library/Application Support/MWebLibrary</code>.<br />
+If you want to back up or git backup, you only need to back up this location regularly.</p>
+<p>The structure of the document library in this location is the same as the local one. If you don’t want to use iCloud for synchronization, you can copy this folder to other places, then switch back to the local folder storage in MWeb, and then select the folder to copy to. That's it.</p>
+<p><strong>What should I do if the desired document version is overwritten during iCloud synchronization?</strong></p>
+<p>In the macOS version of MWeb, you can use the menu: <code>File - Revert to... - Browse all versions</code>. For the iOS version, this feature is still in development. It is recommended to avoid editing the same document on multiple devices when using it. If you want to edit, please make sure that the document is up to date.<br />
+Because the synchronization process is stateless, for example, the current device’s network is not good, network transmission errors, CloudKit errors, etc., will cause the latest version of the current device’s document to be unable to be synchronized to CloudKit in time. At this time, if another device uploads it The new version of the document, and then the current device becomes normal, it will receive an update push from another device, and then the document of the current device will be updated.</p>
+<h2><a id="mweb-3-x-how-to-upgrade-to-mweb-4-x" class="anchor" aria-hidden="true" href="#mweb-3-x-how-to-upgrade-to-mweb-4-x"><span class="octicon octicon-link"></span></a>MWeb 3.x How to upgrade to MWeb 4.x?</h2>
+<p><strong>Note:</strong> Users of MWeb 3.x can upgrade to MWeb 4.x for free. The upgrade method is: download MWeb 4.x, there will be an &quot;License Upgrade&quot; button in the pop-up interface of the software, click this button You can redeem the 3.x activation code for the 4.x activation code.</p>
+<p><strong>Mac App Store users:</strong> Please update directly from the Mac App Store.</p>
+<p><strong>Tip:</strong> MWeb 2.x upgrade to 4.x requires a new payment. If you want to download version 3.x, please <a href="https://cdn.mwebapp.cn/MWeb344.dmg">click here to download MWeb 3.x</a>. If you want to download the 2.x version, please go to the bottom of the <a href="download.html">Download MWeb</a> page to download.</p>
+<h2><a id="after-upgrading-from-mweb-3-how-to-find-the-original-preview-style-does-mweb-4-still-support-custom-preview-styles" class="anchor" aria-hidden="true" href="#after-upgrading-from-mweb-3-how-to-find-the-original-preview-style-does-mweb-4-still-support-custom-preview-styles"><span class="octicon octicon-link"></span></a>After upgrading from MWeb 3, how to find the original preview style? Does MWeb 4 still support custom preview styles?</h2>
+<p>The original custom style CSS file of MWeb 3 is still in its original place, at the location of <code>~/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/PreviewCSS</code>. Then MWeb 4 also supports custom preview styles. The way is to click the <code>Custom Theme</code> button in <code>Preferences - General</code>, choose to add a theme according to the current template, in the window that comes out, uncheck <code>Automatically generate Preview CSS by the Editor Theme.</code>, and then paste the content of the CSS file into it.</p>
+<p>The custom preview style feature of the iOS version is not available in the current version, but it will be added soon. The original custom CSS file of the iOS version is still kept in your phone. In the next version, you can click &quot;Export MWeb 3 custom preview&quot; at the bottom of the settings page to export your custom CSS style file .</p>
+<h2><a id="can-t-activate-after-purchasing-or-redeeming-the-mweb-4-activation-code" class="anchor" aria-hidden="true" href="#can-t-activate-after-purchasing-or-redeeming-the-mweb-4-activation-code"><span class="octicon octicon-link"></span></a>Can't activate after purchasing or redeeming the MWeb 4 activation code?</h2>
+<p>You can check whether the domain name paddle.com is blocked. Currently, MWeb 4 uses this related service.</p>
+<h2><a id="markdown-syntax-changes" class="anchor" aria-hidden="true" href="#markdown-syntax-changes"><span class="octicon octicon-link"></span></a>Markdown syntax changes</h2>
+<p>Currently MWeb 4 uses CommonMark standard and GitHub Flavored Markdown (GFM) grammar. For detailed grammar, please refer to:</p>
+<p>CommonMark: <a href="https://commonmark.org/help/">https://commonmark.org/help/</a><br />
+GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></p>
+<p>There will be some slight changes in the parsing of the grammar. For example, ##If there is no space, it will not be parsed as a title. In addition, the old version of syntax highlighting ==highlighting== is no longer supported. If you really want to use it, you can only use HTML, such as <code>&lt;mark&gt;highlight&lt;/mark&gt;</code>.</p>
+<h2><a id="changes-in-image-upload-service" class="anchor" aria-hidden="true" href="#changes-in-image-upload-service"><span class="octicon octicon-link"></span></a>Changes in image upload service</h2>
+<p>The method of inserting a local picture and then uploading remains the same. The function of automatically uploading when inserting has changed, and it has been changed to a separate picture upload window. Use the menu: <code>View - Images Upload Window</code> to open this window. The following figure is the change from MWeb 3 to MWeb 4. The left is the MWeb 3 method, and the right is the MWeb 4 method:</p>
+<p><figure><img src="media/16285632311652/image_upload.jpg" alt="" /></figure></p>
+<h2><a id="other-questions" class="anchor" aria-hidden="true" href="#other-questions"><span class="octicon octicon-link"></span></a>other questions?</h2>
+<p>If you have any questions, please send to <a href="mailto:coderforart+233@gmail.com">coderforart+233@gmail.com</a> this email, I will usually reply you within 1 to 3 working days, thank you very much!</p>
+
+		            </div>
+				</div><!-- /.blog-post -->
+			</div>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+			</div>
+
+        </div><!-- /.blog-main -->
+	</div>
+</div>   <footer class="blog-footer">
+      <p>Copyright &copy; 2021
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58735702-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
