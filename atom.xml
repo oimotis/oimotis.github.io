@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[MWeb]]></title>
-  <link href="http://www.mweb.im/atom.xml" rel="self"/>
-  <link href="http://www.mweb.im/"/>
-  <updated>2021-08-18T11:25:47+08:00</updated>
-  <id>http://www.mweb.im/</id>
+  <link href="https://www.mweb.im/atom.xml" rel="self"/>
+  <link href="https://www.mweb.im/"/>
+  <updated>2021-08-18T16:40:02+08:00</updated>
+  <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[MWeb 4 Q & A]]></title>
-    <link href="http://www.mweb.im/mweb4qa.html"/>
+    <link href="https://www.mweb.im/mweb4qa.html"/>
     <updated>2021-08-12T20:50:29+08:00</updated>
-    <id>http://www.mweb.im/mweb4qa.html</id>
+    <id>https://www.mweb.im/mweb4qa.html</id>
     <content type="html"><![CDATA[
 <p>中文版：<a href="https://zh.mweb.im/mweb4qa.html">MWeb 4 相关问题及回答</a></p>
 <h2><a id="mweb-4-library-mode-icloud-synchronization-question" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb 4 Library Mode iCloud synchronization question.</h2>
@@ -63,9 +63,9 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
   
   <entry>
     <title type="html"><![CDATA[MWeb version 3.2.8 and below update to version 3.3.1 notice]]></title>
-    <link href="http://www.mweb.im/version-3.2.8-to-3.3.1-release-note.html"/>
+    <link href="https://www.mweb.im/version-3.2.8-to-3.3.1-release-note.html"/>
     <updated>2019-09-21T11:41:00+08:00</updated>
-    <id>http://www.mweb.im/version-3.2.8-to-3.3.1-release-note.html</id>
+    <id>https://www.mweb.im/version-3.2.8-to-3.3.1-release-note.html</id>
     <content type="html"><![CDATA[
 <p>This notice only for outside of Mac App Store users.</p>
 <h2><a id="important" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important:</h2>
@@ -85,9 +85,9 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
   
   <entry>
     <title type="html"><![CDATA[MWeb recent update, MWeb for macOS and iOS IAP 50% OFF (5/29 ~ 6/4)!]]></title>
-    <link href="http://www.mweb.im/mweb-2019-06-update.html"/>
+    <link href="https://www.mweb.im/mweb-2019-06-update.html"/>
     <updated>2019-05-29T10:11:15+08:00</updated>
-    <id>http://www.mweb.im/mweb-2019-06-update.html</id>
+    <id>https://www.mweb.im/mweb-2019-06-update.html</id>
     <content type="html"><![CDATA[
 <p>MWeb for macOS only $9.99! You can buy it in this link: <a href="https://www.mweb.im/buy.html">https://www.mweb.im/buy.html</a>.</p>
 <p>MWeb for iOS IAP only $4.99！You can buy in MWeb for iOS setting page.</p>
@@ -168,9 +168,9 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
   
   <entry>
     <title type="html"><![CDATA[MWeb for iOS 3.0.0 release!]]></title>
-    <link href="http://www.mweb.im/mweb-ios-3.0-release.html"/>
+    <link href="https://www.mweb.im/mweb-ios-3.0-release.html"/>
     <updated>2019-01-04T00:10:44+08:00</updated>
-    <id>http://www.mweb.im/mweb-ios-3.0-release.html</id>
+    <id>https://www.mweb.im/mweb-ios-3.0-release.html</id>
     <content type="html"><![CDATA[
 <h2><a id="mweb-for-ios-3-0-interface" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb for iOS 3.0 interface</h2>
 <p>As shown below, this is a new interface, you can see that there is almost no major change. The biggest change is that the document navigation becomes the sidebar, and the editor becomes always displayed, that is, when switching the document to be opened, the original opened document will not be closed.</p>
@@ -206,9 +206,9 @@ It should be noted that the current document library still does not support dele
   
   <entry>
     <title type="html"><![CDATA[MWeb for iOS Quick Note Instructions]]></title>
-    <link href="http://www.mweb.im/how_to_use_quicknote_in_ios.html"/>
+    <link href="https://www.mweb.im/how_to_use_quicknote_in_ios.html"/>
     <updated>2019-01-03T16:21:59+08:00</updated>
-    <id>http://www.mweb.im/how_to_use_quicknote_in_ios.html</id>
+    <id>https://www.mweb.im/how_to_use_quicknote_in_ios.html</id>
     <content type="html"><![CDATA[
 <p>Quick Note provide a concept: whenever you need to take notes, just click on the Quick Note button to start recording right away, regardless of file name, location, how to sort it, and so on. Just write down to complete the task, as for finishing or what, it is the next thing, do not have to consider, reduce the burden, just to write down.</p>
 <p>The Quick Note provides three entries, as shown in the following for two entries, and one way is to use URL Scheme:<code>mwebapp://?p=quicknote</code> . After clicking, MWeb will automatically open the document of the quick note and pop up the keyboard according to the rules of the settings of the picture on the far right of the picture below. The focus of quick note is to remember, just write down, MWeb will automatically organize the documents into days. When you click on a quick note, if the quick note is not open, it will automatically add date and time as the title.</p>
@@ -222,9 +222,9 @@ It should be noted that the current document library still does not support dele
   
   <entry>
     <title type="html"><![CDATA[MWeb 3 release and what is difference between 3.x and 2.x.]]></title>
-    <link href="http://www.mweb.im/mweb3x-release-note.html"/>
+    <link href="https://www.mweb.im/mweb3x-release-note.html"/>
     <updated>2018-07-03T22:47:34+08:00</updated>
-    <id>http://www.mweb.im/mweb3x-release-note.html</id>
+    <id>https://www.mweb.im/mweb3x-release-note.html</id>
     <content type="html"><![CDATA[
 <h2><a id="for-mweb-2-x-user" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>For MWeb 2.x user:</h2>
 <ol>
@@ -284,9 +284,9 @@ It should be noted that the current document library still does not support dele
   
   <entry>
     <title type="html"><![CDATA[MWeb Build a static website / blog]]></title>
-    <link href="http://www.mweb.im/15306245140490.html"/>
+    <link href="https://www.mweb.im/15306245140490.html"/>
     <updated>2018-07-03T21:28:34+08:00</updated>
-    <id>http://www.mweb.im/15306245140490.html</id>
+    <id>https://www.mweb.im/15306245140490.html</id>
     <content type="html"><![CDATA[
 <h2><a id="mweb-s-static-website-category" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb's static website category</h2>
 <p>In MWeb's document library, there are two categories, one is the general category, and the other is the static website category. You can add a static website category directly, or right click in the category of the top level of the general category, select <code>Edit</code>, and then click the <code>Set to Site</code> button in the interface that comes out.</p>
@@ -319,9 +319,9 @@ For detailed instructions, please refer to this article directly: <a href="how_t
   
   <entry>
     <title type="html"><![CDATA[MWeb External Mode Details]]></title>
-    <link href="http://www.mweb.im/15306237915264.html"/>
+    <link href="https://www.mweb.im/15306237915264.html"/>
     <updated>2018-07-03T21:16:31+08:00</updated>
-    <id>http://www.mweb.im/15306237915264.html</id>
+    <id>https://www.mweb.im/15306237915264.html</id>
     <content type="html"><![CDATA[
 <p>This article describes the detailed use of external mode, if you have not seen <a href="15305970515404.html">MWeb Basic use</a>, I suggest you go and see.</p>
 <h2><a id="mac-app-store-sandbox" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mac App Store Sandbox</h2>
@@ -353,9 +353,9 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
   
   <entry>
     <title type="html"><![CDATA[Quick Search]]></title>
-    <link href="http://www.mweb.im/15306230463555.html"/>
+    <link href="https://www.mweb.im/15306230463555.html"/>
     <updated>2018-07-03T21:04:06+08:00</updated>
-    <id>http://www.mweb.im/15306230463555.html</id>
+    <id>https://www.mweb.im/15306230463555.html</id>
     <content type="html"><![CDATA[
 <p>Quick Search is a new feature in 3.x for full-text search of Markdown files in External Mode folders and document library. Using Quick Search is very simple. Press <code>CMD + O</code> in the document library interface or external mode interface.</p>
 <h2><a id="quick-search-of-document-library" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick search of document library</h2>
@@ -388,9 +388,9 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
   
   <entry>
     <title type="html"><![CDATA[Quick Note]]></title>
-    <link href="http://www.mweb.im/15306224411729.html"/>
+    <link href="https://www.mweb.im/15306224411729.html"/>
     <updated>2018-07-03T20:54:01+08:00</updated>
-    <id>http://www.mweb.im/15306224411729.html</id>
+    <id>https://www.mweb.im/15306224411729.html</id>
     <content type="html"><![CDATA[
 <p>The Quick Note feature is a new feature in 3.x. This feature relies on the icons on the status bar to freely add notes and images, and supports adding the added material to a document in days, making it easy to organize and record history. Collect the situation. Simply put, it is the function of text and material collection, and the material is mostly the images.</p>
 <h2><a id="open-the-quick-note" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open the Quick Note</h2>
@@ -409,9 +409,9 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
   
   <entry>
     <title type="html"><![CDATA[MWeb Document Library Details]]></title>
-    <link href="http://www.mweb.im/mweb-library.html"/>
+    <link href="https://www.mweb.im/mweb-library.html"/>
     <updated>2018-07-03T20:28:53+08:00</updated>
-    <id>http://www.mweb.im/mweb-library.html</id>
+    <id>https://www.mweb.im/mweb-library.html</id>
     <content type="html"><![CDATA[
 <p>This article introduces the detailed use of the document library. If you have not seen <a href="15305970515404.html">MWeb Basic use</a>, I suggest you check it out first.</p>
 <h2><a id="document-library-structure-and-storage-location" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Document library structure and storage location</h2>
@@ -496,9 +496,9 @@ In this case, you can use the following methods to solve this problem:</p>
   
   <entry>
     <title type="html"><![CDATA[MWeb's Image Upload Service Introduction]]></title>
-    <link href="http://www.mweb.im/15306175365886.html"/>
+    <link href="https://www.mweb.im/15306175365886.html"/>
     <updated>2018-07-03T19:32:16+08:00</updated>
-    <id>http://www.mweb.im/15306175365886.html</id>
+    <id>https://www.mweb.im/15306175365886.html</id>
     <content type="html"><![CDATA[
 <p>The image upload service supports Google Photos, Imgur, qiniu.com, upyun.com and Custom. There are two ways to use the image upload service in MWeb. Here are the following:</p>
 <h2><a id="1-automatically-upload-to-image-upload-service-after-inserting-image" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Automatically upload to image upload service after inserting image</h2>
@@ -524,9 +524,9 @@ In this case, you can use the following methods to solve this problem:</p>
   
   <entry>
     <title type="html"><![CDATA[MWeb's Publishing Services introduction]]></title>
-    <link href="http://www.mweb.im/15306170400048.html"/>
+    <link href="https://www.mweb.im/15306170400048.html"/>
     <updated>2018-07-03T19:24:00+08:00</updated>
-    <id>http://www.mweb.im/15306170400048.html</id>
+    <id>https://www.mweb.im/15306170400048.html</id>
     <content type="html"><![CDATA[
 <p>Use MWeb to publish documents to Wordrpess, services that support the Metaweblog API protocol, Wordpress.com, Evernote, Blogger, Medium, Tumblr.</p>
 <h2><a id="adding-and-using-the-publishing-services" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Adding and using the Publishing Services</h2>
@@ -554,9 +554,9 @@ In this case, you can use the following methods to solve this problem:</p>
   
   <entry>
     <title type="html"><![CDATA[Markdown output]]></title>
-    <link href="http://www.mweb.im/15306167569481.html"/>
+    <link href="https://www.mweb.im/15306167569481.html"/>
     <updated>2018-07-03T19:19:16+08:00</updated>
-    <id>http://www.mweb.im/15306167569481.html</id>
+    <id>https://www.mweb.im/15306167569481.html</id>
     <content type="html"><![CDATA[
 <p>Use MWeb to export Markdown documents as images, HTML, Epub, PDF, RTF, and Docx.</p>
 <p>MWeb uses the <code>Publish</code> menu or the <code>Share button</code> on the toolbar to export the current Markdown document, like below:<br />
@@ -584,9 +584,9 @@ Also, exporting to Docx does not currently support local images.</p>
   
   <entry>
     <title type="html"><![CDATA[Markdown Assistant]]></title>
-    <link href="http://www.mweb.im/15305996967958.html"/>
+    <link href="https://www.mweb.im/15305996967958.html"/>
     <updated>2018-07-03T14:34:56+08:00</updated>
-    <id>http://www.mweb.im/15305996967958.html</id>
+    <id>https://www.mweb.im/15305996967958.html</id>
     <content type="html"><![CDATA[
 <h2><a id="support-for-inserting-images" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support for inserting images</h2>
 <p>Please try the following:</p>
@@ -618,9 +618,9 @@ Also, exporting to Docx does not currently support local images.</p>
   
   <entry>
     <title type="html"><![CDATA[Markdown syntax]]></title>
-    <link href="http://www.mweb.im/markdown.html"/>
+    <link href="https://www.mweb.im/markdown.html"/>
     <updated>2018-07-03T13:52:22+08:00</updated>
-    <id>http://www.mweb.im/markdown.html</id>
+    <id>https://www.mweb.im/markdown.html</id>
     <content type="html"><![CDATA[
 <h2><a id="the-first-thing-you-should-know" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>The first thing you should know</h2>
 <p>What every Markdwon user should know is the official version. How was it created? What is its design philosophy and grammar? If you haven't seen it, it is recommended to check out this: <strong><a href="markdown-syntax-guide-full-version.html">Markdown syntax guide full version</a></strong>.</p>
@@ -1088,9 +1088,9 @@ Content in the first column | Content in the second column
   
   <entry>
     <title type="html"><![CDATA[MWeb Basic use]]></title>
-    <link href="http://www.mweb.im/15305970515404.html"/>
+    <link href="https://www.mweb.im/15305970515404.html"/>
     <updated>2018-07-03T13:50:51+08:00</updated>
-    <id>http://www.mweb.im/15305970515404.html</id>
+    <id>https://www.mweb.im/15305970515404.html</id>
     <content type="html"><![CDATA[
 <h2><a id="mweb-s-library-mode-and-external-mode" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb's Library Mode and External Mode</h2>
 <p>MWeb is divided into Library Mode and External Mode, which are described separately below.</p>
@@ -1125,9 +1125,9 @@ If you want to make him a fixed Tab, double-click to open the document, you can 
   
   <entry>
     <title type="html"><![CDATA[MWeb for iOS 2.3.4 release!]]></title>
-    <link href="http://www.mweb.im/mweb-ios-2.3.4-release.html"/>
+    <link href="https://www.mweb.im/mweb-ios-2.3.4-release.html"/>
     <updated>2017-09-30T08:14:40+08:00</updated>
-    <id>http://www.mweb.im/mweb-ios-2.3.4-release.html</id>
+    <id>https://www.mweb.im/mweb-ios-2.3.4-release.html</id>
     <content type="html"><![CDATA[
 <ul>
 <li>Add publish to tumblr</li>
@@ -1144,9 +1144,9 @@ If you want to make him a fixed Tab, double-click to open the document, you can 
   
   <entry>
     <title type="html"><![CDATA[MWeb for Mac 2.2.3 release!]]></title>
-    <link href="http://www.mweb.im/mweb-for-mac-223-release.html"/>
+    <link href="https://www.mweb.im/mweb-for-mac-223-release.html"/>
     <updated>2017-07-13T09:51:53+08:00</updated>
-    <id>http://www.mweb.im/mweb-for-mac-223-release.html</id>
+    <id>https://www.mweb.im/mweb-for-mac-223-release.html</id>
     <content type="html"><![CDATA[
 <p>Release note:</p>
 <ul>
@@ -1162,9 +1162,9 @@ If you want to make him a fixed Tab, double-click to open the document, you can 
   
   <entry>
     <title type="html"><![CDATA[How to use Publish Script to Publish website.]]></title>
-    <link href="http://www.mweb.im/how_to_use_shell_script.html"/>
+    <link href="https://www.mweb.im/how_to_use_shell_script.html"/>
     <updated>2017-07-11T11:34:16+08:00</updated>
-    <id>http://www.mweb.im/how_to_use_shell_script.html</id>
+    <id>https://www.mweb.im/how_to_use_shell_script.html</id>
     <content type="html"><![CDATA[
 <p>Publish Script is a new feature in MWeb for Mac 2.2.3. It's taken a new experience for Edit/Publish in MWeb. When you finish edit, just right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code>, then all is OK. No need to key the publish command in terminal app.</p>
 <span id="more"></span><!-- more -->
