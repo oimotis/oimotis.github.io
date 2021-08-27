@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2021-08-21T15:57:45+08:00</updated>
+  <updated>2021-08-26T13:05:45+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -27,7 +27,7 @@
 <p>If it is the macOS version of MWeb, please confirm whether it is stored in the folder of iCloud Drive or related cloud drive. If it is, you need to ensure that the folder the Library is completely synchronized to the local.<br />
 Then, in the <code>Preferences - Library</code>, click the <code>Store in iCloud</code> button, and then in the pop-up prompt whether to merge the Library, choose <strong>Merge</strong>.<br />
 This prompt will only be displayed once. If it is too late to choose before, you can switch back to the local document library first, then exit MWeb, and run it on the command line:</p>
-<pre class="line-numbers"><code class="language-plain_text">defaults write com.coderforart.MWeb3 ckIsChooseMergeLocalToCloudKit -boolean false
+<pre><code class="language-plain_text">defaults write com.coderforart.MWeb3 ckIsChooseMergeLocalToCloudKit -boolean false
 </code></pre>
 <p>Then start MWeb and re-select <code>Store in iCloud</code>, and it will prompt again whether to merge.</p>
 <p>If it is the iOS version of MWeb, because the original iOS version of the document library is read-only, you need to use the macOS version of MWeb first, and synchronize the document library to iCloud according to the above method. Then set the document library to <code>store in iCloud</code> on the iOS version.</p>
@@ -373,7 +373,7 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <p><figure><img src="media/15306230463555/15306236857575.jpg" alt="" style="width:930px;" /></figure></p>
 <h2><a id="search-syntax" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Search syntax</h2>
 <p>MWeb 3.1.8 and above support search syntax like bellow:</p>
-<pre class="line-numbers"><code class="language-plain_text">[keyword1] [keyword2]... [-c category1,category2...] [-t tag1,tag2...] [-h keyword1,keyword2,...]
+<pre><code class="language-plain_text">[keyword1] [keyword2]... [-c category1,category2...] [-t tag1,tag2...] [-h keyword1,keyword2,...]
 </code></pre>
 <p><strong>For Example:</strong></p>
 <ol>
@@ -601,7 +601,7 @@ Also, exporting to Docx does not currently support local images.</p>
 <p>You can set whether to display the image in the editor and whether to display the image as a thumbnail in <code>Preferences</code> - <code>Generanl Settings</code>.</p>
 <h2><a id="set-image-width-and-alignment" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Set image width and alignment</h2>
 <p>MWeb introduces a special syntax to set the width of the image by adding <code>-w + image width</code> to the image description. For example, to set the width of the below image to 140, the syntax is as follows:</p>
-<pre class="line-numbers"><code class="language-plain_text">![Picture description-w140](https://zh.mweb.im/asset/img/set-up-git.gif)
+<pre><code class="language-plain_text">![Picture description-w140](https://zh.mweb.im/asset/img/set-up-git.gif)
 </code></pre>
 <p>In the MWeb editor, you can also right-click on the image and select some actions on the image, like below:</p>
 <p><figure><img src="media/15305996967958/15306201716838.jpg" alt="" style="width:514px;" /></figure></p>
@@ -638,7 +638,7 @@ Markdown's syntax is intended for one purpose: to be used as a format for <em>wr
 <p>If you see writing <code>Result:</code>, you can see the result only by using <code>CMD + 4</code> or <code>CMD + R</code> preview in MWeb. You can download this post and open it in MWeb to see the result. The download URL is: [Download this post Markdown text] (media/15305971422667/markdown%20syntax.md)</p>
 <h2><a id="headers" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Headers</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text"># This is an `&lt;h1&gt;` tag
+<pre><code class="language-plain_text"># This is an `&lt;h1&gt;` tag
 ## This is an `&lt;h2&gt;` tag
 ###### This is an `&lt;h6&gt;` tag
 </code></pre>
@@ -648,7 +648,7 @@ Markdown's syntax is intended for one purpose: to be used as a format for <em>wr
 <h6><a id="this-is-an-h6-tag" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>This is an <code>&lt;h6&gt;</code> tag</h6>
 <h2><a id="emphasis" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Emphasis</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">*This text will be italic*
+<pre><code class="language-plain_text">*This text will be italic*
 _This will also be italic_
 
 **This text will be bold**
@@ -666,7 +666,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 <h2><a id="lists" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lists</h2>
 <h3><a id="unordered" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unordered</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">* Item 1 unordered list `* + SPACE`
+<pre><code class="language-plain_text">* Item 1 unordered list `* + SPACE`
 * Item 2
 	* Item 2a unordered list `TAB + * + SPACE`
 	* Item 2b
@@ -684,7 +684,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 </ul>
 <h3><a id="ordered" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ordered</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">1. Item 1 ordered list `Number + . + SPACE`
+<pre><code class="language-plain_text">1. Item 1 ordered list `Number + . + SPACE`
 2. Item 2 
 3. Item 3
 	1. Item 3a ordered list `TAB + Number + . + SPACE`
@@ -703,7 +703,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 </ol>
 <h3><a id="task-lists" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Task lists</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">- [ ] task one not finish `- + SPACE + [ ]`
+<pre><code class="language-plain_text">- [ ] task one not finish `- + SPACE + [ ]`
 - [x] task two finished `- + SPACE + [x]`
 </code></pre>
 <p><strong>Result:</strong></p>
@@ -713,7 +713,7 @@ Just typing enter to newline,please set：<code>Preferences</code> - <code>Theme
 </ul>
 <h2><a id="images" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Images</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
+<pre><code class="language-plain_text">![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
 Format: ![Alt Text](url)
 </code></pre>
 <p><strong>Shortcuts:</strong>  <code>Control + Shift + I</code><br />
@@ -721,14 +721,14 @@ The Library's document support drag &amp; drop or <code>CMD + V</code> paste or 
 <strong>Result:</strong></p>
 <p><figure><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up" /><figcaption>GitHub set up<figcaption></figure></p>
 <p>In MWeb, you can use <code>-w + Number</code> to control image width, for example, set the image width 140px:</p>
-<pre class="line-numbers"><code class="language-plain_text">![GitHub set up-w140](https://help.github.com/assets/images/site/set-up-git.gif)
+<pre><code class="language-plain_text">![GitHub set up-w140](https://help.github.com/assets/images/site/set-up-git.gif)
 </code></pre>
 <p><figure><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up" style="width:140px;" /><figcaption>GitHub set up<figcaption></figure></p>
 <p>In MWeb, you can also set the alignment of the image. Take the above image as an example. The left alignment is <code>-l140</code>, the center is <code>-c140</code>, and the right is <code>-r140</code>.</p>
 <p><figure><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up" class="mw_img_center" style="width:140px;display: block; clear:both; margin: 0 auto;" /><figcaption>GitHub set up<figcaption></figure></p>
 <h2><a id="links" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">email &lt;example@example.com&gt;
+<pre><code class="language-plain_text">email &lt;example@example.com&gt;
 [GitHub](http://github.com)
 autolink  &lt;http://www.github.com/&gt;
 </code></pre>
@@ -741,7 +741,7 @@ Automatic linking for URLs<br />
 Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will be automatically converted into a clickable link.</p>
 <h2><a id="blockquotes" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Blockquotes</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">As Kanye West said:
+<pre><code class="language-plain_text">As Kanye West said:
 &gt; We're living the future so
 &gt; the present is our past.
 </code></pre>
@@ -754,7 +754,7 @@ the present is our past.</p>
 </blockquote>
 <h2><a id="inline-code" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inline code</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">I think you should use an
+<pre><code class="language-plain_text">I think you should use an
 `&lt;addr&gt;` `code` element here instead.
 </code></pre>
 <p><strong>Shortcuts:</strong>  <code>CMD + K</code><br />
@@ -763,7 +763,7 @@ the present is our past.</p>
 <code>&lt;addr&gt;</code> <code>code</code> element here instead.</p>
 <h2><a id="multi-line-code" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multi-line code</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">```js
+<pre><code class="language-plain_text">```js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
@@ -774,7 +774,7 @@ function fancyAlert(arg) {
 </code></pre>
 <p><strong>Shortcuts:</strong>  <code>CMD + Shift + K</code><br />
 <strong>Result:</strong></p>
-<pre class="line-numbers"><code class="language-js">function fancyAlert(arg) {
+<pre><code class="language-js">function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -784,7 +784,7 @@ function fancyAlert(arg) {
 <h2><a id="mweb-drawing" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb Drawing</h2>
 <h3><a id="mermaid" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>mermaid</h3>
 <p>Mermaid is a popular js graphics library. It supports flowcharts, sequence diagrams and Gantt charts. Its official website is: <a href="https://mermaidjs.github.io/">https://mermaidjs.github.io/</a>. The syntax for using mermaid in MWeb is to declare code blocks. The language is mermaid, and the mermaid drawing syntax can be written in the code block. You can copy the following syntax into MWeb to view the result.</p>
-<pre class="line-numbers"><code class="language-plain_text">```mermaid
+<pre><code class="language-plain_text">```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
@@ -799,7 +799,7 @@ sequenceDiagram
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<pre class="line-numbers"><code class="language-mermaid">sequenceDiagram
+<pre><code class="language-mermaid">sequenceDiagram
     participant Alice
     participant Bob
     Alice-&gt;John: Hello John, how are you?
@@ -813,7 +813,7 @@ sequenceDiagram
 </code></pre>
 <h3><a id="graphviz" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Graphviz</h3>
 <p>Graphviz is an open source graph visualization software and its official website is <a href="http://www.graphviz.org/">http://www.graphviz.org/</a>. MWeb uses the implementation of Graphviz's js version <a href="http://viz-js.com/">http://viz-js.com/</a>, which can parse the Graphviz syntax to generate images. You can try the following syntax to copy it into MWeb. When you try, you can change the dot to circo, fdp, neato, osage, twopi to try the result.</p>
-<pre class="line-numbers"><code class="language-plain_text">```dot
+<pre><code class="language-plain_text">```dot
 # http://www.graphviz.org/content/cluster
 digraph G {
 
@@ -845,7 +845,7 @@ digraph G {
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<pre class="line-numbers"><code class="language-dot"># http://www.graphviz.org/content/cluster
+<pre><code class="language-dot"># http://www.graphviz.org/content/cluster
 digraph G {
     
 	subgraph cluster_0 {
@@ -876,7 +876,7 @@ digraph G {
 </code></pre>
 <h3><a id="echarts" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>echarts</h3>
 <p>Echarts is a js graph library of Baidu. Its website is <a href="http://echarts.baidu.com/index.html">http://echarts.baidu.com/index.html</a>. It is very powerful. MWeb supports some basic usages of echarts. You can try the following syntax to copy it into MWeb. You can also go to the <a href="http://echarts.baidu.com/examples/index.html">http://echarts.baidu.com/examples/index.html</a> URL to see some examples. Note that MWeb can only parse <code>option = {}</code> which is simple but should be enough used.</p>
-<pre class="line-numbers"><code class="language-plain_text">```echarts
+<pre><code class="language-plain_text">```echarts
 option = {
     xAxis: {
         type: 'category',
@@ -893,7 +893,7 @@ option = {
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<pre class="line-numbers"><code class="language-echarts">option = {
+<pre><code class="language-echarts">option = {
     xAxis: {
         type: 'category',
         data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
@@ -909,7 +909,7 @@ option = {
 </code></pre>
 <h3><a id="plantuml" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>plantuml</h3>
 <p>The website of plantuml is: <a href="http://www.plantuml.com/">http://www.plantuml.com/</a>, you can learn more directly. The way MWeb supports plantuml is to reference the images generated by the plantuml server. You can copy the following syntax into MWeb to try.</p>
-<pre class="line-numbers"><code class="language-plain_text">```plantuml
+<pre><code class="language-plain_text">```plantuml
 @startuml
 
 User -&gt; (Start)
@@ -921,7 +921,7 @@ User --&gt; (Use the application) : A small label
 ```
 </code></pre>
 <p><strong>Result:</strong></p>
-<pre class="line-numbers"><code class="language-plantuml">@startuml
+<pre><code class="language-plantuml">@startuml
     
 User -&gt; (Start)
 User --&gt; (Use the application) : A small label
@@ -932,7 +932,7 @@ User --&gt; (Use the application) : A small label
 </code></pre>
 <h3><a id="sequence-diagram-and-flow-chart" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sequence diagram and flow chart</h3>
 <p>The sequence diagram and flow chart are using <a href="http://bramp.github.io/js-sequence-diagrams/">http://bramp.github.io/js-sequence-diagrams/</a>, <a href="http://adrai.github.io/flowchart.js/">http://adrai.github.io/flowchart.js/</a> It's Markdown syntax in MWeb.</p>
-<pre class="line-numbers"><code class="language-plain_text">```sequence
+<pre><code class="language-plain_text">```sequence
 张三-&gt;李四: 嘿，小四儿, 写博客了没?
 Note right of 李四: 李四愣了一下，说：
 李四--&gt;张三: 忙得吐血，哪有时间写。
@@ -950,11 +950,11 @@ cond(no)-&gt;op
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<pre class="line-numbers"><code class="language-sequence">张三-&gt;李四: 嘿，小四儿, 写博客了没?
+<pre><code class="language-sequence">张三-&gt;李四: 嘿，小四儿, 写博客了没?
 Note right of 李四: 李四愣了一下，说：
 李四--&gt;张三: 忙得吐血，哪有时间写。
 </code></pre>
-<pre class="line-numbers"><code class="language-flow">st=&gt;start: 开始
+<pre><code class="language-flow">st=&gt;start: 开始
 e=&gt;end: 结束
 op=&gt;operation: 我的操作
 cond=&gt;condition: 确认？
@@ -965,7 +965,7 @@ cond(no)-&gt;op
 </code></pre>
 <h2><a id="tables" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tables</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">First Header | Second Header
+<pre><code class="language-plain_text">First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
@@ -992,13 +992,13 @@ Content in the first column | Content in the second column
 </table>
 <h2><a id="strikethrough" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strikethrough</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text"> (like ~~this~~)
+<pre><code class="language-plain_text"> (like ~~this~~)
 </code></pre>
 <p><strong>Result:</strong></p>
 <p>Any word wrapped with two tildes (like <del>this</del>) will appear crossed out.</p>
 <h2><a id="horizontal-rules" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Horizontal Rules</h2>
 <p>Following lines will produce a horizontal rule:</p>
-<pre class="line-numbers"><code class="language-plain_text">***
+<pre><code class="language-plain_text">***
 
 *****
 
@@ -1010,7 +1010,7 @@ Content in the first column | Content in the second column
 <hr />
 <h2><a id="mathjax" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MathJax</h2>
 <p>Use double US dollors sign pair for Block level Math formula, and one US dollor sign pair for Inline Level.</p>
-<pre class="line-numbers"><code class="language-plain_text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
+<pre><code class="language-plain_text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
 
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
@@ -1027,7 +1027,7 @@ Content in the first column | Content in the second column
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
 <h2><a id="footnote" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnote</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">This is a footnote:[^sample_footnote]
+<pre><code class="language-plain_text">This is a footnote:[^sample_footnote]
 </code></pre>
 <p><strong>Result:</strong></p>
 <p>This is a footnote:[^sample_footnote]</p>
@@ -1037,7 +1037,7 @@ Content in the first column | Content in the second column
 <p>Actions-&gt;Insert Read More Comment <em>OR</em> <code>CMD + .</code></p>
 <h2><a id="toc" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>TOC</h2>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">[TOC]
+<pre><code class="language-plain_text">[TOC]
 </code></pre>
 <p><strong>Result:</strong></p>
 <ul>
@@ -1184,7 +1184,7 @@ If you want to make him a fixed Tab, double-click to open the document, you can 
 <p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the bellow:</p>
 <p><figure><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;" /></figure></p>
 <p>If you click &quot;Load Sample&quot; button, you will sea the sample like bellow, you can edit it for your own.</p>
-<pre class="line-numbers"><code class="language-plain_text">#!/bin/sh
+<pre><code class="language-plain_text">#!/bin/sh
 # Please set the name and email. 
 # Because MWeb can't get your github global setting.
 
