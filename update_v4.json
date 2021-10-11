@@ -1,1 +1,11 @@
-{ "version":"4.1.9" }
+{ 
+	"version":"4.2.1" ,
+	"bigSur":{ 
+		"url":"https://cdn.mwebapp.cn/MWebPro421.dmg",
+		"sha256":"836d890d2571e45ed3c69a4a9bf35dbb4ee03c08542b9e0be0eb40783bc953b1" 
+	} ,
+	"catalina":{ 
+		"url":"https://cdn.mwebapp.cn/MWebPro421_catalina.dmg",
+		"sha256":"f9e349ad5e9c5a3bc3bd32271f04af4aa9a772027637507988dc993c1599e399" 
+	} 
+}
