@@ -393,7 +393,7 @@ Content in the first column | Content in the second column
 <pre><code class="language-plain_text">[TOC]
 </code></pre>
 <p><strong>Result:</strong></p>
-<ul>
+<div class="mweb_toc"><ul>
 <li><a href="#philosophy">Philosophy</a></li>
 <li><a href="#notice">Notice</a></li>
 <li><a href="#headers">Headers</a></li>
@@ -426,7 +426,7 @@ Content in the first column | Content in the second column
 </ul>
 </li>
 </ul>
-
+</div>
 <script src="asset/flow-sequence-chart/raphael-min.js"></script><script src="asset/flow-sequence-chart/underscore-min.js"></script><script src="asset/flow-sequence-chart/flowchart.min.js"></script><script src="asset/flow-sequence-chart/sequence-diagram-min.js"></script><script type="text/javascript">``(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    ``('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if(``(this).hasClass('language-sequence')){            var ele = ``(this).addClass('nohighlight').parent();            ``('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse(``(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if(``(this).hasClass('language-flow')){            var ele = ``(this).addClass('nohighlight').parent();            ``('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse(``(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/x-mathjax-config">if (typeof MathJaxListener !== 'undefined') { MathJax.Hub.Register.StartupHook('End', function () { MathJaxListener.invokeCallbackForKey_('End'); }); } </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 

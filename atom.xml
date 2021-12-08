@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2021-11-12T22:51:16+08:00</updated>
+  <updated>2021-11-27T22:34:00+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -1040,7 +1040,7 @@ Content in the first column | Content in the second column
 <pre><code class="language-plain_text">[TOC]
 </code></pre>
 <p><strong>Result:</strong></p>
-<ul>
+<div class="mweb_toc"><ul>
 <li><a href="#the-first-thing-you-should-know">The first thing you should know</a></li>
 <li><a href="#philosophy">Philosophy</a></li>
 <li><a href="#notice">Notice</a></li>
@@ -1082,7 +1082,7 @@ Content in the first column | Content in the second column
 </ul>
 </li>
 </ul>
-
+</div>
 
 ]]></content>
   </entry>
