@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	Markdown output - MWeb
+  	
+  	</title>
+     <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
+    <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+        <a class="menu-help blog-nav-item" target="_self" href="en-help.html">Documentation</a>
+        
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+        <a class="menu-blog blog-nav-item" target="_self" href="download.html">Download</a>
+        
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
+        
+        
+        </nav>
+      </div>
+    </div>
+      
+      <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
+        <a style="color:#ff0000;" href="download.html">MWeb 4.0 macOS/iOS has been released.</a>
+      </div>
+    
+    
+ <div class="container" id="content-wrap">
+ 
+
+	<div class="row">
+		<div class="col-sm-10 blog-main">
+			<h1 style="padding-left: 20px;">
+				<a href="en-help.html">Documentation</a> - Markdown output</h1>
+		</div>
+	</div>
+	<hr style="margin-bottom: 20px;" />
+
+
+      <div class="row">
+
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
+				<div class="blog-post">
+		            <div class="content-responsive">
+		            <p>MWeb supports exporting documents as image, HTML, PDF, and the macOS version also supports exporting as Epub, RTF and Docx. The usage method is shown in the figure below.</p>
+<p><img src="media/15306167569481/mweb_export_menu.jpg" alt="" style="width:484px;" /></p>
+<h2><a id="features-specific-to-mweb-for-macos" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features specific to MWeb for macOS</h2>
+<h3><a id="copy-as-rich-text-feature" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Copy as Rich Text feature</h3>
+<p>You can use the menu: <code>Publish - Copy as Rich Text</code> to use this feature. This function is mainly used to paste the current Markdown document into Mail (mail.app), Pages.app, Word.app. In the case that the Markdown document has local images, the export to docx function does not currently support images well. At this time, you can use the <code>copy as rich text</code> function, and then press <code>CMD + V</code> in the three software mentioned above to paste, so that the picture can be pasted successfully.</p>
+<p>If you need to copy the preview style, you can try the menu: <code>Publish - Export or Copy as Image</code>, then select all the content in the interface, press <code>CMD + C</code> to copy, and then try to paste it into other editors, For example, WeChat editor.</p>
+<h3><a id="export-to-pdf-or-epub" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Export to PDF or Epub</h3>
+<p>MWeb can not only export a single Markdown document as PDF or Epub, but also export multiple documents as a PDF or Epub document in the Library mode.</p>
+<p><img src="media/15306167569481/mweb_export_lib_pdfs.jpg" alt="" /></p>
+<h3><a id="about-export-to-html-docx" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>About export to HTML, Docx</h3>
+<p>Using MWeb to export to HTML will export a single HTML. If there is a local image, the local image will be Base64 encoded and embedded into the HTML.</p>
+<p>In addition, exporting to Docx does not currently support local images. If the exported Docx document contains images, the current solution is to use Pandoc to export to Docx. The way to use it is to install Pandoc first, and then add the <code>Pandoc &amp; Run Script</code> service in the <code>Preferences - Publishing</code> of MWeb. Give it a name and save it, then in the &quot;Publish&quot; menu, choose to run this publishing service.</p>
+
+		            </div>
+				</div><!-- /.blog-post -->
+			</div>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+			</div>
+
+        </div><!-- /.blog-main -->
+	</div>
+</div>   <footer class="blog-footer">
+      <p>Copyright &copy; 2022
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58735702-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

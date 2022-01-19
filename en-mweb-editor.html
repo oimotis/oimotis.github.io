@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	MWeb editor introduction - MWeb
+  	
+  	</title>
+     <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
+    <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+        <a class="menu-help blog-nav-item" target="_self" href="en-help.html">Documentation</a>
+        
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+        <a class="menu-blog blog-nav-item" target="_self" href="download.html">Download</a>
+        
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
+        
+        
+        </nav>
+      </div>
+    </div>
+      
+      <div style="color:#ff0000; text-align:center; padding:8px;" class="bg-info site_notice">
+        <a style="color:#ff0000;" href="download.html">MWeb 4.0 macOS/iOS has been released.</a>
+      </div>
+    
+    
+ <div class="container" id="content-wrap">
+ 
+
+	<div class="row">
+		<div class="col-sm-10 blog-main">
+			<h1 style="padding-left: 20px;">
+				<a href="en-help.html">Documentation</a> - MWeb editor introduction</h1>
+		</div>
+	</div>
+	<hr style="margin-bottom: 20px;" />
+
+
+      <div class="row">
+
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
+				<div class="blog-post">
+		            <div class="content-responsive">
+		            <h2><a id="markdown-syntax-input-assistance" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown syntax input assistance</h2>
+<p><strong>In MWeb for macOS:</strong><br />
+All supported Markdown syntaxes can be found in the &quot;Syntax&quot; menu or under the &quot;Aa&quot; button on the toolbar, and all syntaxes come with shortcuts for quick typing. Also, if you prefer to use the toolbar, you can use the menu: <code>View - Customize Toolbar</code> to customize the syntax input buttons on the toolbar.</p>
+<p><strong>In MWeb for iPadOS/iOS:</strong><br />
+All supported Markdown syntaxes can be found in the toolbar of the virtual keyboard. In iOS, due to the small screen, you can click the &quot;M&quot; button on the toolbar to view all grammar buttons. If you want to customize the buttons on the toolbar, you can click the &quot;AA&quot; button in the upper right corner of the editor, and then click &quot;Customize Markdown keyboard...&quot; to customize. If you want to sea the shortcut keys, you can press and hold the &quot;CMD&quot; key.</p>
+<h2><a id="edit-and-preview-outline-view" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Edit and preview, outline view</h2>
+<p>All platforms support edit-preview mode and outline vie. The related shortcut keys are as follows:</p>
+<ul>
+<li>Toggle edit and preview: <code>CMD + R</code></li>
+<li>Toggle edit-preview mode: <code>CMD + 4</code></li>
+<li>Show and hide outline view: <code>CMD + 7</code></li>
+</ul>
+<p>The above functions also have related buttons on the toolbar. In MWeb for macOS, you can also choose the display mode of the outline view. There are currently three types: fixed on the left side of the editor, fixed on the right side of the editor, and floating. This setting can be modified using the View menu.</p>
+<h2><a id="editor-theme-and-preview-style" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Editor theme and preview style</h2>
+<p>macOS/iPadOS/iOS now have a dark theme and a light theme, so MWeb can also set the theme used when the system dark/light theme respectively. MWeb for macOS can be set in <code>Preferences - Themes &amp; Styles</code>, MWeb for iOS can be set by clicking the &quot;AA&quot; button in the upper right corner of the edit, or in the settings page.</p>
+<p>The preview styles of MWeb 4.x are merged with the editor styles and are collectively referred to as &quot;themes&quot;. If you want to customize the editor style or preview style, you need to customize the theme first. In MWeb for macOS, you can click the &quot;Custom Theme&quot; button in <code>Preferences - Themes &amp; Styles</code>; in MWeb for iPadOS/iOS, you can click the &quot;AA&quot; button in the upper right corner of Edit, and then click the current theme button , in the theme switching interface that appears, click the &quot;...&quot; button in the upper right corner to customize the theme.</p>
+<p>If you want to customize the preview style, pay attention to the &quot;Automatically generate preview CSS by editor&quot; checkbox in the custom theme editing interface. If this checkbox is checked, MWeb will automatically generate the relevant CSS styles according to the color of the currently defined editor theme. If necessary, you can also fill in the redefined CSS styles in the input box below; if not checked, the related CSS styles will not be generated. In this case, you can fill in your own complete CSS styles in the input box below.</p>
+<h2><a id="support-for-insert-images" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support for insert images</h2>
+<p>Markdown is a plain text file. It does not come with any images and other attachments. Images and attachments are all referenced and stored outside the Markdown text. The main and most important feature of Markdown is &quot;easy to read and write&quot;. In order to highlight these two advantages, I think it is necessary to be able to view the referenced images directly. Therefore, MWeb can display Markdown-referenced local and network images directly in the editor. There are four settings for this feature: show images, show thumbnails, overlay in Editor, and not show the images. If you want to modify the settings, you can set them in the Preferences in macOS/iPadOS/iOS. In macOS, you can also click the &quot;eye&quot; button on the toolbar to set, and in iPadOS/iOS, you can click the &quot;AA&quot; button in the upper right corner of the editor to set. .</p>
+<p>macOS/iPadOS/iOS supports copying, pasting, and dragging to insert images. Of course, you can also use the Insert Image button on the toolbar to insert images.</p>
+<p>If you're on macOS, try the following to learn more about MWeb's aspects of inserting images:</p>
+<ol>
+<li>Press <code>Ctrl + CMD + Shift + 4</code>, drag and take a screenshot, in MWeb, press <code>CMD + V</code> to paste, and you can insert a image. If you want to insert an image in PNG format, you can use the menu: <code>Edit</code> - <code>Paste as PNG</code>.</li>
+<li>In a browser (eg: Safari), find a image, then <code>right-click the image</code> - <code>copy image</code>, return to MWeb, and press <code>CMD + V</code> to paste to insert the image.</li>
+<li>Drag and drop images directly from Finder to MWeb Editor to insert images.</li>
+<li>In the Finder, find an image file, press <code>CMD + C</code>, return to MWeb, and press <code>CMD + V</code> to insert it.</li>
+<li>Use the menu: <code>Actions - Multi Images to One Image..</code> to experience the puzzle feature of MWeb.</li>
+<li>Find an article with images and text in the website, select the images and text, press <code>CMD + C</code> to copy, return to MWeb, use the menu: <code>Edit - Paste Markdown from HTML</code>. This will automatically convert the web page to Markdown. If you want to download the network images in the webpage, you can use the menu: <code>Edit - Remote Images Download</code> to download the images to the local.</li>
+</ol>
+<h2><a id="set-image-width" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Set image width</h2>
+<p>The special syntax introduced by MWeb to set the image width is to add <code>-w + image width</code> after the image description. For example, to set the width of the above image to 140, the syntax is as follows:</p>
+<pre class="line-numbers"><code class="language-plain_text">![Image description-w140](https://zh.mweb.im/asset/img/set-up-git.gif)
+</code></pre>
+<h2><a id="mweb-support-for-inserting-tables" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb support for inserting tables</h2>
+<p>You can press the Insert Table button on the toolbar to insert a table, or you can use the shortcut key <code>Ctrl + Shift + T</code>, as shown in the figure below for table insertion support on macOS, and this feature is also available on iPadOS/iOS:</p>
+<p><img src="media/15305996967958/16421607832688.jpg" alt="" /></p>
+<p>For an existing table, you can move the cursor to the table syntax, and then use the Insert Table button to modify the existing table. You can insert a table first and then try to modify it.</p>
+<h2><a id="mweb-s-assistance-for-latex-mermaid-echarts-writing" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb's assistance for LaTeX, mermaid, echarts writing</h2>
+<p>In the MWeb editor, you can preview the LaTeX formula by moving the cursor to the middle of LaTeX. If you modify the formula, the preview will also be updated in real time. The following figure shows the assistance of LaTeX formulas, as well as the assistance of mermaid and echarts:</p>
+<p><img src="media/15303597337753/16420004813946.jpg" alt="" /></p>
+
+		            </div>
+				</div><!-- /.blog-post -->
+			</div>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+			</div>
+
+        </div><!-- /.blog-main -->
+	</div>
+</div>   <footer class="blog-footer">
+      <p>Copyright &copy; 2022
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58735702-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
