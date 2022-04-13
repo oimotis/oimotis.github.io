@@ -131,7 +131,7 @@
 <h2><a id="1-start" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Start</h2>
 <p>The publish script only test for git, you can use it publish to github pages. If you didn't has github pages, please check: <a href="https://pages.github.com/">https://pages.github.com/</a>.</p>
 <h2><a id="2-clone-your-github-pages-to-the-mweb-static-website-output-folder" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Clone your github pages to the MWeb static website output folder.</h2>
-<p>**Notices:**If you already use github to publish the static website, please skip this step. If you didn't, please check the bellow steps:</p>
+<p>**Notices:**If you already use github to publish the static website, please skip this step. If you didn't, please check the below steps:</p>
 <ol>
 <li>Use MWeb build the Site.</li>
 <li>Go to MWeb &quot;Preferences&quot; - &quot;General&quot; - &quot;Build Sites Save Location&quot;, click &quot;Show in Finder&quot;. Now you in the &quot;MWeb static website output location&quot; in Finder. The website I build is &quot;MWeb Official Site&quot;, so there is a &quot;MWeb Official Site&quot; folder in that. I will use &quot;MWeb Official Site&quot; for the example.</li>
@@ -140,9 +140,9 @@
 <li>Use &quot;Clear and Rebuild Site&quot; menu in MWeb.</li>
 </ol>
 <h2><a id="3-config-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Config Publish Script</h2>
-<p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the bellow:</p>
+<p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the below:</p>
 <p><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;" /></p>
-<p>If you click &quot;Load Sample&quot; button, you will sea the sample like bellow, you can edit it for your own.</p>
+<p>If you click &quot;Load Sample&quot; button, you will sea the sample like below, you can edit it for your own.</p>
 <pre class="line-numbers"><code class="language-plain_text">#!/bin/sh
 # Please set the name and email. 
 # Because MWeb can't get your github global setting.
@@ -155,7 +155,7 @@ git commit -m &quot;{{year}}-{{month}}-{{day}} {{time}}&quot;
 git push -u origin master
 </code></pre>
 <h2><a id="4-execute-the-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Execute the Publish Script</h2>
-<p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like bellow:</p>
+<p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like below:</p>
 <p><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;" /></p>
 
 		            </div>
@@ -195,6 +195,9 @@ Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; ho
     </footer>
 
 
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 
   
 

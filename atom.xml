@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2022-01-19T13:53:46+08:00</updated>
+  <updated>2022-03-03T23:28:09+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -69,7 +69,7 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
     <content type="html"><![CDATA[
 <p>This notice only for outside of Mac App Store users.</p>
 <h2><a id="important" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important:</h2>
-<p>Before you update veriosn <span style='color:red;font-weight:bold;'>3.2.8</span> and bellow to version <span style='color:red;font-weight:bold;'>3.3.1</span> and above,  please make sure your version is <span style='color:red;font-weight:bold;'>3.2.8</span>, then use menu: <strong>MWeb - Export Preferences Data...</strong> to export the preferences. When you updated to version <span style='color:red;font-weight:bold;'>3.3.1</span>, please use menu: <strong>MWeb - Import Preferences Data...</strong> to import the preferences.</p>
+<p>Before you update veriosn <span style='color:red;font-weight:bold;'>3.2.8</span> and below to version <span style='color:red;font-weight:bold;'>3.3.1</span> and above,  please make sure your version is <span style='color:red;font-weight:bold;'>3.2.8</span>, then use menu: <strong>MWeb - Export Preferences Data...</strong> to export the preferences. When you updated to version <span style='color:red;font-weight:bold;'>3.3.1</span>, please use menu: <strong>MWeb - Import Preferences Data...</strong> to import the preferences.</p>
 <p><strong>Tip :</strong> If you already updated to 3.3.1 and forgot to export the preferences data. You can re-download the 3.2.8 version, export it, and then import it in version 3.3.1.</p>
 <p><a href="https://dl.devmate.com/com.coderforart.MWeb3/3.2.8/1568938643/MWeb3-ProMarkdownwriting%2CnotetakingandstaticbloggeneratorApp-3.2.8.dmg">MWeb 3.2.8 download</a></p>
 <h2><a id="version-3-3-1-update" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 3.3.1 update:</h2>
@@ -372,7 +372,7 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <p>As shown in the following figure, press <code>Down</code> key to select the document, press <code>Enter</code> to open the selected document.</p>
 <p><img src="media/15306230463555/16421617561801.jpg" alt="" /></p>
 <h2><a id="search-syntax" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Search syntax</h2>
-<p>MWeb 3.1.8 and above support search syntax like bellow:</p>
+<p>MWeb 3.1.8 and above support search syntax like below:</p>
 <pre class="line-numbers"><code class="language-plain_text">[keyword1] [keyword2]... [-c category1,category2...] [-t tag1,tag2...] [-h keyword1,keyword2,...]
 </code></pre>
 <p><strong>For Example:</strong></p>
@@ -887,7 +887,7 @@ If you want to make it a fixed tab, double-click the document or tab, or you can
 <h2><a id="1-start" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Start</h2>
 <p>The publish script only test for git, you can use it publish to github pages. If you didn't has github pages, please check: <a href="https://pages.github.com/">https://pages.github.com/</a>.</p>
 <h2><a id="2-clone-your-github-pages-to-the-mweb-static-website-output-folder" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Clone your github pages to the MWeb static website output folder.</h2>
-<p>**Notices:**If you already use github to publish the static website, please skip this step. If you didn't, please check the bellow steps:</p>
+<p>**Notices:**If you already use github to publish the static website, please skip this step. If you didn't, please check the below steps:</p>
 <ol>
 <li>Use MWeb build the Site.</li>
 <li>Go to MWeb &quot;Preferences&quot; - &quot;General&quot; - &quot;Build Sites Save Location&quot;, click &quot;Show in Finder&quot;. Now you in the &quot;MWeb static website output location&quot; in Finder. The website I build is &quot;MWeb Official Site&quot;, so there is a &quot;MWeb Official Site&quot; folder in that. I will use &quot;MWeb Official Site&quot; for the example.</li>
@@ -896,9 +896,9 @@ If you want to make it a fixed tab, double-click the document or tab, or you can
 <li>Use &quot;Clear and Rebuild Site&quot; menu in MWeb.</li>
 </ol>
 <h2><a id="3-config-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Config Publish Script</h2>
-<p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the bellow:</p>
+<p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the below:</p>
 <p><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;" /></p>
-<p>If you click &quot;Load Sample&quot; button, you will sea the sample like bellow, you can edit it for your own.</p>
+<p>If you click &quot;Load Sample&quot; button, you will sea the sample like below, you can edit it for your own.</p>
 <pre class="line-numbers"><code class="language-plain_text">#!/bin/sh
 # Please set the name and email. 
 # Because MWeb can't get your github global setting.
@@ -911,7 +911,7 @@ git commit -m &quot;{{year}}-{{month}}-{{day}} {{time}}&quot;
 git push -u origin master
 </code></pre>
 <h2><a id="4-execute-the-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Execute the Publish Script</h2>
-<p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like bellow:</p>
+<p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like below:</p>
 <p><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;" /></p>
 
 ]]></content>
