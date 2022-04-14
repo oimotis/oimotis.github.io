@@ -1,11 +1,11 @@
 { 
-	"version":"4.2.5" ,
+	"version":"4.2.6" ,
 	"bigSur":{ 
-		"url":"https://cdn.mwebapp.cn/MWebPro425.dmg",
-		"sha256":"da3ea226df61bb78e19ba13f79fb2fd7ce4590e070828e59922011871789a263" 
+		"url":"https://cdn.mwebapp.cn/MWebPro426.dmg",
+		"sha256":"9dd75e5ba0f391e48fb32db56402cdf1d76eec95759153a4653e6ecfb755af9f" 
 	} ,
 	"catalina":{ 
-		"url":"https://cdn.mwebapp.cn/MWebPro425_catalina.dmg",
-		"sha256":"23c5394d000664b259a1d38bf1353d309968f907cd5482126a9baa13a89531b1" 
+		"url":"https://cdn.mwebapp.cn/MWebPro426_catalina.dmg",
+		"sha256":"ed34f1738cf8155b877de9a5a08bcf2e7c5bb52536aad3d698868be5543d0082" 
 	} 
 }
