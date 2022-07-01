@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MWeb Pro</title>
+        <item>
+            <title>4.3.1</title>
+            <pubDate>Fri, 01 Jul 2022 13:01:57 +0800</pubDate>
+            <sparkle:version>1042</sparkle:version>
+            <sparkle:shortVersionString>4.3.1</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+<ul>
+<li>Added: Now when opening a document, it will automatically scroll to the position when the document was last closed.</li>
+<li>Added: Starting from this version, the non-Store version supports automatic updates, and it is no longer necessary to go to the official website to download.</li>
+<li>Added: Added &quot;Automatic Equation Numbering&quot; option for LaTeX equations, in &quot;Preferences - General - LaTeX more settings&quot;.</li>
+<li>Added: holding a option key and click a category in the Library or a folder in External folder mode will &quot;expand/collapse&quot; all subcategories.</li>
+<li>Improved: When importing a theme, if an existing name is detected, it will first ask whether to overwrite the theme with the same name.</li>
+<li>Other bug fixes and improvements.</li>
+</ul>
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+<ul>
+<li>增加：现在打开文档时，会自动滚动到上一次关闭文档时的位置。</li>
+<li>增加：从这个版本开始，非 Store 版支持自动更新了，不再需要去官网下载了。</li>
+<li>增加：LaTeX 公式增加 “数学公式自动编号” 选项，在 “偏好设置 - 通用设置 - LaTeX 的更多设置” 中 。</li>
+<li>增加：按住 option 键点击文档库的分类或外部文件夹模式的文件夹时，会 “展开/收起” 所有子分类。</li>
+<li>改进：导入主题时，如果检测到已存在的名称，会先询问是否覆盖同名的主题。</li>
+<li>其它 bug 修正及改进。</li>
+</ul>
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+<ul>
+<li>增加：現在打開文檔時，會自動滾動到上一次關閉文檔時的位置。</li>
+<li>增加：從這個版本開始，非 Store 版支持自動更新了，不再需要去官網下載了。</li>
+<li>增加：LaTeX 公式增加 「數學公式自動編號」 選項，在 「偏好設置 - 通用設置 - LaTeX 的更多設置」 中 。</li>
+<li>增加：按住 option 鍵點擊文檔庫的分類或外部文件夾模式的文件夾時，會 「展開/收起」 所有子分類。</li>
+<li>改進：導入主題時，如果檢測到已存在的名稱，會先詢問是否覆蓋同名的主題。</li>
+<li>其它 bug 修正及改進。</li>
+</ul>
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro431.zip" length="32759942" type="application/octet-stream" sparkle:edSignature="19iLsEJoi62mRVaDWKVcrIsyfS/dvSkOIyYPLv10ozeKC5WgqXD24Tc+N3zfMcZH3JvpN+XYiX9NfyQ8ld4PBg=="/>
+        </item>
+    </channel>
+</rss>
