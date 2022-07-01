@@ -99,13 +99,13 @@ Markdown's syntax is intended for one purpose: to be used as a format for <em>wr
 <p>On the basis of CommonMark, Github extends some common grammars, mainly including strikethroughs, task lists, tables and footnotes. The following is a brief introduction to these grammars.</p>
 <h3><a id="strikethrough" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strikethrough</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text"> (like ~~this~~)
+<pre><code class="language-plain_text"> (like ~~this~~)
 </code></pre>
 <p><strong>Result:</strong></p>
 <p>Any word wrapped with two tildes (like <del>this</del>) will appear crossed out.</p>
 <h3><a id="task-lists" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Task lists</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">- [ ] task one not finish `- + SPACE + [ ]`
+<pre><code class="language-plain_text">- [ ] task one not finish `- + SPACE + [ ]`
 - [x] task two finished `- + SPACE + [x]`
 </code></pre>
 <p><strong>Result:</strong></p>
@@ -115,7 +115,7 @@ Markdown's syntax is intended for one purpose: to be used as a format for <em>wr
 </ul>
 <h3><a id="tables" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tables</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">First Header | Second Header
+<pre><code class="language-plain_text">First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
@@ -142,14 +142,14 @@ Content in the first column | Content in the second column
 </table>
 <h3><a id="footnote" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnote</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">This is a footnote:[^sample_footnote]
+<pre><code class="language-plain_text">This is a footnote:[^sample_footnote]
 </code></pre>
 <p><strong>Result:</strong></p>
 <p>This is a footnote:<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></p>
 <h2><a id="mweb-specific-syntax" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb-specific syntax</h2>
 <h3><a id="image-width" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Image Width</h3>
 <p>Markdown syntax for image:</p>
-<pre class="line-numbers"><code class="language-plain_text">![Image description](https://zh.mweb.im/asset/img/set-up-git.gif)
+<pre><code class="language-plain_text">![Image description](https://zh.mweb.im/asset/img/set-up-git.gif)
 Format: ![image description](url)
 </code></pre>
 <p>In MWeb, you can use <code>-w + Number</code> to control image width, for example, set the image width 140px:</p>
@@ -157,7 +157,7 @@ Format: ![image description](url)
 <h3><a id="mweb-drawing" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb Drawing</h3>
 <h4><a id="mermaid" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>mermaid</h4>
 <p>Mermaid is a popular js graphics library. It supports flowcharts, sequence diagrams and Gantt charts. Its official website is: <a href="https://mermaidjs.github.io/">https://mermaidjs.github.io/</a>. The syntax for using mermaid in MWeb is to declare code blocks. The language is mermaid, and the mermaid drawing syntax can be written in the code block. You can copy the following syntax into MWeb to view the result.</p>
-<pre class="line-numbers"><code class="language-plain_text">```mermaid
+<pre><code class="language-plain_text">```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
@@ -175,7 +175,7 @@ sequenceDiagram
 <p><img src="media/15305971422667/16421614330357.jpg" alt="" style="width:456px;" /></p>
 <h4><a id="echarts" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>echarts</h4>
 <p>Echarts is a js graph library of Baidu. Its website is <a href="https://echarts.apache.org/zh/index.html">https://echarts.apache.org/zh/index.html</a>. It is very powerful. MWeb supports some basic usages of echarts. You can try the following syntax to copy it into MWeb. You can also go to the <a href="https://echarts.apache.org/examples/zh/index.html">https://echarts.apache.org/examples/zh/index.html</a> URL to see some examples. Note that MWeb can only parse <code>option = {}</code> which is simple but should be enough used.</p>
-<pre class="line-numbers"><code class="language-plain_text">```echarts
+<pre><code class="language-plain_text">```echarts
 option = {
     xAxis: {
         type: 'category',
@@ -203,7 +203,7 @@ In addition, MWeb is also compatible with <code>$ and $$</code> style math formu
 <strong>Note</strong> The feature of reading more is only used when generating a website or blog. When inserting, pay attention to a blank line.</p>
 <h3><a id="toc" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>TOC</h3>
 <p>Markdown syntax:</p>
-<pre class="line-numbers"><code class="language-plain_text">[TOC]
+<pre><code class="language-plain_text">[TOC]
 </code></pre>
 <p><strong>Result:</strong></p>
 <div class="mweb_toc"><ul>
@@ -278,9 +278,6 @@ Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; ho
     </footer>
 
 
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 
   
 

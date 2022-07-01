@@ -194,7 +194,7 @@
 Just typing enter to newline,please go to Settings and enable &quot;Translate newlines to <code>&lt;br&gt;</code> tags&quot; ( default is enable ).</p>
 <h3><a id="task-lists" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Task lists</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">- [ ] task one not finish `- + SPACE + [ ]`
+<pre><code class="language-plain_text">- [ ] task one not finish `- + SPACE + [ ]`
 - [x] task two finished `- + SPACE + [x]`
 </code></pre>
 <p><strong>Result:</strong></p>
@@ -206,7 +206,7 @@ Just typing enter to newline,please go to Settings and enable &quot;Translate ne
 <p>Setting image width, align left, align right, align center syntax. For example: <code>![image description-w450](pic.jpg)</code>, -w450 mean set the image width: 450. <code>![-l500](pic.jpg)</code> --&gt; align left, width:500. <code>![-r500](pic.jpg)</code> --&gt; align right, width:500. <code>![-c500](pic.jpg)</code> --&gt; align center, width:500.</p>
 <h3><a id="multi-line-code" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multi-line code</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">```js
+<pre><code class="language-plain_text">```js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
@@ -216,7 +216,7 @@ function fancyAlert(arg) {
 ```
 </code></pre>
 <p><strong>Result:</strong></p>
-<pre class="line-numbers"><code class="language-js">function fancyAlert(arg) {
+<pre><code class="language-js">function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
@@ -225,7 +225,7 @@ function fancyAlert(arg) {
 </code></pre>
 <h3><a id="tables" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tables</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">First Header | Second Header
+<pre><code class="language-plain_text">First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
@@ -252,13 +252,13 @@ Content in the first column | Content in the second column
 </table>
 <h3><a id="strikethrough" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strikethrough</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text"> (like ~~this~~)
+<pre><code class="language-plain_text"> (like ~~this~~)
 </code></pre>
 <p><strong>Result:</strong></p>
 <p>Any word wrapped with two tildes (like <del>this</del>) will appear crossed out.</p>
 <h3><a id="latex" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>LaTeX</h3>
 <p>Use double US dollors sign pair for Block level Math formula, and one US dollor sign pair for Inline Level.</p>
-<pre class="line-numbers"><code class="language-plain_text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
+<pre><code class="language-plain_text">For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
 
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
@@ -266,13 +266,16 @@ Content in the first column | Content in the second column
 
 </code></pre>
 <p><strong>Result:</strong></p>
-<p>For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.</p>
+<p>For example this is a Block level</p>
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+\]
+<p>formula, and this is an inline Level \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\) formula.</p>
 <p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br />
 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br />
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
 <h3><a id="footnote" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnote</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">This is a footnote:[^sample_footnote]
+<pre><code class="language-plain_text">This is a footnote:[^sample_footnote]
 </code></pre>
 <p><strong>Result:</strong></p>
 <p>This is a footnote:[^sample_footnote]</p>
@@ -281,7 +284,7 @@ Content in the first column | Content in the second column
 <!-- more -->
 <h3><a id="toc" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>TOC</h3>
 <p><strong>Example:</strong></p>
-<pre class="line-numbers"><code class="language-plain_text">[TOC]
+<pre><code class="language-plain_text">[TOC]
 </code></pre>
 <p><strong>Result:</strong></p>
 <div class="mweb_toc"><ul>
