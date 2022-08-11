@@ -218,7 +218,7 @@ The Library's document support drag &amp; drop or <code>CMD + V</code> paste or 
 <strong>Result:</strong></p>
 <p><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up" /></p>
 <p>In MWeb, you can use <code>-w + Number</code> to control image width, for example, set the image width 140px:</p>
-<p><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up" style="width:140px;" /></p>
+<p><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up-w140" /></p>
 <h2><a id="links" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h2>
 <p><strong>Example:</strong></p>
 <pre><code class="language-plain_text">email &lt;example@example.com&gt;
@@ -383,7 +383,7 @@ Content in the first column | Content in the second column
 <pre><code class="language-plain_text">This is a footnote:[^sample_footnote]
 </code></pre>
 <p><strong>Result:</strong></p>
-<p>This is a footnote:[^sample_footnote]</p>
+<p>This is a footnote:<sup class="footnote-ref"><a href="#fn-sample_footnote" id="fnref-sample_footnote_ref" data-footnote-ref>1</a></sup></p>
 <h2><a id="comment-and-read-more" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Comment And Read More..</h2>
 <!-- comment -->
 <!-- more -->
@@ -429,6 +429,13 @@ Content in the first column | Content in the second column
 </div>
 <script src="asset/flow-sequence-chart/raphael-min.js"></script><script src="asset/flow-sequence-chart/underscore-min.js"></script><script src="asset/flow-sequence-chart/flowchart.min.js"></script><script src="asset/flow-sequence-chart/sequence-diagram-min.js"></script><script type="text/javascript">``(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    ``('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if(``(this).hasClass('language-sequence')){            var ele = ``(this).addClass('nohighlight').parent();            ``('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse(``(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if(``(this).hasClass('language-flow')){            var ele = ``(this).addClass('nohighlight').parent();            ``('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse(``(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/x-mathjax-config">if (typeof MathJaxListener !== 'undefined') { MathJax.Hub.Register.StartupHook('End', function () { MathJaxListener.invokeCallbackForKey_('End'); }); } </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<section class="footnotes" data-footnotes>
+<ol>
+<li id="fn-sample_footnote">
+<p>footnote text detail... <a href="#fnref-sample_footnote_ref" class="footnote-backref" data-footnote-backref aria-label="Back to content">&#8617;<a></p>
+</li>
+</ol>
+</section>
 
 		            </div>
 				</div><!-- /.blog-post -->

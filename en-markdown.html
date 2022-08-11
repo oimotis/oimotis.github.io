@@ -145,7 +145,7 @@ Content in the first column | Content in the second column
 <pre><code class="language-plain_text">This is a footnote:[^sample_footnote]
 </code></pre>
 <p><strong>Result:</strong></p>
-<p>This is a footnote:<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></p>
+<p>This is a footnote:<sup class="footnote-ref"><a href="#fn-1" id="fnref-1_ref" data-footnote-ref>1</a></sup></p>
 <h2><a id="mweb-specific-syntax" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb-specific syntax</h2>
 <h3><a id="image-width" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Image Width</h3>
 <p>Markdown syntax for image:</p>
@@ -172,7 +172,7 @@ sequenceDiagram
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<p><img src="media/15305971422667/16421614330357.jpg" alt="" style="width:456px;" /></p>
+<p><img src="media/15305971422667/16421614330357.jpg" alt="-w456" /></p>
 <h4><a id="echarts" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>echarts</h4>
 <p>Echarts is a js graph library of Baidu. Its website is <a href="https://echarts.apache.org/zh/index.html">https://echarts.apache.org/zh/index.html</a>. It is very powerful. MWeb supports some basic usages of echarts. You can try the following syntax to copy it into MWeb. You can also go to the <a href="https://echarts.apache.org/examples/zh/index.html">https://echarts.apache.org/examples/zh/index.html</a> URL to see some examples. Note that MWeb can only parse <code>option = {}</code> which is simple but should be enough used.</p>
 <pre><code class="language-plain_text">```echarts
@@ -192,7 +192,7 @@ option = {
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<p><img src="media/15305971422667/16421614994388.jpg" alt="" style="width:467px;" /></p>
+<p><img src="media/15305971422667/16421614994388.jpg" alt="-w467" /></p>
 <h3><a id="latex-mathjax-rendering" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>LaTeX (MathJax rendering)</h3>
 <p>MWeb uses the native code block syntax in CommonMark to support LaTeX math formulas. The syntax of inline code and code blocks in CommonMark is highly extensible and can be extended at will. MWeb uses ``inline math`` as the inline syntax for math formulas and ```math block math ``` as the block syntax for math formulas. Then `code` is still inline code syntax, and ``inline math`` is also inline code in CommonMark, but will be rendered as math formula in MWeb. The advantage of this is that when the original markdown document is published to an environment that does not support mathematical formulas, it will be displayed in code, so that the original formula text will be displayed and will not affect reading too much.<br />
 In addition, MWeb is also compatible with <code>$ and $$</code> style math formulas. When using math formulas, you need to enable LaTeX math formulas in `Preferences - General' and select the syntax to use.</p>
@@ -233,10 +233,10 @@ In addition, MWeb is also compatible with <code>$ and $$</code> style math formu
 </li>
 </ul>
 </div>
-<section class="footnotes">
+<section class="footnotes" data-footnotes>
 <ol>
-<li id="fn1">
-<p>footnote text detail... <a href="#fnref1" class="footnote-backref">↩</a></p>
+<li id="fn-1">
+<p>footnote text detail... <a href="#fnref-1_ref" class="footnote-backref" data-footnote-backref aria-label="Back to content">&#8617;<a></p>
 </li>
 </ol>
 </section>
