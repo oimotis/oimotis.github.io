@@ -3,11 +3,101 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.3.3</title>
+            <pubDate>Tue, 16 Aug 2022 23:04:02 +0800</pubDate>
+            <sparkle:version>1072</sparkle:version>
+            <sparkle:shortVersionString>4.3.3</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Library mode Change Icon interface now can search the icons.</li>
+    <li>The Library list style adds an item: &quot;One Line Title and Content Style&quot;, the original &quot;One Line Title Style&quot; style is changed back to the original way.</li>
+    <li>The editor optimizes the operation of opening links: when the mouse pointer is moved over the link, a button will be displayed beside the link. Click this button to open the link, no longer need to hold down the CMD key and then click the link title.</li>
+    <li>Fixed an issue where some special documents could not be jumped when clicking the title in the outline view in preview-only mode.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>文档库修改图标的界面加上搜索图标的功能。</li>
+    <li>文档库列表样式显示增加一项：“标题和内容显示成一行”，原来的“仅显示标题”样式改回原来的方式。</li>
+    <li>编辑器优化打开链接的操作：当鼠标指针移动到链接上时，会在链接边上显示一个按钮，点击这个按钮就可以打开链接，不再需要按住 CMD 键再点击链接标题。</li>
+    <li>修正在仅预览模式下，点击大纲视图中的标题时，一些特殊的文档会无法跳转的问题。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>文檔庫修改圖標的界面加上搜索圖標的功能。</li>
+    <li>文檔庫列表樣式顯示增加一項：「標題和內容顯示成一行」，原來的「僅顯示標題」樣式改回原來的方式。</li>
+    <li>編輯器優化打開鏈接的操作：當鼠標指針移動到鏈接上時，會在鏈接邊上顯示一個按鈕，點擊這個按鈕就可以打開鏈接，不再需要按住 CMD 鍵再點擊鏈接標題。</li>
+    <li>修正在僅預覽模式下，點擊大綱視圖中的標題時，一些特殊的文檔會無法跳轉的問題。</li>
+    <li>其它 bug 修正及改進。</li>
+    </ul>
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro433.zip" length="32849791" type="application/octet-stream" sparkle:edSignature="owvd0VTCI0wlNCsFSQ97FffEg1RImVhdQx/wRAa54JNsl9KX0+n6u2ky3+yfLFl1JlFUAo3CpduCWLIvR+9dDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1072-1052.delta" sparkle:deltaFrom="1052" length="935410" type="application/octet-stream" sparkle:edSignature="SO33bcX5i0we2ybyChLa9zimUS0qDzQM4rI0f0ALubVPJPR/3DI4K7p9qT3/SYMplhd+8DwHblcAj4uRMjSkCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1072-1042.delta" sparkle:deltaFrom="1042" length="1221214" type="application/octet-stream" sparkle:edSignature="o0Y5AzW4nE5w3ZYtFQ++TkfFyR0Shic0IKbPGXV31fzQ8oPjHNbe/KkA/tBh7jsH8zgHRcx4Az16U6mPHNclBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.2</title>
+            <pubDate>Thu, 11 Aug 2022 15:27:18 +0800</pubDate>
+            <sparkle:version>1052</sparkle:version>
+            <sparkle:shortVersionString>4.3.2</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Added the &quot;Change Icon&quot; feature to the category of the Library mode, which requires macOS 11 at least. There will be over 3000 icons to choose from on macOS 12. Please try &quot;Right-click Category - Change Icon&quot; to use this feature.</li>
+    <li>Optimize the list style of &quot;Title Only Style&quot; in the Library mode.</li>
+    <li>In addition to automatically new note regularly, Quick Notes also adds a &quot;Manually New Note&quot; option. After selecting &quot;Manually New Note&quot;, you can click the &quot;+&quot; button on the Quick Notes interface to add new note.</li>
+    <li>Fixed the incorrect time point when Quick Notes new note regularly.</li>
+    <li>The cmark-gfm library is updated to 0.29.0.gfm.4. This library is used to parse markdown syntax highlighting and generate html. It is very important. If you find any problems, feedback is welcome.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>文档库的分类增加 “修改图标” 功能，此功能最低要求 macOS 11 。另外，在 macOS 12 上将会有 3000 多个图标可供选择。“右键分类 - 修改图标” 即可以使用此功能。</li>
+    <li>优化文档库的“仅显示一行标题”的列表样式。</li>
+    <li>快速笔记除了自动定期新增文档外，还增加了 “手动新增文档” 选项。选择 “手动新增文档” 后，新增文档可以点击 快速笔记 界面上的 “+” 按钮。</li>
+    <li>修正了快速笔记定期新增文档时的时间点不正确的问题。</li>
+    <li>cmark-gfm 库更新到 0.29.0.gfm.4，这个库是用来解析 markdown 语法高亮和生成 html 的，非常重要，如果有发现任何问题，欢迎反馈。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>文檔庫的分類增加 「修改圖標」 功能，此功能最低要求 macOS 11 。另外，在 macOS 12 上將會有 3000 多個圖標可供選擇。「右鍵分類 - 修改圖標」 即可以使用此功能。</li>
+        <li>優化文檔庫的「僅顯示一行標題」的列表樣式。</li>
+        <li>快速筆記除了自動定期新增文檔外，還增加了 「手動新增文檔」 選項。選擇 「手動新增文檔」 後，新增文檔可以點擊 快速筆記 界面上的 「+」 按鈕。</li>
+        <li>修正了快速筆記定期新增文檔時的時間點不正確的問題。</li>
+        <li>cmark-gfm 庫更新到 0.29.0.gfm.4，這個庫是用來解析 markdown 語法高亮和生成 html 的，非常重要，如果有發現任何問題，歡迎反饋。</li>
+        <li>其它 bug 修正及改進。</li>
+        </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro432.zip" length="32832519" type="application/octet-stream" sparkle:edSignature="nhdRbLmQ8GA92MJC/GYhRIMd4nzjgQvPoAdpIwtgNbFJuTMBYcaAUTGNHBJRv+anpaUbFnpMUsLwTyM9pzTXCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1052-1042.delta" sparkle:deltaFrom="1042" length="1144762" type="application/octet-stream" sparkle:edSignature="bcl+B1kdKpvSojueq6h6V08jHwsgGsF4RG3jVOojAu8MKdGmjYKOBxf0BpuX9ZvUt8S3W4NXWyR6RfKG/d8dAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.3.1</title>
             <pubDate>Fri, 01 Jul 2022 13:01:57 +0800</pubDate>
             <sparkle:version>1042</sparkle:version>
             <sparkle:shortVersionString>4.3.1</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
 <ul>
 <li>Added: Now when opening a document, it will automatically scroll to the position when the document was last closed.</li>
 <li>Added: Starting from this version, the non-Store version supports automatic updates, and it is no longer necessary to go to the official website to download.</li>
@@ -17,8 +107,7 @@
 <li>Other bug fixes and improvements.</li>
 </ul>
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
 <ul>
 <li>增加：现在打开文档时，会自动滚动到上一次关闭文档时的位置。</li>
 <li>增加：从这个版本开始，非 Store 版支持自动更新了，不再需要去官网下载了。</li>
@@ -28,8 +117,7 @@
 <li>其它 bug 修正及改进。</li>
 </ul>
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
 <ul>
 <li>增加：現在打開文檔時，會自動滾動到上一次關閉文檔時的位置。</li>
 <li>增加：從這個版本開始，非 Store 版支持自動更新了，不再需要去官網下載了。</li>
@@ -39,7 +127,6 @@
 <li>其它 bug 修正及改進。</li>
 </ul>
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro431.zip" length="32759942" type="application/octet-stream" sparkle:edSignature="19iLsEJoi62mRVaDWKVcrIsyfS/dvSkOIyYPLv10ozeKC5WgqXD24Tc+N3zfMcZH3JvpN+XYiX9NfyQ8ld4PBg=="/>
         </item>
