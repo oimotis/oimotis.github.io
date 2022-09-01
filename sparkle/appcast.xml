@@ -3,11 +3,54 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.3.5</title>
+            <pubDate>Thu, 01 Sep 2022 23:58:35 +0800</pubDate>
+            <sparkle:version>1079</sparkle:version>
+            <sparkle:shortVersionString>4.3.5</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>The editor can now set multiple fonts. You can now set different fonts for headings, main content, and code blocks, as well as apply the fonts to UI and previews. How to use: &quot;Preferences - General - Font setting dropdown menu - Add or edit multiple fonts...&quot;.</li>
+    <li>In the menu of the &quot;eye&quot; button on the toolbar, add a switch option: &quot;Show open button when the cursor is over a link&quot;. When unchecked, the open button will not be show when the cursor is over to the link in the editor.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>编辑器现在可以设置多种字体了。你现在可以为标题、主要内容和代码块设置不同的字体，还可以把所设置的字体应用到 UI 和预览上。使用方法为：“偏好设置 - 通用设置 - 字体选择下拉菜单 - 新增或编辑多种字体”。</li>
+    <li>工具栏上的 “眼睛” 按钮的菜单中，增加开关选项：“光标移动到链接上时显示打开按钮”。取消勾选后，光标移动到编辑器中的链接时就不会显示那个打开按钮了。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>編輯器現在可以設置多種字體了。你現在可以為標題、主要內容和代碼塊設置不同的字體，還可以把所設置的字體應用到 UI 和預覽上。使用方法為：「偏好設置 - 通用設置 - 字體選擇下拉菜單 - 新增或編輯多種字體」。</li>
+    <li>工具欄上的 「眼睛」 按鈕的菜單中，增加開關選項：「光標移動到鏈接上時顯示打開按鈕」。取消勾選後，光標移動到編輯器中的鏈接時就不會顯示那個打開按鈕了。</li>
+    <li>其它 bug 修正及改進。</li>
+    </ul>
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro435.zip" length="32893708" type="application/octet-stream" sparkle:edSignature="HYlntWcoGmVntysAYMHXv+i4dh7GxEFr0vpkykDJLtwu9Yk/Z38H1VA4csaIa79YXGFsFZ0ZZB4QjAVSfHNCCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1079-1072.delta" sparkle:deltaFrom="1072" length="1004922" type="application/octet-stream" sparkle:edSignature="dj4JjE6/D5PsDN+QXYolCQi7MWhtgRGc3fepZXUvDyWXT0WxFHSH8g1kkjnzuTRWbvstVR390HhtimLsYnErCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1079-1052.delta" sparkle:deltaFrom="1052" length="1173562" type="application/octet-stream" sparkle:edSignature="ujWkfiPrdjOALV/PBq+3Xz58N+GYsCY79D5k8u3QZ3IXrH5EUdQU+7V1Wfk9kx16tBaKOD0sCbxgnI6ySsRYBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1079-1042.delta" sparkle:deltaFrom="1042" length="1415378" type="application/octet-stream" sparkle:edSignature="GjMCs0Vh+QFiA6QTSBBwnb0T2LvLlAwZydgyUzTjbYBC8w43uJV4xCKNKuowo8WqftE8mXeQgyuAXDusH1tUAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.3.3</title>
             <pubDate>Tue, 16 Aug 2022 23:04:02 +0800</pubDate>
             <sparkle:version>1072</sparkle:version>
             <sparkle:shortVersionString>4.3.3</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Library mode Change Icon interface now can search the icons.</li>
     <li>The Library list style adds an item: &quot;One Line Title and Content Style&quot;, the original &quot;One Line Title Style&quot; style is changed back to the original way.</li>
@@ -18,8 +61,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>文档库修改图标的界面加上搜索图标的功能。</li>
     <li>文档库列表样式显示增加一项：“标题和内容显示成一行”，原来的“仅显示标题”样式改回原来的方式。</li>
@@ -29,8 +71,7 @@
     </ul>
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
     <li>文檔庫修改圖標的界面加上搜索圖標的功能。</li>
     <li>文檔庫列表樣式顯示增加一項：「標題和內容顯示成一行」，原來的「僅顯示標題」樣式改回原來的方式。</li>
@@ -40,7 +81,6 @@
     </ul>
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro433.zip" length="32849791" type="application/octet-stream" sparkle:edSignature="owvd0VTCI0wlNCsFSQ97FffEg1RImVhdQx/wRAa54JNsl9KX0+n6u2ky3+yfLFl1JlFUAo3CpduCWLIvR+9dDw=="/>
             <sparkle:deltas>
