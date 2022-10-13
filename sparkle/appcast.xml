@@ -3,11 +3,52 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.3.7</title>
+            <pubDate>Thu, 13 Oct 2022 13:38:28 +0800</pubDate>
+            <sparkle:version>1086</sparkle:version>
+            <sparkle:shortVersionString>4.3.7</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>Bug 修正及改進。</li>
+    </ul>
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro437.zip" length="32670225" type="application/octet-stream" sparkle:edSignature="/biC+uYyLp81YwwujK6o9CJv7Nvvr4v/jwHUc2iFJjbNdWXdZSOQa1eKDN0xW7sr5mBs3ImnVuzbPBhgiQlCCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1079.delta" sparkle:deltaFrom="1079" length="2496910" type="application/octet-stream" sparkle:edSignature="JconL/XoJS/BlIDdRFEdAoeMlyjVnfxZMysM+vXEqZ6+UjujUv5pViiJuwTPPQ5/UGWxOuq+FE1yIHpe4hiOCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1072.delta" sparkle:deltaFrom="1072" length="2617434" type="application/octet-stream" sparkle:edSignature="PemU7MwqnFDKmFfjXUE7v5FTpFwF19BkEce6ANLPtr7kPsKEl0nQ1OsHmE4HYdpmoa6n6T0w2Vj+NlemzjxhCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1052.delta" sparkle:deltaFrom="1052" length="2703138" type="application/octet-stream" sparkle:edSignature="QtfjGKx1W+BXN89/7715Q93H8U5DLF5CvJT9ouqSlSbffuMEx1qru7qrQs7gcCr/MRQi1kAMTRPeVPXSV6BNBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1042.delta" sparkle:deltaFrom="1042" length="2821274" type="application/octet-stream" sparkle:edSignature="O4v6551WXMbYrJIHG7IKtcZ9eQyCMusVM/dYsVn25DFBlr+22NWBGJghBJwk82pa59Yoy/CnXAxSTcQ0rg1YDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.3.5</title>
             <pubDate>Thu, 01 Sep 2022 23:58:35 +0800</pubDate>
             <sparkle:version>1079</sparkle:version>
             <sparkle:shortVersionString>4.3.5</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>The editor can now set multiple fonts. You can now set different fonts for headings, main content, and code blocks, as well as apply the fonts to UI and previews. How to use: &quot;Preferences - General - Font setting dropdown menu - Add or edit multiple fonts...&quot;.</li>
     <li>In the menu of the &quot;eye&quot; button on the toolbar, add a switch option: &quot;Show open button when the cursor is over a link&quot;. When unchecked, the open button will not be show when the cursor is over to the link in the editor.</li>
@@ -17,8 +58,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>编辑器现在可以设置多种字体了。你现在可以为标题、主要内容和代码块设置不同的字体，还可以把所设置的字体应用到 UI 和预览上。使用方法为：“偏好设置 - 通用设置 - 字体选择下拉菜单 - 新增或编辑多种字体”。</li>
     <li>工具栏上的 “眼睛” 按钮的菜单中，增加开关选项：“光标移动到链接上时显示打开按钮”。取消勾选后，光标移动到编辑器中的链接时就不会显示那个打开按钮了。</li>
@@ -27,8 +67,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
     <li>編輯器現在可以設置多種字體了。你現在可以為標題、主要內容和代碼塊設置不同的字體，還可以把所設置的字體應用到 UI 和預覽上。使用方法為：「偏好設置 - 通用設置 - 字體選擇下拉菜單 - 新增或編輯多種字體」。</li>
     <li>工具欄上的 「眼睛」 按鈕的菜單中，增加開關選項：「光標移動到鏈接上時顯示打開按鈕」。取消勾選後，光標移動到編輯器中的鏈接時就不會顯示那個打開按鈕了。</li>
@@ -36,7 +75,6 @@
     </ul>
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro435.zip" length="32893708" type="application/octet-stream" sparkle:edSignature="HYlntWcoGmVntysAYMHXv+i4dh7GxEFr0vpkykDJLtwu9Yk/Z38H1VA4csaIa79YXGFsFZ0ZZB4QjAVSfHNCCw=="/>
             <sparkle:deltas>
