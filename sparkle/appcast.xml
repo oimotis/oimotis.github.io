@@ -3,11 +3,68 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.3.8</title>
+            <pubDate>Tue, 07 Feb 2023 17:31:44 +0800</pubDate>
+            <sparkle:version>1113</sparkle:version>
+            <sparkle:shortVersionString>4.3.8</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>New: Now you can pin the note in the Library to the top. In the list, right-click the note and select &quot;Pinned Note&quot;.</li>
+    <li>New: Added a &quot;Copy&quot; button to the upper right corner of the code block in the preview.</li>
+    <li>New: Quick Notes can be switched open and close using the set global shortcut. The first time you press the key, it will be open, and the second time you press the key, it will be close.</li>
+    <li>New: Export as Image now has the option to export 920 width images.</li>
+    <li>Fixed: The bug that the action before the execution of the website publishing script is set but has no effect.</li>
+    <li>Fixed: When the sorting of website classification is custom drag and drop sorting, the &quot;previous page, next page&quot; order of the generated static website is incorrect.</li>
+    <li>Updated mermaid library and mathjax library.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>新增：现在可以把文档库中的文档置顶了，在列表中，右键要置顶的文档，选择“置顶文档”即可。</li>
+    <li>新增：预览中的代码块的右上角增加了“复制”按钮。</li>
+    <li>新增：快速笔记可以使用设置了的全局快捷来切换打开和关闭了，第一次按键打开，再次按键就关闭。</li>
+    <li>新增：导出为图片现在可以选择导出 920 宽的图片了。</li>
+    <li>修正：设置了网站发布脚本执行前的动作后却无效果的 bug。</li>
+    <li>修正：当网站分类的排序为自定义拖拽排序时，生成的静态网站的“上一页、下一页”顺序不正确的 bug。</li>
+    <li>更新了 mermaid 库和 mathjax 库。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>新增：現在可以把文檔庫中的文檔置頂了，在列表中，右鍵要置頂的文檔，選擇「置頂文檔」即可。</li>
+        <li>新增：預覽中的代碼塊的右上角增加了「複製」按鈕。</li>
+        <li>新增：快速筆記可以使用設置了的全局快捷來切換打開和關閉了，第一次按鍵打開，再次按鍵就關閉。</li>
+        <li>新增：導出為圖片現在可以選擇導出 920 寬的圖片了。</li>
+        <li>修正：設置了網站發佈腳本執行前的動作後卻無效果的 bug。</li>
+        <li>修正：當網站分類的排序為自定義拖拽排序時，生成的靜態網站的「上一頁、下一頁」順序不正確的 bug。</li>
+        <li>更新了 mermaid 庫和 mathjax 庫。</li>
+        <li>其它 bug 修正及改進。</li>
+        </ul>
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro438.zip" length="34084831" type="application/octet-stream" sparkle:edSignature="jDUht1ojh6r/f9ls4B7WzSBw/FtoCB+0rCHwrbjvw75tbW3QgkBK9R/VDlmho3pGy1EUsQ5lZUOwjgb3yzoNCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1113-1072.delta" sparkle:deltaFrom="1072" length="4753058" type="application/octet-stream" sparkle:edSignature="SDQ+pg6g4pnz7DQPx24HmkL866xrvRdeY5vEMyu5GeUmaXIKwgbuu2potM7nUYUyDseKCtsfOypBykIGwrG4CA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1113-1052.delta" sparkle:deltaFrom="1052" length="4777730" type="application/octet-stream" sparkle:edSignature="RP5JsPtwTmj/bqAQ9Pc7JCsJseoUa/I/2DBplri7RJxklCRftkfGUlc2shrUGNGWh0fsz3MlphOVWjG63GjlDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1113-1042.delta" sparkle:deltaFrom="1042" length="4875994" type="application/octet-stream" sparkle:edSignature="fudhJMthw1PhWK8JwkupPfyhFlafcp5Ke4k5vMqVuL182+ZiyZdwOurEa0ahg9xGtSI/4D5R7okjVXSh+GH6BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.3.7</title>
             <pubDate>Thu, 13 Oct 2022 13:38:28 +0800</pubDate>
             <sparkle:version>1086</sparkle:version>
             <sparkle:shortVersionString>4.3.7</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Bug fixes and improvements.</li>
     </ul>
@@ -16,8 +73,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>Bug 修正及改进。</li>
     </ul>
@@ -25,15 +81,13 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
     <li>Bug 修正及改進。</li>
     </ul>
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro437.zip" length="32670225" type="application/octet-stream" sparkle:edSignature="/biC+uYyLp81YwwujK6o9CJv7Nvvr4v/jwHUc2iFJjbNdWXdZSOQa1eKDN0xW7sr5mBs3ImnVuzbPBhgiQlCCQ=="/>
             <sparkle:deltas>
