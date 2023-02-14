@@ -55,78 +55,12 @@
       </div>
     
     
- <div class="container" id="content-wrap">
- 
- 
-    
-     
-   <script type="text/javascript">
-      $(function(){
-        $('a.menu-blog').addClass('active');
-      });
-      </script>
-
-    
-      <script type="text/javascript">
-    $(function(){
-      var url = window.location.pathname;
-    var filename = url.substring(url.lastIndexOf('/')+1);
-    if (filename.length > 5) {
-      $('.blog-cats a').each(function(){
-        var href = $(this).attr('href');
-        if(href.length>5){
-          href = href.substring(0,href.length-5);
-          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
-        }
-      });
-    }
-    });
-  </script>
-   <div class="row">
-        <div class="col-sm-12">
-
-          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
-
-        <ul class="blog-cats">
-
-  
-    
-
-  
-      <li><a href="blog.html">All</a></li> 
-        
-              <li><a href="docs.html">Tutorials</a></li>
-        
-              <li><a href="tips.html">Tips & Tricks</a></li>
-        
-              <li><a href="releases.html">Releases</a></li>
-        
-    
-
-        </ul>
-        <div class="rss"><a href="atom.xml">RSS</a></div>
-          </div>
-       </div>
-     </div>
-     <hr style="margin-bottom: 60px;" />
-
-      <div class="row">
-
-        <div class="col-sm-10 blog-main">
-			<div class="blog-content-wrap">
-				<div class="blog-post">
-		            <h2 class="blog-post-title">MWeb version 3.2.8 and below update to version 3.3.1 notice</h2>
-		            <p class="blog-post-meta">2019/09/21 
-			            &nbsp;posted in 
-						
-						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
-						
-						    <a class='category' href='releases.html'>Releases</a>&nbsp;
-						 
-						 
-		            </p>
-		            <div class="content-responsive">
-		            <p>This notice only for outside of Mac App Store users.</p>
+   <div class="container" id="content-wrap">
+	<div class="page-post">
+		<h2 class="blog-post-title">MWeb version 3.2.8 and below update to version 3.3.1 notice</h2>
+<hr />
+		<div class="page-content content-responsive">
+			<p>This notice only for outside of Mac App Store users.</p>
 <h2><a id="important" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important:</h2>
 <p>Before you update veriosn <span style='color:red;font-weight:bold;'>3.2.8</span> and below to version <span style='color:red;font-weight:bold;'>3.3.1</span> and above,  please make sure your version is <span style='color:red;font-weight:bold;'>3.2.8</span>, then use menu: <strong>MWeb - Export Preferences Data...</strong> to export the preferences. When you updated to version <span style='color:red;font-weight:bold;'>3.3.1</span>, please use menu: <strong>MWeb - Import Preferences Data...</strong> to import the preferences.</p>
 <p><strong>Tip :</strong> If you already updated to 3.3.1 and forgot to export the preferences data. You can re-download the 3.2.8 version, export it, and then import it in version 3.3.1.</p>
@@ -139,34 +73,10 @@
 <li>Other bug fixes and stability improvements.</li>
 </ul>
 
-		            </div>
-				</div><!-- /.blog-post -->
-			</div>
-			<div class="share-comment">
-			<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_native_toolbox"></div>
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'mweb-en';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-			</div>
-
-        </div><!-- /.blog-main -->
-	</div>
-</div>   <footer class="blog-footer">
+		</div>
+  	</div>
+ </div>
+   <footer class="blog-footer">
       <p>Copyright &copy; 2022
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
 .</p>

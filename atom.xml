@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2023-02-07T17:37:03+08:00</updated>
+  <updated>2023-02-14T11:54:44+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -57,28 +57,6 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
 <p><img src="media/16285632311652/image_upload.jpg" alt="" /></p>
 <h2><a id="other-questions" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>other questions?</h2>
 <p>If you have any questions, please send to <a href="mailto:coderforart+233@gmail.com">coderforart+233@gmail.com</a> this email, I will usually reply you within 1 to 3 working days, thank you very much!</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb version 3.2.8 and below update to version 3.3.1 notice]]></title>
-    <link href="https://www.mweb.im/version-3.2.8-to-3.3.1-release-note.html"/>
-    <updated>2019-09-21T11:41:00+08:00</updated>
-    <id>https://www.mweb.im/version-3.2.8-to-3.3.1-release-note.html</id>
-    <content type="html"><![CDATA[
-<p>This notice only for outside of Mac App Store users.</p>
-<h2><a id="important" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important:</h2>
-<p>Before you update veriosn <span style='color:red;font-weight:bold;'>3.2.8</span> and below to version <span style='color:red;font-weight:bold;'>3.3.1</span> and above,  please make sure your version is <span style='color:red;font-weight:bold;'>3.2.8</span>, then use menu: <strong>MWeb - Export Preferences Data...</strong> to export the preferences. When you updated to version <span style='color:red;font-weight:bold;'>3.3.1</span>, please use menu: <strong>MWeb - Import Preferences Data...</strong> to import the preferences.</p>
-<p><strong>Tip :</strong> If you already updated to 3.3.1 and forgot to export the preferences data. You can re-download the 3.2.8 version, export it, and then import it in version 3.3.1.</p>
-<p><a href="https://dl.devmate.com/com.coderforart.MWeb3/3.2.8/1568938643/MWeb3-ProMarkdownwriting%2CnotetakingandstaticbloggeneratorApp-3.2.8.dmg">MWeb 3.2.8 download</a></p>
-<h2><a id="version-3-3-1-update" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 3.3.1 update:</h2>
-<ul>
-<li>Compatible with macOS Catalina.</li>
-<li>Support iCloud.</li>
-<li>Add is use WKWebView to Preferences - General.</li>
-<li>Other bug fixes and stability improvements.</li>
-</ul>
 
 ]]></content>
   </entry>
@@ -913,6 +891,34 @@ git push -u origin master
 <h2><a id="4-execute-the-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Execute the Publish Script</h2>
 <p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like below:</p>
 <p><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;" /></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb for Mac 2.2.1 and 2.2.2 release!]]></title>
+    <link href="https://www.mweb.im/mweb-for-mac-221-release.html"/>
+    <updated>2017-07-02T08:15:22+08:00</updated>
+    <id>https://www.mweb.im/mweb-for-mac-221-release.html</id>
+    <content type="html"><![CDATA[
+<h2><a id="2-2-1-release-note-72" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2.2.1 release note (7/2):</h2>
+<ol>
+<li>Library documents list add &quot;Group by Categories&quot;. Right click - Group by Categories.</li>
+<li>External mode add show  .Rmd, .mkdn, .mdwn, .mdtxt, .mdtext and .taskpaper files.</li>
+<li>Now you can change the LaTeX (Mathjax) Preview font. Please open Preferences - Themes to change. you can choose TeX, STIX-Web, Asana-Math, Neo-Euler, Gyre-Pagella, Gyre-Termes and Latin-Modern</li>
+<li>Add publish to Tumblr.</li>
+<li>Add Preview style: mweb-solarized-dark, mweb-solarized-light, mweb-Tomorrow Blue, mweb-Tomorrow.</li>
+<li>Add disable left right swipe gesture (Preferences - General).</li>
+<li>When you disable &quot;Make links clickable in Editor view&quot;, you can hold the Command key to click the link in Editor.</li>
+<li>Other bug fixes and performance improvements.</li>
+</ol>
+<h2><a id="2-2-2-release-note-78" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2.2.2 release note (7/8):</h2>
+<ol>
+<li>Library: New way to set/edit the document categories and tags. Just click the top of Editor &quot;categories and tags&quot; bar, or use shortcuts: CMD + 8.</li>
+<li>Library: Document Outline, Media &amp; Attachment, Website Extension in one panel now. Just click &quot;Document Outline&quot; button or shortcuts: CMD + 7.</li>
+<li>Add overlay option in &quot;Document Outline&quot;.</li>
+<li>Other bug fixes and performance improvements.</li>
+</ol>
 
 ]]></content>
   </entry>
