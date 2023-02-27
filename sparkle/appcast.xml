@@ -3,11 +3,49 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.3.9</title>
+            <pubDate>Mon, 27 Feb 2023 16:27:10 +0800</pubDate>
+            <sparkle:version>1118</sparkle:version>
+            <sparkle:shortVersionString>4.3.9</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Urgently fix the bug of excessive memory usage in the previous version.</li>
+    </ul>
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>紧急修正上一个版本内存占用过多的 bug。</li>
+    </ul>
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>緊急修正上一個版本內存佔用過多的 bug。</li>
+        </ul>
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro439.zip" length="34060461" type="application/octet-stream" sparkle:edSignature="OjhxcFLocjTT0heonIwP3VcG6er1vjBe072W4eCGjZJRk79kothqpOWTHsXHCmC0yNe538/KUEoI4AbaM3RDBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1113.delta" sparkle:deltaFrom="1113" length="1038814" type="application/octet-stream" sparkle:edSignature="X/ko8xlE1PCxCp/3h9CFT7Isubr6wJ6rVP59D2EEjjEkash7bKlSQLF+7BFfulfuMICHLfW/oHO7xdGPPSm0DQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1086.delta" sparkle:deltaFrom="1086" length="2887414" type="application/octet-stream" sparkle:edSignature="YCsIi36APzVn0u3lQikdGjMzrjmRq4q1tGAfuVMGgmtP/J8QfFBuYqSKRvqHTpKR/0KOP7RR6f1x+82QTErSDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1079.delta" sparkle:deltaFrom="1079" length="4535974" type="application/octet-stream" sparkle:edSignature="gRcKiotJ92hhOIhicOdjW2TrdFFoL/MkxcCJyiE63/KwhEFy9QQeNPmDlizEjJDogL4ZYXYU41rTm24DSKvTBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1072.delta" sparkle:deltaFrom="1072" length="4625158" type="application/octet-stream" sparkle:edSignature="PSTGY3m5cbHgBYqCfo9I8Hno06XLdGuZIrjukvPqVvNOXzTauTKw3Hyq+fZpiJmlTFrGtya90AaIjSbfe7gJAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1052.delta" sparkle:deltaFrom="1052" length="4711978" type="application/octet-stream" sparkle:edSignature="7Q3ghDJ9/yg9+uC33XL3nm/17qXvngMY0DvBz4m+mLxA2LCri0sD8WGKTLJ5bIIGdb74mw+nhFOJR3fE+fwpDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.3.8</title>
             <pubDate>Tue, 07 Feb 2023 17:31:44 +0800</pubDate>
             <sparkle:version>1113</sparkle:version>
             <sparkle:shortVersionString>4.3.8</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
 
     <ul>
     <li>New: Now you can pin the note in the Library to the top. In the list, right-click the note and select &quot;Pinned Note&quot;.</li>
@@ -22,8 +60,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>新增：现在可以把文档库中的文档置顶了，在列表中，右键要置顶的文档，选择“置顶文档”即可。</li>
     <li>新增：预览中的代码块的右上角增加了“复制”按钮。</li>
@@ -36,8 +73,7 @@
     </ul>
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>新增：現在可以把文檔庫中的文檔置頂了，在列表中，右鍵要置頂的文檔，選擇「置頂文檔」即可。</li>
         <li>新增：預覽中的代碼塊的右上角增加了「複製」按鈕。</li>
@@ -50,7 +86,6 @@
         </ul>
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro438.zip" length="34084831" type="application/octet-stream" sparkle:edSignature="jDUht1ojh6r/f9ls4B7WzSBw/FtoCB+0rCHwrbjvw75tbW3QgkBK9R/VDlmho3pGy1EUsQ5lZUOwjgb3yzoNCA=="/>
             <sparkle:deltas>
