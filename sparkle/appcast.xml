@@ -3,14 +3,17 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
-            <title>4.3.9</title>
-            <pubDate>Mon, 27 Feb 2023 16:27:10 +0800</pubDate>
-            <sparkle:version>1118</sparkle:version>
-            <sparkle:shortVersionString>4.3.9</sparkle:shortVersionString>
+            <title>4.4.1</title>
+            <pubDate>Fri, 10 Mar 2023 16:37:50 +0800</pubDate>
+            <sparkle:version>1132</sparkle:version>
+            <sparkle:shortVersionString>4.4.1</sparkle:shortVersionString>
 <description xml:lang="en"><![CDATA[ 
 
     <ul>
-    <li>Urgently fix the bug of excessive memory usage in the previous version.</li>
+    <li>Fixed: In the preview mode while editing, the preview will flicker when editing a document.</li>
+    <li>Changed: The shortcut for strikethrough is changed to: cmd + shift + e.</li>
+    <li>Changed: The Markdown link generated when inserting an attachment is changed to add an extension and line break.</li>
+    <li>Other bug fixes and improvements.</li>
     </ul>
 
 
@@ -18,18 +21,61 @@
 
 <description xml:lang="zh"><![CDATA[ 
     <ul>
-    <li>紧急修正上一个版本内存占用过多的 bug。</li>
+    <li>修正：边编辑边预览模式下，编辑文档时，预览会闪动的 Bug。</li>
+    <li>改动：删除线的快捷键改为：cmd + shift + e。</li>
+    <li>改动：插入附件时生成的 Markdown 链接改为加上扩展名并自动换行。</li>
+    <li>其它 Bug 修正及改进。</li>
     </ul>
+
 
 ]]></description>
 
 <description xml:lang="zh-Hant"><![CDATA[
     <ul>
+        <li>修正：邊編輯邊預覽模式下，編輯文檔時，預覽會閃動的 Bug。</li>
+        <li>改動：刪除線的快捷鍵改為：cmd + shift + e。</li>
+        <li>改動：插入附件時生成的 Markdown 鏈接改為加上擴展名並自動換行。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro441.zip" length="34056852" type="application/octet-stream" sparkle:edSignature="jNWwmWJUyJeyV4lyZomlaHtKUOqgOwLdZqgbiE1ihWwZB+YoAiv1pryidOKKhfy1jMELhOshrKq0vzhtbRq2Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1118.delta" sparkle:deltaFrom="1118" length="643750" type="application/octet-stream" sparkle:edSignature="653sr2Fsmu+6/ZlYOAbyInbjlJzzFBDmhkHjrmIBX8GvYa07rUZ4TshfC2y1/pGud2sW/XXUiaEQuZFJA23HBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1113.delta" sparkle:deltaFrom="1113" length="1149926" type="application/octet-stream" sparkle:edSignature="/6gEvc4myQxuKPD6Vuc9rGXx5zyfy8w/v6Cb57T9P5axtbv+svkAb/QhfYPk5RvW71qh+SKYmx/cdjnjJfrTAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1086.delta" sparkle:deltaFrom="1086" length="2904078" type="application/octet-stream" sparkle:edSignature="fzbhAu3Av1Uq/K3LdXeDlS6W+T756i5U611cVQ3llcaJ4zJgP35yAa8TF0hsT8PkDLt8xae2Vmp7/cSe169PCw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1079.delta" sparkle:deltaFrom="1079" length="4523194" type="application/octet-stream" sparkle:edSignature="37qZodBFTW34X81v3uirW60e1dTb9L0T0ClUrtrPQ+A4SViGmAAzKVSYEIZ/f4/xACF/0rrFMnXNRkmIcOgHDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1072.delta" sparkle:deltaFrom="1072" length="4622002" type="application/octet-stream" sparkle:edSignature="j+ZvCpgcjO26MIsE1xmbDYmbDIsF9f3asFwJgsyCUCugtJ1PgMz2s0nynyZpN7oHYBmX76YJ6Ka3FTsiNU8DCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.9</title>
+            <pubDate>Mon, 27 Feb 2023 16:27:10 +0800</pubDate>
+            <sparkle:version>1118</sparkle:version>
+            <sparkle:shortVersionString>4.3.9</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Urgently fix the bug of excessive memory usage in the previous version.</li>
+    </ul>
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>紧急修正上一个版本内存占用过多的 bug。</li>
+    </ul>
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
         <li>緊急修正上一個版本內存佔用過多的 bug。</li>
         </ul>
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro439.zip" length="34060461" type="application/octet-stream" sparkle:edSignature="OjhxcFLocjTT0heonIwP3VcG6er1vjBe072W4eCGjZJRk79kothqpOWTHsXHCmC0yNe538/KUEoI4AbaM3RDBQ=="/>
             <sparkle:deltas>
