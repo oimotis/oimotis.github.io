@@ -3,11 +3,69 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.4.2</title>
+            <pubDate>Mon, 20 Mar 2023 20:27:29 +0800</pubDate>
+            <sparkle:version>1142</sparkle:version>
+            <sparkle:shortVersionString>4.4.2</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Added: Added recent searches. After searching, press Enter key to save the searched keywords to recent searches. Click the search icon on the left of the search box to view recent search keywords.</li>
+    <li>Added: Added search result filtering. In the search result list, click the &quot;Filter&quot; button to further filter the results by &quot;Categories&quot;, &quot;Tags&quot; and &quot;Title Only&quot;.</li>
+    <li>Added: When opening a document in the search results, the find panel will be opened directly, no need to press the &quot;Command + F&quot; shortcut again.</li>
+    <li>Added: Custom theme adds three color customization items, namely: the Library UI second column background color, the Tab background color, and the Tab dividing line color.</li>
+    <li>Added: In the default theme, the Library UI second column background color of the Solarized Light, Solarized Dark, Tomorrow Blue and Monokai themes has been modified. If you need to change back to the original color, please customize the theme .</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>新增：搜索增加最近搜索功能，搜索后按 Enter 键就可以保存搜索的关键字到最近搜索中，点击搜索框左边的搜索图标就可以查看最近的搜索关键字。</li>
+    <li>新增：搜索增加搜索结果过滤功能，在搜索结果列表中，点击 “过滤” 按钮，就可以按“分类”、“标签”、“仅搜索标题” 对结果进行进一步的过滤。</li>
+    <li>新增：打开搜索结果中的文档时，会直接打开查找面板，不再需要再按 “Command + F” 快捷键。</li>
+    <li>新增：自定义主题增加三个颜色自定义项目，分别为：文档库界面的第二列的背景颜色、标签（Tab）的背景颜色、标签（Tab）分割线的颜色。</li>
+    <li>新增：默认的主题中，Solarized Light、Solarized Dark、Tomorrow Blue 和Monokai 主题的文档库界面的第二列的背景颜色有所修改，如果需要改回原来的颜色，请自定义主题就可以了。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>新增：搜索增加最近搜索功能，搜索後按 Enter 鍵就可以保存搜索的關鍵字到最近搜索中，點擊搜索框左邊的搜索圖標就可以查看最近的搜索關鍵字。</li>
+        <li>新增：搜索增加搜索結果過濾功能，在搜索結果列表中，點擊 「過濾」 按鈕，就可以按「分類」、「標籤」、「僅搜索標題」 對結果進行進一步的過濾。</li>
+        <li>新增：打開搜索結果中的文檔時，會直接打開查找面板，不再需要再按 「Command + F」 快捷鍵。</li>
+        <li>新增：自定義主題增加三個顏色自定義項目，分別為：文檔庫界面的第二列的背景顏色、標籤（Tab）的背景顏色、標籤（Tab）分割線的顏色。</li>
+        <li>新增：默認的主題中，Solarized Light、Solarized Dark、Tomorrow Blue 和Monokai 主題的文檔庫界面的第二列的背景顏色有所修改，如果需要改回原來的顏色，請自定義主題就可以了。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro442.zip" length="34079769" type="application/octet-stream" sparkle:edSignature="+AWb4EcFNwp+5ecirm+lrYXJM4uyfy6qQ8f7+H0OO5feLY9TST+XIPEQ+eQqAqR9dRy+G6DXJwL9MzhY/TSEDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1132.delta" sparkle:deltaFrom="1132" length="1038918" type="application/octet-stream" sparkle:edSignature="fBk7jjrgqwB1P4fMiFuMz1TL0XTyUBnXUOPk9aTv42a3fiBoBtCUNPXGz9vbuAXpJl9ZQCx+prUSa5vA/TpVDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1118.delta" sparkle:deltaFrom="1118" length="1077334" type="application/octet-stream" sparkle:edSignature="jsWHSLOT/OkLKv7wTPTxXGbqJKxydeL67cVMBHKy8a/6Obhi4ZBJlzwMqcqSVHdLdqbdc36tOp0Wzq3ycLe7CA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1113.delta" sparkle:deltaFrom="1113" length="1349590" type="application/octet-stream" sparkle:edSignature="uB/Fu5xTAW0aXkPgNj0Rdz/1axUt7VzTnG/h3Wwaqs/hutVPyztDggh6A2l43f1sQ8m4VZTeh/RJbmXr7ZAuBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1086.delta" sparkle:deltaFrom="1086" length="3101990" type="application/octet-stream" sparkle:edSignature="KWHPCRwZ0rDViTtwDVZKutjyyeDc+QgDT1DE9+9cz5Uw7vCvd3rwmqZEvwjLm9RrBcK0wO6hgiOEI550cSyBDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1079.delta" sparkle:deltaFrom="1079" length="4653258" type="application/octet-stream" sparkle:edSignature="oSqPeIkkWIYtCgyogHKmZuvpRLJy1OJcuznHTvNl4HFubjy9pnnq8SAR/Mk1NWQRPAIiFVbkv45Jm98zuCGeAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.4.1</title>
             <pubDate>Fri, 10 Mar 2023 16:37:50 +0800</pubDate>
             <sparkle:version>1132</sparkle:version>
             <sparkle:shortVersionString>4.4.1</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
 
     <ul>
     <li>Fixed: In the preview mode while editing, the preview will flicker when editing a document.</li>
@@ -18,8 +76,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>修正：边编辑边预览模式下，编辑文档时，预览会闪动的 Bug。</li>
     <li>改动：删除线的快捷键改为：cmd + shift + e。</li>
@@ -29,8 +86,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>修正：邊編輯邊預覽模式下，編輯文檔時，預覽會閃動的 Bug。</li>
         <li>改動：刪除線的快捷鍵改為：cmd + shift + e。</li>
@@ -40,7 +96,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro441.zip" length="34056852" type="application/octet-stream" sparkle:edSignature="jNWwmWJUyJeyV4lyZomlaHtKUOqgOwLdZqgbiE1ihWwZB+YoAiv1pryidOKKhfy1jMELhOshrKq0vzhtbRq2Cg=="/>
             <sparkle:deltas>
