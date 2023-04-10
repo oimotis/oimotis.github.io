@@ -3,11 +3,59 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.4.4</title>
+            <pubDate>Mon, 10 Apr 2023 22:44:49 +0800</pubDate>
+            <sparkle:version>1168</sparkle:version>
+            <sparkle:shortVersionString>4.4.4</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Improvement: Improved the color scheme of the app's interface and various built-in themes.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：对 App 的界面配色和内置主题的配色进行了改进。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：對 App 的界面配色和內置主題的配色進行了改進。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro444.zip" length="34157696" type="application/octet-stream" sparkle:edSignature="4WCw2u9zs60d8Qp7RiLaEq1Q99q/C/CtRZqNGtmY+OQKKEKGNF3o65Cj7hbaLCc5wZAQZlg58ab3+ip3SSbbCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1148.delta" sparkle:deltaFrom="1148" length="877626" type="application/octet-stream" sparkle:edSignature="V7nV3PbX+vHyboa+zXPR8u64+RhBJKUcKdimqZ/wtlxyiFiVUi11cnr2ZAu9BW+2/Uw7uPgjcH6YFV9emfQBAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1142.delta" sparkle:deltaFrom="1142" length="1216518" type="application/octet-stream" sparkle:edSignature="begNRhsUdh3r4rriiSXSWZ1tWlg+xOwAf9QSbJQS7bo2Oa7nWkvM0vdJSyTWpiuaYcsMyQWxDSibtMMCnOUNAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1132.delta" sparkle:deltaFrom="1132" length="1340538" type="application/octet-stream" sparkle:edSignature="Er6ddOzWvHSdUkhWyqxe1166Uynh7xaqlZ3mD0hlTXRiFdBej0JNtcJUyzxX5tjQZ0aqV0xfPFiKo8+JbpF7Ag=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1118.delta" sparkle:deltaFrom="1118" length="1357490" type="application/octet-stream" sparkle:edSignature="K5zyIQnk0sNKDsf0D7XiXfSZ6V5XXpXHy5rRd+BiNrURAEKcBdR3V0JAMxhYblIULM3CUVXZhJvgqGU9cndFDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1113.delta" sparkle:deltaFrom="1113" length="1559474" type="application/octet-stream" sparkle:edSignature="6vxJ8WFPwpE/Dr9HqKWNypHJYlES6CbFqzufRk99/8+dyQSsg5/iC0biaLZdVWterfNeX2puJnUm4t/4i/KzDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.4.3</title>
             <pubDate>Fri, 07 Apr 2023 21:15:09 +0800</pubDate>
             <sparkle:version>1148</sparkle:version>
             <sparkle:shortVersionString>4.4.3</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
 
     <ul>
     <li>New feature: Added Focus Mode. In Focus Mode, all elements on the interface are hidden except for the &quot;Exit Focus Mode&quot; and &quot;Keep Window on Top&quot; buttons. You can enter Focus Mode through the &quot;View - Focus Mode&quot; menu or the &quot;eye icon button - Focus Mode&quot; on the toolbar. Additionally, a &quot;Focus Mode&quot; button has been added to the custom toolbar panel for your convenience.</li>
@@ -19,8 +67,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>新增：专注模式。在专注模式下，界面上的所有元素都会被隐藏，只留下 &quot;退出专注模式&quot; 和 &quot;置顶窗口&quot; 两个按钮。您可以通过菜单 &quot;视图 - 专注模式&quot; 或工具栏上的 &quot;眼睛图标的按钮 - 专注模式&quot; 进入专注模式。此外，我们还在自定义工具栏面板上增加了 &quot;专注模式&quot; 按钮，方便您使用。</li>
     <li>改进：文档导入功能。现在，文档导入到文档库的功能已经变为独立的导入窗口。您可以选择整个文件夹进行导入，同时还可以将文件夹的结构转换为文档库的分类树。在导入前，系统会列出将要导入的文件，并以列表形式显示，方便您确认。</li>
@@ -31,8 +78,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>新增：專注模式。在專注模式下，界面上的所有元素都會被隱藏，只留下 &quot;退出專注模式&quot; 和 &quot;置頂窗口&quot; 兩個按鈕。您可以通過菜單 &quot;視圖 - 專注模式&quot; 或工具欄上的 &quot;眼睛圖標的按鈕 - 專注模式&quot; 進入專注模式。此外，我們還在自定義工具欄面板上增加了 &quot;專注模式&quot; 按鈕，方便您使用。</li>
         <li>改進：文檔導入功能。現在，文檔導入到文檔庫的功能已經變為獨立的導入窗口。您可以選擇整個文件夾進行導入，同時還可以將文件夾的結構轉換為文檔庫的分類樹。在導入前，系統會列出將要導入的文件，並以列表形式顯示，方便您確認。</li>
@@ -43,7 +89,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro443.zip" length="34162690" type="application/octet-stream" sparkle:edSignature="eg8ajWm+5j78CDfl+rLJNj2jhfKtiuAdSyB3K5Wlz0ICqg2EZ2QeYba8Pwh5Bpyj8rbOTo7oFeY1d5RDH/THDg=="/>
             <sparkle:deltas>
