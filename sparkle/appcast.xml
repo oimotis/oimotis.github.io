@@ -3,17 +3,20 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
-            <title>4.4.4</title>
-            <pubDate>Mon, 10 Apr 2023 22:44:49 +0800</pubDate>
-            <sparkle:version>1168</sparkle:version>
-            <sparkle:shortVersionString>4.4.4</sparkle:shortVersionString>
+            <title>4.4.5</title>
+            <pubDate>Fri, 30 Jun 2023 14:34:55 +0800</pubDate>
+            <sparkle:version>1176</sparkle:version>
+            <sparkle:shortVersionString>4.4.5</sparkle:shortVersionString>
 <description xml:lang="en"><![CDATA[ 
-
     <ul>
-    <li>Improvement: Improved the color scheme of the app's interface and various built-in themes.</li>
+    <li>New feature: References between documents (backlinks) can be viewed in the outline view. If there are references in the document to other documents or referenced by other documents, they will be listed in the outline view. Use the menu: &quot;View - Outline View&quot; to view the outline view.</li>
+    <li>New feature: The reference syntax between documents adds support for locating the title in the document. in the editor, please place the cursor in the title, and then use the menu: &quot;Edit - Copy Note Link&quot; to generate the reference syntax. Then paste it in other documents. The original syntax is: <code>[Test](mweblib://16292173056753)</code>, the syntax to locate the title is: <code>[Test](mweblib://16292173056753#titile)</code>. Where <code>#title</code> means &quot;# + title or text in the document&quot;.</li>
+    <li>New feature: In Quick Search, press &quot;Cmd + Shift + C&quot; to copy the reference link of the selected document. During the writing process, when you need to cite other documents, you can use the &quot;Cmd + O&quot; key to open the quick search. After searching for the relevant document, press the &quot;Cmd + Shift + C&quot; key to copy the reference link of the document, and then press &quot; Cmd + V&quot; to paste to the current document.</li>
+    <li>Improvement: The preview can be zoomed in with two fingers. In addition, in the preview state, the shortcut key &quot;Cmd + +/-/0&quot; to zoom in and out of the font also has an effect on the preview.</li>
+    <li>Improvement: When exporting HTML, when using the default theme, the width of HTML content was changed from unlimited width to editor line width in preferences.</li>
+    <li>Improved: mermaid library upgraded to 10.2.3.</li>
     <li>Other bug fixes and improvements.</li>
     </ul>
-
 
 
 
@@ -22,7 +25,12 @@
 
 <description xml:lang="zh"><![CDATA[ 
     <ul>
-    <li>改进：对 App 的界面配色和内置主题的配色进行了改进。</li>
+    <li>新增：文档间的引用（双链）可以在大纲视图查看了，如果文档中有引用到其它文档或被其它文档引用，则会在大纲视图中列出来。使用菜单：“视图 - 大纲视图” 可以查看大纲视图。</li>
+    <li>新增：文档间的引用语法增加支持定位文档中的标题，使用办法是：在编辑器中，先把光标放到标题中，然后使用菜单：“编辑 - 复制文档引用链接” 来生成引用语法，再在其它文档粘贴即可。原本的语法为： <code>[测试](mweblib://16292173056753)</code>，定位到标题的语法为：<code>[测试](mweblib://16292173056753#titile)</code>。其中 <code>#title</code> 表示 “# + 文档中的标题或者文本”。</li>
+    <li>新增：在快速搜索下，按 “Cmd + Shift + C” 键可以复制选中的文档的引用链接。使用说明：在写作过程中，需要引用其它文档时，可以使用 “Cmd + O” 键打开快速搜索，搜索到相关文档后，按 “Cmd + Shift + C” 键复制文档的引用链接，再按 “Cmd + V” 键就可以粘贴到当前文档了。</li>
+    <li>改进：预览可以两指放大了。另外，在预览状态下，快捷键 “Cmd + +/-/0” 放大缩小字体对预览也有效果了。</li>
+    <li>改进：导出 HTML 时，在使用默认主题的情况下，HTML 内容的宽度由不限制宽度改为按偏好设置中的编辑器行宽度。</li>
+    <li>改进：mermaid 库升级到 10.2.3 。</li>
     <li>其它 Bug 修正及改进。</li>
     </ul>
 
@@ -34,12 +42,63 @@
 
 <description xml:lang="zh-Hant"><![CDATA[
     <ul>
+       <li>新增：文檔間的引用（雙鏈）可以在大綱視圖查看了，如果文檔中有引用到其它文檔或被其它文檔引用，則會在大綱視圖中列出來。使用菜單：「視圖 - 大綱視圖」 可以查看大綱視圖。</li>
+       <li>新增：文檔間的引用語法增加支持定位文檔中的標題，使用辦法是：在編輯器中，先把光標放到標題中，然後使用菜單：「編輯 - 複製文檔引用鏈接」 來生成引用語法，再在其它文檔粘貼即可。原本的語法為： <code>[測試](mweblib://16292173056753)</code>，定位到標題的語法為：<code>[測試](mweblib://16292173056753#titile)</code>。其中 <code>#title</code> 表示 「# + 文檔中的標題或者文本」。</li>
+       <li>新增：在快速搜索下，按 「Cmd + Shift + C」 鍵可以複製選中的文檔的引用鏈接。使用說明：在寫作過程中，需要引用其它文檔時，可以使用 「Cmd + O」 鍵打開快速搜索，搜索到相關文檔後，按 「Cmd + Shift + C」 鍵複製文檔的引用鏈接，再按 「Cmd + V」 鍵就可以粘貼到當前文檔了。</li>
+       <li>改進：預覽可以兩指放大了。另外，在預覽狀態下，快捷鍵 「Cmd + +/-/0」 放大縮小字體對預覽也有效果了。</li>
+       <li>改進：導出 HTML 時，在使用默認主題的情況下，HTML 內容的寬度由不限制寬度改為按偏好設置中的編輯器行寬度。</li>
+       <li>改進：mermaid 庫升級到 10.2.3 。</li>
+       <li>其它 Bug 修正及改進。</li>
+       </ul>
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro445.zip" length="34820881" type="application/octet-stream" sparkle:edSignature="AiIuk9pX1gKXuBEr7mprtqs39nAFOvyD5qpeXmd35Sl7GUqggvNiaqUVMoXpYui8J8fYwjLESBKRXZ1S8iWKCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1168.delta" sparkle:deltaFrom="1168" length="2639178" type="application/octet-stream" sparkle:edSignature="o4SRoAle1llh13NY7kbT08/PkvrNqZDZ82JQnhIpK4nZXkqocHAcAHTRiboUxfqvmDmdn9uzQe6zI2lhYvZ6DQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1148.delta" sparkle:deltaFrom="1148" length="2707674" type="application/octet-stream" sparkle:edSignature="5nPntRYyD76SJdho13DDPuxXjzu6g/eiLhysHxXW9J9hVIi/hX4CvwHql42Xa3A6EkPAW+gc3RC5Z/M4jTvoAg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1142.delta" sparkle:deltaFrom="1142" length="2846574" type="application/octet-stream" sparkle:edSignature="2j6/UR8kgvnJOAEmZM4T857lN/jZOm2ViCgq+D+ZSVP4hMwl3orvMJYrsrrGHMBzwwJkn7KSdu06/Mpd3n+6Cw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1132.delta" sparkle:deltaFrom="1132" length="2911894" type="application/octet-stream" sparkle:edSignature="pzQhPkqrXcPImM1eeD5Egvsp/P2mYDH1sTkIbF6rOvZR0VIQ9wTaFdPS/QQy17oWfjEc/EZihX/qP5kjUrQtBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1118.delta" sparkle:deltaFrom="1118" length="2916230" type="application/octet-stream" sparkle:edSignature="f8jxkrKHVmYTgfNqmIGPuSIOd3rHqfWgSYHGWnaz1EDqlMk9WCq9GeMS4UsdSceiYZDOC30ne3uOxI6hYQ5eDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.4</title>
+            <pubDate>Mon, 10 Apr 2023 22:44:49 +0800</pubDate>
+            <sparkle:version>1168</sparkle:version>
+            <sparkle:shortVersionString>4.4.4</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Improvement: Improved the color scheme of the app's interface and various built-in themes.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：对 App 的界面配色和内置主题的配色进行了改进。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
         <li>改進：對 App 的界面配色和內置主題的配色進行了改進。</li>
         <li>其它 Bug 修正及改進。</li>
         </ul>
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro444.zip" length="34157696" type="application/octet-stream" sparkle:edSignature="4WCw2u9zs60d8Qp7RiLaEq1Q99q/C/CtRZqNGtmY+OQKKEKGNF3o65Cj7hbaLCc5wZAQZlg58ab3+ip3SSbbCQ=="/>
             <sparkle:deltas>
