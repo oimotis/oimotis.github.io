@@ -3,11 +3,56 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.4.6</title>
+            <pubDate>Fri, 14 Jul 2023 23:49:21 +0800</pubDate>
+            <sparkle:version>1179</sparkle:version>
+            <sparkle:shortVersionString>4.4.6</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Fixed: &quot;Generate Github Style TOC&quot; function is not working properly.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>修正：“生成 Github 格式的 TOC” 功能不正常的问题。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>修正：「生成 Github 格式的 TOC」 功能不正常的問題。</li>
+        </ul>
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro446.zip" length="34821480" type="application/octet-stream" sparkle:edSignature="G2+tpB3DpByhBSVzVvp7PfjljvlTCBpAnUyhvkIROKtoDq7HM+4cZkP8WC7K8xUd6KO9tzAj2E78seT6kOUTBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1176.delta" sparkle:deltaFrom="1176" length="775542" type="application/octet-stream" sparkle:edSignature="J1MT0GZPlJuBTh/R0Mgtxl/0kSxKUIRWDMga+deMHNrnSfuuXydMAZzSyaQxuUAgWPRFZjbl+8yqf3zni5ljCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1168.delta" sparkle:deltaFrom="1168" length="2660050" type="application/octet-stream" sparkle:edSignature="m42vyyA1hHl3ztvAhtb8+GwBfW8kHydELuogNSUdkzQu9YxRZp7468FI3MPEa7KrHbPs5MZFiL/abvi8OOXsAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1148.delta" sparkle:deltaFrom="1148" length="2685054" type="application/octet-stream" sparkle:edSignature="EB+oIqzuwUbyr1Khr24dcVzf8RmdXbYUWoaKmhpyYTcgS3pFGMvANH7wsm4Z3B6s8Nuvj9fZw7/SpPzaYLsFAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1142.delta" sparkle:deltaFrom="1142" length="2854566" type="application/octet-stream" sparkle:edSignature="WPUv9ILSnl44v5iJx+7cF/6P0Qo3WWzAKxJM0dhCNh6QnzyK/GNoGVW3nj3bpOMX2NRVGn72yQ0QEbcCN/eWBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1132.delta" sparkle:deltaFrom="1132" length="2920922" type="application/octet-stream" sparkle:edSignature="a5foAjMMUFAuvEzpEYF3EXinKNuOCoJ+o8LKRX7kd91iCf21WtEm7gvvdAHsiAHp19qEntKILuJi/ecB2Ft1DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.4.5</title>
             <pubDate>Fri, 30 Jun 2023 14:34:55 +0800</pubDate>
             <sparkle:version>1176</sparkle:version>
             <sparkle:shortVersionString>4.4.5</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>New feature: References between documents (backlinks) can be viewed in the outline view. If there are references in the document to other documents or referenced by other documents, they will be listed in the outline view. Use the menu: &quot;View - Outline View&quot; to view the outline view.</li>
     <li>New feature: The reference syntax between documents adds support for locating the title in the document. in the editor, please place the cursor in the title, and then use the menu: &quot;Edit - Copy Note Link&quot; to generate the reference syntax. Then paste it in other documents. The original syntax is: <code>[Test](mweblib://16292173056753)</code>, the syntax to locate the title is: <code>[Test](mweblib://16292173056753#titile)</code>. Where <code>#title</code> means &quot;# + title or text in the document&quot;.</li>
@@ -22,8 +67,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>新增：文档间的引用（双链）可以在大纲视图查看了，如果文档中有引用到其它文档或被其它文档引用，则会在大纲视图中列出来。使用菜单：“视图 - 大纲视图” 可以查看大纲视图。</li>
     <li>新增：文档间的引用语法增加支持定位文档中的标题，使用办法是：在编辑器中，先把光标放到标题中，然后使用菜单：“编辑 - 复制文档引用链接” 来生成引用语法，再在其它文档粘贴即可。原本的语法为： <code>[测试](mweblib://16292173056753)</code>，定位到标题的语法为：<code>[测试](mweblib://16292173056753#titile)</code>。其中 <code>#title</code> 表示 “# + 文档中的标题或者文本”。</li>
@@ -39,8 +83,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
        <li>新增：文檔間的引用（雙鏈）可以在大綱視圖查看了，如果文檔中有引用到其它文檔或被其它文檔引用，則會在大綱視圖中列出來。使用菜單：「視圖 - 大綱視圖」 可以查看大綱視圖。</li>
        <li>新增：文檔間的引用語法增加支持定位文檔中的標題，使用辦法是：在編輯器中，先把光標放到標題中，然後使用菜單：「編輯 - 複製文檔引用鏈接」 來生成引用語法，再在其它文檔粘貼即可。原本的語法為： <code>[測試](mweblib://16292173056753)</code>，定位到標題的語法為：<code>[測試](mweblib://16292173056753#titile)</code>。其中 <code>#title</code> 表示 「# + 文檔中的標題或者文本」。</li>
@@ -53,7 +96,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro445.zip" length="34820881" type="application/octet-stream" sparkle:edSignature="AiIuk9pX1gKXuBEr7mprtqs39nAFOvyD5qpeXmd35Sl7GUqggvNiaqUVMoXpYui8J8fYwjLESBKRXZ1S8iWKCA=="/>
             <sparkle:deltas>
