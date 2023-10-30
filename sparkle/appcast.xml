@@ -3,11 +3,66 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.4.9</title>
+            <pubDate>Mon, 30 Oct 2023 13:26:43 +0800</pubDate>
+            <sparkle:version>1202</sparkle:version>
+            <sparkle:shortVersionString>4.4.9</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: Compatible with macOS 14.</li>
+    <li>Improvement: A &quot;Replace...&quot; button is added to the local image upload interface of the document. When tap the &quot;Replace...&quot; button, the local image address in the original document will be replaced with the uploaded image address.</li>
+    <li>Improvement: After exporting to Epub, the set cover and author will be remembered, so there is no need to set them again when exporting next time.</li>
+    <li>Improvement: In edit mode, when scrolling the document content, the outline view will highlight the title corresponding to the current content.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：兼容 macOS 14 。</li>
+    <li>改进：文档的本地图片上传增加 “替换” 按钮，点击后可以把原文档中的本地图片地址替换成已上传后的图片地址。</li>
+    <li>改进：导出为 Epub 后，会记住设置过的封面和作者，下次再导出时就不用再设置了。</li>
+    <li>改进：在编辑模式下，滚动文档内容时，大纲视图会突出显示当前内容对应的标题。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：兼容 macOS 14 。</li>
+        <li>改進：文檔的本地圖片上傳增加 「替換」 按鈕，點擊後可以把原文檔中的本地圖片地址替換成已上傳後的圖片地址。</li>
+        <li>改進：導出為 Epub 後，會記住設置過的封面和作者，下次再導出時就不用再設置了。</li>
+        <li>改進：在編輯模式下，滾動文檔內容時，大綱視圖會突出顯示當前內容對應的標題。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro449.zip" length="34997937" type="application/octet-stream" sparkle:edSignature="76qZadoiQ97zhq/7PPTvd3c7KmvKbu7ckVs660ctrKGKQQePFZ1gDwrZfqskWjuIAi7UQ7r9FlIVJRoW1zUpCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1186.delta" sparkle:deltaFrom="1186" length="2763234" type="application/octet-stream" sparkle:edSignature="lo96NwE/QQqk1Ifmri2Rrxn+3oT7Gs8Dl+mYXSrWAqcH5gMgg5GscEqO0UKXoW5L7InWp0I+ooPYFobJgmmzBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1182.delta" sparkle:deltaFrom="1182" length="2946058" type="application/octet-stream" sparkle:edSignature="/GaUDLhoaXrg552j+ZzfwO23sMjN7PTvw+ie3SulIgrdj3FR48Pgu7Gv5wXlK0EbI0pYz05OjSzCuzxnnm3hBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1179.delta" sparkle:deltaFrom="1179" length="3013710" type="application/octet-stream" sparkle:edSignature="H1YuEKjRHCheTMcsuYncA1sMmDnW/nEgSQ+UxqXm1udL2QNTYDiMiX+cphDGPtnlgANhg26Dg1y14GpfrP5hAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1176.delta" sparkle:deltaFrom="1176" length="3099726" type="application/octet-stream" sparkle:edSignature="9R15UyF7kfiMo+XKg6amM62sSGiizyZm7mDmaribtcqDvQ0SADb1falzUqt+1j8qlhu6jgf+xRzfpc0Zs/FvDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1168.delta" sparkle:deltaFrom="1168" length="4199838" type="application/octet-stream" sparkle:edSignature="YJCG3wC5+9A6np0WesqknQS76V3HZYSeIdFIuofe6f0BK21xlJtxZB4z7jAjM+zyMJyPgwh9edUudxpeGCRKCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.4.8</title>
             <pubDate>Wed, 06 Sep 2023 21:24:28 +0800</pubDate>
             <sparkle:version>1186</sparkle:version>
             <sparkle:shortVersionString>4.4.8</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>New feature: add 25 new themes, including 8 light themes and 17 dark themes.</li>
     <li>New feature: add menu &quot;File - Reload Current Document&quot;.</li>
@@ -19,8 +74,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>增加：新增 25 个主题，其中亮主题 8 个，暗主题 17 个。</li>
     <li>增加：菜单 “文件 - 重新加载当前文档”。</li>
@@ -30,8 +84,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
        <li>增加：新增 25 個主題，其中亮主題 8 個，暗主題 17 個。</li>
        <li>增加：菜單 「文件 - 重新加載當前文檔」。</li>
@@ -41,7 +94,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro448.zip" length="34994906" type="application/octet-stream" sparkle:edSignature="fIT3TlSDSKmMPh5PPwDxpKfjUqNwJSM7mCj6Ms8dYJS4GrXRhveGdnnaW71y/NyZWqiL8hDYrwJhShd85WIdAA=="/>
             <sparkle:deltas>
