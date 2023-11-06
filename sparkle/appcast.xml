@@ -3,11 +3,57 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.5.1</title>
+            <pubDate>Mon, 06 Nov 2023 20:10:49 +0800</pubDate>
+            <sparkle:version>1208</sparkle:version>
+            <sparkle:shortVersionString>4.5.1</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro451.zip" length="34999616" type="application/octet-stream" sparkle:edSignature="iVyeys7V4mu/NpAguYaMzdqDhkYaP0eywiqF8YLoZQTkLQcFatMLwkHOeDClF5Nwfy5ywGDrb+B/s+usbhipCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1202.delta" sparkle:deltaFrom="1202" length="700666" type="application/octet-stream" sparkle:edSignature="/q0NE3dbaBlxiXMyphPzAPt/O+mpqybzREvm/PiUKt0ZC3j7nInfTK+MpXvWTpx++jELIxW8//10K4NXu7qHAg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1186.delta" sparkle:deltaFrom="1186" length="2781522" type="application/octet-stream" sparkle:edSignature="xu4viZ+OA+aoUFFdE0baq00ul8YsUXzQ9Ma1N2JFhd7L8bUb4lFvM36pueWefnL3a8Q7/U7r8FGKjk/bjuVNBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1182.delta" sparkle:deltaFrom="1182" length="2972290" type="application/octet-stream" sparkle:edSignature="3i7NzCBgg8DHCcW5o3zIBoEkZoJVk+CRZMBybuxLPeH/mF2DjIHjXp95MkyBK9vcCuDi4rYuYIN1McC2UewoDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1179.delta" sparkle:deltaFrom="1179" length="3012702" type="application/octet-stream" sparkle:edSignature="YZjiyZseJCPMkWk1kQekGdb6JubbBg/HAT3wWPl6OfM1EvnGkAnACSCvQFNyisPNOufa266cT+jmzbhcGTUrCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1176.delta" sparkle:deltaFrom="1176" length="3104438" type="application/octet-stream" sparkle:edSignature="WAxMu+4REKaKnQw86VV+GE85RCTSg2ScJoqamU5Z9ljzPUy6WAkZ7Wt9Gi7+FLehKKn3zvLZCuiwVXhboxzzCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.4.9</title>
             <pubDate>Mon, 30 Oct 2023 13:26:43 +0800</pubDate>
             <sparkle:version>1202</sparkle:version>
             <sparkle:shortVersionString>4.4.9</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Improvement: Compatible with macOS 14.</li>
     <li>Improvement: A &quot;Replace...&quot; button is added to the local image upload interface of the document. When tap the &quot;Replace...&quot; button, the local image address in the original document will be replaced with the uploaded image address.</li>
@@ -20,8 +66,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>改进：兼容 macOS 14 。</li>
     <li>改进：文档的本地图片上传增加 “替换” 按钮，点击后可以把原文档中的本地图片地址替换成已上传后的图片地址。</li>
@@ -33,8 +78,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>改進：兼容 macOS 14 。</li>
         <li>改進：文檔的本地圖片上傳增加 「替換」 按鈕，點擊後可以把原文檔中的本地圖片地址替換成已上傳後的圖片地址。</li>
@@ -46,7 +90,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro449.zip" length="34997937" type="application/octet-stream" sparkle:edSignature="76qZadoiQ97zhq/7PPTvd3c7KmvKbu7ckVs660ctrKGKQQePFZ1gDwrZfqskWjuIAi7UQ7r9FlIVJRoW1zUpCg=="/>
             <sparkle:deltas>
