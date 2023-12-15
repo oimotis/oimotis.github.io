@@ -3,10 +3,10 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
-            <title>4.5.1</title>
-            <pubDate>Mon, 06 Nov 2023 20:10:49 +0800</pubDate>
-            <sparkle:version>1208</sparkle:version>
-            <sparkle:shortVersionString>4.5.1</sparkle:shortVersionString>
+            <title>4.5.2</title>
+            <pubDate>Fri, 15 Dec 2023 14:02:46 +0800</pubDate>
+            <sparkle:version>1218</sparkle:version>
+            <sparkle:shortVersionString>4.5.2</sparkle:shortVersionString>
 <description xml:lang="en"><![CDATA[ 
     <ul>
    
@@ -38,6 +38,49 @@
 
 ]]></description>
            
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro452.zip" length="35023692" type="application/octet-stream" sparkle:edSignature="+QNST+9lhasuhP/PJxKGavwBav4wccXFb5hbdNe+ifiUoEfjHTdGISlINeAf5al/zExpbVr1E79ekQuGWRKHDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1208.delta" sparkle:deltaFrom="1208" length="1072574" type="application/octet-stream" sparkle:edSignature="/sSOygLpyhC+8MlX5f4wguDODvEOGD/bEODKhFRh/qlYF0xvbruPBf4ltyIXh9nk0RRpr0KYkW/pkAoHPHciDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1202.delta" sparkle:deltaFrom="1202" length="1131426" type="application/octet-stream" sparkle:edSignature="BWtuvEvb8Pf/y8P9S+Hk/r+V0NJFArkYGzX9PL45Fhu0/+EmKIxkpksLmHE949i8SIWLq+JknMKK1cK1td/1Aw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1186.delta" sparkle:deltaFrom="1186" length="3093978" type="application/octet-stream" sparkle:edSignature="2j5z74lebz82PFxH132SuoZt9SQGKxZbq+UDXC4Zp4kt9kBllbdAU0qYcf3SroRoLo2OO8t+TiPtTe6VCuBBCA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1182.delta" sparkle:deltaFrom="1182" length="3292982" type="application/octet-stream" sparkle:edSignature="RnPJ3j6YdxGTnDlN0YREUfpci4E2gYctLu8oK63p1qpwmO+Duk4zdncqfviPJZbuNfA5FXULfI7T8xoUFc+DAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1179.delta" sparkle:deltaFrom="1179" length="3334858" type="application/octet-stream" sparkle:edSignature="JNm1H16amYpphs/SXJGmTkGQwcSZJGCcLQNvxpEd/tQCiltdBLW4oada7UnNovKrLzA01VW7WLuac4Sfz/92CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.1</title>
+            <pubDate>Mon, 06 Nov 2023 20:10:49 +0800</pubDate>
+            <sparkle:version>1208</sparkle:version>
+            <sparkle:shortVersionString>4.5.1</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro451.zip" length="34999616" type="application/octet-stream" sparkle:edSignature="iVyeys7V4mu/NpAguYaMzdqDhkYaP0eywiqF8YLoZQTkLQcFatMLwkHOeDClF5Nwfy5ywGDrb+B/s+usbhipCA=="/>
             <sparkle:deltas>
