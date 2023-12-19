@@ -3,11 +3,65 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.5.3</title>
+            <pubDate>Tue, 19 Dec 2023 20:40:54 +0800</pubDate>
+            <sparkle:version>1226</sparkle:version>
+            <sparkle:shortVersionString>4.5.3</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Fixed: The previous version upgraded the mermaid library to 10.6.1, which caused problems in macOS 11 and below. This version reduces the version of the mermaid library to 10.2.4 to solve this problem.</li>
+    <li>Improvement: The Library mode's editor information bar is changed to fully display the path of the category to which the document belongs.</li>
+    <li>Improvement: Add an &quot;Open External Folder mode&quot; button to the lower left of the Library interface.</li>
+    <li>Improvement: Add an &quot;Open Library Mode&quot; button to the lower left of the interface in External Folder mode.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>修正：上个版本把 mermaid 库升级到 10.6.1 导致在 macOS 11 及以下版本中会出问题，这个版本把 mermaid 库的版本降至 10.2.4 来解决这个问题。</li>
+    <li>改进：编辑器的信息条改为完整显示文档所属的分类的路径。</li>
+    <li>改进：文档库的界面的左下方增加 “打开外部文件夹模式” 按钮。</li>
+    <li>改进：外部文件夹模式的界面的左下方增加 “打开文档库模式” 的按钮。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>修正：上個版本把 mermaid 庫升級到 10.6.1 導致在 macOS 11 及以下版本中會出問題，這個版本把 mermaid 庫的版本降至 10.2.4 來解決這個問題。</li>
+        <li>改進：編輯器的信息條改為完整顯示文檔所屬的分類的路徑。</li>
+        <li>改進：文檔庫的界面的左下方增加 「打開外部文件夾模式」 按鈕。</li>
+        <li>改進：外部文件夾模式的界面的左下方增加 「打開文檔庫模式」 的按鈕。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro453.zip" length="35008383" type="application/octet-stream" sparkle:edSignature="2LLviW+mw272SBlIPu0Uc0MUxcVv+hUUiFEUgfbcFstK0jKV4neW7neRR0LhAjS8ZVNibyJ+zdM14m9d1E1dAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1218.delta" sparkle:deltaFrom="1218" length="1140170" type="application/octet-stream" sparkle:edSignature="o8VaWFbt7BfmPB+OLl5BfVVRKvg/F0wgeDgIEGw6bc5mETW6lV69omyQyvsPg8uffjBwHA3DqBzlE+9vJG1SDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1208.delta" sparkle:deltaFrom="1208" length="900526" type="application/octet-stream" sparkle:edSignature="zZm1S4wBzfVL2hgs7dcCxRClum/HetJ92E18NeIkq+8GECA+lEMixU7pyGcWDPaMmjuOnFxHaCfa7RchQHefAA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1202.delta" sparkle:deltaFrom="1202" length="923766" type="application/octet-stream" sparkle:edSignature="BIrfF5ne97xDRlsYLPJWwXicrHuwSTtbbwgLDrCcF7SvwgkDMYwBRlFIMs5l7IgECnJGK7d0cpNvXUs8Y8TYBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1186.delta" sparkle:deltaFrom="1186" length="2823466" type="application/octet-stream" sparkle:edSignature="B9JB8xJ46oVX3+OwS96ax/ahG0IaXNKtivW86uXgX0GH6f+for9KBk8sVDbxpX5lUzbVsrAw2Qb64tcgrJI3BA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1182.delta" sparkle:deltaFrom="1182" length="3002130" type="application/octet-stream" sparkle:edSignature="d8YV1kTX2/DwNGRtc/NxkSvA6HYp8eegsyh6Av/qxFFcmrJolXyci/0dsEPpBtbxJ0OXAdKxBIuN5eGAU1THCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.5.2</title>
             <pubDate>Fri, 15 Dec 2023 14:02:46 +0800</pubDate>
             <sparkle:version>1218</sparkle:version>
             <sparkle:shortVersionString>4.5.2</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
    
     <li>Bug fixes and improvements.</li>
@@ -17,8 +71,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
    
     <li>Bug 修正及改进。</li>
@@ -27,8 +80,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
        
         <li>Bug 修正及改進。</li>
@@ -37,7 +89,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro452.zip" length="35023692" type="application/octet-stream" sparkle:edSignature="+QNST+9lhasuhP/PJxKGavwBav4wccXFb5hbdNe+ifiUoEfjHTdGISlINeAf5al/zExpbVr1E79ekQuGWRKHDA=="/>
             <sparkle:deltas>
