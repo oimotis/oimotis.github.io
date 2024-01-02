@@ -3,11 +3,57 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.5.4</title>
+            <pubDate>Tue, 02 Jan 2024 16:45:29 +0800</pubDate>
+            <sparkle:version>1228</sparkle:version>
+            <sparkle:shortVersionString>4.5.4</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro454.zip" length="35008977" type="application/octet-stream" sparkle:edSignature="2DEy3zQv6sdInyJfM01Dp+dKo0EactR0jZgUgGlOTyNZPEVtexbNQyZnKEVXlV4sPLiVBf/fbEXPBAn/fIDbCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1226.delta" sparkle:deltaFrom="1226" length="653862" type="application/octet-stream" sparkle:edSignature="NjV6rTUN9M54hLNgYCMv0YMTWLHP05HNw+Wp2wGrz/3vwYv7w2jsRfVztln7FIK0OOHO4oteu0iV7OCwhElcDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1218.delta" sparkle:deltaFrom="1218" length="1134938" type="application/octet-stream" sparkle:edSignature="iYRLxzrGtXldf63xjCI7zoP/kR3KcPpBp+HiqZvuKNawNBziyIE1iXQIxrtOm29dcTReDRn5/5Wn1bQRcES/AA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1208.delta" sparkle:deltaFrom="1208" length="903442" type="application/octet-stream" sparkle:edSignature="dSsopLkynmmfvBwyvIZLmr2RkjkHtrsCojwMsvlxYuwig1RqYd88QtElFoTVuYhIT4ttw3H12CNDBgIWPMUrAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1202.delta" sparkle:deltaFrom="1202" length="943102" type="application/octet-stream" sparkle:edSignature="KC7yWGoDYfCzkexNoZIja/EgxnrZljkT3iO5QF7XCL+3fbCx0Jlp8Cw62yyoJiTjkoxiEF5twRPZHe1ofsItBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1186.delta" sparkle:deltaFrom="1186" length="2820350" type="application/octet-stream" sparkle:edSignature="E2NX1M7X5j7lOgLLRcTyZfqSLvaxsOpufAm4xSNRDmSH+T8uPqK0EFoP3w8ucfVD3jdQxFj69yTv7LkOmbEqBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.5.3</title>
             <pubDate>Tue, 19 Dec 2023 20:40:54 +0800</pubDate>
             <sparkle:version>1226</sparkle:version>
             <sparkle:shortVersionString>4.5.3</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Fixed: The previous version upgraded the mermaid library to 10.6.1, which caused problems in macOS 11 and below. This version reduces the version of the mermaid library to 10.2.4 to solve this problem.</li>
     <li>Improvement: The Library mode's editor information bar is changed to fully display the path of the category to which the document belongs.</li>
@@ -19,8 +65,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>修正：上个版本把 mermaid 库升级到 10.6.1 导致在 macOS 11 及以下版本中会出问题，这个版本把 mermaid 库的版本降至 10.2.4 来解决这个问题。</li>
     <li>改进：编辑器的信息条改为完整显示文档所属的分类的路径。</li>
@@ -32,8 +77,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>修正：上個版本把 mermaid 庫升級到 10.6.1 導致在 macOS 11 及以下版本中會出問題，這個版本把 mermaid 庫的版本降至 10.2.4 來解決這個問題。</li>
         <li>改進：編輯器的信息條改為完整顯示文檔所屬的分類的路徑。</li>
@@ -45,7 +89,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro453.zip" length="35008383" type="application/octet-stream" sparkle:edSignature="2LLviW+mw272SBlIPu0Uc0MUxcVv+hUUiFEUgfbcFstK0jKV4neW7neRR0LhAjS8ZVNibyJ+zdM14m9d1E1dAQ=="/>
             <sparkle:deltas>
