@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://www.mweb.im/</loc>
-  <lastmod>2024-01-02T16:44:37+08:00</lastmod>
+  <lastmod>2024-01-27T19:54:17+08:00</lastmod>
 </url>
 
 <url>
@@ -329,6 +329,11 @@
 <url>
   <loc>https://www.mweb.im/en-help.html</loc>
   <lastmod>2022-01-14T13:55:58+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://www.mweb.im/terms.html</loc>
+  <lastmod>2024-01-27T19:52:53+08:00</lastmod>
 </url>
 
 
