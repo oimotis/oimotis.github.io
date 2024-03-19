@@ -3,11 +3,63 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.5.8</title>
+            <pubDate>Tue, 19 Mar 2024 23:20:30 +0800</pubDate>
+            <sparkle:version>1242</sparkle:version>
+            <sparkle:shortVersionString>4.5.8</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: When clicking the &quot;Sync Button - Sync Now&quot;, in addition to requesting to push all changes, the currently open document will also be directly synchronized. If you feel that the current document synchronization is slow, it should improve after performing this operation.</li>
+    <li>Improvement: The mermaid library is updated to 10.9.0, but 10.2.4 will continue to be used when macOS is below 13 and iOS is below 15.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：点击 “同步按钮 - 马上同步” 后，除了请求推送所有更改外，还会直接同步当前打开的文档。如果你觉得当前的文档同步慢，执行这个操作后，应该会有改进。</li>
+    <li>改进：mermaid 库更新到 10.9.0，但是在 macOS 13 以下和 iOS 15 以下版本时，还是会继续使用 10.2.4 。</li>
+    <li>其他 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       <li>改進：點擊 「同步按鈕 - 馬上同步」 後，除了請求推送所有更改外，還會直接同步當前打開的文檔。如果你覺得當前的文檔同步慢，執行這個操作後，應該會有改進。</li>
+       <li>改進：mermaid 庫更新到 10.9.0，但是在 macOS 13 以下和 iOS 15 以下版本時，還是會繼續使用 10.2.4 。</li>
+       <li>其他 Bug 修正及改進。</li>
+       </ul>
+
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro458.zip" length="36029193" type="application/octet-stream" sparkle:edSignature="HEpAK8e6uRZafKJaBLJAbisw+f09lxX6JLcV0+vzb86KpiT7rXeW2Aj0p7XrI4J70+j3bx/08/LPN8rzhx0VDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1239.delta" sparkle:deltaFrom="1239" length="1598774" type="application/octet-stream" sparkle:edSignature="46FqO/nEFzw9dTwWDRXFKiMBPgfba1CPrasMHAZKtVav1a82b0NMXqON6UIlz2qgB8k9/J03R8ZOVUCouPfZCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1237.delta" sparkle:deltaFrom="1237" length="1593462" type="application/octet-stream" sparkle:edSignature="4jHTYFhKagbBRCrNwSAw9Aksxwf03mYIQM1BwEo+Dk0qn8mSHAla4yb31+SGu7IVeJiG54UXnCzLFR17HKzGDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1228.delta" sparkle:deltaFrom="1228" length="1695262" type="application/octet-stream" sparkle:edSignature="Xz6YNLapsNsADdYqcXFBIYMU42P0ETn7Jt5zngktlrcsjk7J8PT1Fvj4P4GSCTHFvdnnW+cr/v3/0cmyoykLAA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1226.delta" sparkle:deltaFrom="1226" length="1711182" type="application/octet-stream" sparkle:edSignature="qfXy2obb6QeOl10zZSp3iyqBtJv6siLavFE8rX3VgKWLNTTb231sde2JD+4rKTAiEdTjq5eLkorKm2Dqdq3YDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1218.delta" sparkle:deltaFrom="1218" length="2373590" type="application/octet-stream" sparkle:edSignature="Z20jcd31Af5JlOpcLwTpY6VD7fUEW3ToaEjnNn9xQGbnuorFdNuU0hrsE1au+1Pr5HjWHXqFejlTeP+Y94yGCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.5.6</title>
             <pubDate>Mon, 05 Feb 2024 17:48:19 +0800</pubDate>
             <sparkle:version>1239</sparkle:version>
             <sparkle:shortVersionString>4.5.6</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
    
     <li>Bug fixes and improvements.</li>
@@ -17,8 +69,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
    
     <li>Bug 修正及改进。</li>
@@ -27,8 +78,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
        
         <li>Bug 修正及改進。</li>
@@ -37,7 +87,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro456.zip" length="35023869" type="application/octet-stream" sparkle:edSignature="+b40f9isfI8QdoFvE+If/dxxOrcSFj8UoFElreZ0QVzLCrkm9PpvvMj0YmkEiuGZMWbUZwAw/US2aUcDy5t7Bg=="/>
             <sparkle:deltas>
