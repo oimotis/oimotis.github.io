@@ -3,11 +3,72 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.6.1</title>
+            <pubDate>Thu, 25 Apr 2024 23:03:44 +0800</pubDate>
+            <sparkle:version>1249</sparkle:version>
+            <sparkle:shortVersionString>4.6.1</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: When exporting HTML, you can choose whether to add Table Of Contents (TOC), and whether to add it on the left or right. You can choose it in the interface for exporting HTML.</li>
+    <li>Improvement: In the menu: Actions - Insert current date, add a menu item to insert the current time.</li>
+    <li>Improvement: When changing the editor font size, the preview font size will also change accordingly. You can use &quot;cmd + +/-&quot; to adjust the font size.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：导出 HTML 时，可以选择是否增加 Table Of Contents（TOC），要增加在左侧还是右侧。在导出 HTML 的界面中就可以选择了。</li>
+    <li>改进：在菜单：语法 - 插入当前日期 中，增加插入当前时间的菜单项。</li>
+    <li>改进：改变编辑器字体大小时，预览的字体大小也会跟着变动了。你可以使用 “cmd + +/-” 来调整字体大小。</li>
+    <li>其他 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：導出 HTML 時，可以選擇是否增加 Table Of Contents（TOC），要增加在左側還是右側。在導出 HTML 的界面中就可以選擇了。</li>
+        <li>改進：在菜單：語法 - 插入當前日期 中，增加插入當前時間的菜單項。</li>
+        <li>改進：改變編輯器字體大小時，預覽的字體大小也會跟著變動了。你可以使用 “cmd + +/-” 來調整字體大小。</li>
+        <li>其他 Bug 修正及改進。</li>
+        </ul>
+
+
+
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro461.zip" length="36038078" type="application/octet-stream" sparkle:edSignature="PsRHPn0EPRbYwB995oDObphWhGCoK2FTQveGPH3reKfcJWXpSv+g0FJfaH7g95ruLWZPH07AJOSX8ZrThJmkDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1246.delta" sparkle:deltaFrom="1246" length="930086" type="application/octet-stream" sparkle:edSignature="oL04eiTtnL+v/7rPHIMqatu3z/EqAqprtqYEfNnNcYHAlJmB7MoshkJgQDIqbAPUh6B+soa7CTMEN5Frx5WdDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1242.delta" sparkle:deltaFrom="1242" length="1049334" type="application/octet-stream" sparkle:edSignature="h9V4H7pkNz4Rm6TH0q5HkOdKdeUOu60BAsIoCYG5FnQBIBAONRsP5LY80luWAKRLkKBaRx4s+yAZZhpk+g6DDw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1239.delta" sparkle:deltaFrom="1239" length="1831398" type="application/octet-stream" sparkle:edSignature="vNWDzs01NrnfPGl0t9XFskcQb5vcZG5tALYXZW6VOj1CqRjQ9MBHHA/iobI9dqs3oZX8Ycf9d/KuGFUGFXMEBQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1237.delta" sparkle:deltaFrom="1237" length="1851622" type="application/octet-stream" sparkle:edSignature="EYpv1MDo1vTrh343z/vsuBHzcszMT+yLJ8zIRQ0hqCITtwKr3bbeS6ADqW6aDmmI9qSgANCpRUY94Zc35L2uCw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1228.delta" sparkle:deltaFrom="1228" length="1923642" type="application/octet-stream" sparkle:edSignature="KIy/GQ8txwWpIiz6bUDIKwdzMvvVt1c8X7cJcnAMmgBsQMHBji2sVPcQUGl0u/Jwj7ER1ltANhobBv4UkdWoBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.5.9</title>
             <pubDate>Sun, 07 Apr 2024 22:43:40 +0800</pubDate>
             <sparkle:version>1246</sparkle:version>
             <sparkle:shortVersionString>4.5.9</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Improvement: The export PDF function in macOS now allows fonts and font size settings, where the fonts list comes from multiple fonts in &quot;Settings - Fonts&quot;. In addition, the export PDF function in iOS/iPadOS also adds fonts, font size, paper, margins and other setting items.</li>
     <li>Other bug fixes and improvements.</li>
@@ -19,8 +80,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>改进：macOS 中的导出 PDF 功能现在可以选择字体和字体大小了，其中字体选择部分来自 “设置 - 字体” 中的多种字体。另外，iOS/iPadOS 中的导出 PDF 功能，也增加了字体、字体大小、纸张、边距等等设置项目。</li>
     <li>其他 Bug 修正及改进。</li>
@@ -31,8 +91,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
     <li>改進：macOS 中的導出 PDF 功能現在可以選擇字體和字體大小了，其中字體選擇部分來自 「設置 - 字體」 中的多種字體。另外，iOS/iPadOS 中的導出 PDF 功能，也增加了字體、字體大小、紙張、邊距等等設置項目。</li>
     <li>其他 Bug 修正及改進。</li>
@@ -43,7 +102,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro459.zip" length="36032229" type="application/octet-stream" sparkle:edSignature="jojB/B+GCZkuhY6ZLQFN7Syh5TIq57ZDXVdUuVphUPoSEAkSwzUloTWQnPFyqzH+NmIE140cFmhoEREJWW1rCA=="/>
             <sparkle:deltas>
