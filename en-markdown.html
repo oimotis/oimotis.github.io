@@ -149,7 +149,7 @@ Content in the first column | Content in the second column
 Format: ![image description](url)
 </code></pre>
 <p>In MWeb, you can use <code>-w + Number</code> to control image width, for example, set the image width 140px:</p>
-<p><img src="https://zh.mweb.im/asset/img/set-up-git.gif" alt="Image description" /></p>
+<p><figure><img src="https://zh.mweb.im/asset/img/set-up-git.gif" alt="Image description" /><figcaption>Image description<figcaption></figure></p>
 <h3><a id="mweb-drawing" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb Drawing</h3>
 <h4><a id="mermaid" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>mermaid</h4>
 <p>Mermaid is a popular js graphics library. It supports flowcharts, sequence diagrams and Gantt charts. Its official website is: <a href="https://mermaidjs.github.io/">https://mermaidjs.github.io/</a>. The syntax for using mermaid in MWeb is to declare code blocks. The language is mermaid, and the mermaid drawing syntax can be written in the code block. You can copy the following syntax into MWeb to view the result.</p>
@@ -168,7 +168,7 @@ sequenceDiagram
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<p><img src="media/15305971422667/16421614330357.jpg" alt="" style="width:456px;" /></p>
+<p><figure><img src="media/15305971422667/16421614330357.jpg" alt="" style="width:456px;" /></figure></p>
 <h4><a id="echarts" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>echarts</h4>
 <p>Echarts is a js graph library of Baidu. Its website is <a href="https://echarts.apache.org/zh/index.html">https://echarts.apache.org/zh/index.html</a>. It is very powerful. MWeb supports some basic usages of echarts. You can try the following syntax to copy it into MWeb. You can also go to the <a href="https://echarts.apache.org/examples/zh/index.html">https://echarts.apache.org/examples/zh/index.html</a> URL to see some examples. Note that MWeb can only parse <code>option = {}</code> which is simple but should be enough used.</p>
 <pre><code class="language-plain_text">```echarts
@@ -188,7 +188,7 @@ option = {
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<p><img src="media/15305971422667/16421614994388.jpg" alt="" style="width:467px;" /></p>
+<p><figure><img src="media/15305971422667/16421614994388.jpg" alt="" style="width:467px;" /></figure></p>
 <h3><a id="latex-mathjax-rendering" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>LaTeX (MathJax rendering)</h3>
 <p>MWeb uses the native code block syntax in CommonMark to support LaTeX math formulas. The syntax of inline code and code blocks in CommonMark is highly extensible and can be extended at will. MWeb uses ``inline math`` as the inline syntax for math formulas and ```math block math ``` as the block syntax for math formulas. Then `code` is still inline code syntax, and ``inline math`` is also inline code in CommonMark, but will be rendered as math formula in MWeb. The advantage of this is that when the original markdown document is published to an environment that does not support mathematical formulas, it will be displayed in code, so that the original formula text will be displayed and will not affect reading too much.<br />
 In addition, MWeb is also compatible with <code>$ and $$</code> style math formulas. When using math formulas, you need to enable LaTeX math formulas in `Preferences - General' and select the syntax to use.</p>

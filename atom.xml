@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2024-04-07T22:42:49+08:00</updated>
+  <updated>2024-04-25T23:02:07+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -54,7 +54,7 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
 <p>There will be some slight changes in the parsing of the grammar. For example, ##If there is no space, it will not be parsed as a title. In addition, the old version of syntax highlighting ==highlighting== is no longer supported. If you really want to use it, you can only use HTML, such as <code>&lt;mark&gt;highlight&lt;/mark&gt;</code>.</p>
 <h2><a id="changes-in-image-upload-service" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changes in image upload service</h2>
 <p>The method of inserting a local picture and then uploading remains the same. The function of automatically uploading when inserting has changed, and it has been changed to a separate picture upload window. Use the menu: <code>View - Images Upload Window</code> to open this window. The following figure is the change from MWeb 3 to MWeb 4. The left is the MWeb 3 method, and the right is the MWeb 4 method:</p>
-<p><img src="media/16285632311652/image_upload.jpg" alt="" /></p>
+<p><figure><img src="media/16285632311652/image_upload.jpg" alt="" /></figure></p>
 <h2><a id="other-questions" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>other questions?</h2>
 <p>If you have any questions, please send to <a href="mailto:coderforart+233@gmail.com">coderforart+233@gmail.com</a> this email, I will usually reply you within 1 to 3 working days, thank you very much!</p>
 
@@ -152,31 +152,31 @@ GitHub Flavored Markdown (GFM): <a href="https://guides.github.com/features/mast
     <content type="html"><![CDATA[
 <h2><a id="mweb-for-ios-3-0-interface" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb for iOS 3.0 interface</h2>
 <p>As shown below, this is a new interface, you can see that there is almost no major change. The biggest change is that the document navigation becomes the sidebar, and the editor becomes always displayed, that is, when switching the document to be opened, the original opened document will not be closed.</p>
-<p><img src="media/15465318442964/mweb%20ios%203.jpg" alt="mweb ios 3" /></p>
+<p><figure><img src="media/15465318442964/mweb%20ios%203.jpg" alt="mweb ios 3" /><figcaption>mweb ios 3<figcaption></figure></p>
 <h2><a id="open-markdown-or-text-document-in-the-files-app" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open Markdown or text document in the Files app</h2>
 <p>This update optimizes this use. In the toolbar at the bottom of the sidebar, the last two buttons are resident. The last one is to close the sidebar button. The other one is the open the Markdown or Text document in the Files app. Thanks to the new mechanism of iOS 11 and above, the client of the cloud drive such as Dropbox, Google Drive, and One Drive are installed, the relevant cloud drive document can be accessed in the Files app. This is very convenient, so that MWeb can access the files of other cloud drive through the Files app without synchronizing functions.<br />
 Since iOS does not currently have access to a folder in the file application, the Markdown document in the MWeb Open Files app does not currently support inserting images into the document. If you need to insert a picture, you can configure the Images Upload Services in MWeb, so that after inserting the picture, MWeb will automatically upload to the Images Upload Services. Also, in the Files app, you can also choose to open Markdown and text documents using MWeb.</p>
 <h2><a id="quick-note" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick Note</h2>
 <p>Quick Note provide a concept: whenever you need to take notes, just click on the Quick Note button to start recording right away, regardless of file name, location, how to sort it, and so on. Just write down to complete the task, as for finishing or what, it is the next thing, do not have to consider, reduce the burden, just to write down.</p>
 <p>The Quick Note provides three entries, as shown in the following for two entries, and one way is to use URL Scheme:<code>mwebapp://?p=quicknote</code> . After clicking, MWeb will automatically open the document of the quick note and pop up the keyboard according to the rules of the settings of the picture on the far right of the picture below. The focus of quick note is to remember, just write down, MWeb will automatically organize the documents into days. When you click on a quick note, if the quick note is not open, it will automatically add date and time as the title.</p>
-<p><img src="media/15465037191409/open-quick-note.jpg" alt="open-quick-note" /></p>
+<p><figure><img src="media/15465037191409/open-quick-note.jpg" alt="open-quick-note" /><figcaption>open-quick-note<figcaption></figure></p>
 <p>If you save the quick note settings in the MWeb for Mac document library, there is currently no support for categorization into a category, and the iOS version of the document library synchronization and full functionality will be improved in several versions.</p>
 <p>The following picture shows the situation of the Quick Note Editor and the folder for viewing the quick note of the previous date (I saved it in the <code>demo folder</code> folder in this machine).</p>
-<p><img src="media/15465037191409/quick-note.jpg" alt="quick-note" /></p>
+<p><figure><img src="media/15465037191409/quick-note.jpg" alt="quick-note" /><figcaption>quick-note<figcaption></figure></p>
 <h2><a id="improvements-of-the-markdown-keyboard" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Improvements of the Markdown keyboard</h2>
-<p><img src="media/15465318442964/markdown-keyboard.jpg" alt="markdown-keyboard" /></p>
+<p><figure><img src="media/15465318442964/markdown-keyboard.jpg" alt="markdown-keyboard" /><figcaption>markdown-keyboard<figcaption></figure></p>
 <p>As shown above, the Markdown syntax input keyboard has changed the style, insert image from Files app button and preview button have been added. In addition, in the <code>Settings - Customize Keyboard Toolbar Buttons</code>, you can also adjust the order and settings in the top toolbar, as shown in the image on the right side of the figure above.<br />
 On the left side of the image above, the top toolbar can be swiped to the left to see other hidden buttons. In addition, MWeb also provides a button to switch all Markdown syntax input keyboards, so if you don't like to use the slide mode, you can click this button to insert Markdown syntax.</p>
 <h2><a id="full-text-search" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Full Text Search</h2>
 <p>At present, this version finally supports full-text search. If the current search is separated by spaces, for example, by filling in the &quot;want to&quot;, the search document will found both &quot;want&quot; and &quot;to&quot; documents.</p>
-<p><img src="media/15465318442964/full-text-search.jpg" alt="full-text-search" /></p>
+<p><figure><img src="media/15465318442964/full-text-search.jpg" alt="full-text-search" /><figcaption>full-text-search<figcaption></figure></p>
 <h2><a id="document-library-improvements" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Document Library Improvements</h2>
 <p>As shown in the figure below, the document library home page has been added to display the newly added documents. This function should be convenient before all the functions of the document library are perfected. In addition, directly clicking on the classification will enter the effect of the right image as shown below. The sub-categories of this category will be displayed first, and then the documents under this category will be displayed. Then there is a URL Scheme:<code>mwebapp://?p=newlibdoc</code> with a new document library document added.<br />
 It should be noted that the current document library still does not support deletion, management classification and document categorization functions. These feature will be update in this year.</p>
-<p><img src="media/15465318442964/mweb-for-mac-library.jpg" alt="mweb-for-mac-library" /></p>
+<p><figure><img src="media/15465318442964/mweb-for-mac-library.jpg" alt="mweb-for-mac-library" /><figcaption>mweb-for-mac-library<figcaption></figure></p>
 <h2><a id="cloud-documents" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cloud Documents</h2>
 <p>The device's documents now move to the Cloud Documents page. In addition, tap the (i) button can set the folder options, as shown in the following figure.</p>
-<p><img src="media/15465318442964/external-folder.jpg" alt="external-folde" /></p>
+<p><figure><img src="media/15465318442964/external-folder.jpg" alt="external-folde" /><figcaption>external-folde<figcaption></figure></p>
 <p>That's all, thanks.</p>
 
 ]]></content>
@@ -190,10 +190,10 @@ It should be noted that the current document library still does not support dele
     <content type="html"><![CDATA[
 <p>Quick Note provide a concept: whenever you need to take notes, just click on the Quick Note button to start recording right away, regardless of file name, location, how to sort it, and so on. Just write down to complete the task, as for finishing or what, it is the next thing, do not have to consider, reduce the burden, just to write down.</p>
 <p>The Quick Note provides three entries, as shown in the following for two entries, and one way is to use URL Scheme:<code>mwebapp://?p=quicknote</code> . After clicking, MWeb will automatically open the document of the quick note and pop up the keyboard according to the rules of the settings of the picture on the far right of the picture below. The focus of quick note is to remember, just write down, MWeb will automatically organize the documents into days. When you click on a quick note, if the quick note is not open, it will automatically add date and time as the title.</p>
-<p><img src="media/15465037191409/open-quick-note.jpg" alt="open-quick-note" /></p>
+<p><figure><img src="media/15465037191409/open-quick-note.jpg" alt="open-quick-note" /><figcaption>open-quick-note<figcaption></figure></p>
 <p>If you save the quick note settings in the MWeb for Mac document library, there is currently no support for categorization into a category, and the iOS version of the document library synchronization and full functionality will be improved in several versions.</p>
 <p>The following picture shows the situation of the Quick Note Editor and the folder for viewing the quick note of the previous date (I saved it in the <code>demo folder</code> folder in this machine).</p>
-<p><img src="media/15465037191409/quick-note.jpg" alt="quick-note" /></p>
+<p><figure><img src="media/15465037191409/quick-note.jpg" alt="quick-note" /><figcaption>quick-note<figcaption></figure></p>
 
 ]]></content>
   </entry>
@@ -213,7 +213,7 @@ It should be noted that the current document library still does not support dele
 <h2><a id="2-x-user-data-migration" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2.x User Data Migration</h2>
 <p><strong>Document Library migration:</strong></p>
 <p>3.x will prompt you to import the old document library when you start. If you don't do this at first, or for any other reason, the solution is very simple. Copy the old document library to the location you want, and then use 3.x. Version of the <code>Preferences</code> - <code>Library &amp; Backup</code> - <code>Change the Library Location</code>-<code>Choose a Exist Library</code> and then select that location:<br />
-<img src="media/15306292548916/15306732465704.jpg" alt="" /></p>
+<figure><img src="media/15306292548916/15306732465704.jpg" alt="" /></figure></p>
 <p>If there are any problems, it is recommended to check this post: <a href="en-mweb-library.html">MWeb Document Library Details</a>.</p>
 <p><strong>Other data migration:</strong></p>
 <ol>
@@ -269,25 +269,25 @@ It should be noted that the current document library still does not support dele
 <h2><a id="mweb-s-static-website-category" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb's static website category</h2>
 <p>In MWeb's document library, there are two categories, one is the general category, and the other is the static website category. You can add a static website category directly, or right click in the category of the top level of the general category, select <code>Edit</code>, and then click the <code>Set to Site</code> button in the interface that comes out.</p>
 <p>Website category can set some things related to the website. The setting interface is as follows:</p>
-<p><img src="media/15306245140490/15306246596751.jpg" alt="" style="width:501px;" /></p>
+<p><figure><img src="media/15306245140490/15306246596751.jpg" alt="" style="width:501px;" /></figure></p>
 <p>The settings in the above picture should not be difficult to understand. If you want to generate a static website, after setting it, click the <code>Build Site</code> button. Before generating, please make sure that there is at least one article in your category. You can also right click to select the relevant menu item to generate the website. If you have modified the site template, use the <code>Clear and Rebuild Site</code> button. Of course, you can use this button to clean up and regenerate your website at any time.</p>
 <p>It can be seen that generating a static website in MWeb is very simple. Write a good article, then classify it into a static website category, then right-click on the static website category and select Generate Website. Of course, you can preview it first.</p>
 <h2><a id="two-article-type-in-mweb" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Two article type in MWeb</h2>
 <p>MWeb and Wordpress and other blogs have the same structure, divided into two articles type: <code>general article</code>  and <code>Page</code>. <code>Page</code> is used to do pages like about page, contact page, etc.</p>
 <p>As shown in the figure below, it is very simple to set the document in the MWeb document library to <code>page</code>. Click <code>top of the information bar</code> and check <code>Is Page</code>. The <code>HTML file name</code> is used to set the name of the generated HTML file. For example, the article in the above image will generate mweb-static-blog.html. <code>general article</code> The generated HTML file name is also set here.</p>
-<p><img src="media/15306245140490/15306250665566.jpg" alt="" style="width:598px;" /></p>
+<p><figure><img src="media/15306245140490/15306250665566.jpg" alt="" style="width:598px;" /></figure></p>
 <h2><a id="setting-the-main-menu-of-the-website" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting the main menu of the website</h2>
 <p>You can click the <code>Advanced Settings</code> button in the website settings interface to open the website extension to set the main menu of the website. You can also open it from <code>Preferences</code> - <code>Extension</code>, then select the website category to be set and select the <code>Site Menu</code>. This tab, as shown below:</p>
-<p><img src="media/15306245140490/15306251866722.jpg" alt="" style="width:595px;" /></p>
+<p><figure><img src="media/15306245140490/15306251866722.jpg" alt="" style="width:595px;" /></figure></p>
 <p>You can add, edit, and delete menus, or drag and drop to adjust the order. <strong>Notice:</strong> the <code>MWeb-Foundation-Book</code> template does not support the website menu.</p>
 <h2><a id="reference-between-documents" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reference between documents</h2>
 <p>It is very simple to reference other documents in MWeb. In the document list, right-click the document you want to reference and select <code>Copy</code> as shown below.</p>
-<p><img src="media/15306245140490/15306253060805.jpg" alt="" style="width:319px;" /></p>
+<p><figure><img src="media/15306245140490/15306253060805.jpg" alt="" style="width:319px;" /></figure></p>
 <p>Then paste the location of the document to be referenced <code>CMD + V</code>, and MWeb will generate <code>[How to use Publish Script to Publish website.](how_to_use_shell_script.html)</code>. If you hold down the <code>CMD</code> key and click, the referenced document will be opened.</p>
 <p>The Generate Static Website feature handles this reference very well and generates related web links.</p>
 <h2><a id="add-the-read-more-comment" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add the Read More Comment</h2>
 <p>For <code>Read More Comment</code>, please see the image below. You can use the menu: <code>Actions</code> - <code>Insert Read More Comment</code> to insert more readings, and then note that this comment must add a empty line in top and bottom, as follows Figure.</p>
-<p><img src="media/15304638513365/15304722329962.jpg" alt="" style="width:946px;" /></p>
+<p><figure><img src="media/15304638513365/15304722329962.jpg" alt="" style="width:946px;" /></figure></p>
 <h2><a id="configuring-website-publishing-scripts" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configuring website publishing scripts</h2>
 <p>This feature, MWeb for Mac 2.2.3, is designed to make the static website experience in MWeb reach the &quot;new document and edit&quot; - &quot;right click and choose to execute the release script&quot; as a simple process. Avoid the same as before, after you generate the website, you need to click the command to publish.<br />
 For detailed instructions, please refer to this article directly: <a href="https://www.mweb.im/how_to_use_shell_script.html">How to use Publish Script to Publish website.</a></p>
@@ -308,12 +308,12 @@ For detailed instructions, please refer to this article directly: <a href="https
 <p>Of course, the introduction of folders into MWeb makes it easy to open and manage Markdown documents and view the tree structure of folders without using Finder.</p>
 <h2><a id="add-a-folder-to-external-mode" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add a folder to External Mode</h2>
 <p>As shown below, press <code>CMD + E</code> to open the external mode, then click the “+” button in the left bottom corner to select the folder to be imported.</p>
-<p><img src="media/15306237915264/15306257614745.jpg" alt="" style="width:934px;" /></p>
+<p><figure><img src="media/15306237915264/15306257614745.jpg" alt="" style="width:934px;" /></figure></p>
 <p>In addition, you can also drag and drop folders directly into the folder tree list on the left to import folders.<br />
 Another way is to drag and drop the folder directly into the MWeb icon to import the folder.</p>
 <h2><a id="configuring-imported-folders" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configuring imported folders</h2>
 <p>After the folder is added, there is an important setting, which is to introduce the settings of the folder, you can right-click the imported folder, and then select <code>Edit</code>, it will display the following interface:</p>
-<p><img src="media/15306237915264/15306240869116.jpg" alt="" style="width:347px;" /></p>
+<p><figure><img src="media/15306237915264/15306240869116.jpg" alt="" style="width:347px;" /></figure></p>
 <p>One setting is the &quot;Display Name&quot;, which is specific to the imported folder. You will not modify the name of the folder if you modify the name. There are also several important settings that are related to inserting images. The first one is &quot;Media Folder Name:&quot;. This is followed by the &quot;Media Save Path:&quot; option is associated with this, and there are only two options for &quot;Absolute&quot; and &quot;Relative&quot;.<br />
 For example, if the folder I imported is A, then a file is under &quot;A/folder/file.md&quot;, if I insert a picture called &quot;pic.jpg&quot; in &quot;file.md&quot; , the result of the different options is:</p>
 <ol>
@@ -324,7 +324,7 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <p>Based on this feature, MWeb can support image insertion, preview and management of static website generation tools such as Octpress, Jekyll, hexo, gitbook, VuePress and so on.</p>
 <h2><a id="manage-imported-folders" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Manage imported folders</h2>
 <p>After the folder is imported, you can use the right button to perform some common operations on the imported folders and files, as shown in the following figure.</p>
-<p><img src="media/15306237915264/15306244948016.jpg" alt="" style="width:646px;" /></p>
+<p><figure><img src="media/15306237915264/15306244948016.jpg" alt="" style="width:646px;" /></figure></p>
 
 ]]></content>
   </entry>
@@ -338,17 +338,17 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <p>In MWeb for iPadOS/iOS, you can click the search box at the top to perform full-text search. In the macOS version of MWeb, there is has a quick search feature. The following instructions are related to the quick search feature of the macOS version of MWeb. Quick Search is a new feature in version 3.x and above for full-text search of Markdown files in Library or folders. Using Quick Search is as simple as pressing <code>CMD + O</code> in the Library mode interface or in the External Folder mode interface.</p>
 <h2><a id="quick-search-of-the-library" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick search of the Library</h2>
 <p>The following image is a quick search of the document library. If the search keyword is not filled in, the currently open document and the most recently used document will be displayed.</p>
-<p><img src="media/15306230463555/15306233096560.jpg" alt="" style="width:496px;" /></p>
+<p><figure><img src="media/15306230463555/15306233096560.jpg" alt="" style="width:496px;" /></figure></p>
 <p>Press the <code>Down</code> key to select the document and press <code>Enter</code> to open the selected document.</p>
 <p>In addition, the document library search can also set a global search shortcut. Press this shortcut to search the document library at any time. This shortcut can be set in <code>Preferences</code> - <code>General</code>, as shown below:</p>
-<p><img src="media/15306230463555/15306233721688.jpg" alt="" style="width:541px;" /></p>
+<p><figure><img src="media/15306230463555/15306233721688.jpg" alt="" style="width:541px;" /></figure></p>
 <p>The following image shows the results of opening a quick search and searching from the desktop after setting a shortcut.</p>
-<p><img src="media/15306230463555/15306235157238.jpg" alt="" style="width:519px;" /></p>
+<p><figure><img src="media/15306230463555/15306235157238.jpg" alt="" style="width:519px;" /></figure></p>
 <h2><a id="quick-search-for-external-mode" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick search for external mode</h2>
 <p>As shown in the figure below, the currently open document and the most recently used document are displayed without filling in the search keyword.</p>
-<p><img src="media/15306230463555/16421617135377.jpg" alt="" /></p>
+<p><figure><img src="media/15306230463555/16421617135377.jpg" alt="" /></figure></p>
 <p>As shown in the following figure, press <code>Down</code> key to select the document, press <code>Enter</code> to open the selected document.</p>
-<p><img src="media/15306230463555/16421617561801.jpg" alt="" /></p>
+<p><figure><img src="media/15306230463555/16421617561801.jpg" alt="" /></figure></p>
 <h2><a id="search-syntax" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Search syntax</h2>
 <p>MWeb 3.1.8 and above support search syntax like below:</p>
 <pre><code class="language-plain_text">[keyword1] [keyword2]... [-c category1,category2...] [-t tag1,tag2...] [-h keyword1,keyword2,...]
@@ -374,11 +374,11 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <p>The quick note feature is essentially to add documents according to a certain period of time (days) and save them to the set category of the Library or folder (only supported by iPadOS/iOS). Mainly to achieve, when you want to record text or images, you only need to click a button to start immediately.</p>
 <h2><a id="enable-quick-note-feature" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Enable quick note feature</h2>
 <p>This feature is disabled by default. If you want to enable it, in MWeb for macOS, please enable it in <code>Preferences - General</code>; in MWeb for iPadOS/iOS, please enable it in <code>Settings Page - Quick Note</code>. The following figure shows the settings interface in macOS and iOS respectively.</p>
-<p><img src="media/15306224411729/mweb_quick_note_setting.jpg" alt="" /></p>
+<p><figure><img src="media/15306224411729/mweb_quick_note_setting.jpg" alt="" /></figure></p>
 <p>You can set the time when quick notes are saved in that category and generate a new document. If you use it frequently, you can only write one a day. Otherwise, you can choose 3, 5, 7 days, etc. Among them, there is a check box of <code>Automatically insert time</code>. If it is checked, it will automatically add a line of current time as the title when recording a quick note.</p>
 <h2><a id="use-quick-note-feature" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use quick note feature</h2>
 <p>In the macOS version of MWeb, if Quick Notes is enabled, a button with an &quot;M&quot; icon will be displayed in the status bar. After clicking, Quick Notes can be used, as shown on the left side of the following figure; in the iPadOS/iOS version of MWeb , if MWeb is not open, you can press and hold the MWeb icon and select &quot;Quick Note&quot; to use Quick Notes. If MWeb is open, you can directly press the button in the middle of the bottom of the navigation page to use Quick Notes, as shown in the red box on the right side of the figure below.</p>
-<p><img src="media/15306224411729/mweb_quick_note_use.jpg" alt="" /></p>
+<p><figure><img src="media/15306224411729/mweb_quick_note_use.jpg" alt="" /></figure></p>
 
 ]]></content>
   </entry>
@@ -395,7 +395,7 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <h2><a id="the-library-structure-backup-and-restore-from-backup" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Library structure, backup and restore from backup</h2>
 <p>In general, it is not necessary to understand the structure of the Library. If you are using MWeb under macOS and want to backup or restore the Library, then it is necessary to understand the structure of the Library. Under macOS, when the Library is stored in a folder, you can directly view the folder where the Library is located to understand the structure of the Library. When the Library is stored in iCloud, MWeb will use CloudKit technology to completely synchronize the entire Library to a private folder of the MWeb. the located at: <code>~/Library/Containers/com.coderforart.MWeb3/ Data/Library/Application Support/MWebLibrary</code>. If you are using MWeb Standard version, please replace <code>com.coderforart.MWeb3</code> with <code>com.coderforart.iOS.MWeb</code>.</p>
 <p>The folder structure of the Library is composed of the docs folder, the mainlib.db file and the metadata folder. Among them, the docs folder contains the related materials of each note . The mainlib.db file saves the category and tag information and the category information to which the note belongs. The metadata folder only exists when the publishing service is used, and saves the information related to the publishing service. The figure below is a typical Library structure.</p>
-<p><img src="media/15303755379614/15303762803232.jpg" alt="" style="width:624px;" /></p>
+<p><figure><img src="media/15303755379614/15303762803232.jpg" alt="" style="width:624px;" /></figure></p>
 <p>This structure works well for backups and for git backups, and you may have noticed that even if you choose to store your Library in iCloud, you can also back up your Library. Because MWeb will sync all data to a private folder, you only need to backup that folder.</p>
 <p>Under macOS, if you want to restore a Library from a backup, there are two cases:</p>
 <ol>
@@ -404,9 +404,9 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 </ol>
 <h2><a id="how-to-use-the-categories-tree" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use the categories tree</h2>
 <p>There are two types of MWeb categories, one is the common categories, as shown below:</p>
-<p><img src="media/15306209330609/15306213639577.jpg" alt="" style="width:477px;" /></p>
+<p><figure><img src="media/15306209330609/15306213639577.jpg" alt="" style="width:477px;" /></figure></p>
 <p>One is static website categories, this categories can generate static websites, as shown below:</p>
-<p><img src="media/15306209330609/15306214269910.jpg" alt="" style="width:736px;" /></p>
+<p><figure><img src="media/15306209330609/15306214269910.jpg" alt="" style="width:736px;" /></figure></p>
 <p>MWeb provides a very simple way to generate a static website from the classified documents. For example, MWeb Chinese official website is generated by MWeb's static website function.</p>
 <p>The categories tree on the left side of the interface can be associated with the right-click and drag-and-drop to complete related management operations. The middle document list bar can drag and drop documents to the left category for document categories management. There are three cases of this drag and drop, and the following assumes that the drag is <strong>Category A</strong>:</p>
 <ol>
@@ -415,31 +415,31 @@ For example, if the folder I imported is A, then a file is under &quot;A/folder/
 <li>Hold down the <code>Option</code> button and drag the current document to the <strong>Category A</strong>. In this case, if the dragged document belongs to the <strong>Category A</strong>, the canceled document belongs to the <strong>Class A</strong>, If it does not belong to the <strong>Class A</strong>, no action is taken.</li>
 </ol>
 <p>This method of operation is more than one choice, that is, it can be managed in batches. If it is a single document, there is a better way to click on the top information bar of the editor and then check it, as shown below:</p>
-<p><img src="media/15306209330609/15306215401440.jpg" alt="" style="width:589px;" /></p>
+<p><figure><img src="media/15306209330609/15306215401440.jpg" alt="" style="width:589px;" /></figure></p>
 <p>This place is also the only place where you can set the document tag. You can also use the shortcut <code>CMD + 8</code> to open this interface.</p>
 <h2><a id="reference-between-documents" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reference between documents</h2>
 <p>It is very simple to reference other documents in MWeb. In the document list, right-click the document you want to reference and select ``.</p>
-<p><img src="media/15306209330609/15306217306407.jpg" alt="" style="width:326px;" /></p>
+<p><figure><img src="media/15306209330609/15306217306407.jpg" alt="" style="width:326px;" /></figure></p>
 <p>Then paste the location of the document to be referenced <code>CMD + V</code>, and MWeb will generate <code>[How to use Publish Script to Publish website.](how_to_use_shell_script.html)</code>. If you hold down the <code>CMD</code> key and click, the referenced document will be opened.</p>
 <h2><a id="document-sorting" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Document Sorting</h2>
 <p>The document library supports multiple sorting methods, and each top-level category can also set its own sorting method. There are two ways to modify the sorting method, one is as shown below:</p>
-<p><img src="media/15306209330609/15306217971719.jpg" alt="" style="width:475px;" /></p>
+<p><figure><img src="media/15306209330609/15306217971719.jpg" alt="" style="width:475px;" /></figure></p>
 <p>The other is to select the top-level category to be modified or a sub-category under the top-level category, and then right-click in the document list, as shown below:</p>
-<p><img src="media/15306209330609/15306218457167.jpg" alt="" style="width:548px;" /></p>
+<p><figure><img src="media/15306209330609/15306218457167.jpg" alt="" style="width:548px;" /></figure></p>
 <p>In various sorts, custom drag sorting is special and requires special instructions. Before I explain, let me explain a global option: <code>Group By Categories</code> Right-click in the document list to see the menu for this function. If it is enabled, it means that the documents in the list are in the state of grouping by category, no matter what sorting settings.<br />
 This use is actually to find and organize documents. However, if this global option is not enabled, then if the sort is set to a custom drag sort, the top level will also be grouped by category. In other words, as long as it is a custom drag sort, the document list bar must be displayed in groups.<br />
 This is due to the fact that a document can belong to multiple categories and the rules are set, otherwise it will be messy.<br />
 If you try to drag and drop in a category that is not a custom sort, MWeb will prompt you to set it to a custom drag sort before you can drag and drop. Customize the documents under the drag sort category, it is recommended to ensure that only one category is classified, so drag and drop sorting will not be messy.</p>
 <h2><a id="how-to-use-tags" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use tags</h2>
 <p>The function of the tag in MWeb is very simple. The method of setting the tag is as mentioned above. In addition, the document is viewed by Tag, as shown below:</p>
-<p><img src="media/15306209330609/16042937243208.jpg" alt="" style="width:268px;" /></p>
+<p><figure><img src="media/15306209330609/16042937243208.jpg" alt="" style="width:268px;" /></figure></p>
 <p>It can be seen that MWeb will list the tags of the entire document library and the tags under the currently selected category. After selecting, you can view the documents by tag.</p>
 <h2><a id="document-outline-view" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Document Outline View</h2>
 <p>As shown in the following figure, the document outline view will list the title and inserted images and attachments of the current document, and of course the extension items that can be used for static websites (if the current document belongs to a static website category). The figure below shows the effect of fixing the outline view.</p>
-<p><img src="media/15306209330609/15306221680761.jpg" alt="" style="width:298px;" /></p>
+<p><figure><img src="media/15306209330609/15306221680761.jpg" alt="" style="width:298px;" /></figure></p>
 <h2><a id="import-and-export-of-document-libraries" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Import and export of document libraries</h2>
 <p>As shown in the following figure, the document library supports importing Markdown documents into the document library. If you select a folder when importing, MWeb will import all the Markdown documents in the folder into the currently selected category. If there is a local image in the Markdown document of the folder, it will also be imported and modified to the image address in the document library format. This is only available in version 3.x. Version 2.x will only import Markdown text and will not import images. It should be noted that to import images, be sure to select the entire folder.<br />
-<img src="media/15306209330609/15306222408003.jpg" alt="" style="width:546px;" /></p>
+<figure><img src="media/15306209330609/15306222408003.jpg" alt="" style="width:546px;" /></figure></p>
 <p>In addition, you can export the entire categories to Markdown, and the exported Markdown document will create a folder according to the structure of the categories. Creating folders by category structure is also a feature that is only available in 3.x.</p>
 <p>The remaining two are exported to Epub and PDF. Yes, you can export the entire category to Epub or PDF!</p>
 <h2><a id="some-question-with-mweb-4-icloud-sync-library" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Some question with MWeb 4 iCloud sync Library</h2>
@@ -476,10 +476,10 @@ Because the synchronization process is stateless, for example, the current devic
 <p>The image upload service supports Imgur, sm.ms, Tencent Cloud, Qiniu Cloud, Youpai Cloud, Alibaba Cloud and customized image upload services. To use the image upload service, please add an image upload service first. In MWeb for macOS, please add image upload service in <code>Preferences - Publishing</code>; in MWeb for iPadOS/iOS, please add image upload service in <code>Settings Page - Image Upload</code>. There are two processing methods for using the image upload service in MWeb, which are described below:</p>
 <h2><a id="1-upload-to-the-image-upload-service-first-then-copy-the-markdown-syntax-to-the-editor" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Upload to the image upload service first, then copy the Markdown syntax to the editor</h2>
 <p>After adding the image upload service, please open the image upload window. In MWeb for macOS, please use the menu: <code>View - Image Upload Window</code> to open; in MWeb for iPadOS/iOS, please click the &quot;...&quot; button at the bottom of the editor, in the , select <code>Images Upload...</code>, or click the relevant button in the toolbar to open it. The interface of the Image Upload Window is shown in the figure below. The usage method is very simple.</p>
-<p><img src="media/15306175365886/mweb_images_uploads.jpg" alt="" /></p>
+<p><figure><img src="media/15306175365886/mweb_images_uploads.jpg" alt="" /></figure></p>
 <h2><a id="2-automatically-copy-to-the-relative-position-of-the-document-when-inserting-a-image" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Automatically copy to the relative position of the document when inserting a image</h2>
 <p>This is the method recommended by MWeb. In this way, you only need to complete the writing of the document. When you need to upload the images in the document to the image upload service and publish them, in MWeb for macOS, please use the menu: <code>Publish - Upload Local Image to...</code>; in MWeb for iPadOS/iOS, please click the <code>Share</code> button at the bottom of the editor and select the image upload service that you want to upload to. After the operation is performed, the image upload interface as shown below will be displayed:</p>
-<p><img src="media/15306175365886/mweb_images_uploads_ui.jpg" alt="" /></p>
+<p><figure><img src="media/15306175365886/mweb_images_uploads_ui.jpg" alt="" /></figure></p>
 <p>In this interface, the list in the middle will list all the local images in the document. First, please select the image upload service, and then click the &quot;Upload Image&quot; button. When the image is uploaded, you can choose to use the &quot;Copy Markdown&quot; button or the &quot;Copy HTML&quot; button, depending on what format you want. What is copied in is the content after the local image address has been replaced with the remote address of the image upload service.</p>
 
 ]]></content>
@@ -494,15 +494,15 @@ Because the synchronization process is stateless, for example, the current devic
 <p>Use MWeb to publish documents to Wordrpess, services that support the Metaweblog API protocol, Wordpress.com, Evernote, Ghost, Yuque, SSPAI Matrix, Blogger, Medium, Tumblr, and more.</p>
 <h2><a id="adding-and-using-publishing-services" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Adding and using publishing services</h2>
 <p>To use publishing service, please add the publishing service first. For macOS version of MWeb, please add related publishing services in <code>Preferences - Publishing</code>; for iPadOS/iOS version, please add related publishing services in <code>Settings Page - Publishing</code>, as shown below:</p>
-<p><img src="media/15306170400048/mweb_publish_services.jpg" alt="" /></p>
+<p><figure><img src="media/15306170400048/mweb_publish_services.jpg" alt="" /></figure></p>
 <p>After publishing services are added, you can also use drag and drop to change the order of publishing services. In MWeb for macOS, all added publishing services will be displayed in the <code>Publish</code> menu and also in the menu popped up by the <code>Share</code> button on the toolbar; in iPadOS/iOS, the publishing services will be displayed in the editor The <code>Share</code> button at the bottom pops up the menu, as shown below:</p>
-<p><img src="media/15306170400048/mweb_publish_to_uses.jpg" alt="" /></p>
+<p><figure><img src="media/15306170400048/mweb_publish_to_uses.jpg" alt="" /></figure></p>
 <p>In the current document, select the publishing service to be published to, and then the relevant interface can be called for publishing.</p>
 <p>Almost all publishing services support publishing local images. Except for Medium, almost all publishing services support updating. That is to say, for the same publishing service, after you publish it once, when you publish it again, the document will be updated. If you uncheck the update checkbox, a new article will be published, as shown below:</p>
-<p><img src="media/15306170400048/16421612158938.jpg" alt="" /></p>
+<p><figure><img src="media/15306170400048/16421612158938.jpg" alt="" /></figure></p>
 <h2><a id="metaweblog-api-introduction" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Metaweblog API Introduction</h2>
 <p>In the Add Publishing Service, select the Metaweblog API and the following interface will appear. In the pop-in project posted to the Metaweblog API, an item called &quot;API Address&quot; is added. Each website that supports the Metaweblog API provides an API address and fills in.</p>
-<p><img src="media/15306170400048/15306208196441.jpg" alt="" style="width:598px;" /></p>
+<p><figure><img src="media/15306170400048/15306208196441.jpg" alt="" style="width:598px;" /></figure></p>
 <p>The Metaweblog API addresses:</p>
 <ul>
 <li>typecho blog: <a href="http://xx.com/action/xmlrpc">http://xx.com/action/xmlrpc</a>, where xx.com is your blog URL. If typecho has not yet done url rewrite, it is <a href="http://xx.com/index.php/action/xmlrpc">http://xx.com/index.php/action/xmlrpc</a></li>
@@ -523,14 +523,14 @@ Because the synchronization process is stateless, for example, the current devic
     <id>https://www.mweb.im/en-mweb-export.html</id>
     <content type="html"><![CDATA[
 <p>MWeb supports exporting documents as image, HTML, PDF, and the macOS version also supports exporting as Epub, RTF and Docx. The usage method is shown in the figure below.</p>
-<p><img src="media/15306167569481/mweb_export_menu.jpg" alt="" style="width:484px;" /></p>
+<p><figure><img src="media/15306167569481/mweb_export_menu.jpg" alt="" style="width:484px;" /></figure></p>
 <h2><a id="features-specific-to-mweb-for-macos" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features specific to MWeb for macOS</h2>
 <h3><a id="copy-as-rich-text-feature" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Copy as Rich Text feature</h3>
 <p>You can use the menu: <code>Publish - Copy as Rich Text</code> to use this feature. This function is mainly used to paste the current Markdown document into Mail (mail.app), Pages.app, Word.app. In the case that the Markdown document has local images, the export to docx function does not currently support images well. At this time, you can use the <code>copy as rich text</code> function, and then press <code>CMD + V</code> in the three software mentioned above to paste, so that the picture can be pasted successfully.</p>
 <p>If you need to copy the preview style, you can try the menu: <code>Publish - Export or Copy as Image</code>, then select all the content in the interface, press <code>CMD + C</code> to copy, and then try to paste it into other editors, For example, WeChat editor.</p>
 <h3><a id="export-to-pdf-or-epub" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Export to PDF or Epub</h3>
 <p>MWeb can not only export a single Markdown document as PDF or Epub, but also export multiple documents as a PDF or Epub document in the Library mode.</p>
-<p><img src="media/15306167569481/mweb_export_lib_pdfs.jpg" alt="" /></p>
+<p><figure><img src="media/15306167569481/mweb_export_lib_pdfs.jpg" alt="" /></figure></p>
 <h3><a id="about-export-to-html-docx" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>About export to HTML, Docx</h3>
 <p>Using MWeb to export to HTML will export a single HTML. If there is a local image, the local image will be Base64 encoded and embedded into the HTML.</p>
 <p>In addition, exporting to Docx does not currently support local images. If the exported Docx document contains images, the current solution is to use Pandoc to export to Docx. The way to use it is to install Pandoc first, and then add the <code>Pandoc &amp; Run Script</code> service in the <code>Preferences - Publishing</code> of MWeb. Give it a name and save it, then in the &quot;Publish&quot; menu, choose to run this publishing service.</p>
@@ -579,11 +579,11 @@ All supported Markdown syntaxes can be found in the toolbar of the virtual keybo
 </code></pre>
 <h2><a id="mweb-support-for-inserting-tables" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb support for inserting tables</h2>
 <p>You can press the Insert Table button on the toolbar to insert a table, or you can use the shortcut key <code>Ctrl + Shift + T</code>, as shown in the figure below for table insertion support on macOS, and this feature is also available on iPadOS/iOS:</p>
-<p><img src="media/15305996967958/16421607832688.jpg" alt="" /></p>
+<p><figure><img src="media/15305996967958/16421607832688.jpg" alt="" /></figure></p>
 <p>For an existing table, you can move the cursor to the table syntax, and then use the Insert Table button to modify the existing table. You can insert a table first and then try to modify it.</p>
 <h2><a id="mweb-s-assistance-for-latex-mermaid-echarts-writing" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb's assistance for LaTeX, mermaid, echarts writing</h2>
 <p>In the MWeb editor, you can preview the LaTeX formula by moving the cursor to the middle of LaTeX. If you modify the formula, the preview will also be updated in real time. The following figure shows the assistance of LaTeX formulas, as well as the assistance of mermaid and echarts:</p>
-<p><img src="media/15303597337753/16420004813946.jpg" alt="" /></p>
+<p><figure><img src="media/15303597337753/16420004813946.jpg" alt="" /></figure></p>
 
 ]]></content>
   </entry>
@@ -674,7 +674,7 @@ Content in the first column | Content in the second column
 Format: ![image description](url)
 </code></pre>
 <p>In MWeb, you can use <code>-w + Number</code> to control image width, for example, set the image width 140px:</p>
-<p><img src="https://zh.mweb.im/asset/img/set-up-git.gif" alt="Image description" /></p>
+<p><figure><img src="https://zh.mweb.im/asset/img/set-up-git.gif" alt="Image description" /><figcaption>Image description<figcaption></figure></p>
 <h3><a id="mweb-drawing" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>MWeb Drawing</h3>
 <h4><a id="mermaid" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>mermaid</h4>
 <p>Mermaid is a popular js graphics library. It supports flowcharts, sequence diagrams and Gantt charts. Its official website is: <a href="https://mermaidjs.github.io/">https://mermaidjs.github.io/</a>. The syntax for using mermaid in MWeb is to declare code blocks. The language is mermaid, and the mermaid drawing syntax can be written in the code block. You can copy the following syntax into MWeb to view the result.</p>
@@ -693,7 +693,7 @@ sequenceDiagram
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<p><img src="media/15305971422667/16421614330357.jpg" alt="" style="width:456px;" /></p>
+<p><figure><img src="media/15305971422667/16421614330357.jpg" alt="" style="width:456px;" /></figure></p>
 <h4><a id="echarts" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>echarts</h4>
 <p>Echarts is a js graph library of Baidu. Its website is <a href="https://echarts.apache.org/zh/index.html">https://echarts.apache.org/zh/index.html</a>. It is very powerful. MWeb supports some basic usages of echarts. You can try the following syntax to copy it into MWeb. You can also go to the <a href="https://echarts.apache.org/examples/zh/index.html">https://echarts.apache.org/examples/zh/index.html</a> URL to see some examples. Note that MWeb can only parse <code>option = {}</code> which is simple but should be enough used.</p>
 <pre><code class="language-plain_text">```echarts
@@ -713,7 +713,7 @@ option = {
 ```
 </code></pre>
 <p><strong>Result：</strong></p>
-<p><img src="media/15305971422667/16421614994388.jpg" alt="" style="width:467px;" /></p>
+<p><figure><img src="media/15305971422667/16421614994388.jpg" alt="" style="width:467px;" /></figure></p>
 <h3><a id="latex-mathjax-rendering" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>LaTeX (MathJax rendering)</h3>
 <p>MWeb uses the native code block syntax in CommonMark to support LaTeX math formulas. The syntax of inline code and code blocks in CommonMark is highly extensible and can be extended at will. MWeb uses ``inline math`` as the inline syntax for math formulas and ```math block math ``` as the block syntax for math formulas. Then `code` is still inline code syntax, and ``inline math`` is also inline code in CommonMark, but will be rendered as math formula in MWeb. The advantage of this is that when the original markdown document is published to an environment that does not support mathematical formulas, it will be displayed in code, so that the original formula text will be displayed and will not affect reading too much.<br />
 In addition, MWeb is also compatible with <code>$ and $$</code> style math formulas. When using math formulas, you need to enable LaTeX math formulas in `Preferences - General' and select the syntax to use.</p>
@@ -778,24 +778,24 @@ In addition, MWeb is also compatible with <code>$ and $$</code> style math formu
 <p>These two modes can basically meet almost all the needs of using Markdown under macOS/iPadOS/iOS. The two modes are described below.</p>
 <h3><a id="library-mode" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Library mode</h3>
 <p>Library mode, the first thing to know is that the current Library is stored in. When you use MWeb for the first time, you will be asked to set the storage location of your documents, you can store the Library in a folder, or in iCloud. In addition, you can check the storage location of your Library at any time in Preferences. Under macOS, you can check it in <code>Preferences - Library &amp; Backup</code>, and on iPadOS/iOS, you can check it in <code>Settings Page - Library</code>. If you want to sync your Library across multiple devices, we recommend storing your Library in iCloud. The following figure shows the result of the Library being stored in iCloud.</p>
-<p><img src="media/15305970515404/Library_Store_in.jpg" alt="" /></p>
+<p><figure><img src="media/15305970515404/Library_Store_in.jpg" alt="" /></figure></p>
 <p>Once you know where the Library is stored, you can start to use the Library.</p>
 <p>The Library interface of MWeb's macOS/iPadOS/iOS version is shown in the figure below. The interfaces of the three platforms are deeply optimized for each platform. The macOS version of the Library uses a separate window, you can use the shortcut <code>CMD + L</code> to open the Library at any time, or you can use the menu: <code>View</code> - <code>Open Library</code> to open the Library. The Library for iPadOS/iOS is displayed in the <code>Library</code> group on the home page.</p>
-<p><img src="media/15305970515404/Library_UI.jpg" alt="" /></p>
+<p><figure><img src="media/15305970515404/Library_UI.jpg" alt="" /></figure></p>
 <h3><a id="basic-usage-of-the-library" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic usage of the Library</h3>
 <p><strong>Add a new category:</strong> In macOS, you mainly use the <strong>right click</strong> of the categories tree on the left to add a new category. You can also click the &quot;+&quot; button in the lower left corner to add a new category; for iPadOS/iOS, you can tap the &quot;+&quot; button at the bottom to add a new category.</p>
 <p><strong>Add a new document:</strong> In macOS, you can use: <strong>right click</strong> to categorize, click the new document button in the toolbar, or the shortcut key <code>CMD + N</code> to add a new document; for iPadOS/iOS, please tap The &quot;+&quot; button at the bottom to add a new document.</p>
 <p><strong>Set document categories and tags:</strong> You can click the document information bar at the top of the editor to set the categories and tags of the document, as shown below. This interface can also be called up using the shortcut <code>CMD + 8</code>.</p>
-<p><img src="media/15305970515404/Library_SetCatsTags.jpg" alt="" /></p>
+<p><figure><img src="media/15305970515404/Library_SetCatsTags.jpg" alt="" /></figure></p>
 <p><strong>View the outline of the document:</strong> As shown below, in macOS, you can click the (i) button on the toolbar to view the outline of the document, or you can use the shortcut <code>CMD + 7</code>. If you want to pin this outline view, you can directly drag it to pin it, or you can use the &quot;View&quot; menu to set the pinned position. In iPadOS/iOS, you can click the (i) button at the bottom of the editor to view the outline.</p>
-<p><img src="media/15305970515404/Library_OutlineView.jpg" alt="" style="width:614px;" /></p>
+<p><figure><img src="media/15305970515404/Library_OutlineView.jpg" alt="" style="width:614px;" /></figure></p>
 <h3><a id="external-folder-mode" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>External Folder mode</h3>
 <p>External Folder mode is mainly used to create or edit all Markdown and Textbundle documents in folders on your hard drive. The External Folder mode interface of MWeb's macOS/iPadOS/iOS version is shown in the figure below. The interfaces of the three platforms are deeply optimized for each platform. The External Folder mode of the macOS version uses a separate window. You can use the shortcut <code>CMD + E</code> to open the external folder mode at any time, or you can use the menu: <code>View</code> - <code>Open External Folder Mode</code> to open it. The External Folder mode for iPadOS/iOS is displayed in the <code>Folders</code> group on the home page.</p>
-<p><img src="media/15305970515404/External_UI.jpg" alt="External_UI" /></p>
+<p><figure><img src="media/15305970515404/External_UI.jpg" alt="External_UI" /><figcaption>External_UI<figcaption></figure></p>
 <h3><a id="basic-usage-of-external-folder-mode" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic usage of External Folder mode</h3>
 <p>The External Folder mode of MWeb of macOS is a classic two-column structure, the left side is the folder list, and <strong>right-click</strong> in the folder can complete the management functions such as adding, deleting, and renaming files and folders. Click The &quot;+&quot; button can import folders. In MWeb for iPadOS/iOS, click the &quot;+&quot; button at the bottom to import folders, and you can also add folders to iCloud Drive and Dropbox. Click the &quot;+&quot; button to add a new document, <strong>long press</strong> on the file or folder in the list to complete the management functions such as adding, deleting, and renaming files and folders.</p>
 <p>Each folder imported into MWeb will have setting items as shown below. In MWeb of macOS, right-click the imported folder and select <code>Edit</code> to call up this setting interface; in iPadOS/iOS, click the (i) button to the right of the imported folder on the home page to call up this setting interface .</p>
-<p><img src="media/15305970515404/Externa_FolderSetting.jpg" alt="" style="width:684px;" /></p>
+<p><figure><img src="media/15305970515404/Externa_FolderSetting.jpg" alt="" style="width:684px;" /></figure></p>
 <p>This interface has a more important setting, which is related to the inserted images, which is &quot;Media Folder Name:&quot;, which is known at a glance, and this is associated with the following &quot;Media Save Path:&quot; , this only has two options of &quot;Absolute&quot; and &quot;Relative&quot;.<br />
 For example, the folder I imported is A, and then there is a file under &quot;A/folder/file.md&quot;, if I insert a image named &quot;pic.jpg&quot; in &quot;file.md&quot; , the results of different options are:</p>
 <ol>
@@ -811,7 +811,7 @@ Directly click on the document in the list of the Library, and the tab that open
 If you want to make it a fixed tab, double-click the document or tab, or you can <code>right-click</code> - <code>open in new tab</code>. Also, as long as the document is edited, the tags will automatically become fixed.</p>
 <p>The purpose of this design is to achieve such a process: when clicked, the document is displayed, and if I decide to use it or to display it all the time, make this tab fixed.</p>
 <p>You can drag and drop left and right to change the order of the tabs. If there are too many open tabs, you can also right-click on the tab to perform some management, as shown in the following figure:</p>
-<p><img src="media/15305970515404/16421625478400.jpg" alt="" /></p>
+<p><figure><img src="media/15305970515404/16421625478400.jpg" alt="" /></figure></p>
 <p><strong>Other Tips:</strong> If you have too many tabs open, you can move the mouse over the tab and then slide the touchpad left and right to view the left and right hidden tabs.</p>
 
 ]]></content>
@@ -875,7 +875,7 @@ If you want to make it a fixed tab, double-click the document or tab, or you can
 </ol>
 <h2><a id="3-config-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Config Publish Script</h2>
 <p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the below:</p>
-<p><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;" /></p>
+<p><figure><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;" /></figure></p>
 <p>If you click &quot;Load Sample&quot; button, you will sea the sample like below, you can edit it for your own.</p>
 <pre><code class="language-plain_text">#!/bin/sh
 # Please set the name and email. 
@@ -890,7 +890,7 @@ git push -u origin master
 </code></pre>
 <h2><a id="4-execute-the-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Execute the Publish Script</h2>
 <p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like below:</p>
-<p><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;" /></p>
+<p><figure><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;" /></figure></p>
 
 ]]></content>
   </entry>

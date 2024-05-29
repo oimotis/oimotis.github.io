@@ -3,11 +3,71 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.6.2</title>
+            <pubDate>Wed, 29 May 2024 23:24:02 +0800</pubDate>
+            <sparkle:version>1254</sparkle:version>
+            <sparkle:shortVersionString>4.6.2</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: When exporting a Markdown document as an image, you can choose whether to add a border or not, and you can also choose 4 different image sizes. The exported images also become very beautiful.</li>
+    <li>New feature: Added a &quot;Show in Finder&quot; submenu under the &quot;File&quot; menu. After using it, the location of the current document will be displayed in the Finder.</li>
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：把 Markdown 文档导出为图片时，可以选择是否加边框，也可以选择 4 种不同的图片大小，导出的图片也变得很好看了。</li>
+    <li>新增：“文件” 菜单下增加 “在 Finder 中显示” 子菜单，使用后，会在 Finder 中显示出当前文档的位置。</li>
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：把 Markdown 文檔導出為圖片時，可以選擇是否加邊框，也可以選擇 4 種不同的圖片大小，導出的圖片也變得很好看了。</li>
+        <li>新增：“文件” 菜單下增加 “在 Finder 中顯示” 子菜單，使用後，會在 Finder 中顯示出當前文檔的位置。</li>
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro462.zip" length="36044435" type="application/octet-stream" sparkle:edSignature="I7dzfQ4qsqzlDDcHimflwaUIM8i/iXiDnWEtPbC022EPHKxBo+uhJgpJM1PmeQmUY6Ruv25fbQY7Ns6q4NP1Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1249.delta" sparkle:deltaFrom="1249" length="920514" type="application/octet-stream" sparkle:edSignature="P1Hq7oLZ5drHoR3LuAK752X0c6Eq4kB0v9gEnlyvNEmcqgL62cYdLra6SU9YF4bkpwKJlY4+ZMdKg/CmjwMPDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1246.delta" sparkle:deltaFrom="1246" length="1111078" type="application/octet-stream" sparkle:edSignature="hvonnfn/kQ7PkkrTyKlsD2+yF7Dpdx8iO20mVn6wF1yQSheP8wAXJgT1XL5oHnA0e1IlkJNM7A5yqBmxtBFQAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1242.delta" sparkle:deltaFrom="1242" length="1134466" type="application/octet-stream" sparkle:edSignature="OlmZgl2qBFhAzwBRHtU1F0JzsqcVm6wXv58wVw8H0tsynO0T8sYZSIRF4VcPo224h1soaExRlDNLh4Q8/MrnDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1239.delta" sparkle:deltaFrom="1239" length="1923622" type="application/octet-stream" sparkle:edSignature="4dzipcdYLl2bGUnIGzS8AnRLCP5QCwB8ProXfeN1QqabXpZ2FU8/gHnk05LxTVDM+TPltL8ATh80Odh110xJDw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1237.delta" sparkle:deltaFrom="1237" length="1927194" type="application/octet-stream" sparkle:edSignature="uTHYo/BxY+VnI48YRooiCt3e1LbfxZhMg0XdfCi2FuGFngZvIQsVLtNHdoBMKvsL7Vj3XNqH6hHDnbY39hreCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.6.1</title>
             <pubDate>Thu, 25 Apr 2024 23:03:44 +0800</pubDate>
             <sparkle:version>1249</sparkle:version>
             <sparkle:shortVersionString>4.6.1</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Improvement: When exporting HTML, you can choose whether to add Table Of Contents (TOC), and whether to add it on the left or right. You can choose it in the interface for exporting HTML.</li>
     <li>Improvement: In the menu: Actions - Insert current date, add a menu item to insert the current time.</li>
@@ -22,8 +82,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>改进：导出 HTML 时，可以选择是否增加 Table Of Contents（TOC），要增加在左侧还是右侧。在导出 HTML 的界面中就可以选择了。</li>
     <li>改进：在菜单：语法 - 插入当前日期 中，增加插入当前时间的菜单项。</li>
@@ -37,8 +96,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>改進：導出 HTML 時，可以選擇是否增加 Table Of Contents（TOC），要增加在左側還是右側。在導出 HTML 的界面中就可以選擇了。</li>
         <li>改進：在菜單：語法 - 插入當前日期 中，增加插入當前時間的菜單項。</li>
@@ -52,7 +110,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro461.zip" length="36038078" type="application/octet-stream" sparkle:edSignature="PsRHPn0EPRbYwB995oDObphWhGCoK2FTQveGPH3reKfcJWXpSv+g0FJfaH7g95ruLWZPH07AJOSX8ZrThJmkDA=="/>
             <sparkle:deltas>
