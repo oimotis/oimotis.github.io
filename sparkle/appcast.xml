@@ -3,11 +3,70 @@
     <channel>
         <title>MWeb Pro</title>
         <item>
+            <title>4.6.3</title>
+            <pubDate>Wed, 31 Jul 2024 15:50:57 +0800</pubDate>
+            <sparkle:version>1262</sparkle:version>
+            <sparkle:shortVersionString>4.6.3</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+   <ul>
+<li>New feature: Images upload supports Cloudfalre R2, AmazonS3 and Auzre Blob.</li>
+<li>New feature: Added a &quot;Always on Top&quot; button in the toolbar. Use the menu: &quot;View - Customize toolbar&quot; to see it.</li>
+<li>Improvement: Export images now have options of &quot;Solid border, no gradient&quot; and &quot;No border, no gradient&quot;.</li>
+<li>Improvement: The &quot;Undo and Redo&quot; in the editor changes from recording each typed character to the system default way. If you like the original way, you can check it in &quot;Settings - General Settings&quot;.</li>
+<li>Bug fixes and improvements.</li>
+</ul>
+
+
+
+
+
+
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+   <ul>
+<li>新增：图片上传支持 CloudfalreR2，AmazonS3 和 Auzre Blob。</li>
+<li>新增：工具条新增 “窗口浮动在最前面” 按钮，使用菜单：“视图 - 自定义工具条” 就可以看到了。</li>
+<li>改进：导出图片现在可选择“实线边框，无渐变色” 和 “无边框，无渐变色”。</li>
+<li>改进：编辑器中的 “撤销和重做” 由记录每个键入的字符，改为系统默认的方式。如果你喜欢原来的方式，你可以在 “偏好设置 - 通用设置” 中勾选。</li>
+<li>Bug 修正及改进。</li>
+</ul>
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+<li>新增：圖片上傳支持 CloudfalreR2，AmazonS3 和 Auzre Blob。</li>
+<li>新增：工具條新增 “窗口浮動在最前面” 按鈕，使用菜單：“視圖 - 自定義工具條” 就可以看到了。</li>
+<li>改進：導出圖片現在可選擇“實線邊框，無漸變色” 和 “無邊框，無漸變色”。</li>
+<li>改進：編輯器中的 “撤銷和重做” 由記錄每個鍵入的字符，改為系統默認的方式。如果你喜歡原來的方式，你可以在 “偏好設置 - 通用設置” 中勾選。</li>
+<li>Bug 修正及改進。</li>
+</ul>
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro463.zip" length="36108357" type="application/octet-stream" sparkle:edSignature="bIZIZrwVAI5NHeKC2er8RNy6rzWGigY+eIibwTEHgy/4ZVDbfW6fFEpa6ZeZ86Btytv4nN7MfO64DUL4z17JCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1254.delta" sparkle:deltaFrom="1254" length="1260858" type="application/octet-stream" sparkle:edSignature="y7zh+jUlHZ+0eLsVN8JEQTTa7D22UFVZk26kQxP0JSa/2i2gJvd6Jxrui6E6BH0CpXJqPBgzvE3bab/MGBAqDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1249.delta" sparkle:deltaFrom="1249" length="1322342" type="application/octet-stream" sparkle:edSignature="Y5hMrynrk3zWt6UqcUhMXE02zxnM7nGrZv04W9HwQuAi1ZYq+zShtvNSl4Hal7CDthoy+dD+z2UBgomEaBmLDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1246.delta" sparkle:deltaFrom="1246" length="1468846" type="application/octet-stream" sparkle:edSignature="EGVOhSlgGcyVVgKjBWWopmnrNtYeWFDo//r0MAgIuMmOdnY/Kzi2T9PGrkxST2NhvWZr7rAmoFDIGLq/83E0Bg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1242.delta" sparkle:deltaFrom="1242" length="1485502" type="application/octet-stream" sparkle:edSignature="n8qb1nRSqDHg04q5gGJWPInUEhbFX2YzsonKyreg4Xs8hw6bzugYvSQ7pXUJ1xficwVW95ORzi4PFwrvwjClBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1239.delta" sparkle:deltaFrom="1239" length="2225506" type="application/octet-stream" sparkle:edSignature="Td4peHFOa5BnHwxDkdYHdivXky1wjw9aRklJD5LYo3uthWWtUHmbVBV+R1hoysYy2c6MWt5I9GA32cURWEm0BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.6.2</title>
             <pubDate>Wed, 29 May 2024 23:24:02 +0800</pubDate>
             <sparkle:version>1254</sparkle:version>
             <sparkle:shortVersionString>4.6.2</sparkle:shortVersionString>
-<description xml:lang="en"><![CDATA[ 
+            <description xml:lang="en"><![CDATA[ 
     <ul>
     <li>Improvement: When exporting a Markdown document as an image, you can choose whether to add a border or not, and you can also choose 4 different image sizes. The exported images also become very beautiful.</li>
     <li>New feature: Added a &quot;Show in Finder&quot; submenu under the &quot;File&quot; menu. After using it, the location of the current document will be displayed in the Finder.</li>
@@ -22,8 +81,7 @@
 
 
  ]]></description>
-
-<description xml:lang="zh"><![CDATA[ 
+            <description xml:lang="zh"><![CDATA[ 
     <ul>
     <li>改进：把 Markdown 文档导出为图片时，可以选择是否加边框，也可以选择 4 种不同的图片大小，导出的图片也变得很好看了。</li>
     <li>新增：“文件” 菜单下增加 “在 Finder 中显示” 子菜单，使用后，会在 Finder 中显示出当前文档的位置。</li>
@@ -37,8 +95,7 @@
 
 
 ]]></description>
-
-<description xml:lang="zh-Hant"><![CDATA[
+            <description xml:lang="zh-Hant"><![CDATA[
     <ul>
         <li>改進：把 Markdown 文檔導出為圖片時，可以選擇是否加邊框，也可以選擇 4 種不同的圖片大小，導出的圖片也變得很好看了。</li>
         <li>新增：“文件” 菜單下增加 “在 Finder 中顯示” 子菜單，使用後，會在 Finder 中顯示出當前文檔的位置。</li>
@@ -51,7 +108,6 @@
 
 
 ]]></description>
-           
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro462.zip" length="36044435" type="application/octet-stream" sparkle:edSignature="I7dzfQ4qsqzlDDcHimflwaUIM8i/iXiDnWEtPbC022EPHKxBo+uhJgpJM1PmeQmUY6Ruv25fbQY7Ns6q4NP1Bg=="/>
             <sparkle:deltas>
