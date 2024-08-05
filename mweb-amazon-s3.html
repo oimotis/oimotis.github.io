@@ -8,7 +8,7 @@
     <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
     <title> 
 	  
-  	You can view the Chinese version now: - MWeb
+  	Upload images in Markdown documents to Amazon S3 with one click - MWeb
   	
   	</title>
      <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
@@ -51,18 +51,122 @@
     </div>
     
     
-   <div class="container" id="content-wrap">
-	<div class="page-post">
-		<h2 class="blog-post-title">You can view the Chinese version now:</h2>
-<hr />
-		<div class="page-content content-responsive">
-			<p><a href="https://zh.mweb.im/mweb-amazon-s3.html">把 Markdown 文档中的图片一键上传到 Amazon S3</a></p>
-<p>English version will be available soon.</p>
+ <div class="container" id="content-wrap">
+ 
+ 
+    
+     
+   <script type="text/javascript">
+      $(function(){
+        $('a.menu-blog').addClass('active');
+      });
+      </script>
 
-		</div>
-  	</div>
- </div>
-   <footer class="blog-footer">
+    
+      <script type="text/javascript">
+    $(function(){
+      var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    if (filename.length > 5) {
+      $('.blog-cats a').each(function(){
+        var href = $(this).attr('href');
+        if(href.length>5){
+          href = href.substring(0,href.length-5);
+          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+        }
+      });
+    }
+    });
+  </script>
+   <div class="row">
+        <div class="col-sm-12">
+
+          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+
+        <ul class="blog-cats">
+
+  
+    
+
+  
+      <li><a href="blog.html">All</a></li> 
+        
+              <li><a href="docs.html">Tutorials</a></li>
+        
+              <li><a href="tips.html">Tips & Tricks</a></li>
+        
+              <li><a href="releases.html">Releases</a></li>
+        
+    
+
+        </ul>
+        <div class="rss"><a href="atom.xml">RSS</a></div>
+          </div>
+       </div>
+     </div>
+     <hr style="margin-bottom: 60px;" />
+
+      <div class="row">
+
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
+				<div class="blog-post">
+		            <h2 class="blog-post-title">Upload images in Markdown documents to Amazon S3 with one click</h2>
+		            <p class="blog-post-meta">2024/08/02 
+			            &nbsp;posted in 
+						
+						    <a class='category' href='blog.html'>Blog</a>&nbsp;
+						 
+						 
+		            </p>
+		            <div class="content-responsive">
+		            <p>In MWeb, there are two ways to upload images. One is to upload first and then insert the Markdown syntax into the document; the other is to insert the image into the document by dragging or copying and pasting when writing the document. The image will be stored locally. After the document is written, it can be uploaded with one click. For detailed usage of these two methods, please refer to the article: <a href="en-mweb-images-upload.html">MWeb's image upload service introduction</a>.</p>
+<p>After knowing the image upload method, the following is a detailed description of how to configure the Amazon S3 image upload service. After configuration, you can easily upload images in Markdown documents to Amazon S3.</p>
+<p>First, go to &quot;Settings - Publishing&quot; and add the Amazon S3 image upload service. At this time, the information filling interface shown in the figure below will be displayed. The figure below is the filling interface of the Mac version of MWeb, and the iPad/iPhone platform is the same.</p>
+<p><img src="media/17226121107797/17228311785768.jpg" alt="" /></p>
+<p>The following will explain each item in detail.</p>
+<p><strong>Name:</strong> You can fill in the name you want, as long as it can identify this image upload service.</p>
+<p><strong>AWS Region:</strong> and <strong>Bucket Name:</strong>, you will know it after creating the bucket. Among them, you can click the &quot;Choose Region...&quot; button to choose the AWS region, or fill it in directly. As shown in the figure below, my AWS region is: <code>ap-southeast-2</code>, and the bucket name is: <code>mwebapp</code>.</p>
+<p><img src="media/17226121107797/17228314319568.jpg" alt="" /></p>
+<p><strong>Access Key:</strong> and <strong>Secret Access Key:</strong> For these two, you need to create users and assign permissions in Identity and Access Management (IAM). This part is quite complicated. I simply created a user named <code>mweb</code> and granted it the AmazonS3FullAccess permission, as shown below:</p>
+<p><img src="media/17226121107797/17228315543346.jpg" alt="" /></p>
+<p>After authorization, create an access key in &quot;Security Credentials&quot;, as shown below:</p>
+<p><img src="media/17226121107797/17228316821376.jpg" alt="" /></p>
+<p>In the selection of &quot;Access key best practices &amp; alternatives&quot; when creating, I chose &quot;Other&quot;, so that I can get <strong>Access Key:</strong> and <strong>Secret Access Key:</strong>, as shown below:</p>
+<p><img src="media/17226121107797/17228318373643.jpg" alt="" /></p>
+<p><strong>Domain:</strong> Amazon There is a very detailed document on how to bind a domain name to a bucket. Please refer to: <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html">Tutorial: Configuring a static website on Amazon S3</a>. I will fill in: <code>http://mwebapp.s3-website-ap-southeast-2.amazonaws.com</code>.</p>
+<p><strong>Save Key:</strong> Please do not change unless necessary. If you want to change it, you should know what it means.</p>
+<p>The following is a screenshot after filling in the form:</p>
+<p><img src="media/17226121107797/17228319665690.jpg" alt="" /></p>
+
+		            </div>
+				</div><!-- /.blog-post -->
+			</div>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+			</div>
+
+        </div><!-- /.blog-main -->
+	</div>
+</div>   <footer class="blog-footer">
       <p>Copyright &copy; 2022
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
 .</p>

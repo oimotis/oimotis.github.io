@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2024-08-02T23:25:04+08:00</updated>
+  <updated>2024-08-02T23:26:14+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,85 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Upload images in Markdown documents to Amazon S3 with one click]]></title>
+    <link href="https://www.mweb.im/mweb-amazon-s3.html"/>
+    <updated>2024-08-02T23:21:50+08:00</updated>
+    <id>https://www.mweb.im/mweb-amazon-s3.html</id>
+    <content type="html"><![CDATA[
+<p>In MWeb, there are two ways to upload images. One is to upload first and then insert the Markdown syntax into the document; the other is to insert the image into the document by dragging or copying and pasting when writing the document. The image will be stored locally. After the document is written, it can be uploaded with one click. For detailed usage of these two methods, please refer to the article: <a href="en-mweb-images-upload.html">MWeb's image upload service introduction</a>.</p>
+<p>After knowing the image upload method, the following is a detailed description of how to configure the Amazon S3 image upload service. After configuration, you can easily upload images in Markdown documents to Amazon S3.</p>
+<p>First, go to &quot;Settings - Publishing&quot; and add the Amazon S3 image upload service. At this time, the information filling interface shown in the figure below will be displayed. The figure below is the filling interface of the Mac version of MWeb, and the iPad/iPhone platform is the same.</p>
+<p><img src="media/17226121107797/17228311785768.jpg" alt="" /></p>
+<p>The following will explain each item in detail.</p>
+<p><strong>Name:</strong> You can fill in the name you want, as long as it can identify this image upload service.</p>
+<p><strong>AWS Region:</strong> and <strong>Bucket Name:</strong>, you will know it after creating the bucket. Among them, you can click the &quot;Choose Region...&quot; button to choose the AWS region, or fill it in directly. As shown in the figure below, my AWS region is: <code>ap-southeast-2</code>, and the bucket name is: <code>mwebapp</code>.</p>
+<p><img src="media/17226121107797/17228314319568.jpg" alt="" /></p>
+<p><strong>Access Key:</strong> and <strong>Secret Access Key:</strong> For these two, you need to create users and assign permissions in Identity and Access Management (IAM). This part is quite complicated. I simply created a user named <code>mweb</code> and granted it the AmazonS3FullAccess permission, as shown below:</p>
+<p><img src="media/17226121107797/17228315543346.jpg" alt="" /></p>
+<p>After authorization, create an access key in &quot;Security Credentials&quot;, as shown below:</p>
+<p><img src="media/17226121107797/17228316821376.jpg" alt="" /></p>
+<p>In the selection of &quot;Access key best practices &amp; alternatives&quot; when creating, I chose &quot;Other&quot;, so that I can get <strong>Access Key:</strong> and <strong>Secret Access Key:</strong>, as shown below:</p>
+<p><img src="media/17226121107797/17228318373643.jpg" alt="" /></p>
+<p><strong>Domain:</strong> Amazon There is a very detailed document on how to bind a domain name to a bucket. Please refer to: <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html">Tutorial: Configuring a static website on Amazon S3</a>. I will fill in: <code>http://mwebapp.s3-website-ap-southeast-2.amazonaws.com</code>.</p>
+<p><strong>Save Key:</strong> Please do not change unless necessary. If you want to change it, you should know what it means.</p>
+<p>The following is a screenshot after filling in the form:</p>
+<p><img src="media/17226121107797/17228319665690.jpg" alt="" /></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Upload images in Markdown documents to Azure Blob with one click]]></title>
+    <link href="https://www.mweb.im/mweb-azure-blob.html"/>
+    <updated>2024-08-02T23:21:49+08:00</updated>
+    <id>https://www.mweb.im/mweb-azure-blob.html</id>
+    <content type="html"><![CDATA[
+<p>In MWeb, there are two ways to upload images. One is to upload first and then insert the Markdown syntax into the document; the other is to insert the image into the document by dragging or copying and pasting when writing the document. The image will be stored locally. After the document is written, it can be uploaded with one click. For detailed usage of these two methods, please refer to the article: <a href="en-mweb-images-upload.html">MWeb's image upload service introduction</a>.</p>
+<p>After knowing the image upload method, the following is a detailed description of how to configure the Azure Blob image upload service. After configuration, you can easily upload images in Markdown documents to Azure Blob.</p>
+<p>First, go to &quot;Settings - Publishing&quot; and add the Azure Blob image upload service. At this time, the information filling interface shown in the figure below will be displayed. The figure below is the filling interface of the Mac version of MWeb, and the iPad/iPhone platform is the same.</p>
+<p><img src="media/17226121096952/17228321898198.jpg" alt="" /></p>
+<p>The following will explain each item in detail.</p>
+<p><strong>Name:</strong> You can fill in the name you want, as long as it can identify this image upload service.</p>
+<p><strong>Storage account:</strong> and <strong>Storage Container:</strong>, these two can be found in the Azure management interface. If you don’t have a storage account, you can create one first. After creating a storage account, you can create a storage container in the storage account. Azure Blob has a quick way to configure the files in the Blob as a static website. After creating a storage account, enter the storage account, select &quot;Data management - Static website&quot;, and click the &quot;Enabled&quot; button. Azure will automatically generate a storage container named <code>$web</code> in this storage account and provide a temporary domain name <code>https://mwebbob.z7.web.core.windows.net/</code>, as shown below:</p>
+<p><img src="media/17226121096952/17228324150782.jpg" alt="" /></p>
+<p><strong>Access key:</strong> It is bound to the storage account. After entering the storage account, select &quot;Security + network - Access keys&quot; to find the access key, as shown below:</p>
+<p><img src="media/17226121096952/17228325718062.jpg" alt="" /></p>
+<p><strong>Domain:</strong> If a domain name is bound to this storage bucket, please fill in your own domain name. If not, you can use the temporary domain name of the static website mentioned above. Here is: <code>https://mwebbob.z7.web.core.windows.net/</code>.</p>
+<p><strong>Save Key:</strong> Please do not change unless necessary. If you want to change it, you should know what it means.</p>
+<p>The following is a screenshot after filling in the form:</p>
+<p><img src="media/17226121096952/17228326509046.jpg" alt="" /></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Upload images in Markdown documents to Cloudflare R2 with one click]]></title>
+    <link href="https://www.mweb.im/mweb-cloudflare-r2.html"/>
+    <updated>2024-07-31T20:32:03+08:00</updated>
+    <id>https://www.mweb.im/mweb-cloudflare-r2.html</id>
+    <content type="html"><![CDATA[
+<p>In MWeb, there are two ways to upload images. One is to upload first and then insert the Markdown syntax into the document; the other is to insert the image into the document by dragging or copying and pasting when writing the document. The image will be stored locally. After the document is written, it can be uploaded with one click. For detailed usage of these two ways, please refer to the article:<a href="en-mweb-images-upload.html">MWeb's image upload service introduction</a>.</p>
+<p>After knowing the image upload method, the following is a detailed description of how to configure the Cloudflare R2 image upload service. After configuration, you can easily upload images in Markdown documents to Cloudflare R2.</p>
+<p>First, go to &quot;Settings - Publishing&quot; and add the Cloudflare R2 image upload service. At this time, the information filling interface shown in the figure below will be displayed. The figure below is the filling interface of the Mac version of MWeb, and the iPad/iPhone platform is the same.</p>
+<p><img src="media/17224291231182/17228302568094.jpg" alt="" /></p>
+<p>The following will explain each entry item in detail.</p>
+<p><strong>Name:</strong> You can fill in the name you want, as long as it can identify this image upload service.</p>
+<p><strong>Account ID:</strong> and <strong>Bucket Name:</strong> can be found in the Cloudflare R2 management interface. If you don't have a bucket, you can create one, as shown below:</p>
+<p><img src="media/17224291231182/17228304648158.jpg" alt="" /></p>
+<p><strong>Access Key:</strong> and <strong>Secret Access Key:</strong> need to be generated by clicking &quot;Manage R2 API Tokens&quot; in the above picture (just below the Account ID). The following picture is an example of creating these two keys:<br />
+<img src="media/17224291231182/17228306037911.jpg" alt="" /></p>
+<p>After clicking the &quot;Create API Token&quot; button, you will get <strong>Access Key:</strong> and <strong>Secret Access Key:</strong>, as shown below. Please fill them in respectively.</p>
+<p><img src="media/17224291231182/17228307022684.jpg" alt="" /></p>
+<p><strong>Domain:</strong> If you have a domain name bound to this bucket, please fill in your own domain name. If not, Cloudflare R2 also provides a temporary domain name in &quot;R2 - Bucket - Settings - R2.dev Subdomain&quot;, as shown below. Mine is: <code>https://pub-e7575c891a134e899fd1c81d49f23497.r2.dev</code></p>
+<p><img src="media/17224291231182/17228309377741.jpg" alt="" /></p>
+<p><strong>Save Key:</strong> If not necessary, please do not change it. If you want to change it, you should know what it means.</p>
+<p>The following is a screenshot after filling in the form:</p>
+<p><img src="media/17224291231182/17228310172982.jpg" alt="" /></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb 4 Q & A]]></title>
@@ -832,93 +911,6 @@ If you want to make it a fixed tab, double-click the document or tab, or you can
 <li>For gitbook user, now you can open file link in preview mode. Add in app open website url in preview mode.</li>
 <li>Other bugs fix.</li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb for Mac 2.2.3 release!]]></title>
-    <link href="https://www.mweb.im/mweb-for-mac-223-release.html"/>
-    <updated>2017-07-13T09:51:53+08:00</updated>
-    <id>https://www.mweb.im/mweb-for-mac-223-release.html</id>
-    <content type="html"><![CDATA[
-<p>Release note:</p>
-<ul>
-<li>Library static blog/website add Publish Script. Now you can go to the &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot; to setting the Publish Script and &quot;right click the site category&quot; - choose &quot;Execute the Publish Script...&quot; to publish the blog/website. More info: <a href="how_to_use_shell_script.html">How to use Publish Script to Publish website.</a>.</li>
-<li>Static blog/website template add include syntax: <code>&lt;!-- include(file.html) --&gt;</code></li>
-<li>External Mode add right click to setting the sort.</li>
-<li>Add choose exist tags when setting the tag.</li>
-<li>Other Bug fixes and performance improvements.</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to use Publish Script to Publish website.]]></title>
-    <link href="https://www.mweb.im/how_to_use_shell_script.html"/>
-    <updated>2017-07-11T11:34:16+08:00</updated>
-    <id>https://www.mweb.im/how_to_use_shell_script.html</id>
-    <content type="html"><![CDATA[
-<p>Publish Script is a new feature in MWeb for Mac 2.2.3. It's taken a new experience for Edit/Publish in MWeb. When you finish edit, just right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code>, then all is OK. No need to key the publish command in terminal app.</p>
-<span id="more"></span><!-- more -->
-<h2><a id="1-start" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Start</h2>
-<p>The publish script only test for git, you can use it publish to github pages. If you didn't has github pages, please check: <a href="https://pages.github.com/">https://pages.github.com/</a>.</p>
-<h2><a id="2-clone-your-github-pages-to-the-mweb-static-website-output-folder" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Clone your github pages to the MWeb static website output folder.</h2>
-<p>**Notices:**If you already use github to publish the static website, please skip this step. If you didn't, please check the below steps:</p>
-<ol>
-<li>Use MWeb build the Site.</li>
-<li>Go to MWeb &quot;Preferences&quot; - &quot;General&quot; - &quot;Build Sites Save Location&quot;, click &quot;Show in Finder&quot;. Now you in the &quot;MWeb static website output location&quot; in Finder. The website I build is &quot;MWeb Official Site&quot;, so there is a &quot;MWeb Official Site&quot; folder in that. I will use &quot;MWeb Official Site&quot; for the example.</li>
-<li>Open terminal, set the current folder is &quot;MWeb static website output location&quot;.<br />You can choose &quot;MWeb Official Site&quot; parent's folder and press <code>CMD + C</code>, switch to terminal, key <code>cd</code> and space, then press <code>CMD + V</code> and press <code>Enter</code> key.</li>
-<li>Delete the &quot;MWeb Official Site&quot; folder. Execute the command: <code>git clone 'your github pages repo' 'MWeb Official Site'</code> in terminal. Please use your github pages repo and folder name.</li>
-<li>Use &quot;Clear and Rebuild Site&quot; menu in MWeb.</li>
-</ol>
-<h2><a id="3-config-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Config Publish Script</h2>
-<p>Open MWeb &quot;Preferences&quot; - &quot;Extension&quot; - &quot;Publish Script&quot;, sea the below:</p>
-<p><img src="media/14997440565965/15028635634250.jpg" alt="" style="width:595px;" /></p>
-<p>If you click &quot;Load Sample&quot; button, you will sea the sample like below, you can edit it for your own.</p>
-<pre><code class="language-plain_text">#!/bin/sh
-# Please set the name and email. 
-# Because MWeb can't get your github global setting.
-
-git config user.name &quot;Your github name&quot;
-git config user.email &quot;Your github email&quot;
-
-git add --ignore-removal .
-git commit -m &quot;{{year}}-{{month}}-{{day}} {{time}}&quot;
-git push -u origin master
-</code></pre>
-<h2><a id="4-execute-the-publish-script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Execute the Publish Script</h2>
-<p>Right click the site category and choose &quot;Copy Publish Script command and Open Terminal...&quot;, when the Terminal is opened, just press <code>Command + V</code> to execute the script. like below:</p>
-<p><img src="media/14997440565965/15028636883647.jpg" alt="" style="width:434px;" /></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MWeb for Mac 2.2.1 and 2.2.2 release!]]></title>
-    <link href="https://www.mweb.im/mweb-for-mac-221-release.html"/>
-    <updated>2017-07-02T08:15:22+08:00</updated>
-    <id>https://www.mweb.im/mweb-for-mac-221-release.html</id>
-    <content type="html"><![CDATA[
-<h2><a id="2-2-1-release-note-72" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2.2.1 release note (7/2):</h2>
-<ol>
-<li>Library documents list add &quot;Group by Categories&quot;. Right click - Group by Categories.</li>
-<li>External mode add show  .Rmd, .mkdn, .mdwn, .mdtxt, .mdtext and .taskpaper files.</li>
-<li>Now you can change the LaTeX (Mathjax) Preview font. Please open Preferences - Themes to change. you can choose TeX, STIX-Web, Asana-Math, Neo-Euler, Gyre-Pagella, Gyre-Termes and Latin-Modern</li>
-<li>Add publish to Tumblr.</li>
-<li>Add Preview style: mweb-solarized-dark, mweb-solarized-light, mweb-Tomorrow Blue, mweb-Tomorrow.</li>
-<li>Add disable left right swipe gesture (Preferences - General).</li>
-<li>When you disable &quot;Make links clickable in Editor view&quot;, you can hold the Command key to click the link in Editor.</li>
-<li>Other bug fixes and performance improvements.</li>
-</ol>
-<h2><a id="2-2-2-release-note-78" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2.2.2 release note (7/8):</h2>
-<ol>
-<li>Library: New way to set/edit the document categories and tags. Just click the top of Editor &quot;categories and tags&quot; bar, or use shortcuts: CMD + 8.</li>
-<li>Library: Document Outline, Media &amp; Attachment, Website Extension in one panel now. Just click &quot;Document Outline&quot; button or shortcuts: CMD + 7.</li>
-<li>Add overlay option in &quot;Document Outline&quot;.</li>
-<li>Other bug fixes and performance improvements.</li>
-</ol>
 
 ]]></content>
   </entry>
