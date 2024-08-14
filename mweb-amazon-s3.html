@@ -126,7 +126,8 @@
 <p><img src="media/17226121107797/17228311785768.jpg" alt="" /></p>
 <p>The following will explain each item in detail.</p>
 <p><strong>Name:</strong> You can fill in the name you want, as long as it can identify this image upload service.</p>
-<p><strong>AWS Region:</strong> and <strong>Bucket Name:</strong>, you will know it after creating the bucket. Among them, you can click the &quot;Choose Region...&quot; button to choose the AWS region, or fill it in directly. As shown in the figure below, my AWS region is: <code>ap-southeast-2</code>, and the bucket name is: <code>mwebapp</code>.</p>
+<p><strong>AWS Region:</strong> and <strong>Bucket Name:</strong>, you will know it after creating the bucket. Among them, you can click the &quot;Choose Region...&quot; button to choose the AWS region, or fill it in directly. As shown in the figure below, my AWS region is: <code>ap-southeast-2</code>, and the bucket name is: <code>mwebapp</code>.<br />
+Please note that bucket name with <code>.</code> is not supported, for example, bucket name like <code>s3.sample.com</code> are not supported. For details, please check <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html">S3 Bucket naming rules documention</a>.</p>
 <p><img src="media/17226121107797/17228314319568.jpg" alt="" /></p>
 <p><strong>Access Key:</strong> and <strong>Secret Access Key:</strong> For these two, you need to create users and assign permissions in Identity and Access Management (IAM). This part is quite complicated. I simply created a user named <code>mweb</code> and granted it the AmazonS3FullAccess permission, as shown below:</p>
 <p><img src="media/17226121107797/17228315543346.jpg" alt="" /></p>
